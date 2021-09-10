@@ -1,0 +1,46 @@
+<button class="btnTop" title="위로가기">위로가기</button>
+<footer id="footer">
+    <div class="inner">
+        <div class="ftTop">
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <div class="ftSiteMap">
+                <ul>
+                    <li><a href="#">Marine Solution</a></li>
+                    <li><a href="#">Energy Solution</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Media</a></li>
+                </ul>
+            </div>
+            <div class="ftUtil">
+                <ul class="snsList">
+                    <li><a href="#" class="btnLinkedIn" target="_blank">링크드인 새창열기</a></li>
+                    <li><a href="#" class="btnYoutube" target="_blank">유튜브 새창열기</a></li>
+                </ul>
+                <div class="familyBox">
+                    <button>Family Site</button>
+                    <ul class="familyList">
+                        @@loop('./pages/include/partner.html', [
+							{'name': 'Hyundai Global Service', 'link' : '#', 'target': '_blank'},
+							{'name': 'Hyundai Electric', 'link' : '#', 'target': '_blank'},
+							{'name': 'Hyundai Heavy Industries Group', 'link' : '#', 'target': '_blank'},
+							{'name': 'KSOE', 'link' : '#', 'target': '_blank'},
+							{'name': 'Hyundai Heavy Industries', 'link' : '#', 'target': '_blank'},
+							{'name': 'Hyundai Mipo Dockyard', 'link' : '#', 'target': '_blank'},
+							{'name': 'Hyundai Samho', 'link' : '#', 'target': '_blank'}
+						])
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ftBottom">
+            <address>
+                <span>(044032)1000, Bangeojinsumhwan-doro, Dong-gu, Ulsan, Korea</span>
+                <a href="#">Privacy Policy</a>
+                <a href="mailto:">Deny unauthorized collection of emails</a>
+            </address>
+            <span class="copy">© HHI Engine & Machinery. All rights reserved.</span>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        		<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- 2020.01.30 메타태그 밑 파비콘 추가 -->
+	<meta name="description" content="현대중공업 엔진기계사업부">
+	<meta name="keywords" content="현대중공업 엔진기계사업부">
+	<meta name="naver-site-verification" content="" />
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="현대중공업 엔진기계사업부">
+	<meta property="og:description" content="현대중공업 엔진기계사업부">
+	<meta property="og:url" content="">
+	<title>현대중공업 엔진기계사업부</title>
+	<link href="/assets/css/common.min.css" rel="stylesheet">
+
+        <style>
+            #wrap h2 {
+                margin: 15px 0;
+                font-size: 30px;
+                color: #222;
+                font-weight: 700;
+                text-align: center;
+            }
+            #wrap h3 {
+                margin: 30px 0;
+                font-size: 25px;
+                color: #222;
+                font-weight: 700;
+            }
+            #wrap h4 {
+                margin: 30px 0 10px 0;
+                font-size: 18px;
+                color: #222;
+                font-weight: 700;
+            }
+            .sBtn {
+                display: inline-block;
+                border: 1px solid #222;
+                padding: 10px 20px;
+            }
+            .con p {
+                margin-bottom: 20px;
+                font-size: 15px;
+            }
+            #container {
+                margin: 0 auto;
+                padding: 0 0 200px;
+            }
+
+            .menu {
+                position: fixed;
+                top: 150px;
+                right: 20px;
+                z-index: 100;
+            }
+            .menu li {
+                width: 150px;
+                border: 1px solid #222;
+                border-width: 0 1px 1px 1px;
+            }
+            .menu li:first-child {
+                border-width: 1px;
+            }
+            .menu li a {
+                display: block;
+                padding-left: 20px;
+                line-height: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <ul class="menu">
+                <li><a href="#layer">레이어</a></li>
+                <li><a href="#tab">탭</a></li>
+            </ul>
+
+            <!-- container -->
+            <div id="container">
+                <div class="inner">
+                    <h2>스크립트 사용 가이드</h2>
+                    <!-- 레이어 -->
+                    <div id="layer">
+                        <h3>레이어 팝업 가이드</h3>
+                        <div>
+                            <h4 class="h4">열기 : Jquery click 이벤트를 이용한 예</h4>
+                            <div class="con">
+                                <p>
+                                    <strong>열기</strong> : target-layer-open의 속성값에 "열고 싶은 타겟레이어의
+                                    클래스명; dim의 사용여부" 를 순서대로 넣어준다.<br />
+                                    ex) &lta href="javascript:;" target-layer-open="layer;dim;"&gtjquery click
+                                    open&lt/a&gt
+                                </p>
+
+                                <a href="javascript:;" class="sBtn" target-layer-open="mainLayer;dim;"
+                                    >Main Layer Popup open</a
+                                >
+                                <a href="javascript:;" class="sBtn" target-layer-open="testLayer;dim;"
+                                    >Alert Layer Popup open</a
+                                >
+                                <a href="javascript:;" class="sBtn" target-layer-open="productLayer;dim;"
+                                    >Product Layer Popup open</a
+                                >
+                                <a href="javascript:;" class="sBtn" target-layer-open="productLargeLayer;dim;"
+                                    >Product Large Layer Popup open</a
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="h4">열기 : javascript function을 이용한 예</h4>
+                            <div class="con">
+                                <p>
+                                    uiCommon.layer.open 호출 할때 스트링 파라미터 값으로 타겟레이어의 클래스와 dim 사용
+                                    여부를 순서대로 넣어준다<br />
+                                    ex) &lta href="javascript: uiCommon.component.layer.open('layer',
+                                    'dim');"&gtjavascript function open&lt/a&gt<br />
+                                </p>
+
+                                <a href="javascript: uiCommon.component.layer.open('testLayer', 'dim');" class="sBtn"
+                                    >Alert Layer Popup function open</a
+                                >
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="h4">닫기 : Jquery click 이벤트를 이용한 예</h4>
+                            <div class="con">
+                                <p>
+                                    target-layer-close의 속성값에 "닫고 싶은 타겟레이어의 클래스명" 을 넣어준다.<br />
+                                    ex) &lta href="javascript:;" target-layer-close="layer"&gtjquery click
+                                    close&lt/a&gt<br />
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="h4">닫기 : javascript function을 이용한 예</h4>
+                            <div class="con">
+                                <p>
+                                    uiCommon.layer.close 호출 할때 스트링 파라미터 값으로 타겟레이어의 클래스를
+                                    넣어준다<br />
+                                    ex) &lta href="javascript: uiCommon.component.layer.close('layer');"&gtjavascript
+                                    function close&lt/a&gt<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 레이어 -->
+
+                    <!-- 탭 -->
+                    <div id="tab">
+                        <h3>탭 가이드</h3>
+                        <div>
+                            <h4 class="h4">TAB</h4>
+                            <div class="con">
+                                <p>
+                                    아래의 구조를 그대로 이용하고 tab과 tabContent 클래스는 스타일링에 이용하지
+                                    않는다.<br />
+                                    css를 입히기 위한 클래스를 추가 하여 사용한다.
+                                </p>
+                                <pre>
+	&ltdiv class="tabWrap"&gt
+		&ltul class="tab"&gt
+			&ltli&gt&lta href="javascript:;"&gt menu01&lt/a&gt&lt/li&gt
+			&ltli&gt&lta href="javascript:;"&gt menu02&lt/a&gt&lt/li&gt
+		&lt/ul&gt
+		&ltdiv class="tabContent"&gt
+			&ltdiv&gt
+				content01
+			&lt/div&gt
+			&ltdiv&gt
+				content02
+			&lt/div&gt
+		&lt/div&gt
+	&lt/div&gt
+	</pre
+                                >
+                                <br />
+                                <div class="tabWrap">
+                                    <ul class="tab">
+                                        <li><a href="javascript:;" class="on">Title</a></li>
+                                        <li><a href="javascript:;">Title</a></li>
+                                        <li><a href="javascript:;">Title</a></li>
+                                        <li><a href="javascript:;">Title</a></li>
+                                    </ul>
+                                    <div class="tabContent">
+                                        <div class="on">content01</div>
+                                        <div>content02</div>
+                                        <div>content03</div>
+                                        <div>content04</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 탭 -->
+
+                    <!-- 탭02 -->
+                    <div id="tab02">
+                        <h3>탭02 가이드</h3>
+                        <div>
+                            <h4 class="h4">TAB02</h4>
+                            <div class="con">
+                                <p>탭 두번째 타입으로 'tab' 앨리먼트에 'ty02' 클래스를 추가하여 사용한다.</p>
+                                <pre>
+	&ltdiv class="tabWrap"&gt
+		&ltul class="tab ty02"&gt
+			&ltli&gt&lta href="javascript:;"&gt menu01&lt/a&gt&lt/li&gt
+			&ltli&gt&lta href="javascript:;"&gt menu02&lt/a&gt&lt/li&gt
+		&lt/ul&gt
+		&ltdiv class="tabContent"&gt
+			&ltdiv&gt
+				content01
+			&lt/div&gt
+			&ltdiv&gt
+				content02
+			&lt/div&gt
+		&lt/div&gt
+	&lt/div&gt
+	</pre
+                                >
+                                <br />
+                                <div class="tabWrap">
+                                    <ul class="tab ty02">
+                                        <li><a href="javascript:;" class="on">Title</a></li>
+                                        <li><a href="javascript:;">Title</a></li>
+                                    </ul>
+                                    <div class="tabContent">
+                                        <div class="on">content01</div>
+                                        <div>content02</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 탭02 -->
+                </div>
+            </div>
+            <!--// container -->
+        </div>
+
+        <!-- main layer popup -->
+        <div class="layer alertLayer mainLayer">
+            <!-- 메인 공지 팝업일 경우 alertLayer 클래스 추가 -->
+            <!-- <a href="javascript: uiCommon.component.layer.close('mainLayer');" class="popClose">팝업 닫기</a> -->
+            <a href="javascript:;" target-layer-close="mainLayer" class="popClose">팝업 닫기</a>
+            <!-- popContent -->
+            <div class="popCont">
+                <span class="alertDesc mainLayerDesc">
+                    <strong>Website Renewal</strong>
+                    <span>Hyundai Heavy Industries Machinery Division website Newly revamped!</span>
+                </span>
+            </div>
+            <!--// popContent -->
+            <!--popFoot -->
+            <div class="popFoot">
+                <div class="checkSet">
+                    <input type="checkbox" id="check01" name="checks" />
+                    <label for="check01"><span></span>Not open again today</label>
+                </div>
+            </div>
+            <!--// popFoot -->
+        </div>
+        <!--// main layer popup-->
+
+        <!-- layer popup (alert) -->
+        <div class="layer alertLayer testLayer">
+            <!-- Alert 팝업일 경우 alertLayer 클래스 추가 -->
+            <!-- <a href="javascript: uiCommon.component.layer.close('testLayer');" class="popClose">팝업 닫기</a> -->
+            <a href="javascript:;" target-layer-close="testLayer" class="popClose">팝업 닫기</a>
+            <!-- popContent -->
+            <div class="popCont">
+                <span class="alertDesc">Please answer all questions.</span>
+            </div>
+            <!--// popContent -->
+            <!--popFoot -->
+            <div class="popFoot">
+                <a href="javascript:;" target-layer-close="testLayer">OK</a>
+            </div>
+            <!--// popFoot -->
+        </div>
+        <!--// layer popup (alert)-->
+
+        <!-- Product Finder -->
+        <div class="layer productLayer">
+            <a href="javascript:;" target-layer-close="productLayer" class="popClose">팝업 닫기</a>
+            <!-- popContent -->
+            <div class="popHead">
+                <h3 class="titForm categoryTit">ProductFinder</h3>
+                <span class="popSubTit">Find engine machinery products from Hyundai Heavy Industries.</span>
+            </div>
+            <!-- popContent -->
+            <div class="popCont mCsutomScroll">
+                <dl class="prdFindList">
+                    <dt class="titForm categoryTit">Marine - 2-Stroke Engine</dt>
+                    <dd>
+                        <strong class="titForm pageFont">MAN-ES 2-Stroke Engine</strong>
+                        <ul>
+                            <li><a href="#">MAN B&W ME-C</a></li>
+                            <li><a href="#">MAN B&W ME-GI</a></li>
+                            <li><a href="#">MAN B&W ME-GIE</a></li>
+                            <li><a href="#">MAN B&W ME-GA</a></li>
+                            <li><a href="#">MAN B&W ME-GI</a></li>
+                            <li><a href="#">MAN B&W ME-GIE</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">WinGD 2-Stroke Engine</strong>
+                        <ul>
+                            <li><a href="#">X-Engines</a></li>
+                            <li><a href="#">X-DF Engines</a></li>
+                            <li><a href="#">RT-flex Engines</a></li>
+                            <li><a href="#">RT-flex DF Engines</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="prdFindList">
+                    <dt class="titForm categoryTit">Marine - 4-Stroke Engine</dt>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Dual Fuel Engine</strong>
+                        <ul>
+                            <li><a href="#">H22CDF</a></li>
+                            <li><a href="#">H27DF</a></li>
+                            <li><a href="#">H35DF</a></li>
+                            <li><a href="#">H35DFV</a></li>
+                            <li><a href="#">H54DF</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Diesel Engine</strong>
+                        <ul>
+                            <li><a href="#">H17/28</a></li>
+                            <li><a href="#">H17/28E</a></li>
+                            <li><a href="#">H17/28U</a></li>
+                            <li><a href="#">H21/32</a></li>
+                            <li><a href="#">H21C</a></li>
+                            <li><a href="#">H25/33</a></li>
+                            <li><a href="#">H25/33V</a></li>
+                            <li><a href="#">H32/40</a></li>
+                            <li><a href="#">H32/40V</a></li>
+                            <li><a href="#">H32C</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="prdFindList">
+                    <dt class="titForm categoryTit">Marine - Propulsion System</dt>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Dual Fuel Engine</strong>
+                        <ul>
+                            <li><a href="#">H22CDF</a></li>
+                            <li><a href="#">H27DFP</a></li>
+                            <li><a href="#">H35DFP</a></li>
+                            <li><a href="#">H35DFVP</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Diesel Engine</strong>
+                        <ul>
+                            <li><a href="#">H21/32P</a></li>
+                            <li><a href="#">H21CP</a></li>
+                            <li><a href="#">H25/33P</a></li>
+                            <li><a href="#">H32/40P</a></li>
+                            <li><a href="#">H32/40VP</a></li>
+                            <li><a href="#">H46/60P</a></li>
+                            <li><a href="#">H46/60VP</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="prdFindList">
+                    <dt class="titForm categoryTit">Energy - Stationary Engine</dt>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Gas Engine</strong>
+                        <ul>
+                            <li><a href="#">H35/40G</a></li>
+                            <li><a href="#">H35/40GV</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Dual Fuel Engine</strong>
+                        <ul>
+                            <li><a href="#">H27DF</a></li>
+                            <li><a href="#">H35DF</a></li>
+                            <li><a href="#">H35DFV</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Liquid Engine</strong>
+                        <ul>
+                            <li><a href="#">H27DF</a></li>
+                            <li><a href="#">H35DF</a></li>
+                            <li><a href="#">H35DFV</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">HiMSEN Dual Fuel Engine</strong>
+                        <ul>
+                            <li><a href="#">H27DF</a></li>
+                            <li><a href="#">H35DF</a></li>
+                            <li><a href="#">H35DFV</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                            <li><a href="#">H54DFV</a></li>
+                        </ul>
+                    </dd>
+                    <dd>
+                        <strong class="titForm pageFont">MAN-ES 2-Stroke Engine</strong>
+                        <ul>
+                            <li><a href="#">MAN ME-S</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!--// Product Finder-->
+
+        <!-- Product Finder -->
+        <div class="layer large productLargeLayer">
+            <!-- 큰 팝업인 경우 lage 클래스 추가 -->
+            <a href="javascript:;" target-layer-close="productLargeLayer" class="popClose">팝업 닫기</a>
+            <!-- popContent -->
+            <div class="popHead">
+                <h3 class="titForm categoryTit">ProductFinder</h3>
+                <span class="popSubTit">Find engine machinery products from Hyundai Heavy Industries.</span>
+            </div>
+            <!-- popContent -->
+            <div class="popCont mCsutomScroll"></div>
+        </div>
+        <!--// Product Finder-->
+
+        <!-- script import -->
+        <script src="/assets/js/lib/jquery.import.js"></script>
+
+
+
+
+    </body>
+</html>
