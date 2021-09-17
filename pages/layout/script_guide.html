@@ -13,7 +13,7 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
         <style>
             #wrap h2 {
@@ -156,27 +156,28 @@
                                 <p>
                                     아래의 구조를 그대로 이용하고 tab과 tabContent 클래스는 스타일링에 이용하지
                                     않는다.<br />
-                                    css를 입히기 위한 클래스를 추가 하여 사용한다.
+                                    tabWrap 앨리먼트에 'tabCtrl' 클래스가 붙는 경우 탭핑 기능 활성화. css를 입히기 위한
+                                    클래스를 추가 하여 사용한다.
                                 </p>
                                 <pre>
-	&ltdiv class="tabWrap"&gt
-		&ltul class="tab"&gt
-			&ltli&gt&lta href="javascript:;"&gt menu01&lt/a&gt&lt/li&gt
-			&ltli&gt&lta href="javascript:;"&gt menu02&lt/a&gt&lt/li&gt
-		&lt/ul&gt
-		&ltdiv class="tabContent"&gt
-			&ltdiv&gt
-				content01
-			&lt/div&gt
-			&ltdiv&gt
-				content02
-			&lt/div&gt
-		&lt/div&gt
-	&lt/div&gt
+        &ltdiv class="tabWrap"&gt
+            &ltul class="tab"&gt
+                &ltli&gt&lta href="javascript:;"&gt menu01&lt/a&gt&lt/li&gt
+                &ltli&gt&lta href="javascript:;"&gt menu02&lt/a&gt&lt/li&gt
+            &lt/ul&gt
+            &ltdiv class="tabContent"&gt
+                &ltdiv&gt
+                    content01
+                &lt/div&gt
+                &ltdiv&gt
+                    content02
+                &lt/div&gt
+            &lt/div&gt
+        &lt/div&gt
 	</pre
                                 >
                                 <br />
-                                <div class="tabWrap">
+                                <div class="tabWrap tabCtrl">
                                     <ul class="tab">
                                         <li><a href="javascript:;" class="on">Title</a></li>
                                         <li><a href="javascript:;">Title</a></li>
@@ -285,8 +286,8 @@
         <div class="layer productLayer">
             <a href="javascript:;" target-layer-close="productLayer" class="popClose">팝업 닫기</a>
             <!-- popContent -->
-            <div class="popHead">
-                <h3 class="titForm categoryTit">ProductFinder</h3>
+            <div class="popHead titForm">
+                <h3 class="categoryTit">ProductFinder</h3>
                 <span class="popSubTit">Find engine machinery products from Hyundai Heavy Industries.</span>
             </div>
             <!-- popContent -->
@@ -422,8 +423,8 @@
             <!-- 큰 팝업인 경우 lage 클래스 추가 -->
             <a href="javascript:;" target-layer-close="productLargeLayer" class="popClose">팝업 닫기</a>
             <!-- popContent -->
-            <div class="popHead">
-                <h3 class="titForm categoryTit">ProductFinder</h3>
+            <div class="popHead titForm">
+                <h3 class="categoryTit">ProductFinder</h3>
                 <span class="popSubTit">Find engine machinery products from Hyundai Heavy Industries.</span>
             </div>
             <!-- popContent -->
@@ -432,7 +433,7 @@
         <!--// Product Finder-->
 
         <!-- script import -->
-        <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+        <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 

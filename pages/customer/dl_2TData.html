@@ -13,11 +13,11 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
     </head>
     <body>
-        <div id="wrap">
+        <div id="wrap" class="customerService">
             <div id="navSkip"><a href="#container">본문으로 바로가기</a></div>
 
             <!-- header -->
@@ -26,12 +26,12 @@
         <div class="inner">
             <h1 class="logo">
                 <a href="#">
-                    <img src="/distHyundai/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
-                    <img src="/distHyundai/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
                 </a>
             </h1>
             <ul class="hdUtil">
-                <li><a href="#">About us</a></li>
+                <li><a href="#" class="on">About us</a></li> <!-- 클래스 on 추가하면 활성화 -->
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
@@ -328,7 +328,7 @@
             
             
             
-                <ul>
+                <ul class="pcView">
                     <li><a href="#">Support</a></li> <!-- 클래스 on 추가하면 활성화 -->
                     <li><a href="#">Contacts</a></li>
                     <li><a href="#">Download</a></li>
@@ -336,14 +336,18 @@
                     <li><a href="#">World Network</a></li>
                     <li><a href="#">Online Assistance</a></li>
                 </ul>
-                <select title="Customer Service 하위 메뉴">
-                    <option value="">Support</option>
-                    <option value="">Contacts</option>
-                    <option value="">Download</option>
-                    <option value="">Training</option>
-                    <option value="">World Network</option>
-                    <option value="">Online Assistance</option>
-                </select>
+                <div class="moView">
+                    <button class="current">Support</button>
+                    <ul>
+                        <li><a href="javascript:;">Support</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                        <li><a href="javascript:;">Contacts</a></li>
+                        <li><a href="javascript:;">Download</a></li>
+                        <li><a href="javascript:;">Training</a></li>
+                        <li><a href="javascript:;">World Network</a></li>
+                        <li><a href="javascript:;">Online Assistance</a></li>
+                    </ul>
+                </div>
+            
             
             </div>
         </div>
@@ -356,27 +360,132 @@
             
 
             <!-- container -->
-            <div id="container">
+            <div id="container" class="dl02">
                 <!-- Main Banner -->
                 <section class="kv">
                     <div class="txtBox titForm">
                         <h2 class="subTit">Download</h2>
                     </div>
-                    <img src="/distHyundai/assets/images/customer/keyVi_support.png" alt="" />
+                    <img src="/assets/images/customer/keyVi_support.png" alt="" />
                 </section>
-                <div class="contentsWrap inner">
+                <div class="contentsWrap dlWrap inner">
                     <strong class="mainText"
                         >Provides service data provided by <br />Hyundai Heavy Industries Engine Division.</strong
                     >
-                    <div class="contents tabContents">
+                    <div class="contents tabContentsWrap">
                         <div class="tabWrap">
                             <ul class="tab">
-                                <li><a href="dl_1catalogues.html">Catalogues</a></li>
-                                <li><a href="javascript:;" class="on">Technical Data</a></li>
+                                <li><a href="#a">Catalogues</a></li>
+                                <li><a href="#a" class="on">Technical Data</a></li>
                             </ul>
+                            <div class="boardTop">
+                                <select class="dropMenuBox">
+                                    <option value="ALL">ALL</option>
+                                    <option value="no1">Marine</option>
+                                    <option value="no2">Energy</option>
+                                </select>
+                                <div class="searchBox">
+                                    <label class="hidden">검색입력폼</label>
+                                    <input type="text" id="searchForm" placeholder="Search" />
+                                    <button class="btnTxtDelete">검색 입력내용 삭제</button>
+                                    <button class="btnSearch">검색</button>
+                                </div>
+                                <p>A total of <span>132</span> posts are registered.</p>
+                            </div>
                             <div class="tabContent">
-                                <div>content01</div>
-                                <div class="on">content02</div>
+                                <div class="on dl">
+                                    <div class="boardDownload">
+                                        <ul>
+                                            <li>
+                                                <strong class="text-energy">ENERGY</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-marine">MARINE</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-energy">ENERGY</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-marine">MARINE</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-energy">ENERGY</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#"
+                                                    >HYUNDAI ENGINE MACHINERY PROGRAMHYUNDAI ENGINE MACHINERY
+                                                    PROGRAMHYUNDAI ENGINE MACHINERY PROGRAMHYUNDAI ENGINE MACHINERY
+                                                    PROGRAM</a
+                                                >
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-marine">MARINE</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-energy">ENERGY</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-marine">MARINE</strong>
+                                                <span>Product > Energy - stationary Engine > Liquid Fuel</span>
+                                                <a href="#">Installation Manual</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-energy">ENERGY</strong>
+                                                <span>Product > Marine - 4-Stroke Engine > Diesel Engine</span>
+                                                <a href="#">HYUNDAI ENGINE MACHINERY PROGRAM</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                            <li>
+                                                <strong class="text-marine">MARINE</strong>
+                                                <span>Product > Energy - stationary Engine > Gas</span>
+                                                <a href="#">ctions and Concept Guide</a>
+                                                <button class="btnDownload">다운로드</button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="boardNotFound">
+                                        <p>
+                                            No search result found. <br />
+                                            Please try again.
+                                        </p>
+                                    </div>
+                                    <div class="paginate">
+                                        <!-- <a href="javascript:;" class="arr first">첫번째 페이지로 이동</a> -->
+                                        <a href="javascript:;" class="arr prev">이전 페이지로 이동</a>
+                                        <a href="javascript:;" class="page active" title="현재 선택페이지">1</a>
+                                        <!--// 현재페이지 class="active" 추가 -->
+                                        <a href="javascript:;" class="page">2</a>
+                                        <a href="javascript:;" class="page">3</a>
+                                        <a href="javascript:;" class="page">4</a>
+                                        <a href="javascript:;" class="page">5</a>
+                                        <!-- <a href="javascript:;" class="page">6</a>
+                                        <a href="javascript:;" class="page">7</a>
+                                        <a href="javascript:;" class="page">8</a>
+                                        <a href="javascript:;" class="page">9</a>
+                                        <a href="javascript:;" class="page">10</a> -->
+                                        <a href="javascript:;" class="arr next">다음 페이지로 이동</a>
+                                        <a href="javascript:;" class="arr last">마지막 페이지로 이동</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -392,7 +501,7 @@
                             The documents we provide are in PDF format. Please install Acrobat reader to check the file.
                         </dd>
                     </dl>
-                    <a href="#a">download & install</a>
+                    <a href="#a" target="_blank">download & install</a>
                 </div>
             </div>
             <!-- footer -->
@@ -400,7 +509,7 @@
 <footer id="footer">
     <div class="inner">
         <div class="ftTop">
-            <h2 class="ftLogo"><img src="/distHyundai/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
             <div class="ftSiteMap">
                 <ul>
                     <li><a href="#">Marine Solution</a></li>
@@ -444,7 +553,7 @@
         </div>
 
         <!-- script import -->
-        <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+        <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 

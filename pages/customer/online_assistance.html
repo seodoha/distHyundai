@@ -13,11 +13,11 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
     </head>
     <body>
-        <div id="wrap">
+        <div id="wrap" class="customerService">
             <div id="navSkip"><a href="#container">본문으로 바로가기</a></div>
 
             <!-- header -->
@@ -26,12 +26,12 @@
         <div class="inner">
             <h1 class="logo">
                 <a href="#">
-                    <img src="/distHyundai/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
-                    <img src="/distHyundai/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
                 </a>
             </h1>
             <ul class="hdUtil">
-                <li><a href="#">About us</a></li>
+                <li><a href="#" class="on">About us</a></li> <!-- 클래스 on 추가하면 활성화 -->
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
@@ -328,7 +328,7 @@
             
             
             
-                <ul>
+                <ul class="pcView">
                     <li><a href="#">Support</a></li> <!-- 클래스 on 추가하면 활성화 -->
                     <li><a href="#">Contacts</a></li>
                     <li><a href="#">Download</a></li>
@@ -336,14 +336,18 @@
                     <li><a href="#">World Network</a></li>
                     <li><a href="#">Online Assistance</a></li>
                 </ul>
-                <select title="Customer Service 하위 메뉴">
-                    <option value="">Support</option>
-                    <option value="">Contacts</option>
-                    <option value="">Download</option>
-                    <option value="">Training</option>
-                    <option value="">World Network</option>
-                    <option value="">Online Assistance</option>
-                </select>
+                <div class="moView">
+                    <button class="current">Support</button>
+                    <ul>
+                        <li><a href="javascript:;">Support</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                        <li><a href="javascript:;">Contacts</a></li>
+                        <li><a href="javascript:;">Download</a></li>
+                        <li><a href="javascript:;">Training</a></li>
+                        <li><a href="javascript:;">World Network</a></li>
+                        <li><a href="javascript:;">Online Assistance</a></li>
+                    </ul>
+                </div>
+            
             
             </div>
         </div>
@@ -356,13 +360,13 @@
             
 
             <!-- container -->
-            <div id="container">
+            <div id="container" class="online">
                 <!-- Main Banner -->
                 <section class="kv">
                     <div class="txtBox titForm">
                         <h2 class="subTit">Online Assistance</h2>
                     </div>
-                    <img src="/distHyundai/assets/images/customer/keyVi_online_assistance.png" alt="" />
+                    <img src="/assets/images/customer/keyVi_online_assistance.png" alt="" />
                 </section>
                 <div class="contentsWrap inner">
                     <strong class="mainText"
@@ -377,11 +381,8 @@
                                 <dd>
                                     <select class="dropMenuBox">
                                         <option value="ALL">Choose</option>
-                                        <option value="no1">no1</option>
-                                        <option value="no2">no2</option>
-                                        <option value="no3">no3</option>
-                                        <option value="no4">no4</option>
-                                        <option value="no5">no5</option>
+                                        <option value="marineSolution">Marine Solution</option>
+                                        <option value="energySolution">Energy Solution</option>
                                     </select>
                                 </dd>
                             </dl>
@@ -398,7 +399,7 @@
                         </div>
                         <div class="inputBox">
                             <label for="mobile">Mobile Number</label>
-                            <input type="text" id="mobile" placeholder="+82-10-0000-0000" />
+                            <input type="tel" id="mobile" placeholder="+82-10-0000-0000" />
                         </div>
                         <div class="inputBox">
                             <label for="company">Company Name</label>
@@ -410,20 +411,27 @@
                         </div>
                         <div class="inputBox">
                             <label for="contents">Contents</label>
-                            <input type="text" id="contents" placeholder="* Write in less than 1000 characters." />
+                            <textarea name="contents" id="contents">* Write in less than 1000 characters.</textarea>
                         </div>
                         <div class="inputBox">
-                            <dl>
-                                <dt>Legal & Privacy notice</dt>
-                                <dd>개인정보 수집 및 이용동의 약관</dd>
-                            </dl>
+                            <label for="legalPrivacy">Legal & Privacy notice</label>
+                            <textarea name="legalPrivacy" id="legalPrivacy" disabled>
+개인정보 수집 및 이용 동의 약관</textarea
+                            >
                         </div>
                         <div class="checkSet">
                             <input type="checkbox" id="check02" name="checks" checked />
-                            <label for="check02"><span></span>Check Button Title</label>
+                            <label for="check02"
+                                ><span></span>By checking this box you agree to receive communications for marketing
+                                purposes.<br />
+                                You can unsubscribe at any time. Read more about how we process data in our
+                                <a href="#a">Legal & Privacy notice</a></label
+                            >
                         </div>
                         <div class="btnBox">
-                            <a href="javascript:;" class="btn large btnSky">Button Title</a>
+                            <a href="javascript:;" target-layer-open="requireLayer;dim;" class="btn large btnSky"
+                                >Button Title</a
+                            >
                         </div>
                     </div>
                 </div>
@@ -435,7 +443,7 @@
 <footer id="footer">
     <div class="inner">
         <div class="ftTop">
-            <h2 class="ftLogo"><img src="/distHyundai/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
             <div class="ftSiteMap">
                 <ul>
                     <li><a href="#">Marine Solution</a></li>
@@ -477,9 +485,23 @@
     </div>
 </footer>
         </div>
-
+        <!-- layer popup (alert) -->
+        <div class="layer alertLayer requireLayer">
+            <a href="javascript:;" target-layer-close="requireLayer" class="popClose">팝업 닫기</a>
+            <!-- popContent -->
+            <div class="popCont">
+                <span class="alertDesc">Please enter the required fields.</span>
+            </div>
+            <!--// popContent -->
+            <!--popFoot -->
+            <div class="popFoot">
+                <a href="javascript:;" target-layer-close="requireLayer">OK</a>
+            </div>
+            <!--// popFoot -->
+        </div>
+        <!--// layer popup (alert)-->
         <!-- script import -->
-        <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+        <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 

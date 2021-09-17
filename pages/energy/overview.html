@@ -13,7 +13,7 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
     <style>
         h2.guideTit {margin: 15px 0;font-size: 24px;color: #222;font-weight: normal;}
@@ -30,12 +30,12 @@
         <div class="inner">
             <h1 class="logo">
                 <a href="#">
-                    <img src="/distHyundai/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
-                    <img src="/distHyundai/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
                 </a>
             </h1>
             <ul class="hdUtil">
-                <li><a href="#">About us</a></li>
+                <li><a href="#" class="on">About us</a></li> <!-- 클래스 on 추가하면 활성화 -->
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
@@ -330,20 +330,24 @@
             <div class="inner">
             
             
-                <ul>
+                <ul class="pcView">
                     <li><a href="#">Overview</a></li> <!-- 클래스 on 추가하면 활성화 -->
                     <li><a href="#">Engine Power Plant</a></li>
                     <li><a href="#">CHP</a></li>
                     <li><a href="#">Hybrid Power Plant</a></li>
                     <li><a href="#">Emergency Diesel Generator</a></li>
                 </ul>
-                <select title="Energy Solution 하위 메뉴">
-                    <option value="">Overview</option>
-                    <option>Engine Power Plant</option>
-                    <option>CHP</option>
-                    <option>Hybrid Power Plant</option>
-                    <option>Emergency Diesel Generator</option>
-                </select>
+                <div class="moView">
+                    <button class="current">Overview</button>
+                    <ul>
+                        <li><a href="javascript:;">Overview</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                        <li><a href="javascript:;">Engine Power Plant</a></li>
+                        <li><a href="javascript:;">CHP</a></li>
+                        <li><a href="javascript:;">Hybrid Power Plant</a></li>
+                        <li><a href="javascript:;">Emergency Diesel Generator</a></li>
+                    </ul>
+                </div>
+            
             
             
             
@@ -355,39 +359,756 @@
 
         
         <!-- container -->
-        <div id="container">
+        <div id="container" class="overview">
 
             <!-- Key Visual -->
             <section class="kv">
                 <div class="txtBox titForm">
-                    <h2 class="subTit">A clean energy solution<br> 
-                        that lights up every corner <br>
-                        of the world</h2>
+                    <h2 class="subTit">A Clean Energy Solution<br> 
+                        That Lights Up Every Corner <br>
+                        Of The World</h2>
                 </div>
-                <img src="/distHyundai/assets/images/energy/kv_01.png" alt="">
+                <img src="/assets/images/energy/overview_kv_01.png" alt="">
             </section>
             <!-- //Key Visual -->
             
             <!-- inner -->
             <div class="inner">
-                <!-- PAGE LOCATION LAYOUT -->
-                <div class="pageLocation inner">
+                <div class="pageLocation">
                     <ul>
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">Energy Solution</a></li>
                         <li><a href="#">Overview</a></li>
                     </ul>
                 </div>
-            <!-- //PAGE LOCATION LAYOUT -->
                 <div class="titForm">
                     <h2 class="subTit">Energy for All</h2>
                 </div>
-
+                <section class="energyForAll">
+                    <img src="/assets/images/energy/Energy_Solution_emblem.svg" alt="에너지 솔루션 엠블럼">
+                    <p>
+                        The most reliable and economical power plant Providing clean, optimized energy solutions to places and people in need. We light up around the world, so no one is left behind the dark.
+                        <a href="https://apps.apple.com/kr/app/hi-pin/id1544425191" target="_blank">앱스토어 다운로드</a>
+                        <a href="https://play.google.com/store/apps/details?id=kr.co.hi_pin&hl=ko&gl=US" target="_blank">구글 플레이 다운로드</a>
+                    </p>
+                </section>
             </div>
             <!-- /inner -->
+            <section class="bannerBox">
+                <div class="inner02 titForm">
+                    <h4 class="subBannerTit">Power Plant <br class="pcView"><span>Recommendation System</span></h4>
+                    <span class="pr">Use our Power Plant Selector to find the engine that’s right for you.</span>
+                    <div class="btnBox"><a href="javascript:;" class="btn isArrow" target-layer-open="powerPlantSelector;dim;"><span>Power Plant Selector</span></a></div>
+                </div>
+                <img src="/assets/images/energy/energy_product_01.png" alt="파워플랜트 이미지">
+            </section>
+            <section class="goToYoutube inner">
+                <iframe src="https://www.youtube.com/embed/E9Z9--zGkv0?autoplay=1&mute=1&loop=1&autopause=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://www.youtube.com/channel/UCJjA8ekAR5RDp9pSEVJTrrg/" target="_blank">Go to Youtube ‘Hyundai Engine & Machinery’</a>
+            </section>
 
+            <section class="energyFor">
+                <ul class="clickCity contentsPopUp">
+                    <li data-city="newYork">
+                        <a href="#">
+                            <span>NEW YORK</span>
+                            <div class="titForm">
+                                <h3 class="contTit">Energy for <br>Clean City</h3>
+                            </div>
+                            <p>In the middle of New York City, Cubit Power One station is contributing to better air quality with HYUNDAI’s clean energy solution</p>
+                        </a>
+                    </li>
+                    <li data-city="panama">
+                        <a href="#">
+                            <span>PANAMA</span>
+                            <div class="titForm">
+                                <h3 class="contTit">Energy for <br>Highest Efficiency</h3>
+                            </div>
+                            <p>HYUNDAI's 2-stroke diesel engine power plant in Panama City, has the highest efficiency in the country with the average operating ratio of 95%.</p>
+                        </a>  
+                    </li>
+                    <li data-city="cuba">
+                        <a href="#">
+                            <span>CUBA</span>
+                            <div class="titForm">
+                                <h3 class="contTit">Energy for <br>Revolution</h3>
+                            </div>
+                            <p>The Cuban government decided to illustrate HYUNDAI’s Packaged Power Station(PPS) on their 10 peso note with the quote “ Revolution Energetica (Energy Revolution)”.</p>
+                        </a>  
+                    </li>
+                    <li data-city="colombia">
+                        <a href="#">
+                            <span>COLOMBIA</span>
+                            <div class="titForm">
+                                <h3 class="contTit">Energy for <br>Contribution</h3>
+                            </div>
+                            <p>In Santa Marta, northern city of Colombia, Termonorte power plant is supplying reliable energy to contribute to the neighboring industry and society.</p>
+                        </a>  
+                    </li>
+                </ul>
+                <ul class="popUpCity">
+                    <li data-city="newYork">
+                        <div class="inner">
+                            <div class="titForm">
+                                <p class="pageFont">NEW YORK</p>
+                                <h3 class="contTit">Gas Engine Power Plant</h3>
+                            </div>
+                            <ul class="feature">
+                                <li>CHP System</li>
+                                <li>Reduce Emission</li>
+                                <li>High Efficiency</li>
+                            </ul>
+                            <p>
+                                The Cubit Power One adopted HYUNDAI's 11MW gas engines(12H35/40GV x 2sets) help reducing air pollution with SCR(Selective 
+                                Catalytic Reduction) and improving high efficiency with CHP(Combined Heat & Power) system. The Cubit Power One station has 
+                                shown remarkable performances in stable electric power supply regardless of hot and humid summer and heavily snowing 
+                                winter in Staten Island.
+                            </p>
+                            <div class="descArea">
+                                <ul class="infoImg">
+                                    <li><img src="/assets/images/energy/popUp_newyork_01.png" alt=""></li>
+                                    <li><img src="/assets/images/energy/popUp_newyork_02.png" alt=""></li>
+                                </ul>
+                                <ul>
+                                    <li><span class="descTit">Total Output</span>11MV</li>
+                                    <li><span class="descTit">Customer</span>Cubit Power One</li>
+                                    <li><span class="descTit">Operating Mode</span>Continuous</li>
+                                    <li><span class="descTit">Gensets</span>12H35/40GV × 2sets</li>
+                                    <li><span class="descTit">Fuel</span>Natural Gas</li>
+                                    <li><span class="descTit">Scope</span>DG sets</li>
+                                    <li><span class="descTit">Delivered</span>2018.05</li>
+                                </ul>
+                            </div>
+                            <button class="popUpClose">닫기</button>
+                        </div>
+                    </li>
+                    <li data-city="panama">
+                        <div class="inner">
+                            <div class="titForm">
+                                <p class="pageFont">Panama</p>
+                                <h3 class="contTit">2-stroke Diesel Engine Power Plant</h3>
+                            </div>
+                            <ul class="feature">
+                                <li>High Efficiency</li>
+                                <li>Low OPEX</li>
+                                <li>EPC</li>
+                            </ul>
+                            <p>
+                                In March 2011, Autoridad del Canal de Panama(ACP) placed an order to HHI-EMBU for engineering, procurement and construction of
+                                stationary power plant consisting of two sets of HYUNDAI-MAN 12K80MC-S engines in order to supply continuous power to Panama
+                                Canal and national grid in Panama. This 2-stroke diesel engine power plant has accommodated the fundamental demands for
+                                lower operating cost with less replacement parts and longer exchange periods.
+                            </p>
+                            <div class="descArea">
+                                <ul class="infoImg">
+                                    <li><img src="/assets/images/energy/popUp_panama_01.png" alt=""></li>
+                                    <li><img src="/assets/images/energy/popUp_panama_02.png" alt=""></li>
+                                </ul>
+                                <ul>
+                                    <li><span class="descTit">Total Output</span>70MV</li>
+                                    <li><span class="descTit">Customer</span>ACP</li>
+                                    <li><span class="descTit">Operating Mode</span>Continuous</li>
+                                    <li><span class="descTit">Gensets</span>12K80MC - S x 2sets</li>
+                                    <li><span class="descTit">Fuel</span>HFO</li>
+                                    <li><span class="descTit">Scope</span>EPC</li>
+                                    <li><span class="descTit">Delivered</span>2013.11</li>
+                                </ul>
+                            </div>
+                            <button class="popUpClose">닫기</button>
+                        </div>
+                    </li>
+                    <li data-city="cuba">
+                        <div class="inner">
+                            <div class="titForm">
+                                <p class="pageFont">Cuba</p>
+                                <h3 class="contTit">Packaged Power Station<br>& Diesel Power Plant</h3>
+                            </div>
+                            <ul class="feature">
+                                <li>Energy Revolution</li>
+                                <li>Rapid Construction</li>
+                                <li>30% of Cuba Electricity</li>
+                            </ul>
+                            <p>
+                                In the mid 2000s, Cuba experienced chronic electricity shortages resulting in frequent power outages. To deal with the energy crisis,
+                                it set up a plan of upgrading its power infrastructure based on a contract with a foreign supplier. While many companies gave up
+                                the project, HYUNDAI eventually won the deal in 2005 and met urgent requirements of Cuba with 576MW Packaged power station and
+                                310MW Diesel power plant across the country. For the first time in history, a company product was illustrated on country's currency.
+                            </p>
+                            <div class="descArea">
+                                <ul class="infoImg">
+                                    <li><img src="/assets/images/energy/popUp_cuba_01.png" alt=""></li>
+                                    <li><img src="/assets/images/energy/popUp_cuba_02.png" alt=""></li>
+                                </ul>
+                                <ul>
+                                    <li><span class="descTit">Total Output</span>576MV(PPS)<span>310MW(DPP)</span></li>
+                                    <li><span class="descTit">Customer</span>Energo Import</li>
+                                    <li><span class="descTit">Operating Mode</span>Continuous</li>
+                                    <li><span class="descTit">Gensets</span>9H21/32 x 340sets <span>9H25/33 x 124sets</span></li>
+                                    <li><span class="descTit">Fuel</span>HFO</li>
+                                    <li><span class="descTit">Scope</span>EP</li>
+                                    <li><span class="descTit">Delivered</span>2005~2009</li>
+                                </ul>
+                            </div>
+                            <button class="popUpClose">닫기</button>
+                        </div>
+                    </li>
+                    <li data-city="colombia">
+                        <div class="inner">
+                            <div class="titForm">
+                                <p class="pageFont">Colombia</p>
+                                <h3 class="contTit">Dual Fuel Engine Power Plant</h3>
+                            </div>
+                            <ul class="feature">
+                                <li>Rapid Construction</li>
+                                <li>Reduce Emission</li>
+                                <li>EPC</li>
+                            </ul>
+                            <p>
+                                The biggest dual fuel engine power plant in Colombia In February 2017, Hyundai received an order from TERMONORTE S.A.S E.S.P.,
+                                for engineering, procurement and construction. The contract consists of 10 sets of HiMSEN dual fuel engine generator to supply
+                                continuous power to national grid in Colombia, South America. The power plant was handed over in November 2018 to the customer
+                                and is currently under commercial operation. 
+                            </p>
+                            <div class="descArea">
+                                <ul class="infoImg">
+                                    <li><img src="/assets/images/energy/popUp_colombia_01.png" alt=""></li>
+                                    <li><img src="/assets/images/energy/popUp_colombia_02.png" alt=""></li>
+                                </ul>
+                                <ul>
+                                    <li><span class="descTit">Total Output</span>93MV</li>
+                                    <li><span class="descTit">Customer</span>TERMONORTE</li>
+                                    <li><span class="descTit">Operating Mode</span>Base Load</li>
+                                    <li><span class="descTit">Gensets</span>20H35DFV x 10sets</li>
+                                    <li><span class="descTit">Fuel</span>Natural Gas, Diesel Oil, Heavy Fuel Oil</li>
+                                    <li><span class="descTit">Scope</span>EPC</li>
+                                    <li><span class="descTit">Delivered</span>2018.11</li>
+                                </ul>
+                            </div>
+                            <button class="popUpClose">닫기</button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="solutionService inner">
+                <div class="titForm">
+                    <h3 class="contTit">Energy Solution &amp; <span>Services</span></h3>
+                </div>
+                <div class="tabWrap tabCtrl">
+                    <ul class="tab ty02">
+                        <li><a href="javascript:;" class="on">Solution</a></li>
+                        <li><a href="javascript:;">Services</a></li>
+                    </ul>
+                    <div class="tabContent">
+                        <div class="on solution">
+                            <ul>
+                                <li>
+                                    <span class="category ecoFriendly"></span>
+                                    <span class="category highEfficiency"></span>
+                                    <span class="desc"><span>Gas Fuel Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category ecoFriendly"></span>
+                                    <span class="category highEfficiency"></span>
+                                    <span class="desc"><span>Dual Fuel Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category lowCAPEX"></span>
+                                    <span class="desc"><span>Diesel Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category lowOPEX"></span>
+                                    <span class="desc"><span>2-stroke Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category ecoFriendly"></span>
+                                    <span class="desc"><span>Hybrid Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category highReliability"></span>
+                                    <span class="desc"><span>Emergency Diesel Generator for <br> Nuclear Power Plant</span></span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="category highReliability"></span>
+                                    <span class="desc"><span>Emergency &amp; Black start Diesel Generators</span></span>
+                                </li>
+                                <li>
+                                    <span class="category highReliability"></span>
+                                    <span class="desc"><span>Building Type Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category fastInstallation"></span>
+                                    <span class="desc"><span>Enclosure Type Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category fastInstallation"></span>
+                                    <span class="category lowCAPEX"></span>
+                                    <span class="desc"><span>Modular Power Plant</span></span>
+                                </li>
+                                <li>
+                                    <span class="category easyOperation"></span>
+                                    <span class="desc"><span>Aux. Master Sequence &amp; Ready</span></span>
+                                </li>
+                                <li>
+                                    <span class="category easyOperation"></span>
+                                    <span class="desc"><span>Auto Synchronization And Load Up</span></span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="category easyOperation"></span>
+                                    <span class="desc"><span>Automatic Fuel Change-over</span></span>
+                                </li>
+                                <li>
+                                    <span class="category easyOperation"></span>
+                                    <span class="desc"><span>Dynamic Monitoring &amp; Smart Early Warning System</span></span>
+                                </li>
+                                <li>
+                                    <span class="category highEfficiency"></span>
+                                    <span class="desc"><span>Adaptive Max Power Control System</span></span>
+                                </li>
+                                <li>
+                                    <span class="category easyOperation"></span>
+                                    <span class="desc"><span>Remote Diagnostic Service</span></span>
+                                </li>
+                                <li>
+                                    <span class="category fastInstallation"></span>
+                                    <span class="desc"><span>HAM Modules</span></span>
+                                </li>
+                                <li>
+                                    <span class="category fastInstallation"></span>
+                                    <span class="desc"><span>CHP Modules</span></span>
+                                </li>
+                            </ul>
+                            <ul class="categoryDesc">
+                                <li><span class="category ecoFriendly"></span>Eco-friendly</li>
+                                <li><span class="category highReliability"></span>High Reliability</li>
+                                <li><span class="category highEfficiency"></span>High-efficiency</li>
+                                <li><span class="category easyOperation"></span>Easy Operation</li>
+                                <li><span class="category lowCAPEX"></span>Low CAPEX</li>
+                                <li><span class="category lowOPEX"></span>Low OPEX</li>
+                                <li><span class="category fastInstallation"></span>Fast Installation</li>
+                                <li><span class="category easyTransportation"></span>Easy Transportation</li>
+                            </ul>
+                        </div>
+                        <div class="services">
+                            <ul>
+                                <li>
+                                    <span class="desc"><span>Pre-sales Technical Consulting</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Conceptual Design</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Basic Engineering Of Main Equipment</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Civil &amp; Architecture Design</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Mechanical Process Design</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>I&amp;C / Electrical System Design</span></span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="desc"><span>Procurement</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Performance Tests<br>(Shop &amp; Site)</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Logistics</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Installation &amp; Construction</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Installation Supervision</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Commissioning Supervision</span></span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="desc"><span>Noise &amp; Emission Analysis</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Operation Training</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Operation &amp; Maintenance</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Remote Diagnostic</span></span>
+                                </li>
+                                <li>
+                                    <span class="desc"><span>Spare-Parts</span></span>
+                                </li>
+                            </ul>
 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="infoArea inner engine">
+                <div class="titForm">
+                    <h3 class="contTit">Engine Power Plant</h3>
+                </div>
+                <ul class="blurList">
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_enginePower_01.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">Engine Power Plant</span>
+                                <strong class="pageFont">GAS &amp; DUAL FUEL POWER PLANT</strong>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_enginePower_02.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">Engine Power Plant</span>
+                                <strong class="pageFont">DIESEL POWER PLANT</strong>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_enginePower_03.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">Engine Power Plant</span>
+                                <strong class="pageFont">MODULAR POWER PLANT & PPS</strong>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="infoArea inner">
+                <div class="titForm">
+                    <h3 class="contTit">Hybrid Power Plant</h3>
+                </div>
+                <ul class="blurList">
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_hybrid_01.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">CHP Modules</span>
+                                <strong class="pageFont">CHP</strong>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_hybrid_02.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">SOLAR + ENGINE POWER</span>
+                                <strong class="pageFont">HYBRID POWER PLANT</strong>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="infoArea inner">
+                <div class="titForm">
+                    <h3 class="contTit">Emergency Diesel Generator</h3>
+                </div>
+                <ul class="blurList">
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_emergency_01.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">Emergency Diesel Generator</span>
+                                <strong class="pageFont">EDG FOR NUCLEAR POWER PLANT</strong>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_emergency_02.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">Emergency Diesel Generator</span>
+                                <strong class="pageFont">EMERGENCY DIESEL GENERATOR</strong>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/assets/images/energy/bg_emergency_03.png" alt="">
+                            <div class="titForm">
+                                <span class="sortingFont">Emergency Diesel Generator</span>
+                                <strong class="pageFont">BLACK START DIESEL GENERATOR</strong>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="bannerBox engineLineUp">
+                <div class="inner02 titForm">
+                    <h4 class="subBannerTit">Engine <span>Line-Up</span></h4>
+                    <span class="pr">With full range capacity and fuel flexibility To meet your power demands.</span>
+                    <div class="btnBox">
+                        <a href="#" class="btn isArrow"><span>Gas</span></a>
+                        <a href="#" class="btn isArrow"><span>Dual Fuel</span></a>
+                        <a href="#" class="btn isArrow"><span>Liquid Fuel</span></a>
+                    </div>
+                </div>
+                <img src="/assets/images/energy/energy_product_02.png" alt="엔진라인업 이미지">
+            </section>
+            <section class="countUp">
+                <div class="inner">
+                    <p>Present Global Contract</p>
+                    <div class="countArea">
+                        <div class="countNum mainCount">
+                            <span class="overTitle">OVER</span>
+                            <div id="over" class="count"></div>
+                            <span class="explain">Engines Installed</span>
+                        </div>
+                        <div class="countNum">
+                            <span>TOTAL CAPACITY OF</span>
+                            <div id="total" class="count"></div>
+                            <span class="unit">MW</span>
+                            <span class="explain">Power Station</span>
+                        </div>
+                            <div class="countNum">
+                            <span>IN WORLD WIDE</span>
+                            <div id="worldW" class="count"></div>
+                            <span class="explain">Countries Delivered</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <section class="newsWithTitle inner news">
+                <div class="titForm">
+                    <h3 class="contTit">News</h3>
+                    <div class="btnBox">
+                        <a href="javascript:;" role="button" class="btn isArrow">
+                            <span>view more</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="newsWrap">
+                    <ul class="newsVideoLayout">
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_news_01.png" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">
+                                        HHI developed its own eco-friendly HiMSEN Dual-Fuel Engine control system
+                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_news_02.png" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-marine">MARINE</span>
+                                    </span>
+                                    <p class="txt">
+                                        British James Fisher Orders HiMSEN H27DFP Propulsion Engines
+                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_news_03.png" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">
+                                        eTurboForum Hermetically
+                                        Sealed Compressors and
+                                        Applications
+                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_news_04.png" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-marine">MARINE</span>
+                                    </span>
+                                    <p class="txt">
+                                        HHI developed its own eco-friendly HiMSEN Dual-Fuel Engine control system
+                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="newsWithTitle inner">
+                <div class="titForm">
+                    <h3 class="contTit">Videos</h3>
+                    <div class="btnBox">
+                        <a href="javascript:;" role="button" class="btn isArrow">
+                            <span>view more</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="newsWrap">
+                    <ul class="newsVideoLayout col3">
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_video_01.jpg" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">
+                                        Process of Packaged Power Station Delivery (Donation for Tsunami Crisis in Japan)                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_video_02.jpg" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-marine">MARINE</span>
+                                    </span>
+                                    <p class="txt">
+                                        Shipping process of HiMSEN Engine Baseframe
+                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail">
+                                    <img src="/assets/images/energy/energy_video_03.jpg" alt="" />
+                                </div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">
+                                        Hyundai Heavy Industreis Company Presentation Video(Korean English Subtitle)
+                                    </p>
+                                    <span class="date">06.21.2021</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="newsWithTitle inner download">
+                <div class="titForm">
+                    <h3 class="contTit">Download</h3>
+                    <div class="btnBox">
+                        <a href="javascript:;" role="button" class="btn isArrow">
+                            <span>view more</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="newsWrap">
+                    <ul class="newsVideoLayout col5n">
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail"><img src="/assets/images/energy/energy_download_01.jpg" alt=""></div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">POWER PLANT SOLUTIONS 2020</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail"><img src="/assets/images/energy/energy_download_02.jpg" alt=""></div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-marine">MARINE</span>
+                                    </span>
+                                    <p class="txt">POWER PLANT SOLUTIONS 2020</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail"><img src="/assets/images/energy/energy_download_03.jpg" alt=""></div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">POWER PLANT SOLUTIONS 2020</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail"><img src="/assets/images/energy/energy_download_04.jpg" alt=""></div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-marine">MARINE</span>
+                                    </span>
+                                    <p class="txt">POWER PLANT SOLUTIONS 2020</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="thumbnail"><img src="/assets/images/energy/energy_download_03.jpg" alt=""></div>
+                                <div class="txtCnts">
+                                    <span class="utilBox">
+                                        <span class="category text-energy">ENERGY</span>
+                                    </span>
+                                    <p class="txt">POWER PLANT SOLUTIONS 2020</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </section>
+            
+            <div class="footerContact">
+                <div class="inner">
+                    <h4 class="titForm subBannerTit">Contact Our Experts on Energy Solution</h4>
+                    <div>
+                        <p>Engine Power Plant Department</p>
+                        <ul>
+                            <li><strong>TEL</strong>82-31-210-9360 (9350~61)</li>
+                            <li><a href="mailto:hi_pin@hhi.co.kr"><strong>E-mail</strong>hi_pin@hhi.co.kr</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
         </div>
 
         <!-- footer -->
@@ -395,7 +1116,7 @@
 <footer id="footer">
     <div class="inner">
         <div class="ftTop">
-            <h2 class="ftLogo"><img src="/distHyundai/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
             <div class="ftSiteMap">
                 <ul>
                     <li><a href="#">Marine Solution</a></li>
@@ -439,8 +1160,407 @@
 
     </div>
 
+    <!-- Power Plant Selector pop up -->
+    <div class="layer large powerPlantSelector">
+        <a href="javascript:;" target-layer-close="powerPlantSelector" class="popClose">팝업 닫기</a>
+        <!-- popContent -->
+        <div class="popHead">
+            <div class="titForm">
+                <h3 class="titForm categoryTit">Power Plant Selector</h3>
+                <span class="popSubTit">Enter some conditions below and check out our offers and recommendations.</span>
+            </div>
+        </div>
+        <div class="popCont mCsutomScroll">
+            <!-- formWrap 에 on 클래스 추가 시, stepsWrap에 on 클래스 제거 -->
+            <div class="stepsWrap">
+                <ol class="stepList">
+                    <!-- next 버튼 클릭 시, 다음 인덱스에 on 클래스 추가 -->
+                    <li class="on">Step 1</li>
+                    <li>Step 2</li>
+                    <li>Step 3</li>
+                    <li>Step 4</li>
+                </ol>
+                <div class="selectorContent">
+                    <!-- next 버튼 클릭 시, 다음 step에 on 클래스 추가 -->
+                    <div class="step on">
+                        <div class="titForm">
+                            <h5 class="categoryTit">Step 1. Power Plant Size</h5>
+                            <p>Select size of your Power plant</p>
+                        </div>
+                        <div id="slider">
+                            <div class="sliderValue"><span></span> kW</div>
+                            <span class="minValue unit">0</span>
+                            <span class="midValue1 unit">50</span>
+                            <span class="midValue2 unit">100</span>
+                            <span class="midValue3 unit">150</span>
+                            <span class="midValue4 unit">200</span>
+                            <span class="midValue5 unit">250</span>
+                            <span class="maxValue unit">300</span>
+                        </div>
+                        <div class="btnBox btnNext">
+                            <a href="javascript:;" class="btn large btnSky">Next</a>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="titForm">
+                            <h5 class="categoryTit">Step 2. Fuel Type</h5>
+                            <p>Select your Fuel type</p>
+                        </div>
+                        <div class="radioBtnSet">
+                            <li>
+                                <input type="radio" id="HFO" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>HFO (Heavy Fuel Oil)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="DO" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>DO (Disel Oil)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="NG" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>NG (Natural Gas)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="DF1" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>DF (HFO+NG)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="DF2" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>DF (DO+NG)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="Hybrid" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>Hybrid</span>
+                                </label>
+                            </li>
+                        </div>
+                        <div class="btnBox btnNext">
+                            <a href="javascript:;" class="btn large btnBack">Back</a>
+                            <a href="javascript:;" class="btn large btnSky">Next</a>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="titForm">
+                            <h5 class="categoryTit">Step 3. Operation Type</h5>
+                            <p>Select your Operation type</p>
+                        </div>
+                        <div class="radioBtnSet">
+                            <li>
+                                <input type="radio" id="baseLoad" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>Base Load<br>(Parallel operation with a network)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="islandMode" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>Island Mode<br>(Load sharing / Independent operation from network)</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="EDG" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>EDG for Nuclear Power Plant</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="BSDG" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>BSDG / EDG for Combined Cycle Power Plant</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="Others" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>Others</span>
+                                </label>
+                            </li>
+                        </div>
+                        <div class="btnBox btnNext">
+                            <a href="javascript:;" class="btn large btnBack">Back</a>
+                            <a href="javascript:;" class="btn large btnSky">Next</a>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="titForm">
+                            <h5 class="categoryTit">Step 4. Building Type</h5>
+                            <p>Select your Building type</p>
+                        </div>
+                        <div class="radioBtnSet">
+                            <li>
+                                <input type="radio" id="buildingType" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>Building type power plant</span>
+                                </label>
+                            </li>
+                            <li>
+                                <input type="radio" id="modularType" name="radioBtnSet" checked />
+                                <label for="radio01">
+                                    <span>Modular type power plant<br>(Enclosure, Container)</span>
+                                </label>
+                            </li>
+                        </div>
+                        <div class="btnBox btnNext">
+                            <a href="javascript:;" class="btn large btnBack">Back</a>
+                            <a href="javascript:;" class="btn large btnSky">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- **** step4까지 완료 후 formWrap 에 on 클래스 추가-->
+            <div class="formWrap on">
+                <div class="formWidth">
+                    <div class="requiredInput">* Required input</div>
+                    <div class="valueShow">
+                        <p>Selected option</p>
+                        <p class="selectValue">189MW, DF (HFO+NG), EDG for Nuclear Power Plant, Modular type power plant </p>
+                    </div>
+                    <div class="inputBox">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Name" />
+                    </div>
+                    <div class="inputBox">
+                        <label for="email1">E-mail</label>
+                        <input type="text" id="email1" class="email" placeholder="E-mail" />
+                        <span class="emailBridge">@</span>
+                        <input type="text" id="email2" class="email" placeholder="E-mail" />
+                    </div>
+                    <div class="inputBox">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" id="mobile" placeholder="+82-10-0000-0000" />
+                    </div>
+                    <div class="inputBox">
+                        <label for="companyName">Company Name</label>
+                        <input type="text" id="companyName" placeholder="Company Name" />
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Company Role</dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="IPP">IPP</option>
+                                    <option value="EPC">EPC</option>
+                                    <option value="ENDUSER">END USER</option>
+                                    <option value="AGENT">AGENT</option>
+                                    <option value="ETC">ETC</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Country <span>(Your Location)</span></dt>
+                            <dd>
+                                <select class="dropMenuBox doubleSelect">
+                                    <option value="ALL">Choose</option>
+                                    <option value="Africa">Africa</option>
+                                    <option value="America">America</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="Oceania">Oceania</option>
+                                    <option value="PacificIsland">Pacific Island</option>
+                                </select>
+                                <select class="dropMenuBox doubleSelect">
+                                    <option value="ALL">Choose</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Country <span>(Plant Site Location)</span></dt>
+                            <dd>
+                                <select class="dropMenuBox doubleSelect">
+                                    <option value="ALL">Choose</option>
+                                    <option value="Africa">Africa</option>
+                                    <option value="America">America</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="Oceania">Oceania</option>
+                                    <option value="PacificIsland">Pacific Island</option>
+                                </select>
+                                <select class="dropMenuBox doubleSelect">
+                                    <option value="ALL">Choose</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                    <option value="">국가</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="requiredInput optionalInput">* Optional input</div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Due date <span>(Working day)</span></dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="10days">10 days</option>
+                                    <option value="15days">15 days</option>
+                                    <option value="20days">20 days</option>
+                                    <option value="30days">30 days</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Scope</dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="DGonly">DG set only</option>
+                                    <option value="2options">DG set + Aux. Equipment</option>
+                                    <option value="4options">DG set + Aux. Equipment + Engineering + Bulk</option>
+                                    <option value="Turnkey">Turnkey</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="doubleInput">
+                        <div class="inputBox">
+                            <label for="designAirTemp">Design Air Temp <span>(℃)</span></label>
+                            <input type="text" id="designAirTemp" placeholder="Design Air Temp" />
+                        </div>
+                        <div class="inputBox">
+                            <label for="Altitude">Altitude <span>(AMSL.. m)</span></label>
+                            <input type="text" id="Altitude" placeholder="Altitude" />
+                        </div>
+                    </div>
+                    <div class="doubleInput">
+                        <div class="inputBox ">
+                            <label for="Humidity">Humidity<span>(%)</span></label>
+                            <input type="text" id="Humidity" placeholder="Humidity" />
+                        </div>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Medium Voltage <span>(kV)</span></dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="4.16kV">4.16kV</option>
+                                    <option value="6.6kV">6.6kV</option>
+                                    <option value="11kV">11kV</option>
+                                    <option value="13.8kV">13.8kV</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Low Voltage<span>(V)</span></dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="400V">400V</option>
+                                    <option value="415V">415V</option>
+                                    <option value="440V">440V</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Frequency <span>(Hz)</span></dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="50Hz">50Hz</option>
+                                    <option value="60Hz">60Hz</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="selectBox">
+                        <dl>
+                            <dt>Power Factor</dt>
+                            <dd>
+                                <select class="dropMenuBox">
+                                    <option value="ALL">Choose</option>
+                                    <option value="0.8">0.8</option>
+                                    <option value="0.85">0.85</option>
+                                    <option value="1">1</option>
+                                </select>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="requiredInput optionalInput">* Required input</div>
+                    <div class="inputBox">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" placeholder="Title" />
+                    </div>
+                    <div class="inputBox">
+                        <label for="contentsFill">Contents</label>
+                        <textarea name="contentsFill" id="contentsFill" placeholder="* Write in less than 1000 characters."></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <p class="itemTitle">Legal & Privacy notice</p>
+                        <div name="legalPrivacy" id="legalPrivacy">
+                            <div class="titForm">
+                                <h6 class="pageFont">Privacy Notice</h6>
+                            </div>
+                            <p>This notice has been prepared to notify you of the fact that your data, which were previously in Hyundai Heavy Industries (“Company” or “We” or “HHI”)’s possession either through direct collection, collection through device provided and/or developed by Company. This notice applies to your use of the mobile device application (“APP”) and related websites.</p>
+                            <p class="legalSub">ENQURIES ABOUT THIS NOTICE</p>
+                            <p>If you have any questions about this notice or how we handle your information, please contact jyjang07@hhi.co.kr</p>
+                        </div>
+                    </div>
+
+                    <div class="checkSet">
+                        <input type="checkbox" id="check02" name="checks" checked />
+                        <label for="check02"><span></span>By checking this box you agree to receive communications for marketing
+                            purposes.<br/>You can unsubscribe at any time. Read more about how we process data in our
+                            <a href="#a">Legal & Privacy notice</a></label>
+                    </div>
+                    <div class="btnBox">
+                        <a href="javascript:;" target-layer-open="requireLayer;dim;" class="btn large btnSky">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Power Plant Selector pop up -->
+    
+    <!-- layer popup (alert) -->
+    <div class="layer alertLayer requireLayer">
+        <a href="javascript:;" target-layer-close="requireLayer" class="popClose">팝업 닫기</a>
+        <!-- popContent -->
+        <div class="popCont">
+            <span class="alertDesc">Please agree to Legal & Privacy notice.<br>
+                Legal & Privacy notice 항목에 동의해 주세요.</span>
+        </div>
+        <!--// popContent -->
+        <!--popFoot -->
+        <div class="popFoot">
+            <a href="javascript:;" target-layer-close="requireLayer">OK</a>
+        </div>
+        <!--// popFoot -->
+    </div>
+    <!--// layer popup (alert)-->
+    
+
     <!-- script import -->
-    <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+    <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 

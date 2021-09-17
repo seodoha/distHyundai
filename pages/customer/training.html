@@ -13,11 +13,11 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
     </head>
     <body>
-        <div id="wrap">
+        <div id="wrap" class="customerService">
             <div id="navSkip"><a href="#container">본문으로 바로가기</a></div>
 
             <!-- header -->
@@ -26,12 +26,12 @@
         <div class="inner">
             <h1 class="logo">
                 <a href="#">
-                    <img src="/distHyundai/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
-                    <img src="/distHyundai/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
                 </a>
             </h1>
             <ul class="hdUtil">
-                <li><a href="#">About us</a></li>
+                <li><a href="#" class="on">About us</a></li> <!-- 클래스 on 추가하면 활성화 -->
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
@@ -328,7 +328,7 @@
             
             
             
-                <ul>
+                <ul class="pcView">
                     <li><a href="#">Support</a></li> <!-- 클래스 on 추가하면 활성화 -->
                     <li><a href="#">Contacts</a></li>
                     <li><a href="#">Download</a></li>
@@ -336,14 +336,18 @@
                     <li><a href="#">World Network</a></li>
                     <li><a href="#">Online Assistance</a></li>
                 </ul>
-                <select title="Customer Service 하위 메뉴">
-                    <option value="">Support</option>
-                    <option value="">Contacts</option>
-                    <option value="">Download</option>
-                    <option value="">Training</option>
-                    <option value="">World Network</option>
-                    <option value="">Online Assistance</option>
-                </select>
+                <div class="moView">
+                    <button class="current">Support</button>
+                    <ul>
+                        <li><a href="javascript:;">Support</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                        <li><a href="javascript:;">Contacts</a></li>
+                        <li><a href="javascript:;">Download</a></li>
+                        <li><a href="javascript:;">Training</a></li>
+                        <li><a href="javascript:;">World Network</a></li>
+                        <li><a href="javascript:;">Online Assistance</a></li>
+                    </ul>
+                </div>
+            
             
             </div>
         </div>
@@ -356,13 +360,13 @@
             
 
             <!-- container -->
-            <div id="container">
+            <div id="container" class="training">
                 <!-- Main Banner -->
                 <section class="kv">
                     <div class="txtBox titForm">
                         <h2 class="subTit">Download</h2>
                     </div>
-                    <img src="/distHyundai/assets/images/customer/keyVi_support.png" alt="" />
+                    <img src="/assets/images/customer/keyVi_support.png" alt="" />
                 </section>
                 <div class="contentsWrap inner">
                     <strong class="mainText"
@@ -371,7 +375,7 @@
                     >
                     <div class="contents">
                         <div class="figure">
-                            <div><img src="/distHyundai/assets/images/customer/training_global.png" alt="" /></div>
+                            <div><img src="/assets/images/customer/training_global.png" alt="" /></div>
                             <dl>
                                 <dt>
                                     The Global Academy trains the theory of<br />
@@ -387,7 +391,12 @@
                                     managers, engineers, supervisors, and repair engineers to acquire the appropriate
                                     level of competency for their respective jobs.
                                     <div>
-                                        <a href="javascript:;" role="button" class="btn isArrow btnNavy">
+                                        <a
+                                            href="https://www.hyundai-gs.com/eng/CMS/Contents/Contents.do?mCode=MN027 "
+                                            role="button"
+                                            class="btn isArrow btnNavy"
+                                            target="_blank"
+                                        >
                                             <span>Hyundai Global Service Global Academy</span></a
                                         >
                                     </div>
@@ -404,7 +413,7 @@
 <footer id="footer">
     <div class="inner">
         <div class="ftTop">
-            <h2 class="ftLogo"><img src="/distHyundai/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
             <div class="ftSiteMap">
                 <ul>
                     <li><a href="#">Marine Solution</a></li>
@@ -448,7 +457,7 @@
         </div>
 
         <!-- script import -->
-        <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+        <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 

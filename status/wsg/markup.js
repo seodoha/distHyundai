@@ -26,8 +26,7 @@ jQuery(document).ready(function() {
 			};
 			var wrapAnchor = $("<a>")
 				.attr("target", "_blank")
-				// .attr("target", "_self")
-				.attr("href", prop.type + "/" + "html" + "/" + prop.url)
+				.attr("href", prop.url)
 				.text(current.text());
 
 			if (current.text() == "미정") {

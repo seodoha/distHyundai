@@ -13,25 +13,11 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
-        <style>
-            h2.guideTit {
-                margin: 15px 0;
-                font-size: 24px;
-                color: #222;
-                font-weight: normal;
-            }
-            .guide_box {
-                position: relative;
-                margin-bottom: 30px;
-                padding-bottom: 30px;
-                border-bottom: 1px solid #ddd;
-            }
-        </style>
     </head>
     <body>
-        <div id="wrap">
+        <div id="wrap" class="products">
             <div id="navSkip"><a href="#container">본문으로 바로가기</a></div>
 
             <!-- header -->
@@ -40,12 +26,12 @@
         <div class="inner">
             <h1 class="logo">
                 <a href="#">
-                    <img src="/distHyundai/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
-                    <img src="/distHyundai/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
                 </a>
             </h1>
             <ul class="hdUtil">
-                <li><a href="#">About us</a></li>
+                <li><a href="#" class="on">About us</a></li> <!-- 클래스 on 추가하면 활성화 -->
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
@@ -341,24 +327,28 @@
             
             
             
-                <ul>
+                <ul class="pcView">
                     <li><a href="#">Overview</a></li> <!-- 클래스 on 추가하면 활성화 -->
-                    <li><a href="#">Marine - 2-Stroke Engine</a></li>
-                    <li><a href="#">Marine - 4-Stroke Engine</a></li>
-                    <li><a href="#">Marine - Propulsion System</a></li>
-                    <li><a href="#">Marine - Eco Machinery</a></li>
-                    <li><a href="#">Marine - Cargo Pumping System</a></li>
-                    <li><a href="#">Energy - stationary Engine</a></li>
+                    <li><a href="#">2-Stroke Engine</a></li>
+                    <li><a href="#">4-Stroke Engine</a></li>
+                    <li><a href="#">Propulsion System</a></li>
+                    <li><a href="#">Eco Machinery</a></li>
+                    <li><a href="#">Cargo Pumping System</a></li>
+                    <li><a href="#">Stationary Engine</a></li>
                 </ul>
-                <select title="Products 하위 메뉴">
-                    <option value="">Overview</option>
-                    <option>Marine - 2-Stroke Engine</option>
-                    <option>Marine - 4-Stroke Engine</option>
-                    <option>Marine - Propulsion System</option>
-                    <option>Marine - Eco Machinery</option>
-                    <option>Marine - Cargo Pumping System</option>
-                    <option>Marine - stationary Engine</option>
-                </select>
+                <div class="moView">
+                    <button class="current">Overview</button>
+                    <ul>
+                        <li><a href="javascript:;">Overview</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                        <li><a href="javascript:;">2-Stroke Engine</a></li>
+                        <li><a href="javascript:;">4-Stroke Engine</a></li>
+                        <li><a href="javascript:;">Propulsion System</a></li>
+                        <li><a href="javascript:;">Eco Machinery</a></li>
+                        <li><a href="javascript:;">Cargo Pumping System</a></li>
+                        <li><a href="javascript:;">Stationary Engine</a></li>
+                    </ul>
+                </div>
+            
             
             
             </div>
@@ -369,17 +359,17 @@
 
 
             <!-- container -->
-            <div id="container">
+            <div id="container" class="overview">
                 <!-- Key Visual -->
                 <section class="kv">
                     <div class="txtBox titForm">
                         <h2 class="subTit">
-                            We have a complete portfolio<br />
-                            of the marine and energy<br />
-                            industry
+                            We Have A Complete<br />
+                            Portfolio Of The Marine And<br />
+                            Energy Industry
                         </h2>
                     </div>
-                    <img src="/distHyundai/assets/images/products/kv_overview.jpg" alt="" class="pcView" />
+                    <img src="/assets/images/products/kv_overview.jpg" alt="" class="pcView" />
                 </section>
                 <!-- //Key Visual -->
 
@@ -392,21 +382,221 @@
                     </ul>
                 </div>
                 <!-- //PAGE LOCATION LAYOUT -->
-                <section>
-                    <div class="inner">
-                        <div class="titForm">
-                            <h3 class="subTit">Products and Systems</h3>
-                            <p class="pr">
-                                Experience world-leading engines and machinery with proven reliability and the latest
-                                technology.
-                            </p>
+                <div class="inner">
+                    <div class="titForm pageTit">
+                        <h3 class="subTit">Our Products and Systems</h3>
+                        <p class="pr">
+                            Experience world-leading engines and machinery with proven reliability and the latest
+                            technology.
+                        </p>
+                    </div>
+                    <div class="productContent">
+                        <h4>Product List</h4>
+                        <div class="list">
+                            <h5>2 Stroke Engine</h5>
+                            <p>Reliable 2-stroke engine manufacturer</p>
+                            <ul class="productList">
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img01.jpg" alt="">
+                                        <span>MAN-ES Engine</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img01.jpg" alt="">
+                                        <span>WinGD Engine</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h5>4 Stroke Engine</h5>
+                            <p>High reliability and performance</p>
+                            <ul class="productList">
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img03.jpg" alt="">
+                                        <span>Dual Fuel Engine</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img04.jpg" alt="">
+                                        <span>Diesel Engine</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h5>Propulsion System</h5>
+                            <p>Cost effective and earth-friendly solution</p>
+                            <ul class="productList">
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img05.jpg" alt="">
+                                        <span>Propulsion Package</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img06.jpg" alt="">
+                                        <span>Hybrid Package</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img07.jpg" alt="">
+                                        <span>Propeller & Shaft</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h5>Eco Machinery</h5>
+                            <p>CFor the marine environment and future</p>
+                            <ul class="productList">
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img08.jpg" alt="">
+                                        <span>Fuel Gas Supply System</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img09.jpg" alt="">
+                                        <span>SCR</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img10.jpg" alt="">
+                                        <span>BWTS</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h5>Cargo Pumping System</h5>
+                            <p>Reliable partner for the environmental protection</p>
+                            <ul class="productList">
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img11.jpg" alt="">
+                                        <span>Hydraulic Submerged Pump</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h5>Stationary Engine</h5>
+                            <p>Global No.1 engine manufacturer</p>
+                            <ul class="productList">
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img12.jpg" alt="">
+                                       <span>Gas</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img13.jpg" alt="">
+                                        <span>Dual Fuel</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/products/overview_img14.jpg" alt="">
+                                        <span>Liquid Fuel</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </section>
+                    <div class="newsList">
+                        <div class="newsWithTitle">
+                            <div class="titForm">
+                                <h3 class="contTit">News</h3>
+                                <a href="javascript:;" role="button" class="btn isArrow">
+                                    <span>view more</span>
+                                </a>
+                            </div>
+                            <ul class="newsVideoLayout">
+                                <li>
+                                    <a href="#">
+                                        <div class="thumbnail">
+                                            <img src="/assets/images/temp/temp_products01.jpg" alt="">
+                                        </div>
+                                        <div class="txtCnts">
+                                            <span class="utilBox">
+                                                <span class="category text-energy">ENERGY</span>
+                                            </span>
+                                            <p class="txt">
+                                                HHI developed its own eco-friendly HiMSEN Dual-Fuel Engine control
+                                                systemHHI developed its own eco-friendly HiMSEN Dual-Fuel Engine
+                                                control system
+                                            </p>
+                                            <span class="date">06.21.2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="thumbnail">
+                                            <img src="/assets/images/temp/temp_products01.jpg" alt="">
+                                        </div>
+                                        <div class="txtCnts">
+                                            <span class="utilBox">
+                                                <span class="category text-marine">MARINE</span>
+                                            </span>
+                                            <p class="txt">
+                                                HHI developed its own eco-friendly HiMSEN Dual-Fuel Engine control
+                                                system
+                                            </p>
+                                            <span class="date">06.21.2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="thumbnail">
+                                            <img src="/assets/images/temp/temp_products01.jpg" alt="">
+                                        </div>
+                                        <div class="txtCnts">
+                                            <span class="utilBox">
+                                                <span class="category text-energy">ENERGY</span>
+                                            </span>
+                                            <p class="txt">
+                                                HHI developed its own eco-friendly HiMSEN Dual-Fuel Engine control
+                                                systemHHI developed its own eco-friendly HiMSEN Dual-Fuel Engine
+                                                control system
+                                            </p>
+                                            <span class="date">06.21.2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="thumbnail">
+                                            <img src="/assets/images/temp/temp_products01.jpg" alt="">
+                                        </div>
+                                        <div class="txtCnts">
+                                            <span class="utilBox">
+                                                <span class="category text-marine">MARINE</span>
+                                            </span>
+                                            <p class="txt">
+                                                HHI developed its own eco-friendly HiMSEN Dual-Fuel Engine control
+                                                system
+                                            </p>
+                                            <span class="date">06.21.2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>                    
+                </div>
 
-                <section>
-                    <div></div>
-                </section>
             </div>
 
             <!-- footer -->
@@ -414,7 +604,7 @@
 <footer id="footer">
     <div class="inner">
         <div class="ftTop">
-            <h2 class="ftLogo"><img src="/distHyundai/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
             <div class="ftSiteMap">
                 <ul>
                     <li><a href="#">Marine Solution</a></li>
@@ -458,7 +648,7 @@
         </div>
 
         <!-- script import -->
-        <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+        <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 

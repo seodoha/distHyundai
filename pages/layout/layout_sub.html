@@ -13,7 +13,7 @@
 	<meta property="og:description" content="현대중공업 엔진기계사업부">
 	<meta property="og:url" content="">
 	<title>현대중공업 엔진기계사업부</title>
-	<link href="/distHyundai/assets/css/common.min.css" rel="stylesheet">
+	<link href="/assets/css/common.min.css" rel="stylesheet">
 
         <style>
             h2.guideTit {
@@ -40,12 +40,12 @@
         <div class="inner">
             <h1 class="logo">
                 <a href="#">
-                    <img src="/distHyundai/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
-                    <img src="/distHyundai/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_on.png" class="logoCommon" alt="HYUNDAI ENGINE & MACHINERY">
+                    <img src="/assets/images/common/logo_head_main.png" class="logoMain" alt="HYUNDAI ENGINE & MACHINERY">
                 </a>
             </h1>
             <ul class="hdUtil">
-                <li><a href="#">About us</a></li>
+                <li><a href="#" class="on">About us</a></li> <!-- 클래스 on 추가하면 활성화 -->
                 <li><a href="#">Media</a></li>
                 <li><a href="#">Contact us</a></li>
             </ul>
@@ -339,8 +339,9 @@
         <div class="lnb">
             <div class="inner">
             
-                <ul>
-                    <li><a href="#" class="on">Crude Oil Tanker</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                <ul class="pcView">
+                    <li><a href="#" class="on">Overview</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                    <li><a href="#">Crude Oil Tanker</a></li>
                     <li><a href="#">Product &amp; Chemical Tanker</a></li>
                     <li><a href="#">Container</a></li>
                     <li><a href="#">LNG Carrier &amp; Bunkering</a></li>
@@ -352,21 +353,26 @@
                     <li><a href="#">Offshore</a></li>
                     <li><a href="#">Fishing</a></li>
                     <li><a href="#">Naval &amp; Special Purpose</a></li>
+                    <li><a href="#">Engine Selector</a></li>
                 </ul>
-                <select title="Marine Solution 하위 메뉴">
-                    <option value="">Crude Oil Tanker</option>
-                    <option>Product &amp; Chemical Tanker</option>
-                    <option>Container</option>
-                    <option>LNG Carrier &amp; Bunkering</option>
-                    <option>LPG Carrier</option>
-                    <option>Bulk Carrier</option>
-                    <option>Ro-Ro</option>
-                    <option>Passenger</option>
-                    <option>TUG</option>
-                    <option>Offshore</option>
-                    <option>Fishing</option>
-                    <option>Naval &amp; Special Purpose</option>
-                </select>
+                <div class="moView">
+                    <button class="current">Crude Oil Tanker</button>
+                    <ul>
+                        <li><a href="javascript:;" class="on">Crude Oil Tanker</a></li> <!-- 클래스 on 추가하면 활성화 -->
+                        <li><a href="javascript:;">Product &amp; Chemical Tanker</a></li>
+                        <li><a href="javascript:;">Container</a></li>
+                        <li><a href="javascript:;">LNG Carrier &amp; Bunkering</a></li>
+                        <li><a href="javascript:;">LPG Carrier</a></li>
+                        <li><a href="javascript:;">Bulk Carrier</a></li>
+                        <li><a href="javascript:;">Ro-Ro</a></li>
+                        <li><a href="javascript:;">Passenger</a></li>
+                        <li><a href="javascript:;">TUG</a></li>
+                        <li><a href="javascript:;">Offshore</a></li>
+                        <li><a href="javascript:;">Fishing</a></li>
+                        <li><a href="javascript:;">Naval &amp; Special Purpose</a></li>
+                    </ul>
+                </div>
+            
             
             
             
@@ -386,7 +392,7 @@
                         <h2 class="subTit">Propulsion System</h2>
                         <span class="categoryTit">MARINE</span>
                     </div>
-                    <img src="/distHyundai/assets/images/temp/bg_sub01.png" alt="" />
+                    <img src="/assets/images/temp/bg_sub01.png" alt="" />
                 </section>
                 <!-- //Key Visual -->
 
@@ -406,7 +412,7 @@
 <footer id="footer">
     <div class="inner">
         <div class="ftTop">
-            <h2 class="ftLogo"><img src="/distHyundai/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
+            <h2 class="ftLogo"><img src="/assets/images/common/logo_foot.svg" alt="HYUNDAI ENGINE & MACHINERY"></h2>
             <div class="ftSiteMap">
                 <ul>
                     <li><a href="#">Marine Solution</a></li>
@@ -450,7 +456,7 @@
         </div>
 
         <!-- script import -->
-        <script src="/distHyundai/assets/js/lib/jquery.import.js"></script>
+        <script src="/assets/js/lib/jquery.import.js"></script>
 
 
 
