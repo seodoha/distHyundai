@@ -5,6 +5,8 @@ var uiCommon = function (uiCommon, $window) {
     uiCommon.gnb.init(); // GNB
 
     uiCommon.component.init(); // 컴포넌트
+
+    uiCommon.mc.init(); // 개인용
   };
 
   uiCommon.gnb = {
@@ -14,29 +16,28 @@ var uiCommon = function (uiCommon, $window) {
     },
     pc: function pc() {
       var $wrap = $("#wrap"),
-          $subWrap = $wrap.hasClass("mainWrap"),
           $depth1 = $(".depth1 > li"),
           $btnLang = $(".btnLang"),
           $hdUtil = $(".hdUtil");
       $depth1.find("> a").on("focusin", function () {
         $depth1.removeClass("active");
         $(this).parent().addClass("active");
-        !$subWrap && $wrap.addClass("isHover");
+        $wrap.addClass("isHover");
       });
       $depth1.on("mouseenter", function () {
         $(this).addClass("active");
-        !$subWrap && $wrap.addClass("isHover");
+        $wrap.addClass("isHover");
       }).on("mouseleave", function () {
         $(this).removeClass("active");
-        !$subWrap && $wrap.removeClass("isHover");
+        $wrap.removeClass("isHover");
       });
       $btnLang.on("focusin", function () {
         $depth1.removeClass("active");
-        !$subWrap && $wrap.removeClass("isHover");
+        $wrap.removeClass("isHover");
       });
       $hdUtil.find("a").on("focusin", function () {
         $depth1.removeClass("active");
-        !$subWrap && $wrap.removeClass("isHover");
+        $wrap.removeClass("isHover");
       });
     },
     mobile: function mobile() {
@@ -122,6 +123,8 @@ var uiCommon = function (uiCommon, $window) {
       $('.contentsPopUp').length > 0 && uiCommon.component.popUp.init(); // 컨텐츠 팝업
 
       $('.swiper').length > 0 && uiCommon.component.swiperSlide.init(); // swiper
+
+      $('.mainPop').length > 0 && uiCommon.component.mainPop.init(); // 메인 팝업
     },
     arrFiltering: function arrFiltering(v) {
       return v = v.filter(function (item) {
@@ -219,7 +222,7 @@ var uiCommon = function (uiCommon, $window) {
                 width = $items.width(),
                 margin = parseInt($items.css('margin-right')),
                 length = $items.length,
-                result = width * length + margin * length;
+                result = width * length + margin * length + 5;
             $('> ul', this).width(result);
           });
         }
@@ -332,7 +335,7 @@ var uiCommon = function (uiCommon, $window) {
             countUp2 = new countUp.CountUp('total', 6000),
             countUp3 = new countUp.CountUp('worldW', 60),
             secTop = $('section.countUp').offset().top;
-        var area = document.querySelectorAll('.countNum'),
+        var area = $('.countNum'),
             isCount = true;
         $(window).on('scroll', function (e) {
           var sT = $(this).scrollTop();
@@ -353,7 +356,7 @@ var uiCommon = function (uiCommon, $window) {
             setTimeout(function () {
               countUp3.reset();
               countUp3.start();
-            }, 1500);
+            }, 1200);
           }
         });
       }
@@ -378,6 +381,8 @@ var uiCommon = function (uiCommon, $window) {
             uiCommon.component.dim.hide('search');
             $('.searchArea').stop().slideUp(400);
             $(this).closest('.hdSearch').removeClass('open');
+            uiCommon.component.lnb.init();
+            $('header').removeClass('fixed');
             $('.lnb').show();
             return;
           }
@@ -495,7 +500,6 @@ var uiCommon = function (uiCommon, $window) {
         $('.clickCity>li').on('click', function (e) {
           e.preventDefault();
           var city = $(this).attr('data-city');
-          console.log(city);
           $('.popUpCity>li').each(function (index) {
             if ($(this).attr('data-city') == city) {
               $('.popUpCity').addClass('show');
@@ -541,6 +545,30 @@ var uiCommon = function (uiCommon, $window) {
         uiCommon.component.swiperSlide.energyPart();
       },
       energyPart: function energyPart() {
+        var energyOverview = new Swiper('.energyKv', {
+          loop: true,
+          slidesPerView: 1,
+          pagination: {
+            el: '.swiper-pagination.energyUtil',
+            clickable: true
+          },
+          speed: 1000,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false
+          },
+          allowTouchMove: true
+        });
+        $(".energyKv .btnPause").click(function () {
+          energyOverview.autoplay.stop();
+          $(".energyKv .btnPause").css('display', 'none');
+          $(".energyKv .btnPlay").css('display', 'inline-block');
+        });
+        $(".energyKv .btnPlay").click(function () {
+          energyOverview.autoplay.start();
+          $(".energyKv .btnPlay").css('display', 'none');
+          $(".energyKv .btnPause").css('display', 'inline-block');
+        });
         var refSlider = new Swiper('.refSlider', {
           loop: true,
           slidesPerView: 1,
@@ -549,10 +577,93 @@ var uiCommon = function (uiCommon, $window) {
           },
           autoplay: {
             delay: 2000
-          }
+          },
+          observer: true,
+          observeParents: true
         });
       }
+    },
+    mainPop: {
+      init: function init() {
+        var $mainPop = $('.mainPop'),
+            $close = $('.mainClose');
+        var hideYn;
+        hideYn = get_cookie('mainPop');
+        !hideYn ? uiCommon.component.layer.open('mainPop', 'dim') : uiCommon.component.layer.close('mainPop');
+        $close.on('click', function (e) {
+          $mainPop.find('input').is(':checked') && set_cookie('mainPop', 'Y', 1);
+          uiCommon.component.layer.close('mainPop');
+        });
+
+        function set_cookie(cookieName, value, exdays) {
+          var exdate = new Date(),
+              cookieValue;
+          exdate.setDate(exdate.getDate() + exdays);
+          cookieValue = escape(value) + (exdays == null ? "" : "; expires=" + exdate.toGMTString());
+          document.cookie = cookieName + "=" + cookieValue;
+        }
+
+        function get_cookie(cookieName) {
+          cookieName = cookieName + '=';
+          var cookieData = document.cookie,
+              start = cookieData.indexOf(cookieName),
+              cookieValue = '';
+
+          if (start != -1) {
+            start += cookieName.length;
+            var end = cookieData.indexOf(';', start);
+            if (end == -1) end = cookieData.length;
+            cookieValue = cookieData.substring(start, end);
+          }
+
+          return unescape(cookieValue);
+        }
+      }
     }
+  };
+  uiCommon.mc = {
+    init: function init() {
+      if ($(".detail").length > 0) {
+        uiCommon.mc.evt();
+        uiCommon.mc.swipe();
+      }
+
+      ;
+    },
+    evt: function evt() {
+      var $obj = $('.detail .btnBox .btnDownload');
+      $obj.on('click', function () {
+        uiCommon.mc.toggle($(this).next('ul'));
+      });
+    },
+    toggle: function toggle($obj) {
+      $obj.fadeToggle(300);
+    },
+    swipe: function swipe() {
+      var $indi = $('.indicator li'),
+          $items = $indi.find('button');
+      var detailSlider = new Swiper('.swipeWrap .list', {
+        loop: true,
+        slidesPerView: 1,
+        observer: true,
+        observeParents: true,
+        navigation: {
+          prevEl: ".prevEl",
+          nextEl: ".nextEl"
+        },
+        on: {
+          slideChange: function slideChange() {
+            $indi.eq(this.realIndex).find('button').addClass('on').closest('li').siblings('li').find('button').removeClass('on');
+          }
+        }
+      });
+      $indi.eq(0).find('button').addClass('on');
+      $items.on('click', function () {
+        $(this).addClass('on').closest('li').siblings('li').find('button').removeClass('on');
+        detailSlider.slideTo($(this).parent('li').index() + 1);
+      });
+    },
+    indicator: function indicator() {}
   };
   uiCommon.init();
   return uiCommon;

@@ -225,6 +225,8 @@
                                     <ul class="tab ty02">
                                         <li><a href="javascript:;" class="on">Title</a></li>
                                         <li><a href="javascript:;">Title</a></li>
+                                        <li><a href="javascript:;">Title</a></li>
+                                        <li><a href="javascript:;">Title</a></li>
                                     </ul>
                                     <div class="tabContent">
                                         <div class="on">content01</div>
@@ -241,16 +243,10 @@
         </div>
 
         <!-- main layer popup -->
-        <div class="layer alertLayer mainLayer">
-            <!-- 메인 공지 팝업일 경우 alertLayer 클래스 추가 -->
-            <!-- <a href="javascript: uiCommon.component.layer.close('mainLayer');" class="popClose">팝업 닫기</a> -->
-            <a href="javascript:;" target-layer-close="mainLayer" class="popClose">팝업 닫기</a>
+        <div class="layer mainPop mainLayer"><!-- 메인 공지 팝업일 경우 mainAlert 클래스 추가 -->
             <!-- popContent -->
             <div class="popCont">
-                <span class="alertDesc mainLayerDesc">
-                    <strong>Website Renewal</strong>
-                    <span>Hyundai Heavy Industries Machinery Division website Newly revamped!</span>
-                </span>
+                <a href="#"><img src="/distHyundai/assets/images/temp/temp_mainPop.png" alt=""></a>
             </div>
             <!--// popContent -->
             <!--popFoot -->
@@ -259,6 +255,7 @@
                     <input type="checkbox" id="check01" name="checks" />
                     <label for="check01"><span></span>Not open again today</label>
                 </div>
+                <a href="javascript:;" target-layer-close="mainLayer" class="mainClose">Close</a>
             </div>
             <!--// popFoot -->
         </div>
