@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21.414" height="21.414">
-    <defs>
-        <style>
-            .cls-1{fill:none;stroke:#0e263c;stroke-width:2px}
-        </style>
-    </defs>
-    <g id="구성_요소_40_1" data-name="구성 요소 40 – 1" transform="translate(.707 .707)">
-        <path id="선_1277" data-name="선 1277" class="cls-1" d="M0 20 20 0"/>
-        <path id="선_1278" data-name="선 1278" class="cls-1" d="M20 20 0 0"/>
-    </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="21.414" height="21.414"><defs><style>.cls-1{fill:none;stroke:#0e263c;stroke-width:2px}</style></defs><g id="구성_요소_40_1" data-name="구성 요소 40 – 1" transform="translate(.707 .707)"><path id="선_1277" data-name="선 1277" class="cls-1" d="M0 20L20 0"/><path id="선_1278" data-name="선 1278" class="cls-1" d="M20 20L0 0"/></g></svg>

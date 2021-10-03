@@ -1,16 +1,1 @@
-<svg id="구성_요소_33_1" data-name="구성 요소 33 – 1" xmlns="http://www.w3.org/2000/svg" width="23" height="23">
-    <defs>
-        <style>
-            .cls-1,.cls-3{fill:none}.cls-1{stroke:#fff;stroke-width:2px}.cls-2{stroke:none}
-        </style>
-    </defs>
-    <g id="타원_167" data-name="타원 167" class="cls-1">
-        <circle class="cls-2" cx="11.5" cy="11.5" r="11.5"/>
-        <circle class="cls-3" cx="11.5" cy="11.5" r="10.5"/>
-    </g>
-    <g id="타원_168" data-name="타원 168" class="cls-1" transform="translate(6)">
-        <ellipse class="cls-2" cx="5.5" cy="11.5" rx="5.5" ry="11.5"/>
-        <ellipse class="cls-3" cx="5.5" cy="11.5" rx="4.5" ry="10.5"/>
-    </g>
-    <path id="선_1228" data-name="선 1228" class="cls-1" transform="translate(.564 11.299)" d="M0 0h21.468"/>
-</svg>
+<svg id="구성_요소_33_1" data-name="구성 요소 33 – 1" xmlns="http://www.w3.org/2000/svg" width="23" height="23"><defs><style>.cls-1,.cls-3{fill:none}.cls-1{stroke:#fff;stroke-width:2px}.cls-2{stroke:none}</style></defs><g id="타원_167" data-name="타원 167" class="cls-1"><circle class="cls-2" cx="11.5" cy="11.5" r="11.5"/><circle class="cls-3" cx="11.5" cy="11.5" r="10.5"/></g><g id="타원_168" data-name="타원 168" class="cls-1" transform="translate(6)"><ellipse class="cls-2" cx="5.5" cy="11.5" rx="5.5" ry="11.5"/><ellipse class="cls-3" cx="5.5" cy="11.5" rx="4.5" ry="10.5"/></g><path id="선_1228" data-name="선 1228" class="cls-1" transform="translate(.564 11.299)" d="M0 0h21.468"/></svg>

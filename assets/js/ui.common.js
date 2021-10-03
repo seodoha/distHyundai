@@ -47,11 +47,19 @@ var uiCommon = function (uiCommon, $window) {
           $moGnb = $("#moGnb"),
           $dep1 = $moGnb.find("> li > button");
       $moBtn.on("click", function () {
+        $('body').css({
+          'overflow': 'hidden'
+        });
         $moEl.addClass("open");
+        uiCommon.component.dim.show('moMenu');
         uiCommon.component.lnb.destroy();
       });
       $moClose.on("click", function () {
+        $('body').css({
+          'overflow': 'auto'
+        });
         $moEl.removeClass("open");
+        uiCommon.component.dim.hide('moMenu');
         uiCommon.component.topMove.init();
 
         if ($(".mainWrap").length == 0) {
@@ -125,6 +133,8 @@ var uiCommon = function (uiCommon, $window) {
       $('.swiper').length > 0 && uiCommon.component.swiperSlide.init(); // swiper
 
       $('.mainPop').length > 0 && uiCommon.component.mainPop.init(); // 메인 팝업
+
+      $('.mediaVideo').length > 0 && uiCommon.component.mediaYoutube.init(); // 미디어 파트 유튜브 이동
     },
     arrFiltering: function arrFiltering(v) {
       return v = v.filter(function (item) {
@@ -157,6 +167,9 @@ var uiCommon = function (uiCommon, $window) {
         }).stop().fadeIn("fast").focus();
         d == "dim" && uiCommon.component.dim.show(t);
         $('.dim').css('z-index', '101');
+        $('body').css({
+          'overflow': 'hidden'
+        });
       },
       close: function close(t) {
         // 레이어 팝업이 한개 띄워져 있을 경우에만 body scroll 가능하도록 설정
@@ -167,6 +180,9 @@ var uiCommon = function (uiCommon, $window) {
           "aria-hidden": "true"
         }).stop().fadeOut("fast");
         uiCommon.component.layer.obj && uiCommon.component.layer.obj.focus();
+        $('body').css({
+          'overflow': 'auto'
+        });
       }
     },
     dim: {
@@ -207,8 +223,17 @@ var uiCommon = function (uiCommon, $window) {
     },
     familySite: {
       init: function init() {
-        $(".familyBox button").on("click", function () {
-          $(this).parent().toggleClass("on");
+        var $box = $(".familyBox"),
+            $button = $(".familyBox button"),
+            $list = $('.familyList');
+        $button.on("click", function () {
+          if ($box.hasClass('on')) {
+            $box.removeClass('on');
+            $list.stop().slideUp('fast');
+          } else {
+            $box.addClass('on');
+            $list.stop().slideDown('fast');
+          }
         });
       }
     },
@@ -257,7 +282,9 @@ var uiCommon = function (uiCommon, $window) {
             $(".btnTop").css({
               bottom: "100px"
             });
-          }
+          } // 2021.09.30 sb 수정요청사항 반영
+          // $(".btnTop").css({ bottom: "348px" });
+
         });
       },
       clickEv: function clickEv() {
@@ -465,19 +492,36 @@ var uiCommon = function (uiCommon, $window) {
       },
       pc: function pc() {
         var $header = $("header");
-        var oldScroll, scrollY;
-        window.addEventListener('mousewheel', function (e) {
-          if (!$('header').hasClass('fixed')) {
-            if (e.wheelDelta > 0 || e.detail < 0) {
-              $header.addClass('upScrolling');
-            } else if (e.wheelDelta < 0 || e.detail > 0) {
-              $header.removeClass('upScrolling');
-            }
-          }
-        }, true);
-        $window.on('scroll', function (e) {
+        var oldScroll = $window.scrollTop(),
+            scrollY; // window.addEventListener('mousewheel', function(e) {
+        //     if ( !$('header').hasClass('fixed') ) {
+        //         if(e.wheelDelta > 0 ||  e.detail < 0){
+        //             $header.addClass('upScrolling');
+        //         }
+        //         else if(e.wheelDelta < 0 ||  e.detail > 0){
+        //             $header.removeClass('upScrolling');
+        //         }
+        //     }
+        // }, true);
+
+        $window.on('wheel scroll', function (e) {
           scrollY = $(this).scrollTop();
           scrollY > 0 ? $header.addClass('scrolling') : $header.removeClass('scrolling');
+
+          if (oldScroll > scrollY) {
+            $header.addClass('upScrolling');
+          } else if (oldScroll < scrollY) {
+            $header.removeClass('upScrolling');
+          }
+
+          oldScroll = scrollY; // if ( !$('header').hasClass('fixed') ) {
+          //     if(e.originalEvent.wheelDelta > 0 ||  e.originalEvent.detail < 0){
+          //         $header.addClass('upScrolling');
+          //     }
+          //     else if(e.originalEvent.wheelDelta < 0 ||  e.originalEvent.detail > 0){
+          //         $header.removeClass('upScrolling');
+          //     }
+          // }
         });
       },
       mobile: function mobile() {
@@ -619,6 +663,18 @@ var uiCommon = function (uiCommon, $window) {
           return unescape(cookieValue);
         }
       }
+    },
+    mediaYoutube: {
+      init: function init() {
+        var mainVidTop = $(".iframeWrap").offset().top;
+        var lnbH = $(".lnb").height();
+        $(".mediaVideo").on("click", function () {
+          $("html,body").animate({
+            scrollTop: mainVidTop - lnbH //스크롤탑 수치 넣기
+
+          }, 200);
+        }); // 위로 올라가서 '클릭되는 클래스' 넣기
+      }
     }
   };
   uiCommon.mc = {
@@ -629,6 +685,7 @@ var uiCommon = function (uiCommon, $window) {
       }
 
       ;
+      $(".productList").length > 0 && uiCommon.mc.productList();
     },
     evt: function evt() {
       var $obj = $('.detail .btnBox .btnDownload');
@@ -663,7 +720,10 @@ var uiCommon = function (uiCommon, $window) {
         detailSlider.slideTo($(this).parent('li').index() + 1);
       });
     },
-    indicator: function indicator() {}
+    productList: function productList() {
+      var $obj = $('.productList a img');
+      $obj.wrap('<em></em>');
+    }
   };
   uiCommon.init();
   return uiCommon;

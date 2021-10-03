@@ -1,7 +1,1 @@
-<svg data-name="구성 요소 13 – 1" xmlns="http://www.w3.org/2000/svg" width="16.707" height="16.707">
-    <g style="stroke-miterlimit:10;fill:none">
-        <path d="M50.077 43.038A7.039 7.039 0 1 1 43.039 36a7.038 7.038 0 0 1 7.038 7.038z" style="stroke:none" transform="translate(-36 -36)"/>
-        <path d="M43.039 38A5.044 5.044 0 0 0 38 43.038c0 2.779 2.26 5.04 5.039 5.04a5.045 5.045 0 0 0 5.038-5.04A5.044 5.044 0 0 0 43.04 38m0-2a7.038 7.038 0 1 1 0 14.077 7.038 7.038 0 1 1 0-14.077z" style="fill:#02263e;stroke:none" transform="translate(-36 -36)"/>
-    </g>
-    <path data-name="layer1" d="m0 0 4.953 4.953" transform="translate(11.047 11.047)" style="stroke:#02263e;stroke-width:2px;fill:none"/>
-</svg>
+<svg data-name="구성 요소 13 – 1" xmlns="http://www.w3.org/2000/svg" width="16.707" height="16.707"><g stroke-miterlimit="10" fill="none"><path d="M14.077 7.038A7.039 7.039 0 117.039 0a7.038 7.038 0 017.038 7.038z"/><path d="M7.039 2A5.044 5.044 0 002 7.038c0 2.779 2.26 5.04 5.039 5.04a5.045 5.045 0 005.038-5.04A5.044 5.044 0 007.04 2m0-2a7.038 7.038 0 110 14.077A7.038 7.038 0 117.04 0z" fill="#02263e"/></g><path data-name="layer1" d="M11.047 11.047L16 16" stroke="#02263e" stroke-width="2" fill="none"/></svg>
