@@ -18107,7 +18107,7 @@ button.swiper-pagination-bullet {
     top: 18.6667vw;
     left: 50%;
     width: 58.6667vw;
-    height: 58.6667vw;
+    height: auto;
     margin-right: 0;
   }
   #wrap.energySolution #container.overview .inner .energyForAll p {
