@@ -135,6 +135,8 @@ var uiCommon = function (uiCommon, $window) {
       $('.mainPop').length > 0 && uiCommon.component.mainPop.init(); // 메인 팝업
 
       $('.mediaVideo').length > 0 && uiCommon.component.mediaYoutube.init(); // 미디어 파트 유튜브 이동
+
+      $('.nice-select').length > 0 && uiCommon.component.selectColor.init(); // 셀렉트박스 선택 시 컬러 변경
     },
     arrFiltering: function arrFiltering(v) {
       return v = v.filter(function (item) {
@@ -670,10 +672,27 @@ var uiCommon = function (uiCommon, $window) {
         var lnbH = $(".lnb").height();
         $(".mediaVideo").on("click", function () {
           $("html,body").animate({
-            scrollTop: mainVidTop - lnbH //스크롤탑 수치 넣기
+            scrollTop: mainVidTop - lnbH - 120 //스크롤탑 수치 넣기
 
           }, 200);
         }); // 위로 올라가서 '클릭되는 클래스' 넣기
+      }
+    },
+    selectColor: {
+      init: function init() {
+        $('.formWidth .nice-select ul.list li').each(function () {
+          var _this = this;
+
+          $(this).on('click', function () {
+            console.log($(_this).index(0));
+
+            if ($(_this).index() == 0) {
+              $(_this).parent().siblings('.formWidth .current').css('color', '#cccccc');
+            } else {
+              $(_this).parent().siblings('.formWidth .current').css('color', '#02263e');
+            }
+          });
+        });
       }
     }
   };
