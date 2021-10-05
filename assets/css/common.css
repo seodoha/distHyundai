@@ -2447,7 +2447,7 @@ textarea {
   }
   .tabWrap .tab li a {
     padding: 2.4vw;
-    border: 4px solid #ececec;
+    border: 0.5333vw solid #ececec;
     font-size: 3.2vw;
   }
   .tabWrap .tab.ty02 li {
@@ -5338,6 +5338,7 @@ header .hdBottom > .inner .hdSearch .searchArea .searchBox input:not([type=radio
   border: 2px solid #249fe8;
   font-size: 32px;
   font-family: "Manrope_semiBold";
+  color: #02263e;
 }
 header .hdBottom > .inner .hdSearch .searchArea .searchBox .btnSearch {
   width: 30px;
@@ -12268,7 +12269,6 @@ button.swiper-pagination-bullet {
 }
 #wrap.mainWrap #container .hoverView a svg {
   opacity: 0;
-  transition: opacity 0.5s;
   z-index: 99;
   position: relative;
 }
@@ -12340,6 +12340,7 @@ button.swiper-pagination-bullet {
   opacity: 1;
 }
 #wrap.mainWrap #container .hoverView a.active svg {
+  transition: opacity 0.5s;
   opacity: 1;
 }
 #wrap.mainWrap #container .hoverView a.active.blue h2 {
@@ -13796,11 +13797,14 @@ button.swiper-pagination-bullet {
 }
 /*  ~ 280 */
 @media (max-width: 280px) {
-  #wrap.mainWrap .hoverView a.blue p {
-    top: 9.6198vw;
-    width: 55.8854vw;
+  #wrap.mainWrap #container .hoverView a.blue h2 {
+    top: 15.0667vw;
   }
-  #wrap.mainWrap .hoverView a.orange p {
+  #wrap.mainWrap #container .hoverView a.blue p {
+    top: 9.0667vw;
+    width: 54.4667vw;
+  }
+  #wrap.mainWrap #container .hoverView a.orange p {
     top: -2.3021vw;
     left: 12.3958vw;
     width: 78.2292vw;
@@ -17966,22 +17970,24 @@ button.swiper-pagination-bullet {
     line-height: 10.6667vw;
     color: #249fe8;
     text-align: left;
-    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(1) {
     padding-left: 13.3333vw;
-    background-image: url("/distHyundai/assets/images/energy/icon_newyork_01.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_01.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(2) {
     margin-right: 0;
-    background-image: url("/distHyundai/assets/images/energy/icon_newyork_02.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_02.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(3) {
     margin-right: 0;
-    background-image: url("/distHyundai/assets/images/energy/icon_newyork_03.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_03.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner p {
     margin-bottom: 4vw;
@@ -18091,48 +18097,57 @@ button.swiper-pagination-bullet {
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(1) {
-    background-image: url("/distHyundai/assets/images/energy/icon_newyork_03.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_03.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(2) {
-    background-image: url("/distHyundai/assets/images/energy/icon_panama_01.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_panama_01.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(3) {
-    background-image: url("/distHyundai/assets/images/energy/icon_panama_02.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_panama_02.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] {
     background: url("/distHyundai/assets/images/energy/popUpCity_cuba.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(1) {
-    background-image: url("/distHyundai/assets/images/energy/icon_cuba_01.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_01.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(2) {
-    background-image: url("/distHyundai/assets/images/energy/icon_cuba_02.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_02.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(3) {
-    background-image: url("/distHyundai/assets/images/energy/icon_cuba_03.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_03.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] {
     background: url("/distHyundai/assets/images/energy/popUpCity_colombia.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(1) {
-    background-image: url("/distHyundai/assets/images/energy/icon_cuba_02.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_02.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(2) {
-    background-image: url("/distHyundai/assets/images/energy/icon_newyork_02.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_02.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(3) {
-    background-image: url("/distHyundai/assets/images/energy/icon_panama_02.png");
-    background-position: 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_panama_02.png") no-repeat 4vw center;
+    background-size: 6.6667vw;
+    background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .solutionService {
     margin-top: 16vw;
