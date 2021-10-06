@@ -12260,6 +12260,7 @@ button.swiper-pagination-bullet {
   font-family: "OpenSans_bold";
   font-size: 45px;
   transition: all 0.7s;
+  letter-spacing: -0.4px;
 }
 #wrap.mainWrap #container .hoverView a p {
   position: absolute;
@@ -12797,6 +12798,7 @@ button.swiper-pagination-bullet {
     height: 6.25vw;
     line-height: 6.25vw;
     font-size: 2.3438vw;
+    letter-spacing: -0.0208vw;
   }
   #wrap.mainWrap #container .hoverView a p {
     font-size: 1.25vw;
@@ -12819,7 +12821,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.mainWrap #container .hoverView a.orange p {
     top: 10.3125vw;
-    left: 22.3958vw;
+    left: 22vw;
     width: 44.375vw;
   }
   #wrap.mainWrap #container .hoverView a.orange svg {
@@ -12841,7 +12843,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.mainWrap #container .hoverView a.active.orange h2 {
     top: 3.6458vw;
-    left: 57.8125vw;
+    left: 57.7vw;
   }
   #wrap.mainWrap #container .productsArea ul {
     width: 87.5vw;
