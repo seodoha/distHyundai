@@ -690,7 +690,7 @@ address {
   background-image: url(/distHyundai/assets/images/common/ico_btnArrow_black.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: contain;
 }
 .btn.isArrow.btnNavy span::after {
   background-image: url(/distHyundai/assets/images/common/ico_btnArrow_white.svg);
@@ -27434,13 +27434,17 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 0;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li {
   width: 33%;
+  height: 200px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li:nth-child(2) {
   border-left: 1px solid #ccc;
+}
+#wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf {
+  padding-bottom: 0;
 }
 #wrap.aboutus #container.greeting section.kv {
   background: #ececec;
@@ -28107,6 +28111,7 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
   width: 33%;
+  height: 200px;
 }
 #wrap.aboutus #container.himsen .btnHalf_wrap ul li:nth-child(2) {
   border-left: 1px solid #ccc;
@@ -28206,6 +28211,13 @@ button.swiper-pagination-bullet {
   font-size: 18px;
 }
 
+/* 769 ~ 1920 */
+@media (min-width: 769px) and (max-width: 1920px) {
+  .btnHalf dl {
+    width: 26.5625vw;
+    padding-right: 2.6042vw;
+  }
+}
 /* 769 ~ 1440 */
 @media (min-width: 769px) and (max-width: 1440px) {
   #wrap.aboutus #container.visionMission .contentsWrap {
@@ -28411,6 +28423,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li {
     width: 33%;
+    height: 13.8889vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li:nth-child(2) {
     border-left: 0.0694vw solid #ccc;
@@ -28938,6 +28951,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
     width: 33%;
+    height: 13.8889vw;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li:nth-child(2) {
     border-left: 0.0694vw solid #ccc;
@@ -29355,6 +29369,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li {
     width: 100%;
+    height: auto;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li:nth-child(2) {
     border-left: none;
@@ -29693,7 +29708,7 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
   #wrap.aboutus #container.himsen .kv .txtBox .subTit {
-    font-size: 96px;
+    font-size: 60px;
   }
   #wrap.aboutus #container.himsen .kv .linkList {
     display: table;
@@ -29738,43 +29753,44 @@ button.swiper-pagination-bullet {
     color: #249fe8;
   }
   #wrap.aboutus #container.himsen .pageTit {
-    margin: 70px auto 140px;
+    margin: 80px auto 120px;
   }
   #wrap.aboutus #container.himsen .pageTit .subTit {
     text-align: left;
   }
   #wrap.aboutus #container.himsen .pageTit .aboutSubTit {
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
     color: #9ea2a3;
     text-align: left;
     font-size: 36px;
   }
   #wrap.aboutus #container.himsen .pageTit .images .top img {
-    margin-right: 24px;
-    width: 384px;
+    margin-right: 14px;
+    width: 220px;
   }
   #wrap.aboutus #container.himsen .pageTit .images .top img:last-child {
     margin-right: 0;
   }
   #wrap.aboutus #container.himsen .pageTit .images .bot {
     position: relative;
-    margin-top: 24px;
+    margin-top: 14px;
   }
   #wrap.aboutus #container.himsen .pageTit .images .bot span {
     position: absolute;
-    right: 50px;
-    bottom: 50px;
+    right: 30px;
+    bottom: 30px;
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 36px;
     color: #fff;
     text-align: right;
   }
   #wrap.aboutus #container.himsen .pageTit .explain {
-    margin: 40px 0;
-    font-size: 0;
-    font-size: 20px;
+    width: auto;
+    margin: 40px 0 0;
+    font-size: 24px;
     font-family: "OpenSans_semiBold";
+    line-height: 1.5;
   }
   #wrap.aboutus #container.himsen .pageTit .explain > * {
     display: inline-block;
@@ -29792,12 +29808,15 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen {
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 120px;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .titForm {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     text-align: right;
+  }
+  #wrap.aboutus #container.himsen .techBoxHimsen .titForm .subTit {
+    font-size: 54px;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen > figure {
     margin-bottom: 100px;
@@ -29809,9 +29828,9 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li {
-    display: table;
+    display: block;
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .thumb {
     width: 690px;
@@ -29820,54 +29839,62 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt {
-    padding-left: 102px;
+    margin-top: 40px;
+    padding-left: 0;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt p {
     font-family: "OpenSans_regular";
-    font-size: 18px;
+    font-size: 24px;
     color: #02263e;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt dl dt {
     margin-bottom: 20px;
     font-size: 36px;
     font-family: "Manrope_extraBold";
+    line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt dl dd {
     font-family: "OpenSans_regular";
-    font-size: 18px;
+    font-size: 24px;
     color: #02263e;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li ~ li {
-    margin-top: 100px;
+    margin-top: 80px;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li > * {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li:nth-child(2) .txt {
-    padding: 0 102px 0 0;
+    padding: 0;
   }
   #wrap.aboutus #container.himsen .durability {
     margin-top: 0;
     margin-bottom: 0;
   }
+  #wrap.aboutus #container.himsen .durability .mdInner .subTit {
+    font-size: 54px;
+  }
+  #wrap.aboutus #container.himsen .durability .mdInner .aboutSubTit {
+    margin-bottom: 40px;
+  }
   #wrap.aboutus #container.himsen .durability .image {
     position: relative;
-    margin-top: 60px;
+    margin-top: 40px;
   }
   #wrap.aboutus #container.himsen .durability .image .back {
     display: inline-block;
-    background: linear-gradient(90deg, white 37.5%, #ececec 37.5%);
+    background: linear-gradient(90deg, white 41.6%, #ececec 41.6%);
     width: 100%;
-    height: 640px;
+    height: 442px;
   }
   #wrap.aboutus #container.himsen .durability .image .img {
+    width: 788px;
     position: absolute;
-    left: -180px;
+    left: -82px;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack {
     background-color: #00263e;
-    padding: 100px 0;
+    padding: 80px 0;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack .secSubTit {
     margin-bottom: 20px;
@@ -29877,15 +29904,18 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack .subTitEx {
     font-family: "OpenSans_regular";
-    font-size: 18px;
+    font-size: 24px;
     color: #9ea2a3;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul {
     overflow: hidden;
-    margin-top: 80px;
+    margin-top: 60px;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li {
     width: 100%;
+  }
+  #wrap.aboutus #container.himsen .durability .gauranteeBack ul li:first-child {
+    margin-bottom: 80px;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li:nth-child(n+2) {
     margin-top: 60px;
@@ -29909,9 +29939,9 @@ button.swiper-pagination-bullet {
     width: 690px;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li figure figcaption {
-    margin-top: 40px;
+    margin-top: 20px;
     font-family: "OpenSans_regular";
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.5;
     color: #fff;
   }
@@ -29920,15 +29950,22 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons {
     display: inline-block;
-    margin-top: 72px;
+    margin-top: 80px;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul {
     display: table;
+    width: auto;
     margin: 0 auto;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul li {
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
+  }
+  #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(3) img {
+    margin-right: 0;
+  }
+  #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(n+4) {
+    margin-top: 40px;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:last-child img {
     margin-right: 0;
@@ -29937,25 +29974,41 @@ button.swiper-pagination-bullet {
     margin-right: 64px;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons p {
-    margin-top: 50px;
+    margin-top: 80px;
     font-family: "OpenSans_bold";
-    font-size: 24px;
+    font-size: 36px;
     color: #848484;
-    line-height: 1.5;
+    line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .growth {
     margin-top: 120px;
     margin-bottom: 120px;
   }
+  #wrap.aboutus #container.himsen .growth .mdInner .subTit {
+    font-size: 54px;
+  }
   #wrap.aboutus #container.himsen .growth .recodBtn {
-    margin-top: 80px;
+    margin-top: 40px;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div {
     display: inline-block;
-    width: 588px;
+    width: 100%;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div:first-child {
-    margin-right: 24px;
+    margin-right: 0;
+  }
+  #wrap.aboutus #container.himsen .growth .recodBtn > div:last-child {
+    margin-top: 80px;
+  }
+  #wrap.aboutus #container.himsen .growth .recodBtn > div:last-child ul {
+    text-align: left;
+  }
+  #wrap.aboutus #container.himsen .growth .recodBtn > div:last-child ul li:first-child {
+    margin-right: 60px;
+  }
+  #wrap.aboutus #container.himsen .growth .recodBtn > div > img {
+    max-width: none;
+    width: 100%;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul {
     margin-top: 40px;
@@ -29963,34 +30016,36 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li {
     display: inline-block;
     font-family: "Manrope_extraBold";
-    font-size: 64px;
+    font-size: 80px;
     color: #249fe8;
+    line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li:first-child {
-    margin-right: 40px;
+    margin-right: 32px;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li em {
     font-style: normal;
-    font-family: "OpenSans_semiBold";
-    font-size: 22px;
+    font-family: "OpenSans_regular";
+    font-size: 32px;
     color: #02263e;
+    line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li span {
     display: block;
     font-family: "OpenSans_semiBold";
-    font-size: 18px;
+    font-size: 24px;
     color: #02263e;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div .btn {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   #wrap.aboutus #container.himsen .growth .growthEx {
     margin-top: 80px;
     font-family: "OpenSans_bold";
-    font-size: 24px;
+    font-size: 36px;
     color: #848484;
-    line-height: 1.5;
+    line-height: 1.25;
     letter-spacing: -0.5px;
   }
   #wrap.aboutus #container.himsen .growth .ex {
@@ -30003,7 +30058,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up {
     overflow: hidden;
     margin-top: -130px;
-    margin-left: 65px;
+    margin-left: 0;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up:after {
     content: "";
@@ -30011,19 +30066,24 @@ button.swiper-pagination-bullet {
     clear: both;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up > div {
-    float: left;
-    width: 384px;
-    margin-right: 48px;
+    float: inherit;
+    width: 534px;
+    margin-right: 0;
+    margin: 0 auto;
   }
-  #wrap.aboutus #container.himsen .growth .ex .exTxt .up > div img:first-child {
-    margin-bottom: 20px;
+  #wrap.aboutus #container.himsen .growth .ex .exTxt .up > div img {
+    width: 100%;
+  }
+  #wrap.aboutus #container.himsen .growth .ex .exTxt .up > div img:last-child {
+    margin-top: 20px;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up p {
-    padding-top: 218px;
+    width: 100%;
     float: left;
-    width: 673px;
+    padding-top: 0;
+    margin-top: 40px;
     font-family: "OpenSans_regular";
-    font-size: 18px;
+    font-size: 24px;
     color: #02263e;
     text-align: left;
     line-height: 1.5;
@@ -30034,9 +30094,10 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .growth .ex .exTxt .down p {
     margin-top: 40px;
     font-family: "OpenSans_regular";
-    font-size: 18px;
+    font-size: 24px;
     color: #02263e;
     line-height: 1.5;
+    text-align: left;
   }
   #wrap.aboutus #container.himsen .towards {
     position: relative;
@@ -30045,29 +30106,33 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .towards .inner {
     position: static;
   }
-  #wrap.aboutus #container.himsen .towards .aboutSubTit {
-    margin-top: 26px;
-    margin-bottom: 194px;
+  #wrap.aboutus #container.himsen .towards .inner .subTit {
+    font-size: 54px;
+  }
+  #wrap.aboutus #container.himsen .towards .inner .aboutSubTit {
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
   #wrap.aboutus #container.himsen .towards .techList li:first-child .thumb {
-    position: absolute;
-    top: 165px;
+    position: static;
+    top: 0;
     right: 0;
-    width: 1045px;
+    width: 700px;
+    transform: translateX(30px);
   }
   #wrap.aboutus #container.himsen .towards .techList li:nth-child(2) {
-    margin-top: 176px;
+    margin-top: 80px;
   }
   #wrap.aboutus #container.himsen .towards .techList li:nth-child(2) .thumb {
     position: relative;
-    left: -60px;
+    left: 0;
   }
   #wrap.aboutus #container.himsen .towards .techList li:nth-child(2) .txt {
-    width: 490px;
+    width: 100%;
     padding: 0;
   }
   #wrap.aboutus #container.himsen .towards .techList li .txt {
-    width: 465px;
+    width: 100%;
     padding: 0;
     text-align: left;
   }
@@ -30079,7 +30144,8 @@ button.swiper-pagination-bullet {
     margin-left: 40px;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
-    width: 33%;
+    width: 100%;
+    height: auto;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li:nth-child(2) {
     border-left: 1px solid #ccc;
@@ -30088,24 +30154,43 @@ button.swiper-pagination-bullet {
     margin: 0;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
-    width: 33.3%;
+    width: 100%;
   }
-  #wrap.aboutus .himsenLayer {
-    height: 876px;
+  #wrap.aboutus .himsenLayer.layer {
+    height: 946px;
   }
-  #wrap.aboutus .himsenLayer .popHead {
+  #wrap.aboutus .himsenLayer.layer .popHead {
     border-color: #02263e;
   }
-  #wrap.aboutus .himsenLayer .popCont {
+  #wrap.aboutus .himsenLayer.layer .popCont {
     margin-bottom: 0;
     height: 751px;
     text-align: center;
+    border: none;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .himsenLayer.layer .popCont::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .himsenLayer.layer .popCont::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.aboutus .himsenLayer.layer .popCont::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 2px solid #fff;
   }
   #wrap.aboutus .himsenLayerFir img {
-    margin-top: 46px;
+    max-width: none;
+    width: 1148px;
+    margin-top: 30px;
+    margin-bottom: 60px;
   }
   #wrap.aboutus .himsenLayerSec img {
-    margin-top: 28px;
+    max-width: none;
+    width: 1220px;
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
   #wrap.aboutus .layer {
     width: 94% !important;
