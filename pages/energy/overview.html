@@ -369,23 +369,16 @@
 
             <!-- Key Visual -->
             <section class="kv">
+                <div class="txtBox titForm">
+                    <h2 class="subTit">For the Energy Needs of <br>Today and Tomorrow</h2>
+                </div>
                 <div class="energyKv swiper">
                     <ul class="swiper-wrapper">
                         <li class="swiper-slide">
                             <img src="/distHyundai/assets/images/energy/overview_kv_01.png" alt="overview main visual">
-                            <div class="txtBox titForm">
-                                <h2 class="subTit">A Clean Energy Solution<br> 
-                                    That Lights Up Every Corner <br class="pcView">
-                                    Of The World</h2>
-                            </div>
                         </li>
                         <li class="swiper-slide">
                             <img src="/distHyundai/assets/images/energy/overview_kv_02.png" alt="overview main visual">
-                            <div class="txtBox titForm">
-                                <h2 class="subTit">A Clean Energy Solution<br> 
-                                    That Lights Up Every Corner <br class="pcView">
-                                    Of The World</h2>
-                            </div>
                         </li>
                     </ul>
                     <div class="swiperUtil">
@@ -878,7 +871,7 @@
             <section class="bannerBox engineLineUp">
                 <div class="inner02 titForm">
                     <h4 class="subBannerTit">Engine <span>Line-Up</span></h4>
-                    <span class="pr">With full range capacity and fuel flexibility To meet your power demands.</span>
+                    <span class="pr">With full range capacity and fuel flexibility<br> To meet your power demands.</span>
                     <div class="btnBox">
                         <a href="#" class="btn isArrow"><span>Gas</span></a>
                         <a href="#" class="btn isArrow"><span>Dual Fuel</span></a>
@@ -1802,7 +1795,6 @@
 
         let current = 0;
 
-        console.log(steps.eq(current));
         btnNext.on('click',function() {
             steps.eq(current).removeClass('on');
             stepList.eq(current).removeClass('current');

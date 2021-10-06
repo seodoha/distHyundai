@@ -348,7 +348,8 @@ var uiCommon = function (uiCommon, $window) {
       },
       numberCommas: function numberCommas(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-      }
+      },
+      sliderTextCtr: function sliderTextCtr() {}
     },
     mCustomScrollBar: {
       init: function init() {

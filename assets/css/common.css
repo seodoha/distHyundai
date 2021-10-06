@@ -884,7 +884,7 @@ address {
 }
 .btnTop.on {
   opacity: 1;
-  z-index: 10;
+  z-index: 20;
   visibility: visible;
 }
 
@@ -12105,7 +12105,7 @@ button.swiper-pagination-bullet {
   color: #249fe8 !important;
 }
 #wrap.mainWrap.isHover #header .hdBottom, #wrap.mainWrap.isHover #header .hdTop {
-  background-color: rgba(2, 38, 62, 0.9);
+  background-color: #02263e;
 }
 #wrap.mainWrap #container .mainBannerSlide {
   height: 100vh;
@@ -13810,35 +13810,15 @@ button.swiper-pagination-bullet {
     width: 78.2292vw;
   }
 }
+.privacy .scrolling .lnb {
+  z-index: -1;
+  visibility: hidden;
+}
 .privacy h2 {
   margin: 70px 0;
   font-size: 72px;
   font-family: "Manrope_extraBold";
   text-align: center;
-}
-.privacy fieldset {
-  margin-bottom: 60px;
-}
-.privacy fieldset .nice-select {
-  float: right;
-}
-.privacy fieldset .nice-select.dropMenuBox {
-  width: 500px;
-}
-.privacy fieldset .nice-select.dropMenuBox .current {
-  color: #ccc;
-  font-size: 16px;
-  font-family: "OpenSans_regular";
-}
-.privacy fieldset .nice-select .list li {
-  color: #ccc;
-  font-size: 16px;
-  font-family: "OpenSans_regular" !important;
-}
-.privacy fieldset:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 .privacy .text {
   font-size: 18px;
@@ -13859,35 +13839,15 @@ button.swiper-pagination-bullet {
   font-family: "Manrope_extraBold";
 }
 
+.deny .scrolling .lnb {
+  z-index: -1;
+  visibility: hidden;
+}
 .deny h2 {
   margin: 70px 0;
   font-size: 72px;
   font-family: "Manrope_extraBold";
   text-align: center;
-}
-.deny fieldset {
-  margin-bottom: 60px;
-}
-.deny fieldset .nice-select {
-  float: right;
-}
-.deny fieldset .nice-select.dropMenuBox {
-  width: 500px;
-}
-.deny fieldset .nice-select.dropMenuBox .current {
-  color: #ccc;
-  font-size: 16px;
-  font-family: "OpenSans_regular";
-}
-.deny fieldset .nice-select .list li {
-  color: #ccc;
-  font-size: 16px;
-  font-family: "OpenSans_regular" !important;
-}
-.deny fieldset:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 .deny .text {
   font-size: 18px;
@@ -13909,6 +13869,10 @@ button.swiper-pagination-bullet {
   font-family: "Manrope_extraBold";
 }
 
+.result .scrolling .lnb {
+  z-index: -1;
+  visibility: hidden;
+}
 .result fieldset {
   width: 900px;
   margin: 70px auto;
@@ -14093,7 +14057,7 @@ button.swiper-pagination-bullet {
 /*  ~ 640 */
 @media (max-width: 768px) {
   .privacy h2 {
-    margin: 10.6667vw 0 5.3333vw 0;
+    margin: 6.6667vw 0 10.6667vw;
     font-size: 8vw;
     font-family: "Manrope_extraBold";
     text-align: center;
@@ -14148,7 +14112,7 @@ button.swiper-pagination-bullet {
   }
 
   .deny h2 {
-    margin: 10.6667vw 0 5.3333vw 0;
+    margin: 6.6667vw 0 10.6667vw;
     font-size: 8vw;
     font-family: "Manrope_extraBold";
     text-align: center;
@@ -14998,6 +14962,9 @@ button.swiper-pagination-bullet {
   margin-top: -5px;
   background-size: contain;
   vertical-align: middle;
+}
+#wrap.energySolution #container.overview .kv .txtBox {
+  z-index: 10;
 }
 #wrap.energySolution #container.overview .inner .titForm {
   margin-top: 40px;
@@ -16216,6 +16183,10 @@ button.swiper-pagination-bullet {
 }
 #wrap.energySolution #container .engineLineUp .titForm span {
   text-transform: uppercase;
+}
+#wrap.energySolution #container .engineLineUp .titForm span.pr {
+  text-transform: initial;
+  line-height: 1.6;
 }
 #wrap.energySolution #container .engineLineUp .product {
   margin-top: 85px;
@@ -19037,7 +19008,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 4vw;
   }
   #wrap.energySolution #container.hybridPowerPlant .hybridScheme .imgWrap img {
-    width: 213.3333vw;
+    width: 149.3333vw;
   }
   #wrap.energySolution #container.hybridPowerPlant .explain .titForm {
     margin-bottom: 5.3333vw;
@@ -19731,7 +19702,6 @@ button.swiper-pagination-bullet {
     display: none;
     height: 100%;
     padding-top: 5.3333vw;
-    border-top: 0.8vw solid #249fe8;
   }
   .layer.large.powerPlantSelector .popCont .formWrap.on {
     display: block;
@@ -19742,6 +19712,7 @@ button.swiper-pagination-bullet {
   }
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth .requiredInput {
     margin-bottom: 2.6667vw;
+    padding-right: 1.3333vw;
     font-family: "OpenSans_semiBold";
     font-size: 2.6667vw;
     text-align: right;
@@ -20229,6 +20200,7 @@ button.swiper-pagination-bullet {
   margin-bottom: 10px;
   font-size: 24px;
   font-family: "OpenSans_semiBold";
+  color: #02263e;
 }
 .products .fgss .hiGas .titForm {
   margin-top: 70px;
@@ -27664,93 +27636,58 @@ button.swiper-pagination-bullet {
   padding-left: 0;
   right: 145px;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents {
+#wrap.aboutus #container.semcoLi .contentsWrap {
   margin-top: 70px;
+}
+#wrap.aboutus #container.semcoLi .contentsWrap .contents {
+  margin-top: 0px;
   margin-bottom: 160px;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .facBotTit {
+#wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit {
   overflow: hidden;
   position: relative;
   text-align: center;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .facBotTit .innerTit {
+#wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit .innerTit {
   font-size: 72px;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .facBotTit > span {
+#wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span {
   font-family: "Manrope_extraBold";
   font-size: 24px;
   color: #9ea2a3;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .facBotTit > span em {
+#wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span em {
   font-style: normal;
   color: #02263e;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .techList {
-  overflow: hidden;
-  margin-top: 70px;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li {
-  display: table;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(odd) {
-  float: left;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(even) {
-  float: right;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(n+2) {
-  margin-top: 80px;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li > div {
-  float: left;
-  font-size: 0;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li .thumb {
-  display: table-cell;
-  width: 896px;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li .thumb img {
-  width: 100%;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li .txt {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
+#wrap.aboutus #container.semcoLi .contentsWrap .contents .semEx {
+  margin-top: 60px;
   font-family: "OpenSans_regular";
   font-size: 18px;
-  width: auto;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(1) .txt {
-  padding-left: 76px;
+#wrap.aboutus #container.semcoLi .contentsWrap .contents figure {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 0;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(2) .txt {
-  padding-left: 0;
-  padding-right: 105px;
-  left: 0;
+#wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap {
+  display: inline-block;
+  width: 588px;
+  margin-right: 24px;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) {
-  display: block;
-  margin-top: 120px;
+#wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap:last-child {
+  margin-right: 0;
+}
+#wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption {
+  width: 1014px;
+  margin: 40px auto 0;
   text-align: center;
 }
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) .thumb {
-  display: block;
-  width: 100%;
-}
-#wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) .txt {
-  display: inline-block;
-  width: 1014px;
-  margin-top: 40px;
+#wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption p {
+  font-family: "OpenSans_semiBold";
+  font-size: 18px;
+  letter-spacing: -0.25px;
 }
 #wrap.aboutus #container.himsen .contents {
   font-size: 0;
@@ -27804,7 +27741,7 @@ button.swiper-pagination-bullet {
   color: #249fe8;
 }
 #wrap.aboutus #container.himsen .pageTit {
-  margin: 70px auto 140px;
+  margin: 70px auto 120px;
 }
 #wrap.aboutus #container.himsen .pageTit .subTit {
   text-align: left;
@@ -27837,10 +27774,12 @@ button.swiper-pagination-bullet {
   text-align: right;
 }
 #wrap.aboutus #container.himsen .pageTit .explain {
-  margin: 40px 0;
+  width: 1015px;
+  margin: 40px auto 0;
   font-size: 0;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "OpenSans_semiBold";
+  line-height: 1.75;
 }
 #wrap.aboutus #container.himsen .pageTit .explain > * {
   display: inline-block;
@@ -28031,6 +27970,7 @@ button.swiper-pagination-bullet {
   font-family: "Manrope_extraBold";
   font-size: 64px;
   color: #249fe8;
+  text-align: left;
 }
 #wrap.aboutus #container.himsen .growth .recodBtn > div ul li:first-child {
   margin-right: 40px;
@@ -28046,6 +27986,7 @@ button.swiper-pagination-bullet {
   font-family: "OpenSans_semiBold";
   font-size: 18px;
   color: #02263e;
+  text-align: left;
 }
 #wrap.aboutus #container.himsen .growth .recodBtn > div .btn {
   width: 100%;
@@ -28156,6 +28097,23 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
   width: 33.3%;
 }
+#wrap.aboutus .himsenLayer {
+  height: 876px;
+}
+#wrap.aboutus .himsenLayer .popHead {
+  border-color: #02263e;
+}
+#wrap.aboutus .himsenLayer .popCont {
+  margin-bottom: 0;
+  height: 751px;
+  text-align: center;
+}
+#wrap.aboutus .himsenLayerFir img {
+  margin-top: 46px;
+}
+#wrap.aboutus .himsenLayerSec img {
+  margin-top: 28px;
+}
 #wrap.aboutus .popCont {
   padding: 0;
   margin-bottom: 30px;
@@ -28173,6 +28131,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .popCont .factoryList {
   padding: 20px;
   border-bottom: 1px solid #ccc;
+  font-size: 0;
 }
 #wrap.aboutus .popCont .factoryList p {
   margin-bottom: 30px;
@@ -28195,11 +28154,15 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus .popCont .factoryList dd span em {
   color: #249fe8;
+  font-style: normal;
 }
 #wrap.aboutus .popCont .factoryList img {
   width: 99px;
   text-align: center;
-  margin-right: 8px;
+  margin-right: 10px;
+}
+#wrap.aboutus .popCont .factoryList img:first-child {
+  margin-left: 13px;
 }
 
 .inner .innerTit {
@@ -28603,65 +28566,50 @@ button.swiper-pagination-bullet {
     padding-left: 0;
     right: 10.0694vw;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents {
+  #wrap.aboutus #container.semcoLi .contentsWrap {
     margin-top: 4.8611vw;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents {
+    margin-top: 0;
     margin-bottom: 11.1111vw;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit .innerTit {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit .innerTit {
     font-size: 5vw;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit > span {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span {
     font-family: "Manrope_extraBold";
     font-size: 1.6667vw;
     color: #9ea2a3;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit > span em {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span em {
     font-style: normal;
     color: #02263e;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList {
-    margin-top: 4.8611vw;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList:after {
-    clear: both;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:after {
-    clear: both;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(n+2) {
-    margin-top: 5.5556vw;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li > div {
-    font-size: 0;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li .thumb {
-    width: 62.2222vw;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li .thumb img {
-    width: 100%;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li .txt {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .semEx {
+    margin-top: 4.1667vw;
     font-family: "OpenSans_regular";
     font-size: 1.25vw;
-    width: auto;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(1) .txt {
-    padding-left: 5.2778vw;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(2) .txt {
-    padding-left: 0;
-    padding-right: 7.2917vw;
-    left: 0;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) {
-    margin-top: 8.3333vw;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) .thumb {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure {
     width: 100%;
+    margin-top: 5.5556vw;
+    font-size: 0;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) .txt {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap {
+    width: 40.8333vw;
+    margin-right: 1.6667vw;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap:last-child {
+    margin-right: 0;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption {
     width: 70.4167vw;
-    margin-top: 2.7778vw;
+    margin: 2.7778vw auto 0;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption p {
+    font-family: "OpenSans_semiBold";
+    font-size: 1.25vw;
+    letter-spacing: -0.0174vw;
   }
   #wrap.aboutus #container.himsen .contents {
     font-size: 0;
@@ -28697,7 +28645,7 @@ button.swiper-pagination-bullet {
     color: #249fe8;
   }
   #wrap.aboutus #container.himsen .pageTit {
-    margin: 4.8611vw auto 9.7222vw;
+    margin: 4.8611vw auto 8.3333vw;
   }
   #wrap.aboutus #container.himsen .pageTit .aboutSubTit {
     margin-top: 0.6944vw;
@@ -28723,9 +28671,10 @@ button.swiper-pagination-bullet {
     color: #fff;
   }
   #wrap.aboutus #container.himsen .pageTit .explain {
-    margin: 2.7778vw 0;
+    width: 70.4861vw;
+    margin: 2.7778vw auto 0;
     font-size: 0;
-    font-size: 1.3889vw;
+    font-size: 1.25vw;
     font-family: "OpenSans_semiBold";
   }
   #wrap.aboutus #container.himsen .pageTit .explain > * {
@@ -28979,6 +28928,22 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
     width: 33.3%;
   }
+  #wrap.aboutus .himsenLayer {
+    height: 60.8333vw;
+  }
+  #wrap.aboutus .himsenLayer .popHead {
+    border-color: #02263e;
+  }
+  #wrap.aboutus .himsenLayer .popCont {
+    margin-bottom: 0;
+    height: 52.1528vw;
+  }
+  #wrap.aboutus .himsenLayerFir img {
+    margin-top: 3.1944vw;
+  }
+  #wrap.aboutus .himsenLayerSec img {
+    margin-top: 1.9444vw;
+  }
   #wrap.aboutus .popCont {
     padding: 0;
     margin-bottom: 2.0833vw;
@@ -28995,6 +28960,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .popCont .factoryList {
     padding: 1.3889vw;
     border-bottom: 0.0694vw solid #ccc;
+    font-size: 0;
   }
   #wrap.aboutus .popCont .factoryList p {
     margin-bottom: 2.0833vw;
@@ -29018,8 +28984,11 @@ button.swiper-pagination-bullet {
     color: #249fe8;
   }
   #wrap.aboutus .popCont .factoryList img {
-    width: 6.72vw;
-    margin-right: 0.5556vw;
+    width: 6.875vw;
+    margin-right: 0.6944vw;
+  }
+  #wrap.aboutus .popCont .factoryList img:first-child {
+    margin-left: 0.9028vw;
   }
 
   .inner .innerTit {
@@ -29638,93 +29607,64 @@ button.swiper-pagination-bullet {
     padding-left: 0;
     right: auto;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents {
-    margin-top: 70px;
+  #wrap.aboutus #container.semcoLi .contentsWrap {
+    margin-top: 75px;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents {
+    margin-top: 0;
     margin-bottom: 160px;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit {
     overflow: hidden;
     position: relative;
     text-align: center;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit .innerTit {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit .innerTit {
     font-size: 72px;
+    margin-bottom: 20px;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit > span {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span {
     font-family: "Manrope_extraBold";
     font-size: 24px;
     color: #9ea2a3;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .facBotTit > span em {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span em {
     font-style: normal;
     color: #02263e;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList {
-    overflow: hidden;
-    margin-top: 70px;
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .semEx {
+    margin-top: 60px;
+    font-family: "OpenSans_regular";
+    font-size: 24px;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li {
-    display: table;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(odd) {
-    float: left;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(even) {
-    float: right;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(n+2) {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure {
+    width: 100%;
     margin-top: 80px;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li > div {
-    float: left;
+    text-align: center;
     font-size: 0;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li .thumb {
-    display: table-cell;
-    width: 896px;
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap {
+    display: block;
+    width: 100%;
+    margin-right: 0;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li .thumb img {
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap:last-child {
+    margin-right: 0;
+    margin-top: 46px;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap img {
+    max-width: auto;
     width: 100%;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li .txt {
-    position: relative;
-    display: table-cell;
-    vertical-align: middle;
-    font-family: "OpenSans_regular";
-    font-size: 18px;
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption {
     width: auto;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(1) .txt {
-    padding-left: 76px;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(2) .txt {
-    padding-left: 0;
-    padding-right: 105px;
-    left: 0;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) {
-    display: block;
-    margin-top: 120px;
+    margin: 40px 0 0 0;
     text-align: center;
   }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) .thumb {
-    display: block;
-    width: 100%;
-  }
-  #wrap.aboutus #container.semco .contentsWrap .contents .techList > li:nth-child(3) .txt {
-    display: inline-block;
-    width: 1014px;
-    margin-top: 40px;
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption p {
+    font-family: "OpenSans_regular";
+    font-size: 24px;
+    letter-spacing: -0.25px;
   }
   #wrap.aboutus #container.himsen .contents {
     font-size: 0;
@@ -30130,50 +30070,82 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
     width: 33.3%;
   }
-  #wrap.aboutus .popCont {
+  #wrap.aboutus .himsenLayer {
+    height: 876px;
+  }
+  #wrap.aboutus .himsenLayer .popHead {
+    border-color: #02263e;
+  }
+  #wrap.aboutus .himsenLayer .popCont {
+    margin-bottom: 0;
+    height: 751px;
+    text-align: center;
+  }
+  #wrap.aboutus .himsenLayerFir img {
+    margin-top: 46px;
+  }
+  #wrap.aboutus .himsenLayerSec img {
+    margin-top: 28px;
+  }
+  #wrap.aboutus .layer {
+    width: 94% !important;
+  }
+  #wrap.aboutus .layer .popCont {
     padding: 0;
     margin-bottom: 30px;
     height: 660px;
     overflow-y: auto;
     border-bottom: 1px solid #02263e;
   }
-  #wrap.aboutus .popCont .subtitForm {
-    padding: 18px 0;
+  #wrap.aboutus .layer .popCont .subtitForm {
+    padding: 30px 0;
     border-bottom: 1px solid #ccc;
     font-family: "OpenSans_bold";
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
   }
-  #wrap.aboutus .popCont .factoryList {
-    padding: 20px;
+  #wrap.aboutus .layer .popCont .factoryList {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #ccc;
+    font-size: 0;
   }
-  #wrap.aboutus .popCont .factoryList p {
-    margin-bottom: 30px;
+  #wrap.aboutus .layer .popCont .factoryList p {
+    margin-bottom: 40px;
     font-family: "OpenSans_regular";
-    font-size: 14px;
+    font-size: 24px;
   }
-  #wrap.aboutus .popCont .factoryList dt strong {
+  #wrap.aboutus .layer .popCont .factoryList dt strong {
     display: block;
+    margin-top: 10px;
     font-family: "OpenSans_bold";
-    font-size: 14px;
+    font-size: 24px;
   }
-  #wrap.aboutus .popCont .factoryList dd {
+  #wrap.aboutus .layer .popCont .factoryList dd {
     font-family: "OpenSans_regular";
-    font-size: 14px;
+    font-size: 24px;
   }
-  #wrap.aboutus .popCont .factoryList dd span {
+  #wrap.aboutus .layer .popCont .factoryList dd span {
+    display: block;
+    margin-top: 10px;
     font-family: "OpenSans_regular";
-    font-size: 14px;
+    font-size: 24px;
     color: #ccc;
   }
-  #wrap.aboutus .popCont .factoryList dd span em {
+  #wrap.aboutus .layer .popCont .factoryList dd span em {
     color: #249fe8;
+    font-style: normal;
   }
-  #wrap.aboutus .popCont .factoryList img {
-    width: 99px;
+  #wrap.aboutus .layer .popCont .factoryList img {
+    width: 85px;
     text-align: center;
     margin-right: 8px;
+    margin-left: 0;
+    font-size: 0;
+  }
+  #wrap.aboutus .layer .popCont .factoryList img:last-child {
+    margin-right: 0;
   }
 }
 /*  ~ 640 */
