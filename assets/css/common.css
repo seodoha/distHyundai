@@ -12030,6 +12030,7 @@ button.swiper-pagination-bullet {
   }
   #slider .sliderValue {
     top: -6vw;
+    left: 4vw;
     transform: translateX(-6.6vw);
     width: auto;
     font-size: 2.1333vw;
@@ -14428,6 +14429,9 @@ button.swiper-pagination-bullet {
   border-bottom: 1px solid #ccc;
   line-height: 107px;
   vertical-align: top;
+}
+#wrap.marineSolution .refBox .halfBox > *.cnt dl > *:last-of-type {
+  border-bottom: 0;
 }
 #wrap.marineSolution .refBox .halfBox > *.cnt dl dt {
   width: 257px;
@@ -18135,25 +18139,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.energySolution #container.overview .solutionService .tabContent {
     margin-top: 6.6667vw;
-    width: 100vw;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent::-webkit-scrollbar {
-    -webkit-appearance: none;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent::-webkit-scrollbar:horizontal {
-    height: 0.6667vw;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent::-webkit-scrollbar:vertical {
-    width: 0;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent::-webkit-scrollbar-thumb {
-    background-color: #02263e;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent::-webkit-scrollbar-track {
-    background-color: #ccc;
-    border: 0.2667vw solid #fff;
+    width: 100%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent ul {
     display: table;
@@ -18220,6 +18206,28 @@ button.swiper-pagination-bullet {
     display: table-cell;
     vertical-align: middle;
     white-space: normal;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .solution {
+    padding: 0;
+    padding-bottom: 8vw;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar:horizontal {
+    height: 0.6667vw;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar:vertical {
+    width: 0;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul li:hover span.desc {
     color: #00479D;
@@ -18298,6 +18306,28 @@ button.swiper-pagination-bullet {
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(6) {
     background: url("/distHyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .services {
+    padding: 0;
+    padding-bottom: 8vw;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar:horizontal {
+    height: 0.6667vw;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar:vertical {
+    width: 0;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul li:hover span.desc {
     color: #ED6F00;

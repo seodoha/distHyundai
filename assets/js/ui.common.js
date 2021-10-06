@@ -318,38 +318,86 @@ var uiCommon = function (uiCommon, $window) {
       }
     },
     rangeSlider: {
+      minValue: $(".minValue").text(),
+      maxValue: $(".maxValue").text(),
       init: function init() {
-        var minValue = $(".minValue").text(),
-            maxValue = $(".maxValue").text(),
-            minComma = uiCommon.component.rangeSlider.numberCommas(parseInt(minValue)),
-            maxComma = uiCommon.component.rangeSlider.numberCommas(parseInt(maxValue));
+        var minComma = uiCommon.component.rangeSlider.numberCommas(parseInt(uiCommon.component.rangeSlider.minValue)),
+            maxComma = uiCommon.component.rangeSlider.numberCommas(parseInt(uiCommon.component.rangeSlider.maxValue));
         $(".minValue").text(minComma);
         $(".maxValue").text(maxComma);
         $(".sliderValue > span").text(minComma);
         $("#slider").slider({
-          max: Number(maxValue),
-          min: Number(minValue),
+          max: Number(uiCommon.component.rangeSlider.maxValue),
+          min: Number(uiCommon.component.rangeSlider.minValue),
           range: "min",
           slide: function slide(event, ui) {
             var v = $(".ui-slider-handle").css("left");
             $(".sliderValue > span").text(uiCommon.component.rangeSlider.numberCommas(parseInt(ui.value)));
-            $(".sliderValue").css({
-              left: v
-            });
+
+            if (window.innerWidth < 500) {
+              $(".sliderValue").css({
+                left: v
+              });
+              uiCommon.component.rangeSlider.sliderTextCtr(ui, 15);
+            } else if (window.innerWidth < 750) {
+              $(".sliderValue").css({
+                left: v
+              });
+              uiCommon.component.rangeSlider.sliderTextCtr(ui, 30);
+            } else {
+              $(".sliderValue").css({
+                left: v
+              });
+            }
+
+            ;
           },
           change: function change(event, ui) {
             var v = $(".ui-slider-handle").css("left");
             $(".sliderValue > span").text(uiCommon.component.rangeSlider.numberCommas(parseInt(ui.value)));
-            $(".sliderValue").css({
-              left: v
-            });
+
+            if (window.innerWidth < 500) {
+              $(".sliderValue").css({
+                left: v
+              });
+              uiCommon.component.rangeSlider.sliderTextCtr(ui, 15);
+            } else if (window.innerWidth < 750) {
+              $(".sliderValue").css({
+                left: v
+              });
+              uiCommon.component.rangeSlider.sliderTextCtr(ui, 30);
+            } else {
+              $(".sliderValue").css({
+                left: v
+              });
+            }
+
+            ;
           }
         });
       },
       numberCommas: function numberCommas(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       },
-      sliderTextCtr: function sliderTextCtr() {}
+      sliderTextCtr: function sliderTextCtr(ui, num) {
+        var v = $(".ui-slider-handle").css("left"),
+            vNum = parseFloat(v);
+
+        if (ui.value == uiCommon.component.rangeSlider.minValue) {
+          $(".sliderValue").css({
+            left: uiCommon.component.rangeSlider.convertPXtoVW(vNum + num) + 'vw'
+          });
+        } else if (ui.value == uiCommon.component.rangeSlider.maxValue) {
+          $(".sliderValue").css({
+            left: uiCommon.component.rangeSlider.convertPXtoVW(vNum - num) + 'vw'
+          });
+        }
+
+        ;
+      },
+      convertPXtoVW: function convertPXtoVW(px) {
+        return px * (100 / $(document).width());
+      }
     },
     mCustomScrollBar: {
       init: function init() {
