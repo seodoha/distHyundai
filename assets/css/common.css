@@ -12080,16 +12080,6 @@ button.swiper-pagination-bullet {
   }
 }
 /*  pages - 로그인 등 개별로 존재하는 화면 스타일*/
-#wrap.mainWrap {
-  -webkit-text-size-adjust: none;
-  /* 크롬, 사파리, 오페라 신버전 */
-  -ms-text-size-adjust: none;
-  /* IE */
-  -moz-text-size-adjust: none;
-  /* 파이어폭스 */
-  -o-text-size-adjust: none;
-  /* 오페라 구버전 */
-}
 @keyframes countAni {
   from {
     opacity: 0;
