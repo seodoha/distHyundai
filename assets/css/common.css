@@ -18214,13 +18214,7 @@ button.swiper-pagination-bullet {
     white-space: nowrap;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar {
-    -webkit-appearance: none;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar:horizontal {
-    height: 0.6667vw;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar:vertical {
-    width: 0;
+    height: 1vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution::-webkit-scrollbar-thumb {
     background-color: #02263e;
@@ -18314,13 +18308,7 @@ button.swiper-pagination-bullet {
     white-space: nowrap;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar {
-    -webkit-appearance: none;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar:horizontal {
-    height: 0.6667vw;
-  }
-  #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar:vertical {
-    width: 0;
+    height: 1vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services::-webkit-scrollbar-thumb {
     background-color: #02263e;
