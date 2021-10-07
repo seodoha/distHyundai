@@ -401,7 +401,11 @@ var uiCommon = function (uiCommon, $window) {
     },
     mCustomScrollBar: {
       init: function init() {
-        $(".mCsutomScroll").mCustomScrollbar();
+        $(".mCsutomScroll").mCustomScrollbar(); // if(window.innerWidth > 750){
+        //     $(".mCsutomScroll").removeClass('mCustomScrollbar');
+        // }else{
+        //     $(".mCsutomScroll").mCustomScrollbar();
+        // }
       }
     },
     countUp: {

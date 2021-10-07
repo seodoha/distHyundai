@@ -13743,7 +13743,7 @@ button.swiper-pagination-bullet {
     font-size: 3.2vw;
   }
   .productLayer.main .popCont {
-    height: 68vh;
+    height: 65vh;
   }
   .productLayer.main .popCont .prdFindList {
     padding: 0;
@@ -26381,11 +26381,90 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.decarbonization .productBox .titForm {
   margin-bottom: 30px;
 }
+#wrap.aboutus .expertise.decarbonization .productBox .productList li a em {
+  height: auto;
+}
 #wrap.aboutus .expertise.decarbonization .productBox .productList li a span {
   font-size: 20px;
 }
 #wrap.aboutus .expertise.decarbonization .newsWithTitle:last-of-type {
   margin-bottom: 80px;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 {
+  padding: 0;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li {
+  margin: 0 24px 80px 0;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+  margin-right: 0;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li > a {
+  width: 100%;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail {
+  height: 240px;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+  content: none;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+  margin-bottom: 20px;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+  color: #666;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+  color: #249fe8;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+  color: #666;
+  text-transform: uppercase;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+  margin-bottom: 6px;
+  font-family: "Manrope_extraBold";
+  font-size: 30px;
+  line-height: 1.25;
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.5em;
+  max-height: 4.5em;
+  font-family: "OpenSans_regular";
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  color: #9ea2a3;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+#wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+  margin-top: 40px;
 }
 #wrap.aboutus .expertise.digitalization .pageTit .aboutSubTit {
   margin-bottom: 40px;
@@ -26549,8 +26628,87 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.digitalization .productBox .titForm {
   margin-bottom: 30px;
 }
+#wrap.aboutus .expertise.digitalization .productBox .productList li a em {
+  height: auto;
+}
 #wrap.aboutus .expertise.digitalization .productBox .productList li a span {
   font-size: 20px;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 {
+  padding: 0;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li {
+  margin: 0 24px 80px 0;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+  margin-right: 0;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li > a {
+  width: 100%;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail {
+  height: 240px;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+  content: none;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+  margin-bottom: 20px;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+  color: #666;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+  color: #249fe8;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+  color: #666;
+  text-transform: uppercase;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+  margin-bottom: 6px;
+  font-family: "Manrope_extraBold";
+  font-size: 30px;
+  line-height: 1.25;
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 1.5em;
+  max-height: 4.5em;
+  font-family: "OpenSans_regular";
+  font-size: 14px;
+  letter-spacing: -0.2px;
+  color: #9ea2a3;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+#wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+  margin-top: 40px;
 }
 #wrap.aboutus .expertise.digitalization .newsWithTitle:last-of-type {
   margin-bottom: 80px;
@@ -27109,12 +27267,97 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .productBox .productList li:last-child {
     padding-top: 5.5556vw;
   }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a em {
+    height: auto;
+  }
   #wrap.aboutus .expertise.decarbonization .productBox .productList li a span {
     font-size: 1.3889vw;
   }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li {
+    margin: 0 1.6667vw 5.5556vw 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li > a {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 16.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+    content: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+    margin-bottom: 1.3889vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+    color: #666;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+    color: #666;
+    text-transform: uppercase;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+    margin-bottom: 0.4167vw;
+    font-family: "Manrope_extraBold";
+    font-size: 2.0833vw;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    font-family: "OpenSans_regular";
+    font-size: 0.9722vw;
+    letter-spacing: -0.0139vw;
+    color: #9ea2a3;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1440px) and (-ms-high-contrast: active), (min-width: 769px) and (max-width: 1440px) and (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+    margin-top: 2.7778vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
   #wrap.aboutus .expertise.decarbonization .newsWithTitle:last-of-type {
     margin-bottom: 5.5556vw;
   }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
   #wrap.aboutus .expertise.digitalization .pageTit .aboutSubTit {
     margin-bottom: 2.7778vw;
   }
@@ -27253,12 +27496,97 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.digitalization .productBox .productList li:last-child {
     padding-top: 5.5556vw;
   }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li a em {
+    height: auto;
+  }
   #wrap.aboutus .expertise.digitalization .productBox .productList li a span {
     font-size: 1.3889vw;
   }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li {
+    margin: 0 1.6667vw 5.5556vw 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li > a {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 16.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+    content: none;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+    margin-bottom: 1.3889vw;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+    color: #666;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+    color: #666;
+    text-transform: uppercase;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+    margin-bottom: 0.4167vw;
+    font-family: "Manrope_extraBold";
+    font-size: 2.0833vw;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    font-family: "OpenSans_regular";
+    font-size: 0.9722vw;
+    letter-spacing: -0.0139vw;
+    color: #9ea2a3;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1440px) and (-ms-high-contrast: active), (min-width: 769px) and (max-width: 1440px) and (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+    margin-top: 2.7778vw;
+  }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
   #wrap.aboutus .expertise.digitalization .newsWithTitle:last-of-type {
     margin-bottom: 5.5556vw;
   }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
   #wrap.aboutus .expertise.efficiency .pageTit {
     margin-bottom: 8.3333vw;
   }
@@ -27527,7 +27855,7 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl dd {
   margin-top: 10px;
-  font-family: "Manrope_regular";
+  font-family: "OpenSans_regular";
   font-size: 18px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul {
@@ -28524,7 +28852,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl dd {
     margin-top: 0.6944vw;
-    font-family: "Manrope_regular";
+    font-family: "OpenSans_regular";
     font-size: 1.25vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul {
@@ -29454,7 +29782,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl dd {
     margin-top: 2.6667vw;
-    font-family: "Manrope_regular";
+    font-family: "OpenSans_regular";
     font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul {
