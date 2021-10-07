@@ -20857,9 +20857,48 @@ button.swiper-pagination-bullet {
   font-family: "Manrope_extraBold";
 }
 .products .detail .spec .imgArea {
-  margin-top: 80px;
+  margin-top: 120px;
   font-size: 0;
   text-align: center;
+}
+.products .detail .spec .remarkArea {
+  margin-top: 80px;
+}
+.products .detail .spec .remarkArea h6 {
+  margin-bottom: 20px;
+  font-family: "OpenSans_semiBold";
+  font-size: 24px;
+}
+.products .detail .spec .remarkArea ol {
+  margin-bottom: 44px;
+}
+.products .detail .spec .remarkArea li {
+  line-height: 1.75;
+  font-family: "OpenSans_semiBold";
+  font-size: 16px;
+  color: #666;
+}
+.products .detail .spec > h5 {
+  padding-left: 42px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-family: "Manrope_extraBold";
+  font-size: 30px;
+  letter-spacing: -0.2px;
+}
+.products .detail .spec > p {
+  padding-left: 42px;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
+.products .detail .spec p.detailTxt {
+  padding-left: 40px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  font-family: "Manrope_extraBold";
+  font-size: 24px;
+  color: #9ea2a3;
 }
 .products .tabWrap + h3 {
   margin: 66px 0 33px 0;
@@ -20946,15 +20985,12 @@ button.swiper-pagination-bullet {
 }
 
 .pdTable + .pdTable {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .pdTable table {
   width: 1440px;
-  border-top: 2px solid #0a253e;
-  border-bottom: 1px solid #0a253e;
-}
-.pdTable table thead tr:last-child th {
-  border-bottom: 0;
+  border-top: 4px solid #02263e;
+  border-bottom: 1px solid #02263e;
 }
 .pdTable table thead tr th {
   border: 1px solid #ccc;
@@ -20965,9 +21001,13 @@ button.swiper-pagination-bullet {
 }
 .pdTable table tbody tr * {
   border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 .pdTable table tbody tr td:last-child {
   border-right: 0;
+}
+.pdTable table tbody tr:last-child td, .pdTable table tbody tr:last-child th {
+  border-bottom: 0;
 }
 .pdTable table th {
   height: 60px;
@@ -20983,8 +21023,30 @@ button.swiper-pagination-bullet {
   font-weight: normal;
   font-family: "OpenSans_regular";
 }
+.pdTable.type02 {
+  margin-top: 40px;
+}
 .pdTable.type02 thead th {
   border-bottom: 1px solid #ccc !important;
+}
+.pdTable.type02 .remark {
+  font-size: 14px;
+  color: #666;
+  vertical-align: top;
+}
+.pdTable.type03 h5 {
+  padding-left: 42px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: "Manrope_extraBold";
+  font-size: 30px;
+}
+.pdTable.type03 p {
+  padding-left: 42px;
+  margin-top: 0;
+  font-family: "OpenSans_semiBold";
+  font-size: 18px;
+  color: #666;
 }
 
 /* 769 ~ 1440 */
@@ -21589,7 +21651,39 @@ button.swiper-pagination-bullet {
     font-size: 4.1667vw;
   }
   .products .detail .spec .imgArea {
+    margin-top: 8.3333vw;
+    font-size: 0;
+  }
+  .products .detail .spec .remarkArea {
     margin-top: 5.5556vw;
+  }
+  .products .detail .spec .remarkArea h6 {
+    margin-bottom: 1.3889vw;
+    font-size: 1.6667vw;
+  }
+  .products .detail .spec .remarkArea ol {
+    margin-bottom: 3.0556vw;
+  }
+  .products .detail .spec .remarkArea li {
+    line-height: 1.75;
+    font-size: 1.1111vw;
+  }
+  .products .detail .spec > h5 {
+    padding-left: 2.9167vw;
+    margin-top: 5.5556vw;
+    margin-bottom: 2.0833vw;
+    font-size: 2.0833vw;
+  }
+  .products .detail .spec > p {
+    padding-left: 2.9167vw;
+    margin-top: 1.3889vw;
+    font-size: 1.25vw;
+  }
+  .products .detail .spec p.detailTxt {
+    padding-left: 2.7778vw;
+    margin-top: -1.3889vw;
+    margin-bottom: -1.3889vw;
+    font-size: 1.6667vw;
   }
   .products .tabWrap + h3 {
     margin: 4.5833vw 0 2.2917vw 0;
@@ -21645,11 +21739,11 @@ button.swiper-pagination-bullet {
   }
 
   .pdTable + .pdTable {
-    margin-top: 3.4722vw;
+    margin-top: 5.5556vw;
   }
   .pdTable table {
     width: 100vw;
-    border-top: 0.1389vw solid #0a253e;
+    border-top: 0.2778vw solid #02263e;
   }
   .pdTable table th {
     height: 4.1667vw;
@@ -21657,6 +21751,22 @@ button.swiper-pagination-bullet {
   }
   .pdTable table td {
     height: 4.1667vw;
+    font-size: 1.25vw;
+  }
+  .pdTable.type02 {
+    margin-top: 2.7778vw;
+  }
+  .pdTable.type02 .remark {
+    font-size: 0.9722vw;
+  }
+  .pdTable.type03 h5 {
+    padding-left: 2.9167vw;
+    margin-top: 5.5556vw;
+    margin-bottom: 1.3889vw;
+    font-size: 2.0833vw;
+  }
+  .pdTable.type03 p {
+    padding-left: 2.9167vw;
     font-size: 1.25vw;
   }
 }
@@ -22919,9 +23029,49 @@ button.swiper-pagination-bullet {
     font-family: "Manrope_extraBold";
   }
   .products .detail .spec .imgArea {
-    margin-top: 10.6667vw;
+    margin-top: 16vw;
     font-size: 0;
     text-align: center;
+  }
+  .products .detail .spec .remarkArea {
+    margin-top: 10.6667vw;
+  }
+  .products .detail .spec .remarkArea h6 {
+    margin-bottom: 2.6667vw;
+    font-family: "OpenSans_semiBold";
+    font-size: 4.2667vw;
+  }
+  .products .detail .spec .remarkArea ol {
+    margin-bottom: 7.4667vw;
+  }
+  .products .detail .spec .remarkArea li {
+    line-height: 1.5;
+    font-family: "OpenSans_semiBold";
+    font-size: 3.2vw;
+    color: #666;
+  }
+  .products .detail .spec > h5 {
+    padding-left: 0;
+    margin-top: 10.6667vw;
+    margin-bottom: 5.3333vw;
+    font-family: "Manrope_extraBold";
+    font-size: 4.8vw;
+    letter-spacing: -0.0267vw;
+  }
+  .products .detail .spec > p {
+    padding-left: 0;
+    margin-top: 2.6667vw;
+    font-size: 3.2vw;
+    color: #666;
+    letter-spacing: -0.0267vw;
+  }
+  .products .detail .spec p.detailTxt {
+    padding-left: 0;
+    margin-top: -1.3333vw;
+    margin-bottom: -2.6667vw;
+    font-family: "Manrope_extraBold";
+    font-size: 4vw;
+    color: #9ea2a3;
   }
   .products .tabWrap + h3 {
     margin: 10.6667vw 0 5.3333vw 0;
@@ -23081,11 +23231,8 @@ button.swiper-pagination-bullet {
   }
   .pdTable table {
     width: 192vw;
-    border-top: 0.2667vw solid #0a253e;
-    border-bottom: 1px solid #0a253e;
-  }
-  .pdTable table thead tr:last-child th {
-    border-bottom: 0;
+    border-top: 0.5333vw solid #02263e;
+    border-bottom: 1px solid #02263e;
   }
   .pdTable table thead tr th {
     border: 1px solid #ccc;
@@ -23096,9 +23243,13 @@ button.swiper-pagination-bullet {
   }
   .pdTable table tbody tr * {
     border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
   }
   .pdTable table tbody tr td:last-child {
     border-right: 0;
+  }
+  .pdTable table tbody tr:last-child td, .pdTable table tbody tr:last-child th {
+    border-bottom: 0;
   }
   .pdTable table th {
     height: 12vw;
@@ -23109,13 +23260,41 @@ button.swiper-pagination-bullet {
     height: 12vw;
     font-size: 2.9333vw;
     text-align: center;
+    font-family: "OpenSans_semiBold";
   }
   .pdTable.type01 thead tr:last-child th {
     font-weight: normal;
     font-family: "OpenSans_regular";
   }
+  .pdTable.type01 thead tr:nth-of-type(2) th + th {
+    font-size: 2.9333vw;
+  }
+  .pdTable.type01 thead tr:nth-of-type(3) th {
+    font-size: 2.9333vw;
+    font-family: "OpenSans_semiBold";
+  }
   .pdTable.type02 thead th {
     border-bottom: 1px solid #ccc !important;
+  }
+  .pdTable.type02 .remark {
+    font-size: 2.6667vw;
+    color: #666;
+    vertical-align: top;
+  }
+  .pdTable.type03 h5 {
+    padding-left: 0;
+    margin-top: 10.6667vw;
+    margin-bottom: 2.6667vw;
+    font-family: "Manrope_extraBold";
+    font-size: 4.8vw;
+    letter-spacing: -0.0267vw;
+  }
+  .pdTable.type03 p {
+    padding-left: 0;
+    margin-top: 0;
+    font-family: "OpenSans_semiBold";
+    font-size: 3.2vw;
+    color: #666;
   }
 }
 #wrap.products .energy .titForm {
@@ -24683,11 +24862,16 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
 
+  #container.serviceNet .forAfter {
+    position: relative;
+  }
   #container.serviceNet .forAfter:after {
+    content: "";
+    position: absolute;
     left: 50%;
     top: 50%;
-    width: 18.6667vw;
-    height: 18.6667vw;
+    width: 140px;
+    height: 140px;
     transform: translate(-50%, -50%);
     background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
@@ -27667,6 +27851,9 @@ button.swiper-pagination-bullet {
   margin-top: 0px;
   margin-bottom: 160px;
 }
+#wrap.aboutus #container.semcoLi .contentsWrap .contents .inner {
+  padding: 0 40px;
+}
 #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit {
   overflow: hidden;
   position: relative;
@@ -28410,6 +28597,7 @@ button.swiper-pagination-bullet {
     height: 0.625vw;
     margin-left: 0.6944vw;
     background: url(/distHyundai/assets/images/aboutus/ico_rightBlue.png) center no-repeat;
+    background-size: contain;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .ex {
     font-family: "OpenSans_semiBold";
@@ -28605,6 +28793,9 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.semcoLi .contentsWrap .contents {
     margin-top: 0;
     margin-bottom: 11.1111vw;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .inner {
+    padding: 0 2.7778vw;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit .innerTit {
     font-size: 5vw;
@@ -29051,27 +29242,27 @@ button.swiper-pagination-bullet {
     background-image: none !important;
   }
 }
-/* 641 ~ 768 */
+/*  ~ 640 */
 @media (max-width: 768px) {
   #wrap.aboutus .inner .innerTit {
     margin-left: 0;
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     line-height: 1.25;
   }
   #wrap.aboutus .inner .innerVi {
     width: 100%;
-    height: 417px;
-    margin-top: 40px;
+    height: 55.6vw;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus .inner .innerVi img {
     width: 100%;
   }
   #wrap.aboutus .inner .ex {
-    margin-top: 60px;
+    margin-top: 8vw;
     margin-left: 0;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap {
     margin-bottom: 0;
@@ -29081,28 +29272,28 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .mainTit h3 {
     font-family: "Manrope_extraBold";
-    font-size: 60px;
+    font-size: 8vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     font-size: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap iframe {
     width: 100%;
-    height: 368px;
+    height: 49.0667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .gallery {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     line-height: 0;
     font-size: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .gallery > div {
     display: inline-block;
-    width: 334px;
-    height: 234px;
-    margin-right: 22px;
-    margin-top: 24px;
+    width: 44.5333vw;
+    height: 31.2vw;
+    margin-right: 2.9333vw;
+    margin-top: 3.2vw;
     vertical-align: top;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .gallery > div:first-child {
@@ -29117,13 +29308,13 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .gallery > div:last-child {
     width: auto;
     height: auto;
-    margin-top: 60px;
+    margin-top: 8vw;
     margin-left: 0;
     line-height: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .gallery > div:last-child h4 {
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     line-height: 1.25;
     color: #249fe8;
   }
@@ -29132,9 +29323,9 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner {
     width: 100%;
-    height: 636px;
-    padding: 100px 0 0 30px;
-    margin: 120px 0 0 0;
+    height: 84.8vw;
+    padding: 13.3333vw 0 0 4vw;
+    margin: 16vw 0 0 0;
     background: url("/distHyundai/assets/images/aboutus/img_vision07_mo.png") no-repeat center;
     background-size: auto;
     text-align: center;
@@ -29156,13 +29347,13 @@ button.swiper-pagination-bullet {
     border-right: none;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li:first-child {
-    padding-right: 182px;
+    padding-right: 24.2667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li:nth-child(n+3) {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li:nth-child(3) {
-    padding-right: 134px;
+    padding-right: 17.8667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li:last-child {
     border-right: none;
@@ -29173,82 +29364,82 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li span:first-child {
     font-family: "OpenSans_semiBold";
-    font-size: 36px;
+    font-size: 4.8vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li span:nth-child(2) {
     display: inline-block;
     font-family: "Manrope_extraBold";
-    font-size: 70px;
+    font-size: 9.3333vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li span.million {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 1.3333vw;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul li span:last-child {
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .inner .innerTit {
     margin-left: 0;
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .inner .innerVi {
     width: 100%;
-    height: 417px;
-    margin-top: 40px;
+    height: 55.6vw;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .inner .innerVi img {
     width: 100%;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .inner .ex {
-    margin-top: 60px;
+    margin-top: 8vw;
     margin-left: 0;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .mid {
-    margin-top: 120px;
+    margin-top: 16vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .mid .moView .innerTit {
-    margin-left: 30px;
+    margin-left: 4vw;
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .mid .moView .innerVi {
     width: 100%;
-    height: 417px;
-    margin-top: 40px;
+    height: 55.6vw;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .mid .moView .innerVi img {
     width: 100%;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .mid .moView .ex {
-    margin-top: 60px;
-    margin-left: 30px;
+    margin-top: 8vw;
+    margin-left: 4vw;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack {
     width: 100%;
-    height: 1392px;
-    margin-top: 40px;
+    height: 185.6vw;
+    margin-top: 5.3333vw;
     background: #02263e;
     text-align: center;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy {
     display: inline-block;
     height: auto;
-    margin-top: 100px;
+    margin-top: 13.3333vw;
     text-align: start;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl {
@@ -29257,18 +29448,18 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl dt {
     font-family: "Manrope_extraBold";
-    font-size: 36px;
+    font-size: 4.8vw;
     line-height: 1.25;
     text-transform: uppercase;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl dd {
-    margin-top: 20px;
+    margin-top: 2.6667vw;
     font-family: "Manrope_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul {
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul:after {
     content: "";
@@ -29277,95 +29468,96 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li {
     float: left;
-    width: 220px;
-    height: 278px;
-    padding: 20px 20px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01_mo.png) bottom 20px center no-repeat;
-    background-size: 131px;
+    width: 29.3333vw;
+    height: 37.0667vw;
+    padding: 2.6667vw 2.6667vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 17.4667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(2) {
-    background: #b7222d url(/distHyundai/assets/images/aboutus/ico_vision02_mo.png) bottom 20px center no-repeat;
-    background-size: 97px;
+    background: #b7222d url(/distHyundai/assets/images/aboutus/ico_vision02_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 12.9333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(3) {
-    background: #f2b727 url(/distHyundai/assets/images/aboutus/ico_vision03_mo.png) bottom 20px center no-repeat;
-    background-size: 91px;
+    background: #f2b727 url(/distHyundai/assets/images/aboutus/ico_vision03_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 12.1333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(4) {
-    background: #9a2240 url(/distHyundai/assets/images/aboutus/ico_vision04_mo.png) bottom 20px center no-repeat;
-    background-size: 85px;
+    background: #9a2240 url(/distHyundai/assets/images/aboutus/ico_vision04_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 11.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(5) {
-    background: #ce1d61 url(/distHyundai/assets/images/aboutus/ico_vision05_mo.png) bottom 20px center no-repeat;
-    background-size: 80px;
+    background: #ce1d61 url(/distHyundai/assets/images/aboutus/ico_vision05_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 10.6667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
-    background: #BA8634 url(/distHyundai/assets/images/aboutus/ico_vision06_mo.png) bottom 20px center no-repeat;
-    background-size: 113px;
+    background: #BA8634 url(/distHyundai/assets/images/aboutus/ico_vision06_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 15.0667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(7) {
-    background: #298fca url(/distHyundai/assets/images/aboutus/ico_vision07_mo.png) bottom 20px center no-repeat;
-    background-size: 91px;
+    background: #298fca url(/distHyundai/assets/images/aboutus/ico_vision07_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 12.1333vw;
     margin-bottom: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
-    background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08_mo.png) bottom 20px center no-repeat;
-    background-size: 93px;
+    background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08_mo.png) bottom 2.6667vw center no-repeat;
+    background-size: 12.4vw;
     margin-bottom: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(3n) {
-    margin-right: 0px;
+    margin-right: 0vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div span,
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div em {
     display: block;
     font-family: "Manrope_extraBold";
     color: #fff;
-    font-size: 20px;
+    font-size: 2.6667vw;
     margin-top: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div span {
-    margin-top: 10px;
+    margin-top: 1.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div em {
-    font-size: 24px;
+    font-size: 3.2vw;
     font-style: normal;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy > div {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
     margin-left: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy > div a {
     display: block;
     margin-right: 0;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.2vw;
     color: #249fe8;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy > div a:after {
     content: "";
     display: inline-block;
-    width: 7px;
-    height: 14px;
-    margin-left: 30px;
+    width: 0.9333vw;
+    height: 1.8667vw;
+    margin-left: 4vw;
     background: url(/distHyundai/assets/images/common/ico_btnArrow_sky_mo.png) center no-repeat;
+    background-size: contain;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy > div a:last-child {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .ex {
     font-family: "OpenSans_semiBold";
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection {
-    margin-top: 160px;
+    margin-top: 21.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul {
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li {
     width: 100%;
@@ -29375,61 +29567,61 @@ button.swiper-pagination-bullet {
     border-left: none;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf {
-    padding: 80px 0 80px 30px;
+    padding: 10.6667vw 0 10.6667vw 4vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf:before {
-    right: 30px;
-    width: 63px;
-    height: 63px;
+    right: 4vw;
+    width: 8.4vw;
+    height: 8.4vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf:after {
-    right: 54px;
-    width: 10px;
-    height: 17px;
+    right: 7.2vw;
+    width: 1.3333vw;
+    height: 2.2667vw;
     background: url(/distHyundai/assets/images/aboutus/ico_right_gray_mo.png) center no-repeat;
     background-size: contain;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf dl dt {
-    font-size: 36px;
+    font-size: 4.8vw;
     font-family: "OpenSans_bold";
     line-height: 1.25;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf dl dd {
-    margin-top: 10px;
-    font-size: 24px;
+    margin-top: 1.3333vw;
+    font-size: 3.2vw;
     font-family: "OpenSans_regular";
   }
   #wrap.aboutus #container.greeting section.kv {
     background: #ececec;
   }
   #wrap.aboutus #container.greeting section.kv .titForm {
-    top: 200px;
+    top: 26.6667vw;
   }
   #wrap.aboutus #container.greeting section.kv .titForm .subTit {
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     color: #02263e;
     text-align: left;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.0667vw;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner {
     overflow: hidden;
-    padding: 0 30px;
-    margin-top: 80px;
+    padding: 0 4vw;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div {
     float: left;
     width: 100%;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:nth-child(2) {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:nth-child(n+2) {
     float: right;
     width: 100%;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:last-child {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
     text-align: end;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:last-child span,
@@ -29438,14 +29630,14 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:last-child span {
     font-family: "OpenSans_bold";
-    font-size: 26px;
+    font-size: 3.4667vw;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:last-child strong {
     position: relative;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 2.6667vw;
+    margin-bottom: 2.6667vw;
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div:last-child strong:before {
@@ -29454,14 +29646,14 @@ button.swiper-pagination-bullet {
     top: 0;
     right: 0;
     display: inline-block;
-    width: 50px;
-    height: 3px;
+    width: 6.6667vw;
+    height: 0.4vw;
     background: #02263e;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div p {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
     line-height: 1.5;
   }
   #wrap.aboutus #container.greeting .contentsWrap .inner div p:first-child {
@@ -29478,25 +29670,25 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .mainTit h3 {
     font-family: "Manrope_extraBold";
-    font-size: 60px;
+    font-size: 8vw;
     line-height: 1.25;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .mainTit p {
-    margin-top: 20px;
+    margin-top: 2.6667vw;
     font-family: "Manrope_extraBold";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #9ea2a3;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .facTopVi {
-    margin-top: 120px;
+    margin-top: 16vw;
     width: 100%;
-    height: 465px;
+    height: 62vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .facTopVi img {
     width: 100%;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .tableWrap {
-    margin-top: 60px;
+    margin-top: 8vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .tableWrap table td {
     padding: 0;
@@ -29505,14 +29697,14 @@ button.swiper-pagination-bullet {
     padding: 0;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .top .inner .tableWrap table tr {
-    height: 90px;
+    height: 12vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid {
-    margin-top: 120px;
+    margin-top: 16vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul {
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     margin-left: 0;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul:after {
@@ -29529,35 +29721,35 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul li:nth-child(2) {
     padding-right: 0;
-    padding-top: 40px;
-    margin-top: 40px;
+    padding-top: 5.3333vw;
+    margin-top: 5.3333vw;
     border-left: none;
-    border-top: 1px solid #ccc;
+    border-top: 0.1333vw solid #ccc;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul li dl dt {
     font-family: "Manrope_extraBold";
-    font-size: 36px;
+    font-size: 4.8vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul li dl dd {
-    margin-top: 14px;
+    margin-top: 1.8667vw;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul li dl dd span {
-    margin-right: 10px;
+    margin-right: 1.3333vw;
     font-family: "Manrope_extraBold";
-    font-size: 70px;
+    font-size: 9.3333vw;
     color: #249fe8;
     line-height: 1.25;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner > ul li dl dd span:nth-child(2) {
-    margin-left: 40px;
+    margin-left: 5.3333vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner .tableWrap {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner .tableWrap.moView {
-    width: 690px;
+    width: 92vw;
     padding-bottom: 0;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .mid .inner .tableWrap.moView table {
@@ -29572,8 +29764,8 @@ button.swiper-pagination-bullet {
     color: #fff;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom {
-    margin-top: 120px;
-    margin-bottom: 160px;
+    margin-top: 16vw;
+    margin-bottom: 21.3333vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .facBotTit {
     overflow: hidden;
@@ -29584,14 +29776,14 @@ button.swiper-pagination-bullet {
     right: auto;
     top: auto;
     transform: inherit;
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .facBotTit .isArrow span {
     text-transform: uppercase;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList {
     overflow: hidden;
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList:after {
     content: "";
@@ -29613,7 +29805,7 @@ button.swiper-pagination-bullet {
     float: right;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList > li:nth-child(n+2) {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList > li > div {
     float: left;
@@ -29622,7 +29814,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList > li .thumb {
     display: block;
     width: auto;
-    margin-bottom: 40px;
+    margin-bottom: 5.3333vw;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList > li .thumb img {
     width: 100%;
@@ -29631,7 +29823,7 @@ button.swiper-pagination-bullet {
     position: relative;
     display: block;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     width: auto;
   }
   #wrap.aboutus #container.factory .contentsWrap .contents .bottom .techList > li:nth-child(1) .txt {
@@ -29643,11 +29835,14 @@ button.swiper-pagination-bullet {
     right: auto;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap {
-    margin-top: 75px;
+    margin-top: 10vw;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents {
     margin-top: 0;
-    margin-bottom: 160px;
+    margin-bottom: 21.3333vw;
+  }
+  #wrap.aboutus #container.semcoLi .contentsWrap .contents .inner {
+    padding: 0 5.3333vw;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit {
     overflow: hidden;
@@ -29655,12 +29850,12 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit .innerTit {
-    font-size: 72px;
-    margin-bottom: 20px;
+    font-size: 9.6vw;
+    margin-bottom: 2.6667vw;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span {
     font-family: "Manrope_extraBold";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #9ea2a3;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents .facBotTit > span em {
@@ -29668,13 +29863,13 @@ button.swiper-pagination-bullet {
     color: #02263e;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents .semEx {
-    margin-top: 60px;
+    margin-top: 8vw;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents figure {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 10.6667vw;
     text-align: center;
     font-size: 0;
   }
@@ -29685,7 +29880,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap:last-child {
     margin-right: 0;
-    margin-top: 46px;
+    margin-top: 6.1333vw;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents figure .semImgwrap img {
     max-width: auto;
@@ -29693,13 +29888,13 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption {
     width: auto;
-    margin: 40px 0 0 0;
+    margin: 5.3333vw 0 0 0;
     text-align: center;
   }
   #wrap.aboutus #container.semcoLi .contentsWrap .contents figcaption p {
     font-family: "OpenSans_regular";
-    font-size: 24px;
-    letter-spacing: -0.25px;
+    font-size: 3.2vw;
+    letter-spacing: -0.0333vw;
   }
   #wrap.aboutus #container.himsen .contents {
     font-size: 0;
@@ -29708,7 +29903,7 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
   #wrap.aboutus #container.himsen .kv .txtBox .subTit {
-    font-size: 60px;
+    font-size: 8vw;
   }
   #wrap.aboutus #container.himsen .kv .linkList {
     display: table;
@@ -29733,8 +29928,8 @@ button.swiper-pagination-bullet {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 1px;
-    height: 30px;
+    width: 0.1333vw;
+    height: 4vw;
     background-color: #fff;
   }
   #wrap.aboutus #container.himsen .kv .linkList > li:last-of-type::after {
@@ -29743,52 +29938,52 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.himsen .kv .linkList > li a {
     display: block;
     background-color: rgba(2, 38, 62, 0.6);
-    font-size: 24px;
+    font-size: 3.2vw;
     font-family: "OpenSans_bold";
     color: #ccc;
     text-align: center;
-    line-height: 80px;
+    line-height: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .kv .linkList > li a.on {
     color: #249fe8;
   }
   #wrap.aboutus #container.himsen .pageTit {
-    margin: 80px auto 120px;
+    margin: 10.6667vw auto 16vw;
   }
   #wrap.aboutus #container.himsen .pageTit .subTit {
     text-align: left;
   }
   #wrap.aboutus #container.himsen .pageTit .aboutSubTit {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 2.6667vw;
+    margin-bottom: 8vw;
     color: #9ea2a3;
     text-align: left;
-    font-size: 36px;
+    font-size: 4.8vw;
   }
   #wrap.aboutus #container.himsen .pageTit .images .top img {
-    margin-right: 14px;
-    width: 220px;
+    margin-right: 1.8667vw;
+    width: 29.3333vw;
   }
   #wrap.aboutus #container.himsen .pageTit .images .top img:last-child {
     margin-right: 0;
   }
   #wrap.aboutus #container.himsen .pageTit .images .bot {
     position: relative;
-    margin-top: 14px;
+    margin-top: 1.8667vw;
   }
   #wrap.aboutus #container.himsen .pageTit .images .bot span {
     position: absolute;
-    right: 30px;
-    bottom: 30px;
+    right: 4vw;
+    bottom: 4vw;
     font-family: "Manrope_extraBold";
-    font-size: 36px;
+    font-size: 4.8vw;
     color: #fff;
     text-align: right;
   }
   #wrap.aboutus #container.himsen .pageTit .explain {
     width: auto;
-    margin: 40px 0 0;
-    font-size: 24px;
+    margin: 5.3333vw 0 0;
+    font-size: 3.2vw;
     font-family: "OpenSans_semiBold";
     line-height: 1.5;
   }
@@ -29808,22 +30003,22 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen {
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin-top: 10.6667vw;
+    margin-bottom: 16vw;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .titForm {
-    margin-bottom: 40px;
+    margin-bottom: 5.3333vw;
     text-align: right;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .titForm .subTit {
-    font-size: 54px;
+    font-size: 7.2vw;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen > figure {
-    margin-bottom: 100px;
+    margin-bottom: 13.3333vw;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen > figure figcaption {
-    margin-top: 40px;
-    font-size: 18px;
+    margin-top: 5.3333vw;
+    font-size: 2.4vw;
     font-family: "OpenSans_semiBold";
     text-align: center;
   }
@@ -29833,33 +30028,33 @@ button.swiper-pagination-bullet {
     table-layout: auto;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .thumb {
-    width: 690px;
+    width: 92vw;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .thumb img {
     width: 100%;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     padding-left: 0;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt p {
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #02263e;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt dl dt {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 2.6667vw;
+    font-size: 4.8vw;
     font-family: "Manrope_extraBold";
     line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li .txt dl dd {
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #02263e;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li ~ li {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .techBoxHimsen .techList > li > * {
     display: block;
@@ -29872,53 +30067,53 @@ button.swiper-pagination-bullet {
     margin-bottom: 0;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .subTit {
-    font-size: 54px;
+    font-size: 7.2vw;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .aboutSubTit {
-    margin-bottom: 40px;
+    margin-bottom: 5.3333vw;
   }
   #wrap.aboutus #container.himsen .durability .image {
     position: relative;
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.himsen .durability .image .back {
     display: inline-block;
     background: linear-gradient(90deg, white 41.6%, #ececec 41.6%);
     width: 100%;
-    height: 442px;
+    height: 58.9333vw;
   }
   #wrap.aboutus #container.himsen .durability .image .img {
-    width: 788px;
+    width: 105.0667vw;
     position: absolute;
-    left: -82px;
+    left: -10.9333vw;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack {
     background-color: #00263e;
-    padding: 80px 0;
+    padding: 10.6667vw 0;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack .secSubTit {
-    margin-bottom: 20px;
+    margin-bottom: 2.6667vw;
     font-family: "Manrope_extraBold";
-    font-size: 54px;
+    font-size: 7.2vw;
     color: #fff;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack .subTitEx {
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #9ea2a3;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul {
     overflow: hidden;
-    margin-top: 60px;
+    margin-top: 8vw;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li {
     width: 100%;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li:first-child {
-    margin-bottom: 80px;
+    margin-bottom: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li:nth-child(n+2) {
-    margin-top: 60px;
+    margin-top: 8vw;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li:nth-child(odd) {
     float: left;
@@ -29936,12 +30131,12 @@ button.swiper-pagination-bullet {
     text-align: right;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li figure {
-    width: 690px;
+    width: 92vw;
   }
   #wrap.aboutus #container.himsen .durability .gauranteeBack ul li figure figcaption {
-    margin-top: 20px;
+    margin-top: 2.6667vw;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     line-height: 1.5;
     color: #fff;
   }
@@ -29950,7 +30145,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons {
     display: inline-block;
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul {
     display: table;
@@ -29961,34 +30156,47 @@ button.swiper-pagination-bullet {
     display: inline-block;
     vertical-align: middle;
   }
+  #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:first-child img {
+    width: 25.0667vw;
+  }
+  #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(2) img {
+    width: 19.4667vw;
+  }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(3) img {
+    width: 19.0667vw;
     margin-right: 0;
   }
+  #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(4) img {
+    width: 22.5333vw;
+  }
+  #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(5) img {
+    width: 14.5333vw;
+  }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:nth-child(n+4) {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul li:last-child img {
     margin-right: 0;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons ul li img {
-    margin-right: 64px;
+    margin-right: 8.5333vw;
   }
   #wrap.aboutus #container.himsen .durability .mdInner .icons p {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
     font-family: "OpenSans_bold";
-    font-size: 36px;
+    font-size: 4.8vw;
     color: #848484;
     line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .growth {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 16vw;
+    margin-bottom: 16vw;
   }
   #wrap.aboutus #container.himsen .growth .mdInner .subTit {
-    font-size: 54px;
+    font-size: 7.2vw;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div {
     display: inline-block;
@@ -29998,66 +30206,66 @@ button.swiper-pagination-bullet {
     margin-right: 0;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div:last-child {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div:last-child ul {
     text-align: left;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div:last-child ul li:first-child {
-    margin-right: 60px;
+    margin-right: 8vw;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div > img {
     max-width: none;
     width: 100%;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li {
     display: inline-block;
     font-family: "Manrope_extraBold";
-    font-size: 80px;
+    font-size: 10.6667vw;
     color: #249fe8;
     line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li:first-child {
-    margin-right: 32px;
+    margin-right: 4.2667vw;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li em {
     font-style: normal;
     font-family: "OpenSans_regular";
-    font-size: 32px;
+    font-size: 4.2667vw;
     color: #02263e;
     line-height: 1.25;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div ul li span {
     display: block;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #02263e;
   }
   #wrap.aboutus #container.himsen .growth .recodBtn > div .btn {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 8vw;
   }
   #wrap.aboutus #container.himsen .growth .growthEx {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
     font-family: "OpenSans_bold";
-    font-size: 36px;
+    font-size: 4.8vw;
     color: #848484;
     line-height: 1.25;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.0667vw;
   }
   #wrap.aboutus #container.himsen .growth .ex {
     text-align: center;
   }
   #wrap.aboutus #container.himsen .growth .ex > img {
     width: 100%;
-    margin-top: 120px;
+    margin-top: 16vw;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up {
     overflow: hidden;
-    margin-top: -130px;
+    margin-top: -17.3333vw;
     margin-left: 0;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up:after {
@@ -30067,7 +30275,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up > div {
     float: inherit;
-    width: 534px;
+    width: 71.2vw;
     margin-right: 0;
     margin: 0 auto;
   }
@@ -30075,53 +30283,53 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up > div img:last-child {
-    margin-top: 20px;
+    margin-top: 2.6667vw;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .up p {
     width: 100%;
     float: left;
     padding-top: 0;
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #02263e;
     text-align: left;
     line-height: 1.5;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .down {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .growth .ex .exTxt .down p {
-    margin-top: 40px;
+    margin-top: 5.3333vw;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #02263e;
     line-height: 1.5;
     text-align: left;
   }
   #wrap.aboutus #container.himsen .towards {
     position: relative;
-    margin-bottom: 160px;
+    margin-bottom: 21.3333vw;
   }
   #wrap.aboutus #container.himsen .towards .inner {
     position: static;
   }
   #wrap.aboutus #container.himsen .towards .inner .subTit {
-    font-size: 54px;
+    font-size: 7.2vw;
   }
   #wrap.aboutus #container.himsen .towards .inner .aboutSubTit {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 2.6667vw;
+    margin-bottom: 6.6667vw;
   }
   #wrap.aboutus #container.himsen .towards .techList li:first-child .thumb {
     position: static;
     top: 0;
     right: 0;
-    width: 700px;
-    transform: translateX(30px);
+    width: 93.3333vw;
+    transform: translateX(4vw);
   }
   #wrap.aboutus #container.himsen .towards .techList li:nth-child(2) {
-    margin-top: 80px;
+    margin-top: 10.6667vw;
   }
   #wrap.aboutus #container.himsen .towards .techList li:nth-child(2) .thumb {
     position: relative;
@@ -30141,14 +30349,14 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul {
     width: 100%;
-    margin-left: 40px;
+    margin-left: 5.3333vw;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li {
     width: 100%;
     height: auto;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul li:nth-child(2) {
-    border-left: 1px solid #ccc;
+    border-left: none;
   }
   #wrap.aboutus #container.himsen .btnHalf_wrap ul {
     margin: 0;
@@ -30157,14 +30365,14 @@ button.swiper-pagination-bullet {
     width: 100%;
   }
   #wrap.aboutus .himsenLayer.layer {
-    height: 946px;
+    height: 126.1333vw;
   }
   #wrap.aboutus .himsenLayer.layer .popHead {
     border-color: #02263e;
   }
   #wrap.aboutus .himsenLayer.layer .popCont {
     margin-bottom: 0;
-    height: 751px;
+    height: 100.1333vw;
     text-align: center;
     border: none;
     overflow-x: auto;
@@ -30178,64 +30386,78 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .himsenLayer.layer .popCont::-webkit-scrollbar-track {
     background-color: #ccc;
-    border: 2px solid #fff;
+    border: 0.2667vw solid #fff;
+  }
+  #wrap.aboutus .himsenLayer.layer .forAfter {
+    position: relative;
+  }
+  #wrap.aboutus .himsenLayer.layer .forAfter:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
   }
   #wrap.aboutus .himsenLayerFir img {
     max-width: none;
-    width: 1148px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    width: 151.0667vw;
+    margin-top: 4vw;
+    margin-bottom: 8vw;
   }
   #wrap.aboutus .himsenLayerSec img {
     max-width: none;
-    width: 1220px;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    width: 151.8667vw;
+    margin-top: 2.6667vw;
+    margin-bottom: 8vw;
   }
   #wrap.aboutus .layer {
     width: 94% !important;
   }
   #wrap.aboutus .layer .popCont {
     padding: 0;
-    margin-bottom: 30px;
+    margin-bottom: 4vw;
     height: 660px;
     overflow-y: auto;
-    border-bottom: 1px solid #02263e;
+    border-bottom: 0.1333vw solid #02263e;
   }
   #wrap.aboutus .layer .popCont .subtitForm {
-    padding: 30px 0;
-    border-bottom: 1px solid #ccc;
+    padding: 4vw 0;
+    border-bottom: 0.1333vw solid #ccc;
     font-family: "OpenSans_bold";
-    font-size: 26px;
+    font-size: 3.4667vw;
     text-align: center;
   }
   #wrap.aboutus .layer .popCont .factoryList {
-    padding: 0px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #ccc;
+    padding: 0vw;
+    padding-top: 5.3333vw;
+    padding-bottom: 5.3333vw;
+    border-bottom: 0.1333vw solid #ccc;
     font-size: 0;
   }
   #wrap.aboutus .layer .popCont .factoryList p {
-    margin-bottom: 40px;
+    margin-bottom: 5.3333vw;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus .layer .popCont .factoryList dt strong {
     display: block;
-    margin-top: 10px;
+    margin-top: 1.3333vw;
     font-family: "OpenSans_bold";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus .layer .popCont .factoryList dd {
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.aboutus .layer .popCont .factoryList dd span {
     display: block;
-    margin-top: 10px;
+    margin-top: 1.3333vw;
     font-family: "OpenSans_regular";
-    font-size: 24px;
+    font-size: 3.2vw;
     color: #ccc;
   }
   #wrap.aboutus .layer .popCont .factoryList dd span em {
@@ -30243,9 +30465,9 @@ button.swiper-pagination-bullet {
     font-style: normal;
   }
   #wrap.aboutus .layer .popCont .factoryList img {
-    width: 85px;
+    width: 11.3333vw;
     text-align: center;
-    margin-right: 8px;
+    margin-right: 1.0667vw;
     margin-left: 0;
     font-size: 0;
   }
@@ -30253,4 +30475,33 @@ button.swiper-pagination-bullet {
     margin-right: 0;
   }
 }
-/*  ~ 640 */
+@media screen and (min-width: 280px) and (max-width: 313px) {
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
+    background-size: 10.0667vw;
+  }
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
+    background-size: 9.4vw;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 296px) {
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(3) {
+    background-size: 9.1333vw;
+  }
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(4) {
+    background-image: none;
+  }
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
+    background-image: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1709px) {
+  #container.himsen .btnHalf_wrap ul li .btnHalf {
+    padding: 0;
+  }
+  #container.himsen .btnHalf_wrap ul li .btnHalf dl {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
