@@ -4957,9 +4957,6 @@ footer .inner {
 .lnb > .inner .pcView li:last-of-type {
   padding-right: 0;
 }
-.lnb > .inner .pcView.marine {
-  text-align: left;
-}
 .lnb > .inner .moView {
   position: relative;
 }
@@ -11996,7 +11993,7 @@ button.swiper-pagination-bullet {
   .nice-select.dropMenuBox .current {
     padding: 0 6.6667vw 0 4vw;
     line-height: 10.6667vw;
-    font-size: 2.1333vw;
+    font-size: 3.2vw;
   }
   .nice-select.dropMenuBox .list li {
     font-size: 3.2vw;
@@ -25215,24 +25212,24 @@ button.swiper-pagination-bullet {
     color: #0a253e;
   }
 
-  .dlWrap {
+  #wrap #container .dlWrap {
     margin-bottom: 16vw;
   }
-  .dlWrap .dropMenuBox .current {
-    font-size: 2.1333vw;
+  #wrap #container .dlWrap .dropMenuBox .current {
+    font-size: 3.125vw !important;
     color: #02263e;
   }
-  .dlWrap .dropMenuBox .list .option.selected.focus {
+  #wrap #container .dlWrap .dropMenuBox .list .option.selected.focus {
     font-family: "OpenSans_bold";
-    font-size: 2.1333vw;
+    font-size: 3.125vw;
     color: #249fe8;
   }
-  .dlWrap .dropMenuBox .list .option {
+  #wrap #container .dlWrap .dropMenuBox .list .option {
     font-family: "OpenSans_semiBold";
-    font-size: 2.1333vw;
+    font-size: 3.125vw;
     color: #02263e;
   }
-  .dlWrap .paginate {
+  #wrap #container .dlWrap .paginate {
     margin-top: 10.6667vw;
   }
 
@@ -26103,16 +26100,16 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 {
   text-align: center;
 }
-#wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 {
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 .cntBox02 {
   margin: 74px 0 135px;
   font-size: 0;
   text-align: center;
 }
-#wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 img {
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 .cntBox02 img {
   width: 336px;
   vertical-align: middle;
 }
-#wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 p {
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 .cntBox02 p {
   display: inline-block;
   width: 630px;
   margin-left: 102px;
