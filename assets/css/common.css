@@ -687,25 +687,25 @@ address {
   transform: translateY(-50%);
   width: 7px;
   height: 14px;
-  background-image: url(/disthyundai/assets/images/common/ico_btnArrow_black.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_btnArrow_black.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .btn.isArrow.btnNavy span::after {
-  background-image: url(/disthyundai/assets/images/common/ico_btnArrow_white.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_btnArrow_white.svg);
   background-color: #02263e;
 }
 .btn.isArrow.btnSky span::after {
-  background-image: url(/disthyundai/assets/images/common/ico_btnArrow_white.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_btnArrow_white.svg);
   background-color: #249fe8;
 }
 .btn.isArrow.btnGreen span::after {
-  background-image: url(/disthyundai/assets/images/common/ico_btnArrow_white.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_btnArrow_white.svg);
   background-color: #65b33a;
 }
 .btn.isArrow.btnYellow span::after {
-  background-image: url(/disthyundai/assets/images/common/ico_btnArrow_white.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_btnArrow_white.svg);
   background-color: #f5b31c;
 }
 .btn.btn-transparent {
@@ -741,7 +741,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/ico_search.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_search.svg) no-repeat center;
   background-size: contain;
 }
 
@@ -754,7 +754,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/ico_close_thin.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_close_thin.svg) no-repeat center;
   background-size: contain;
 }
 
@@ -767,7 +767,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_print.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_print.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -780,7 +780,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_download.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_download.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -793,7 +793,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_copyLink.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_copyLink.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -806,7 +806,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_facebook.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_facebook.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -819,7 +819,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_twitter.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_twitter.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -832,7 +832,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_kakaotalk.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_kakaotalk.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -845,7 +845,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_linkedin.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_linkedin.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -858,7 +858,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_youtube.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_youtube.svg) no-repeat center;
   background-size: 100%;
 }
 
@@ -875,7 +875,7 @@ address {
   bottom: 100px;
   right: 40px;
   opacity: 0;
-  background: url(/disthyundai/assets/images/common/topBtn.png) no-repeat center, #fff;
+  background: url(/distHyundai/assets/images/common/topBtn.png) no-repeat center, #fff;
   background-size: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
   z-index: -1;
@@ -910,13 +910,13 @@ address {
   transform: translateY(-50%);
   width: 6px;
   height: 12px;
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
   background-size: 100%;
 }
 .btnEngine::before {
   width: 33px;
   height: 26px;
-  background: url(/disthyundai/assets/images/common/ico_engine_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_engine_white.png) no-repeat center;
   background-size: 100%;
 }
 
@@ -942,13 +942,13 @@ address {
   transform: translateY(-50%);
   width: 6px;
   height: 12px;
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
   background-size: 100%;
 }
 .btnFactory::before {
   width: 33px;
   height: 33px;
-  background: url(/disthyundai/assets/images/common/ico_factory_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_factory_white.png) no-repeat center;
   background-size: 100%;
 }
 
@@ -961,7 +961,7 @@ address {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url(/disthyundai/assets/images/common/btn_mobileMenu.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/btn_mobileMenu.png) no-repeat center;
   background-size: 100%;
 }
 
@@ -1157,7 +1157,7 @@ address {
     transform: translateY(-50%);
     width: 6px;
     height: 12px;
-    background: url(/disthyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
+    background: url(/distHyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
     background-size: 100%;
   }
   .btnEngine::before {
@@ -1188,7 +1188,7 @@ address {
     transform: translateY(-50%);
     width: 6px;
     height: 12px;
-    background: url(/disthyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
+    background: url(/distHyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
     background-size: 100%;
   }
   .btnFactory::before {
@@ -1494,7 +1494,7 @@ address {
   position: absolute;
   top: 30px;
   right: 40px;
-  background: url(/disthyundai/assets/images/common/ico_close.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_close.svg) no-repeat center;
   background-size: 100%;
 }
 .layer .popHead {
@@ -1634,7 +1634,7 @@ address {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  background: url(/disthyundai/assets/images/common/ico_close_gray.png) center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_close_gray.png) center no-repeat;
   background-size: 100%;
 }
 .layer.featureLayer .popHead {
@@ -2084,7 +2084,7 @@ textarea::placeholder {
   position: absolute;
   top: 50%;
   right: 56px;
-  background: url(/disthyundai/assets/images/common/ico_close.svg) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_close.svg) no-repeat center;
   background-size: 100%;
   transform: translateY(-50%);
 }
@@ -2779,7 +2779,7 @@ footer .inner {
   transform: translate(-50%, -50%);
   width: 60px;
   height: 42px;
-  background: url("/disthyundai/assets/images/common/youtube_btn.png") no-repeat center;
+  background: url("/distHyundai/assets/images/common/youtube_btn.png") no-repeat center;
   background-size: auto;
   background-size: contain;
 }
@@ -2998,24 +2998,24 @@ footer .inner {
 .paginate a.arr.first {
   margin-right: 20px;
   width: 14px;
-  background-image: url(/disthyundai/assets/images/common/ico_pageArr02.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_pageArr02.svg);
   transform: rotate(180deg);
 }
 .paginate a.arr.prev {
   margin-right: 40px;
   width: 7px;
-  background-image: url(/disthyundai/assets/images/common/ico_pageArr.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_pageArr.svg);
   transform: rotate(180deg);
 }
 .paginate a.arr.next {
   margin-left: 40px;
   width: 7px;
-  background-image: url(/disthyundai/assets/images/common/ico_pageArr.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_pageArr.svg);
 }
 .paginate a.arr.last {
   margin-left: 20px;
   width: 14px;
-  background-image: url(/disthyundai/assets/images/common/ico_pageArr02.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_pageArr02.svg);
 }
 
 .contactCard {
@@ -3093,7 +3093,7 @@ footer .inner {
 .boardNotFound {
   width: 100%;
   height: 400px;
-  background: url(/disthyundai/assets/images/common/ico_not_found.svg) no-repeat center 136px;
+  background: url(/distHyundai/assets/images/common/ico_not_found.svg) no-repeat center 136px;
   background-size: 60px;
   border-top: 1px solid #ccc;
 }
@@ -3158,7 +3158,7 @@ footer .inner {
 }
 .footerContact .inner {
   padding: 65px 40px;
-  background-image: url(/disthyundai/assets/images/common/footer_map.svg);
+  background-image: url(/distHyundai/assets/images/common/footer_map.svg);
   background-repeat: no-repeat;
   background-position: right center;
   background-size: contain;
@@ -3251,7 +3251,7 @@ footer .inner {
   right: 60px;
   width: 7px;
   height: 14px;
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_grey.png) center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_grey.png) center no-repeat;
   background-size: contain;
 }
 .btnHalf_wrap ul li .btnHalf dl dt {
@@ -3359,7 +3359,7 @@ footer .inner {
   top: 31px;
   width: 15px;
   height: 15px;
-  background: url(/disthyundai/assets/images/common/ico_feather_arrow.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_feather_arrow.png) no-repeat center;
   background-size: contain;
 }
 
@@ -3786,7 +3786,7 @@ footer .inner {
 
   .boardNotFound {
     height: 27.7778vw;
-    background: url(/disthyundai/assets/images/common/ico_not_found.svg) no-repeat center 9.4444vw;
+    background: url(/distHyundai/assets/images/common/ico_not_found.svg) no-repeat center 9.4444vw;
     background-size: 4.1667vw;
   }
   .boardNotFound p {
@@ -4428,7 +4428,7 @@ footer .inner {
   }
   #wrap #container .footerContact .inner {
     padding: 6vw 4vw;
-    background-image: url(/disthyundai/assets/images/common/footer_map_mo.svg);
+    background-image: url(/distHyundai/assets/images/common/footer_map_mo.svg);
     background-position: right top;
   }
   #wrap #container .footerContact .inner h4 {
@@ -4642,7 +4642,7 @@ footer .inner {
   }
   #wrap #container .boardNotFound {
     height: 103.6vw;
-    background: url(/disthyundai/assets/images/common/ico_not_found.svg) no-repeat center 30.6667vw;
+    background: url(/distHyundai/assets/images/common/ico_not_found.svg) no-repeat center 30.6667vw;
     background-size: 13.3333vw;
     border-top: 0.1333vw solid #ccc;
   }
@@ -4815,11 +4815,11 @@ footer .inner {
   color: #249fe8;
 }
 #gnb .depth1 > li .depth2 > .inner .btnEngine:hover::before {
-  background: url(/disthyundai/assets/images/common/ico_engine_sky.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_engine_sky.png) no-repeat center;
   background-size: 100%;
 }
 #gnb .depth1 > li .depth2 > .inner .btnEngine:hover::after {
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_sky.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_sky.png) no-repeat center;
   background-size: 100%;
 }
 #gnb .depth1 > li .depth2 > .inner .btnFactory {
@@ -4831,11 +4831,11 @@ footer .inner {
   color: #249fe8;
 }
 #gnb .depth1 > li .depth2 > .inner .btnFactory:hover::before {
-  background: url(/disthyundai/assets/images/common/ico_factory_sky.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_factory_sky.png) no-repeat center;
   background-size: 100%;
 }
 #gnb .depth1 > li .depth2 > .inner .btnFactory:hover::after {
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_sky.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_sky.png) no-repeat center;
   background-size: 100%;
 }
 
@@ -4982,7 +4982,7 @@ footer .inner {
   top: 50%;
   width: 22px;
   height: 12px;
-  background: url(/disthyundai/assets/images/common/ico_selectArr.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_selectArr.png) no-repeat center;
   background-size: contain;
   transition: transform 0.3s;
   transform: translateY(-50%);
@@ -5112,7 +5112,7 @@ footer .inner {
     transform: translateY(-50%);
     width: 2.9333vw;
     height: 1.6vw;
-    background: url(/disthyundai/assets/images/common/ico_selectArr.png) no-repeat center;
+    background: url(/distHyundai/assets/images/common/ico_selectArr.png) no-repeat center;
     background-size: contain;
     transition: transform 0.3s;
   }
@@ -5153,11 +5153,11 @@ footer .inner {
     font-family: "OpenSans_bold";
   }
   .lnb > .inner .moView ul li.uniq.engine a {
-    background: url(/disthyundai/assets/images/common/ico_engine.png) no-repeat left center;
+    background: url(/distHyundai/assets/images/common/ico_engine.png) no-repeat left center;
     background-size: 50px;
   }
   .lnb > .inner .moView ul li.uniq.energy a {
-    background: url(/disthyundai/assets/images/common/ico_factory.png) no-repeat left center;
+    background: url(/distHyundai/assets/images/common/ico_factory.png) no-repeat left center;
     background-size: 50px;
   }
   .lnb > .inner .moView.on .current::after {
@@ -5255,7 +5255,7 @@ header .hdBottom > .inner .langBox .btnLang::before {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-image: url(/disthyundai/assets/images/common/ico_earth.png);
+  background-image: url(/distHyundai/assets/images/common/ico_earth.png);
 }
 header .hdBottom > .inner .langBox .btnLang.on {
   border-bottom: 2px solid #249fe8;
@@ -5310,7 +5310,7 @@ header .hdBottom > .inner .langBox ul::after {
   margin-left: -7px;
 }
 header .hdBottom > .inner .hdSearch.open > .btnSearch.moSearch {
-  background: url(/disthyundai/assets/images/common/ico_close.svg) center no-repeat !important;
+  background: url(/distHyundai/assets/images/common/ico_close.svg) center no-repeat !important;
   background-size: 100% !important;
 }
 header .hdBottom > .inner .hdSearch .searchArea {
@@ -5388,7 +5388,7 @@ header.scrolling.upScrolling .hdBottom > .inner .hdSearch .searchArea {
   position: absolute;
   right: 40px;
   top: 44px;
-  background: url(/disthyundai/assets/images/common/ico_close_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_close_white.png) no-repeat center;
   background-size: 100%;
 }
 .moMenu #moGnb > li {
@@ -5413,7 +5413,7 @@ header.scrolling.upScrolling .hdBottom > .inner .hdSearch .searchArea {
   width: 23px;
   height: 15px;
   margin-top: -7px;
-  background: url(/disthyundai/assets/images/common/ico_gnbArr_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_gnbArr_white.png) no-repeat center;
   background-size: 100%;
   transition: transform 0.3s;
 }
@@ -5500,11 +5500,11 @@ header.scrolling.upScrolling .hdBottom > .inner .hdSearch .searchArea {
 }
 .mainWrap header .hdBottom .inner .langBox .btnLang::before,
 .isHover header .hdBottom .inner .langBox .btnLang::before {
-  background-image: url(/disthyundai/assets/images/common/ico_earth_white.svg);
+  background-image: url(/distHyundai/assets/images/common/ico_earth_white.svg);
 }
 .mainWrap header .hdBottom .inner .hdSearch > .btnSearch,
 .isHover header .hdBottom .inner .hdSearch > .btnSearch {
-  background: url(/disthyundai/assets/images/common/ico_search_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_search_white.png) no-repeat center;
   background-size: contain;
 }
 .mainWrap.isScrolling header .hdTop,
@@ -5533,11 +5533,11 @@ header.scrolling.upScrolling .hdBottom > .inner .hdSearch .searchArea {
 }
 .mainWrap.isScrolling header .hdBottom .inner .langBox .btnLang::before,
 .isHover.isScrolling header .hdBottom .inner .langBox .btnLang::before {
-  background-image: url(/disthyundai/assets/images/common/ico_earth.png);
+  background-image: url(/distHyundai/assets/images/common/ico_earth.png);
 }
 .mainWrap.isScrolling header .hdBottom .inner .hdSearch > .btnSearch,
 .isHover.isScrolling header .hdBottom .inner .hdSearch > .btnSearch {
-  background: url(/disthyundai/assets/images/common/ico_search.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_search.png) no-repeat center;
   background-size: contain;
 }
 
@@ -5713,7 +5713,7 @@ header.scrolling.upScrolling .hdBottom > .inner .hdSearch .searchArea {
   header .hdBottom > .inner .langBox .btnLang::before {
     width: 4.8vw;
     height: 4.8vw;
-    background-image: url(/disthyundai/assets/images/common/ico_earth.png) !important;
+    background-image: url(/distHyundai/assets/images/common/ico_earth.png) !important;
   }
   header .hdBottom > .inner .langBox ul {
     top: 13.3333vw;
@@ -5739,7 +5739,7 @@ header.scrolling.upScrolling .hdBottom > .inner .hdSearch .searchArea {
   header .hdBottom > .inner .hdSearch .btnSearch {
     width: 4.2667vw;
     height: 4.2667vw;
-    background: url(/disthyundai/assets/images/common/ico_search.svg) center no-repeat !important;
+    background: url(/distHyundai/assets/images/common/ico_search.svg) center no-repeat !important;
     background-size: contain !important;
   }
   header .hdBottom > .inner .hdSearch .searchArea {
@@ -5898,7 +5898,7 @@ footer .ftTop .ftUtil .familyBox button::after {
   top: 50%;
   width: 7px;
   height: 14px;
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_white.png) no-repeat center;
   background-size: contain;
   transition: transform 0.3s;
   transform: translateY(-50%) rotate(-90deg);
@@ -11748,7 +11748,7 @@ button.swiper-pagination-bullet {
   margin-top: -7px;
   width: 10px;
   height: 16px;
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_black.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_black.png) no-repeat center;
   background-size: 100%;
   transform: rotate(90deg);
   transform-origin: 50% 50%;
@@ -12195,7 +12195,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url("/disthyundai/assets/images/main/btnPause.svg") no-repeat center;
+  background: url("/distHyundai/assets/images/main/btnPause.svg") no-repeat center;
   background-size: auto;
   display: inline-block;
   margin-left: 8px;
@@ -12213,7 +12213,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url("/disthyundai/assets/images/main/btnPlay.svg") no-repeat center;
+  background: url("/distHyundai/assets/images/main/btnPlay.svg") no-repeat center;
   background-size: auto;
   display: none;
   margin-left: 8px;
@@ -12246,7 +12246,7 @@ button.swiper-pagination-bullet {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: url("/disthyundai/assets/images/main/hoverView_line.png") no-repeat right top;
+  background: url("/distHyundai/assets/images/main/hoverView_line.png") no-repeat right top;
   background-size: 70px 70px;
   position: absolute;
   top: 157px;
@@ -12280,7 +12280,7 @@ button.swiper-pagination-bullet {
   display: none;
 }
 #wrap.mainWrap #container .hoverView a.blue {
-  background: url("/disthyundai/assets/images/main/main_marine.png") no-repeat center;
+  background: url("/distHyundai/assets/images/main/main_marine.png") no-repeat center;
   background-size: auto;
   width: 492px;
   margin-right: 28px;
@@ -12302,7 +12302,7 @@ button.swiper-pagination-bullet {
   height: 600px;
 }
 #wrap.mainWrap #container .hoverView a.orange {
-  background: url("/disthyundai/assets/images/main/main_energy.png") no-repeat center;
+  background: url("/distHyundai/assets/images/main/main_energy.png") no-repeat center;
   background-size: auto;
   width: 492px;
   position: relative;
@@ -12431,16 +12431,16 @@ button.swiper-pagination-bullet {
   transition: all 0.5s;
 }
 #wrap.mainWrap #container .productsArea ul li:nth-child(1)::after {
-  background: url("/disthyundai/assets/images/main/productIcon_01.png") no-repeat 520px 322px rgba(36, 159, 232, 0.8);
+  background: url("/distHyundai/assets/images/main/productIcon_01.png") no-repeat 520px 322px rgba(36, 159, 232, 0.8);
 }
 #wrap.mainWrap #container .productsArea ul li:nth-child(2)::after {
-  background: url("/disthyundai/assets/images/main/productIcon_02.png") no-repeat 540px 238px rgba(36, 159, 232, 0.8);
+  background: url("/distHyundai/assets/images/main/productIcon_02.png") no-repeat 540px 238px rgba(36, 159, 232, 0.8);
 }
 #wrap.mainWrap #container .productsArea ul li:nth-child(3)::after {
-  background: url("/disthyundai/assets/images/main/productIcon_03.png") no-repeat 540px 234px rgba(36, 159, 232, 0.8);
+  background: url("/distHyundai/assets/images/main/productIcon_03.png") no-repeat 540px 234px rgba(36, 159, 232, 0.8);
 }
 #wrap.mainWrap #container .productsArea ul li:nth-child(4)::after {
-  background: url("/disthyundai/assets/images/main/productIcon_04.png") no-repeat 544px 244px rgba(36, 159, 232, 0.8);
+  background: url("/distHyundai/assets/images/main/productIcon_04.png") no-repeat 544px 244px rgba(36, 159, 232, 0.8);
 }
 #wrap.mainWrap #container .productsArea ul li:hover::after {
   opacity: 1;
@@ -12594,7 +12594,7 @@ button.swiper-pagination-bullet {
   color: #249fe8;
 }
 #wrap.mainWrap .ourBusinesses .businessTxt .btnBox a.btn span::after {
-  background-image: url(/disthyundai/assets/images/common/ico_btnArrow_sky.png);
+  background-image: url(/distHyundai/assets/images/common/ico_btnArrow_sky.png);
 }
 #wrap.mainWrap .mainCount {
   width: 1286px;
@@ -12789,7 +12789,7 @@ button.swiper-pagination-bullet {
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    background: url("/disthyundai/assets/images/main/hoverView_line.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/main/hoverView_line.png") no-repeat right top;
     background-size: 3.6458vw 3.6458vw;
     top: 8.1771vw;
     left: 50%;
@@ -12858,19 +12858,19 @@ button.swiper-pagination-bullet {
     font-size: 2.1875vw;
   }
   #wrap.mainWrap #container .productsArea ul li:nth-child(1)::after {
-    background: url("/disthyundai/assets/images/main/productIcon_01.png") no-repeat 27.0833vw 16.7708vw rgba(36, 159, 232, 0.8);
+    background: url("/distHyundai/assets/images/main/productIcon_01.png") no-repeat 27.0833vw 16.7708vw rgba(36, 159, 232, 0.8);
     background-size: 30%;
   }
   #wrap.mainWrap #container .productsArea ul li:nth-child(2)::after {
-    background: url("/disthyundai/assets/images/main/productIcon_02.png") no-repeat 28.125vw 12.3958vw rgba(36, 159, 232, 0.8);
+    background: url("/distHyundai/assets/images/main/productIcon_02.png") no-repeat 28.125vw 12.3958vw rgba(36, 159, 232, 0.8);
     background-size: 30%;
   }
   #wrap.mainWrap #container .productsArea ul li:nth-child(3)::after {
-    background: url("/disthyundai/assets/images/main/productIcon_03.png") no-repeat 28.125vw 12.1875vw rgba(36, 159, 232, 0.8);
+    background: url("/distHyundai/assets/images/main/productIcon_03.png") no-repeat 28.125vw 12.1875vw rgba(36, 159, 232, 0.8);
     background-size: 30%;
   }
   #wrap.mainWrap #container .productsArea ul li:nth-child(4)::after {
-    background: url("/disthyundai/assets/images/main/productIcon_04.png") no-repeat 28.3333vw 12.7083vw rgba(36, 159, 232, 0.8);
+    background: url("/distHyundai/assets/images/main/productIcon_04.png") no-repeat 28.3333vw 12.7083vw rgba(36, 159, 232, 0.8);
     background-size: 30%;
   }
 }
@@ -13209,7 +13209,7 @@ button.swiper-pagination-bullet {
     overflow: hidden;
     border: none;
     vertical-align: top;
-    background: url("/disthyundai/assets/images/main/btnPause.svg") no-repeat center;
+    background: url("/distHyundai/assets/images/main/btnPause.svg") no-repeat center;
     background-size: auto;
     display: inline-block;
     margin-left: 2.1333vw;
@@ -13227,7 +13227,7 @@ button.swiper-pagination-bullet {
     overflow: hidden;
     border: none;
     vertical-align: top;
-    background: url("/disthyundai/assets/images/main/btnPlay.svg") no-repeat center;
+    background: url("/distHyundai/assets/images/main/btnPlay.svg") no-repeat center;
     background-size: auto;
     display: none;
     margin-left: 2.1333vw;
@@ -13293,7 +13293,7 @@ button.swiper-pagination-bullet {
     display: block;
   }
   #wrap.mainWrap #container .hoverView a.blue {
-    background: url("/disthyundai/assets/images/main/main_marine_mo.png") no-repeat center;
+    background: url("/distHyundai/assets/images/main/main_marine_mo.png") no-repeat center;
     background-size: cover;
     width: 100%;
     margin-right: 0;
@@ -13321,7 +13321,7 @@ button.swiper-pagination-bullet {
     height: 32vw;
   }
   #wrap.mainWrap #container .hoverView a.orange {
-    background: url("/disthyundai/assets/images/main/main_energy_mo.png") no-repeat center;
+    background: url("/distHyundai/assets/images/main/main_energy_mo.png") no-repeat center;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -13611,7 +13611,7 @@ button.swiper-pagination-bullet {
     color: #249fe8;
   }
   #wrap.mainWrap #container .ourBusinesses .businessTxt .btnBox a.btn span::after {
-    background-image: url(/disthyundai/assets/images/common/ico_btnArrow_sky_mo.png);
+    background-image: url(/distHyundai/assets/images/common/ico_btnArrow_sky_mo.png);
   }
 }
 @media (max-width: 768px) {
@@ -13924,7 +13924,7 @@ button.swiper-pagination-bullet {
 .result .failure {
   margin: 110px 0 270px 0;
   padding-top: 80px;
-  background: url("/disthyundai/assets/images/common/ico_not_found.svg") no-repeat 50% 0;
+  background: url("/distHyundai/assets/images/common/ico_not_found.svg") no-repeat 50% 0;
   background-size: 60px 50px;
   text-align: center;
 }
@@ -14048,7 +14048,7 @@ button.swiper-pagination-bullet {
   .result .failure {
     margin: 9.6491vw 0 23.6842vw 0;
     padding-top: 7.0175vw;
-    background: url("/disthyundai/assets/images/common/ico_not_found.svg") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/common/ico_not_found.svg") no-repeat 50% 0;
     background-size: 5.2632vw 4.386vw;
   }
   .result .failure span {
@@ -14220,7 +14220,7 @@ button.swiper-pagination-bullet {
   .result .failure {
     margin: 0 0 36vw 0;
     padding-top: 16.5333vw;
-    background: url("/disthyundai/assets/images/common/ico_not_found.svg") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/common/ico_not_found.svg") no-repeat 50% 0;
     background-size: 13.3333vw 11.2vw;
     text-align: center;
   }
@@ -14396,7 +14396,7 @@ button.swiper-pagination-bullet {
   transform: translateY(-50%);
   width: 6px;
   height: 11px;
-  background: url(/disthyundai/assets/images/common/ico_btnArrow_link02.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_btnArrow_link02.png) no-repeat center;
   background-size: contain;
 }
 #wrap.marineSolution .refBox {
@@ -14941,7 +14941,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url("/disthyundai/assets/images/main/btnPause.png") no-repeat center;
+  background: url("/distHyundai/assets/images/main/btnPause.png") no-repeat center;
   background-size: auto;
   display: inline-block;
   line-height: 14px;
@@ -14959,7 +14959,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url("/disthyundai/assets/images/main/btnPlay.png") no-repeat center;
+  background: url("/distHyundai/assets/images/main/btnPlay.png") no-repeat center;
   background-size: auto;
   display: none;
   line-height: 14px;
@@ -15017,11 +15017,11 @@ button.swiper-pagination-bullet {
 }
 #wrap.energySolution #container.overview .inner .energyForAll .appLink a.appStore {
   margin-right: 20px;
-  background: url("/disthyundai/assets/images/energy/appDownload_ios.svg") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/appDownload_ios.svg") no-repeat center;
   background-size: 156px 42px;
 }
 #wrap.energySolution #container.overview .inner .energyForAll .appLink a.playStore {
-  background: url("/disthyundai/assets/images/energy/appDownload_android.svg") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/appDownload_android.svg") no-repeat center;
   background-size: 156px 42px;
 }
 #wrap.energySolution #container.overview .bannerBox {
@@ -15057,7 +15057,7 @@ button.swiper-pagination-bullet {
   margin-left: 11px;
   width: 6px;
   height: 11px;
-  background: url("/disthyundai/assets/images/common/ico_btnArrow_link.png") no-repeat center;
+  background: url("/distHyundai/assets/images/common/ico_btnArrow_link.png") no-repeat center;
   background-size: contain;
   vertical-align: middle;
 }
@@ -15080,19 +15080,19 @@ button.swiper-pagination-bullet {
   height: 600px;
 }
 #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/energyFor_newyork.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/energyFor_newyork.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/energyFor_panama.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/energyFor_panama.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/energyFor_cuba.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/energyFor_cuba.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/energyFor_colombia.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/energyFor_colombia.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.clickCity li a {
@@ -15177,16 +15177,16 @@ button.swiper-pagination-bullet {
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(1) {
   padding-left: 55px;
-  background: url("/disthyundai/assets/images/energy/icon_newyork_01.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_newyork_01.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/icon_newyork_02.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_newyork_02.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(3) {
   margin-right: 0;
-  background: url("/disthyundai/assets/images/energy/icon_newyork_03.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_newyork_03.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner p {
@@ -15263,7 +15263,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
   border: none;
   vertical-align: top;
-  background: url("/disthyundai/assets/images/common/ico_close_white.png") no-repeat center;
+  background: url("/distHyundai/assets/images/common/ico_close_white.png") no-repeat center;
   background-size: 21px 21px;
   position: absolute;
   top: -92px;
@@ -15271,55 +15271,55 @@ button.swiper-pagination-bullet {
   border: 1px solid #fff;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=newYork] {
-  background: url("/disthyundai/assets/images/energy/popUpCity_newyork.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/popUpCity_newyork.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] {
-  background: url("/disthyundai/assets/images/energy/popUpCity_panama.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/popUpCity_panama.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/icon_newyork_03.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_newyork_03.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/icon_panama_01.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_panama_01.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/icon_panama_02.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_panama_02.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] {
-  background: url("/disthyundai/assets/images/energy/popUpCity_cuba.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/popUpCity_cuba.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/icon_cuba_01.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_cuba_01.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/icon_cuba_02.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_cuba_02.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/icon_cuba_03.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_cuba_03.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] {
-  background: url("/disthyundai/assets/images/energy/popUpCity_colombia.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/popUpCity_colombia.png") no-repeat center;
   background-size: cover;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/icon_cuba_02.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_cuba_02.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/icon_newyork_02.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_newyork_02.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/icon_panama_02.png") no-repeat left center;
+  background: url("/distHyundai/assets/images/energy/icon_panama_02.png") no-repeat left center;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService {
@@ -15410,75 +15410,75 @@ button.swiper-pagination-bullet {
   margin-top: 0;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_01.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_01.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_03.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_03.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_04.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_04.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(6) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_05.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_05.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_06.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_06.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_07.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_07.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_08.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_08.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_09.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_09.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_10.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_10.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(6) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_11.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_11.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_12.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_12.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_13.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_13.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_14.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_14.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_15.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_15.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_16.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_16.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(6) {
-  background: url("/disthyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul li:hover span.desc {
@@ -15489,74 +15489,74 @@ button.swiper-pagination-bullet {
   margin-top: 0;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/ico_services_01.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_01.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/ico_services_02.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_02.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/ico_services_03.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_03.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/ico_services_04.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_04.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/ico_services_05.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_05.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(6) {
-  background: url("/disthyundai/assets/images/energy/ico_services_06.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_06.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/ico_services_07.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_07.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/ico_services_08.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_08.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/ico_services_09.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_09.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/ico_services_10.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_10.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/ico_services_11.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_11.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(6) {
-  background: url("/disthyundai/assets/images/energy/ico_services_12.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_12.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) {
   width: 1200px;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(1) {
-  background: url("/disthyundai/assets/images/energy/ico_services_13.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_13.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/ico_services_14.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_14.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/ico_services_15.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_15.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/ico_services_16.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_16.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/ico_services_17.svg") no-repeat center 27px;
+  background: url("/distHyundai/assets/images/energy/ico_services_17.svg") no-repeat center 27px;
   background-size: auto;
 }
 #wrap.energySolution #container.overview .solutionService ul.categoryDesc {
@@ -15594,7 +15594,7 @@ button.swiper-pagination-bullet {
 #wrap.energySolution #container.overview .countUp {
   width: 100%;
   height: 500px;
-  background: url("/disthyundai/assets/images/energy/energy_countup_bg.png") no-repeat center;
+  background: url("/distHyundai/assets/images/energy/energy_countup_bg.png") no-repeat center;
   background-size: auto;
   color: #fff;
   margin-top: 120px;
@@ -15763,15 +15763,15 @@ button.swiper-pagination-bullet {
   height: 1032px;
 }
 #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/explain_diesel_01.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_diesel_01.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/explain_diesel_02.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_diesel_02.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/explain_diesel_03.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_diesel_03.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container.modularPower .inner .gotoYoutube iframe {
@@ -15825,19 +15825,19 @@ button.swiper-pagination-bullet {
   height: 1550px;
 }
 #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/explain_packaged_01.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_packaged_01.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/explain_packaged_02.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_packaged_02.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/explain_packaged_03.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_packaged_03.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/explain_packaged_04.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_packaged_04.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.modularPower .explain dl.listDl dd .chartTitle {
@@ -15893,11 +15893,11 @@ button.swiper-pagination-bullet {
   margin-bottom: 20px;
 }
 #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/explain_CHP_01.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_CHP_01.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/explain_CHP_02.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_CHP_02.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(4) {
@@ -15941,15 +15941,15 @@ button.swiper-pagination-bullet {
   height: 1069px;
 }
 #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/explain_nuclear_01.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_nuclear_01.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/explain_nuclear_02.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_nuclear_02.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/explain_nuclear_03.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_nuclear_03.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container.nuclearPower .explain dl.listDl dd .certification {
@@ -16041,15 +16041,15 @@ button.swiper-pagination-bullet {
   height: 757px;
 }
 #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/explain_emergency_01.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_emergency_01.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/explain_emergency_02.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_emergency_02.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/explain_emergency_03.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_emergency_03.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd p {
@@ -16132,19 +16132,19 @@ button.swiper-pagination-bullet {
   border-bottom: 1px solid #ccc;
 }
 #wrap.energySolution #container .explain dl.listDl dd:nth-child(2) {
-  background: url("/disthyundai/assets/images/energy/explain_01.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_01.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container .explain dl.listDl dd:nth-child(3) {
-  background: url("/disthyundai/assets/images/energy/explain_02.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_02.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container .explain dl.listDl dd:nth-child(4) {
-  background: url("/disthyundai/assets/images/energy/explain_03.png") no-repeat right center;
+  background: url("/distHyundai/assets/images/energy/explain_03.png") no-repeat right center;
   background-size: auto;
 }
 #wrap.energySolution #container .explain dl.listDl dd:nth-child(5) {
-  background: url("/disthyundai/assets/images/energy/explain_04.png") no-repeat right 50px;
+  background: url("/distHyundai/assets/images/energy/explain_04.png") no-repeat right 50px;
   background-size: auto;
 }
 #wrap.energySolution #container .explain dl.listDl dd:last-child {
@@ -16709,7 +16709,7 @@ button.swiper-pagination-bullet {
     overflow: hidden;
     border: none;
     vertical-align: top;
-    background: url("/disthyundai/assets/images/common/ico_close_white.png") no-repeat center;
+    background: url("/distHyundai/assets/images/common/ico_close_white.png") no-repeat center;
     background-size: 1.0938vw 1.0938vw;
     top: -4.7917vw;
     right: -21.3542vw;
@@ -16831,12 +16831,12 @@ button.swiper-pagination-bullet {
     border: 1px solid #c4c4c4;
   }
   #wrap.energySolution #container.overview .inner .energyForAll .appLink a.appStore {
-    background: url("/disthyundai/assets/images/energy/appDownload_ios.svg") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/appDownload_ios.svg") no-repeat center;
     background-size: 10.8333vw 2.9167vw;
     margin-right: 1.3889vw;
   }
   #wrap.energySolution #container.overview .inner .energyForAll .appLink a.playStore {
-    background: url("/disthyundai/assets/images/energy/appDownload_android.svg") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/appDownload_android.svg") no-repeat center;
     background-size: 10.8333vw 2.9167vw;
   }
   #wrap.energySolution #container.overview .goToYoutube {
@@ -16887,149 +16887,149 @@ button.swiper-pagination-bullet {
     font-size: 1.1111vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_01.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_01.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_03.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_03.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_04.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_04.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_05.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_05.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_06.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_06.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_07.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_07.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_08.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_08.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_09.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_09.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_10.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_10.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_11.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_11.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_12.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_12.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_13.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_13.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_14.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_14.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_15.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_15.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_16.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_16.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) {
     margin-top: 0;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_services_01.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_01.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_services_02.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_02.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_services_03.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_03.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_services_04.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_04.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_services_05.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_05.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_services_06.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_06.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_services_07.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_07.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_services_08.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_08.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_services_09.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_09.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_services_10.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_10.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_services_11.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_11.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_services_12.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_12.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) {
     width: 83.3333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_services_13.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_13.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_services_14.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_14.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_services_15.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_15.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_services_16.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_16.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_services_17.svg") no-repeat center 1.875vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_17.svg") no-repeat center 1.875vw;
     background-size: 40%;
   }
   #wrap.energySolution #container.overview .solutionService ul.categoryDesc {
@@ -17135,15 +17135,15 @@ button.swiper-pagination-bullet {
     height: 71.6667vw;
   }
   #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_diesel_01.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_diesel_01.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_diesel_02.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_diesel_02.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_diesel_03.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_diesel_03.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.modularPower .inner .gotoYoutube iframe {
@@ -17178,19 +17178,19 @@ button.swiper-pagination-bullet {
     height: 117.6389vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_01.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_01.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_02.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_02.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_03.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_03.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_04.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_04.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd .chartTitle {
@@ -17229,11 +17229,11 @@ button.swiper-pagination-bullet {
     max-width: 90%;
   }
   #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_CHP_01.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_CHP_01.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_CHP_02.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_CHP_02.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(4) {
@@ -17268,15 +17268,15 @@ button.swiper-pagination-bullet {
     height: 74.2361vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_nuclear_01.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_nuclear_01.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_nuclear_02.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_nuclear_02.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_nuclear_03.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_nuclear_03.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd .certification {
@@ -17329,15 +17329,15 @@ button.swiper-pagination-bullet {
     height: 52.5694vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_emergency_01.png") no-repeat right center;
+    background: url("/distHyundai/assets/images/energy/explain_emergency_01.png") no-repeat right center;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_emergency_02.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_emergency_02.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_emergency_03.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_emergency_03.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd p {
@@ -17383,19 +17383,19 @@ button.swiper-pagination-bullet {
     padding: 3.4722vw 0;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_01.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_01.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_02.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_02.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_03.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_03.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/explain_04.png") no-repeat right 3.4722vw;
+    background: url("/distHyundai/assets/images/energy/explain_04.png") no-repeat right 3.4722vw;
     background-size: 10.4167vw 10.4167vw;
   }
   #wrap.energySolution #container .explain dl dd strong {
@@ -17772,12 +17772,12 @@ button.swiper-pagination-bullet {
     border: 1px solid #c4c4c4;
   }
   #wrap.energySolution #container.overview .inner .energyForAll .appLink a.appStore {
-    background: url("/disthyundai/assets/images/energy/appDownload_ios.svg") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/appDownload_ios.svg") no-repeat center;
     background-size: 20.8vw 5.6vw;
     margin-right: 1.3333vw;
   }
   #wrap.energySolution #container.overview .inner .energyForAll .appLink a.playStore {
-    background: url("/disthyundai/assets/images/energy/appDownload_android.svg") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/appDownload_android.svg") no-repeat center;
     background-size: 20.8vw 5.6vw;
   }
   #wrap.energySolution #container.overview .bannerBox {
@@ -17825,7 +17825,7 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
   #wrap.energySolution #container.overview .goToYoutube a::after {
-    background: url("/disthyundai/assets/images/common/ico_btnArrow_link_mo.png") no-repeat center;
+    background: url("/distHyundai/assets/images/common/ico_btnArrow_link_mo.png") no-repeat center;
     background-size: contain;
     content: "";
     display: inline-block;
@@ -17848,19 +17848,19 @@ button.swiper-pagination-bullet {
     height: 62.6667vw;
   }
   #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/energyFor_newyork.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/energyFor_newyork.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/energyFor_panama.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/energyFor_panama.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/energyFor_cuba.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/energyFor_cuba.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.clickCity li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/energyFor_colombia.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/energyFor_colombia.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.clickCity li a {
@@ -17949,19 +17949,19 @@ button.swiper-pagination-bullet {
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(1) {
     padding-left: 13.3333vw;
-    background: url("/disthyundai/assets/images/energy/icon_newyork_01.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_01.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(2) {
     margin-right: 0;
-    background: url("/disthyundai/assets/images/energy/icon_newyork_02.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_02.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li .inner ul.feature li:nth-child(3) {
     margin-right: 0;
-    background: url("/disthyundai/assets/images/energy/icon_newyork_03.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_03.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -18057,7 +18057,7 @@ button.swiper-pagination-bullet {
     overflow: hidden;
     border: none;
     vertical-align: top;
-    background: url("/disthyundai/assets/images/common/ico_close_white.png") no-repeat center;
+    background: url("/distHyundai/assets/images/common/ico_close_white.png") no-repeat center;
     background-size: 2.8vw 2.8vw;
     position: absolute;
     top: -18.6667vw;
@@ -18065,63 +18065,63 @@ button.swiper-pagination-bullet {
     border: 1px solid #fff;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=newYork] {
-    background: url("/disthyundai/assets/images/energy/popUpCity_newyork.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/popUpCity_newyork.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] {
-    background: url("/disthyundai/assets/images/energy/popUpCity_panama.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/popUpCity_panama.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/icon_newyork_03.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_03.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/icon_panama_01.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_panama_01.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=panama] ul.feature li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/icon_panama_02.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_panama_02.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] {
-    background: url("/disthyundai/assets/images/energy/popUpCity_cuba.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/popUpCity_cuba.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/icon_cuba_01.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_01.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/icon_cuba_02.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_02.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=cuba] ul.feature li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/icon_cuba_03.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_03.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] {
-    background: url("/disthyundai/assets/images/energy/popUpCity_colombia.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/popUpCity_colombia.png") no-repeat center;
     background-size: cover;
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/icon_cuba_02.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_cuba_02.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/icon_newyork_02.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_newyork_02.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
   #wrap.energySolution #container.overview .energyFor ul.popUpCity > li[data-city=colombia] ul.feature li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/icon_panama_02.png") no-repeat 4vw center;
+    background: url("/distHyundai/assets/images/energy/icon_panama_02.png") no-repeat 4vw center;
     background-size: 6.6667vw;
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -18231,75 +18231,75 @@ button.swiper-pagination-bullet {
     margin-top: 0;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_01.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_01.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_02.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_03.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_03.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_04.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_04.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(1) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_05.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_05.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_06.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_06.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_07.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_07.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_08.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_08.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_09.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_09.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_10.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_10.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(2) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_11.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_11.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_12.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_12.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_13.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_13.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_14.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_14.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_15.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_15.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_16.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_16.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .solution ul:nth-child(3) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_solution_17.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services {
@@ -18325,74 +18325,74 @@ button.swiper-pagination-bullet {
     margin-top: 0;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_services_01.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_01.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_services_02.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_02.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_services_03.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_03.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_services_04.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_04.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_services_05.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_05.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(1) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_services_06.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_06.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_services_07.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_07.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_services_08.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_08.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_services_09.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_09.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_services_10.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_10.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_services_11.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_11.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(2) li:nth-child(6) {
-    background: url("/disthyundai/assets/images/energy/ico_services_12.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_12.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) {
     width: 160vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(1) {
-    background: url("/disthyundai/assets/images/energy/ico_services_13.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_13.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/ico_services_14.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_14.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/ico_services_15.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_15.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/ico_services_16.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_16.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService .tabContent .services ul:nth-child(3) li:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/ico_services_17.svg") no-repeat center 5.3333vw;
+    background: url("/distHyundai/assets/images/energy/ico_services_17.svg") no-repeat center 5.3333vw;
     background-size: 14.9333vw;
   }
   #wrap.energySolution #container.overview .solutionService ul.categoryDesc {
@@ -18437,7 +18437,7 @@ button.swiper-pagination-bullet {
     margin-top: 16vw;
   }
   #wrap.energySolution #container.overview .countUp {
-    background: url("/disthyundai/assets/images/energy/energy_countup_bg_mo.png") no-repeat center;
+    background: url("/distHyundai/assets/images/energy/energy_countup_bg_mo.png") no-repeat center;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -18763,15 +18763,15 @@ button.swiper-pagination-bullet {
     height: auto;
   }
   #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_diesel_01.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/energy/explain_diesel_01.png") no-repeat right top;
     background-size: 20vw;
   }
   #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_diesel_02.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_diesel_02.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.dieselPower .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_diesel_03.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_diesel_03.png") no-repeat right 8vw;
     background-size: 20vw;
   }
 }
@@ -18863,19 +18863,19 @@ button.swiper-pagination-bullet {
     height: auto;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_01.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_01.png") no-repeat right top;
     background-size: 20vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_02.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_02.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_03.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_03.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/explain_packaged_04.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_packaged_04.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.modularPower .explain dl.listDl dd .chartTitle {
@@ -18979,11 +18979,11 @@ button.swiper-pagination-bullet {
     margin-top: 5.3333vw;
   }
   #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_CHP_01.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/energy/explain_CHP_01.png") no-repeat right top;
     background-size: 20vw;
   }
   #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_CHP_02.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_CHP_02.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.CHP .explain dl.listDl dd:nth-child(4) {
@@ -19095,15 +19095,15 @@ button.swiper-pagination-bullet {
     height: auto;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_nuclear_01.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/energy/explain_nuclear_01.png") no-repeat right top;
     background-size: 20vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_nuclear_02.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_nuclear_02.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_nuclear_03.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_nuclear_03.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.nuclearPower .explain dl.listDl dd .certification {
@@ -19234,15 +19234,15 @@ button.swiper-pagination-bullet {
     height: auto;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_emergency_01.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/energy/explain_emergency_01.png") no-repeat right top;
     background-size: 20vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_emergency_02.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_emergency_02.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_emergency_03.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_emergency_03.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container.emergencyDiesel .explain dl.listDl dd p {
@@ -19322,7 +19322,7 @@ button.swiper-pagination-bullet {
     max-width: initial;
   }
   #wrap.energySolution #container .imgWrap::after {
-    background: url("/disthyundai/assets/images/common/img_finger.png") no-repeat center;
+    background: url("/distHyundai/assets/images/common/img_finger.png") no-repeat center;
     background-size: contain;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
@@ -19374,19 +19374,19 @@ button.swiper-pagination-bullet {
     border-bottom: 1px solid #ccc;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(2) {
-    background: url("/disthyundai/assets/images/energy/explain_01.png") no-repeat right top;
+    background: url("/distHyundai/assets/images/energy/explain_01.png") no-repeat right top;
     background-size: 20vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(3) {
-    background: url("/disthyundai/assets/images/energy/explain_02.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_02.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(4) {
-    background: url("/disthyundai/assets/images/energy/explain_03.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_03.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:nth-child(5) {
-    background: url("/disthyundai/assets/images/energy/explain_04.png") no-repeat right 8vw;
+    background: url("/distHyundai/assets/images/energy/explain_04.png") no-repeat right 8vw;
     background-size: 20vw;
   }
   #wrap.energySolution #container .explain dl.listDl dd:last-child {
@@ -19910,20 +19910,20 @@ button.swiper-pagination-bullet {
   font-family: "Manrope_extraBold";
 }
 .products .dual .os {
-  background: url("/disthyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
+  background: url("/distHyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
   background-size: 1183px 626px;
 }
 .products .dual .os .icon li:nth-child(1) strong:before {
-  background-image: url("/disthyundai/assets/images/products/daul_icon01.png");
+  background-image: url("/distHyundai/assets/images/products/daul_icon01.png");
 }
 .products .dual .os .icon li:nth-child(2) strong:before {
-  background-image: url("/disthyundai/assets/images/products/daul_icon02.png");
+  background-image: url("/distHyundai/assets/images/products/daul_icon02.png");
 }
 .products .dual .os .icon li:nth-child(3) strong:before {
-  background-image: url("/disthyundai/assets/images/products/daul_icon03.png");
+  background-image: url("/distHyundai/assets/images/products/daul_icon03.png");
 }
 .products .dual .os .icon li:nth-child(4) strong:before {
-  background-image: url("/disthyundai/assets/images/products/daul_icon04.png");
+  background-image: url("/distHyundai/assets/images/products/daul_icon04.png");
 }
 .products .diesel h4:not(.subBannerTit) {
   margin: 119px 0 32px 0;
@@ -19932,23 +19932,23 @@ button.swiper-pagination-bullet {
   font-family: "Manrope_extraBold";
 }
 .products .diesel .os {
-  background: url("/disthyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
+  background: url("/distHyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
   background-size: 1183px 626px;
 }
 .products .diesel .os .icon li:nth-child(1) strong:before {
-  background-image: url("/disthyundai/assets/images/products/diesel_icon01.png");
+  background-image: url("/distHyundai/assets/images/products/diesel_icon01.png");
   background-size: 64px 44px;
 }
 .products .diesel .os .icon li:nth-child(2) strong:before {
-  background-image: url("/disthyundai/assets/images/products/diesel_icon02.png");
+  background-image: url("/distHyundai/assets/images/products/diesel_icon02.png");
   background-size: 61px 64px;
 }
 .products .diesel .os .icon li:nth-child(3) strong:before {
-  background-image: url("/disthyundai/assets/images/products/diesel_icon03.png");
+  background-image: url("/distHyundai/assets/images/products/diesel_icon03.png");
   background-size: 72px 65px;
 }
 .products .diesel .os .icon li:nth-child(4) strong:before {
-  background-image: url("/disthyundai/assets/images/products/diesel_icon04.png");
+  background-image: url("/distHyundai/assets/images/products/diesel_icon04.png");
   background-size: 72px 65px;
 }
 .products .man h4:not(.subBannerTit) {
@@ -19986,7 +19986,7 @@ button.swiper-pagination-bullet {
 }
 .products .hybrid .hybridTop p {
   padding-left: 761px;
-  background: url("/disthyundai/assets/images/products/hybrid_img01.png") no-repeat 0 0;
+  background: url("/distHyundai/assets/images/products/hybrid_img01.png") no-repeat 0 0;
   background-size: 706px 440px;
   font-family: "OpenSans_semiBold";
   font-size: 18px;
@@ -20013,16 +20013,16 @@ button.swiper-pagination-bullet {
   border-left: 1px solid #ccc;
 }
 .products .hybrid .hybridTop ul li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon01.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon01.png");
 }
 .products .hybrid .hybridTop ul li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon02.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon02.png");
 }
 .products .hybrid .hybridTop ul li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon03.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon03.png");
 }
 .products .hybrid .hybridTop ul li:nth-child(4) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon04.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon04.png");
 }
 .products .hybrid .hybridCon h4 {
   margin: 120px 0 30px 0;
@@ -20095,55 +20095,55 @@ button.swiper-pagination-bullet {
   display: inline-block !important;
 }
 .products .hybrid .hybridCon.electric .iconList li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon05.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon05.png");
   background-size: 133px 86px;
 }
 .products .hybrid .hybridCon.electric .iconList li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon06.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon06.png");
   background-size: 85px 86px;
 }
 .products .hybrid .hybridCon.electric .iconList li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon07.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon07.png");
   background-size: 50px 85px;
 }
 .products .hybrid .hybridCon.electric .iconList li:nth-child(4) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon08.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon08.png");
   background-size: 113px 71px;
 }
 .products .hybrid .hybridCon.electric .iconList li:nth-child(5) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon09.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon09.png");
   background-size: 86px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.hybridIcon li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon05.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon05.png");
   background-size: 133px 86px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.hybridIcon li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon06.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon06.png");
   background-size: 85px 86px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.hybridIcon li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon07.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon07.png");
   background-size: 50px 85px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.shaftIcon li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon10.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon10.png");
   background-size: 95px 85px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.shaftIcon li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon11.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon11.png");
   background-size: 100px 86px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.shaftIcon li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon12.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon12.png");
   background-size: 97px 86px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.engineIcon li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon13.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon13.png");
   background-size: 159px 86px;
 }
 .products .hybrid .hybridCon.hybridSys .iconList.engineIcon li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/hybrid_icon14.png");
+  background-image: url("/distHyundai/assets/images/products/hybrid_icon14.png");
   background-size: 68px 86px;
 }
 .products .hybrid .newsWithTitle .newsVideoLayout li {
@@ -20158,7 +20158,7 @@ button.swiper-pagination-bullet {
 .products .propeller .shaft p {
   height: 440px;
   padding: 118px 0 0 761px;
-  background: url("/disthyundai/assets/images/products/propeller_img01.png") no-repeat 0 0;
+  background: url("/distHyundai/assets/images/products/propeller_img01.png") no-repeat 0 0;
   background-size: 706px 440px;
   font-size: 18px;
   font-family: "OpenSans_semiBold";
@@ -20172,7 +20172,7 @@ button.swiper-pagination-bullet {
 .products .propeller .rudder {
   padding-top: 440px;
   margin-bottom: 160px;
-  background: url("/disthyundai/assets/images/products/propeller_img02.png") no-repeat 0 0;
+  background: url("/distHyundai/assets/images/products/propeller_img02.png") no-repeat 0 0;
   background-size: 706px 440px;
 }
 .products .fgss .titForm:not(.subBannerTit):not(.txtBox) {
@@ -20238,13 +20238,13 @@ button.swiper-pagination-bullet {
   font-family: "OpenSans_semiBold";
 }
 .products .fgss .hiGas .mainEq ul li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/fgss_img01.png");
+  background-image: url("/distHyundai/assets/images/products/fgss_img01.png");
 }
 .products .fgss .hiGas .mainEq ul li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/fgss_img02.png");
+  background-image: url("/distHyundai/assets/images/products/fgss_img02.png");
 }
 .products .fgss .hiGas .mainEq ul li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/fgss_img03.png");
+  background-image: url("/distHyundai/assets/images/products/fgss_img03.png");
 }
 .products .fgss .hiGas > h4 {
   margin: 80px 0 30px 0;
@@ -20255,7 +20255,7 @@ button.swiper-pagination-bullet {
 .products .fgss .hiErs .ersTop {
   position: relative;
   height: 440px;
-  background: url("/disthyundai/assets/images/products/fgss_img04.png") no-repeat 0 0;
+  background: url("/distHyundai/assets/images/products/fgss_img04.png") no-repeat 0 0;
   background-size: 706px 440px;
 }
 .products .fgss .hiErs .ersTop p {
@@ -20311,7 +20311,7 @@ button.swiper-pagination-bullet {
 .products .fgss .hiRegas .regasTop {
   position: relative;
   height: 440px;
-  background: url("/disthyundai/assets/images/products/fgss_img09.png") no-repeat 0 0;
+  background: url("/distHyundai/assets/images/products/fgss_img09.png") no-repeat 0 0;
   background-size: 706px 440px;
 }
 .products .fgss .hiRegas .regasTop p {
@@ -20323,13 +20323,13 @@ button.swiper-pagination-bullet {
   font-family: "OpenSans_semiBold";
 }
 .products .fgss .hiRegas .mainEq ul li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/fgss_img10.png");
+  background-image: url("/distHyundai/assets/images/products/fgss_img10.png");
 }
 .products .fgss .hiRegas .mainEq ul li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/fgss_img11.png");
+  background-image: url("/distHyundai/assets/images/products/fgss_img11.png");
 }
 .products .fgss .hiRegas .mainEq ul li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/fgss_img12.png");
+  background-image: url("/distHyundai/assets/images/products/fgss_img12.png");
 }
 .products .scr .titForm:not(.subBannerTit):not(.txtBox) {
   margin: 120px 0 40px 0;
@@ -20489,7 +20489,7 @@ button.swiper-pagination-bullet {
   position: relative;
   height: 224px;
   padding-left: 40px;
-  background: url("/disthyundai/assets/images/products/bwts_img04.png") no-repeat 40px 0;
+  background: url("/distHyundai/assets/images/products/bwts_img04.png") no-repeat 40px 0;
   background-size: 360px 224px;
 }
 .products .bwts .easy > div div {
@@ -20520,16 +20520,16 @@ button.swiper-pagination-bullet {
   margin-left: 28px;
 }
 .products .bwts .small ul li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/bwts_img05.png");
+  background-image: url("/distHyundai/assets/images/products/bwts_img05.png");
 }
 .products .bwts .small ul li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/bwts_img06.png");
+  background-image: url("/distHyundai/assets/images/products/bwts_img06.png");
 }
 .products .bwts .small ul li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/bwts_img07.png");
+  background-image: url("/distHyundai/assets/images/products/bwts_img07.png");
 }
 .products .bwts .small ul li:nth-child(4) {
-  background-image: url("/disthyundai/assets/images/products/bwts_img08.png");
+  background-image: url("/distHyundai/assets/images/products/bwts_img08.png");
 }
 .products .bwts .certi {
   position: relative;
@@ -20679,13 +20679,13 @@ button.swiper-pagination-bullet {
   margin-left: 30px;
 }
 .products .cargo .works .list li:nth-child(1) {
-  background-image: url("/disthyundai/assets/images/products/cargo_img02.png");
+  background-image: url("/distHyundai/assets/images/products/cargo_img02.png");
 }
 .products .cargo .works .list li:nth-child(2) {
-  background-image: url("/disthyundai/assets/images/products/cargo_img03.png");
+  background-image: url("/distHyundai/assets/images/products/cargo_img03.png");
 }
 .products .cargo .works .list li:nth-child(3) {
-  background-image: url("/disthyundai/assets/images/products/cargo_img04.png");
+  background-image: url("/distHyundai/assets/images/products/cargo_img04.png");
 }
 .products .cargo .works .list li span {
   padding-left: 40px;
@@ -20734,7 +20734,7 @@ button.swiper-pagination-bullet {
 .products .detail .util > ul > li ul li button {
   width: 387px;
   padding: 0 55px 0 26px;
-  background: url("/disthyundai/assets/images/common/btn_download.svg") no-repeat 100% 0 #249fe8;
+  background: url("/distHyundai/assets/images/common/btn_download.svg") no-repeat 100% 0 #249fe8;
   background-size: 50px;
   color: #fff;
   font-size: 14px;
@@ -20772,11 +20772,11 @@ button.swiper-pagination-bullet {
 }
 .products .detail .swipeWrap .list .prevEl {
   left: 0;
-  background-image: url("/disthyundai/assets/images/common/pd_left.png");
+  background-image: url("/distHyundai/assets/images/common/pd_left.png");
 }
 .products .detail .swipeWrap .list .nextEl {
   right: 0;
-  background-image: url("/disthyundai/assets/images/common/pd_right.png");
+  background-image: url("/distHyundai/assets/images/common/pd_right.png");
 }
 .products .detail .swipeWrap .indicator {
   margin-top: 60px;
@@ -21085,7 +21085,7 @@ button.swiper-pagination-bullet {
     font-size: 3.3333vw;
   }
   .products .dual .os {
-    background: url("/disthyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
     background-size: 82.1528vw 43.4722vw;
   }
   .products .diesel h4:not(.subBannerTit) {
@@ -21094,7 +21094,7 @@ button.swiper-pagination-bullet {
     font-size: 3.3333vw;
   }
   .products .diesel .os {
-    background: url("/disthyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/products/dual_img08.png ") no-repeat 50% 0;
     background-size: 82.1528vw 43.4722vw;
   }
   .products .diesel .os .icon li:nth-child(1) strong:before {
@@ -21139,7 +21139,7 @@ button.swiper-pagination-bullet {
   }
   .products .hybrid .hybridTop p {
     padding-left: 52.8472vw;
-    background: url("/disthyundai/assets/images/products/hybrid_img01.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/hybrid_img01.png") no-repeat 0 0;
     background-size: 49.0278vw 30.5556vw;
     font-size: 1.25vw;
   }
@@ -21230,7 +21230,7 @@ button.swiper-pagination-bullet {
   .products .propeller .shaft p {
     height: 30.5556vw;
     padding: 8.1944vw 0 0 52.8472vw;
-    background: url("/disthyundai/assets/images/products/propeller_img01.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/propeller_img01.png") no-repeat 0 0;
     background-size: 49.0278vw 30.5556vw;
     font-size: 1.25vw;
   }
@@ -21242,7 +21242,7 @@ button.swiper-pagination-bullet {
   .products .propeller .rudder {
     padding-top: 30.5556vw;
     margin-bottom: 11.1111vw;
-    background: url("/disthyundai/assets/images/products/propeller_img02.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/propeller_img02.png") no-repeat 0 0;
     background-size: 49.0278vw 30.5556vw;
   }
   .products .fgss .titForm:not(.subBannerTit):not(.txtBox) {
@@ -21293,7 +21293,7 @@ button.swiper-pagination-bullet {
   }
   .products .fgss .hiErs .ersTop {
     height: 30.5556vw;
-    background: url("/disthyundai/assets/images/products/fgss_img04.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/fgss_img04.png") no-repeat 0 0;
     background-size: 49.0278vw 30.5556vw;
   }
   .products .fgss .hiErs .ersTop p {
@@ -21333,7 +21333,7 @@ button.swiper-pagination-bullet {
   }
   .products .fgss .hiRegas .regasTop {
     height: 30.5556vw;
-    background: url("/disthyundai/assets/images/products/fgss_img09.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/fgss_img09.png") no-repeat 0 0;
     background-size: 49.0278vw 30.5556vw;
   }
   .products .fgss .hiRegas .regasTop p {
@@ -21444,7 +21444,7 @@ button.swiper-pagination-bullet {
   .products .bwts .easy > div {
     height: 15.5556vw;
     padding-left: 2.7778vw;
-    background: url("/disthyundai/assets/images/products/bwts_img04.png") no-repeat 2.7778vw 0;
+    background: url("/distHyundai/assets/images/products/bwts_img04.png") no-repeat 2.7778vw 0;
     background-size: 25vw 15.5556vw;
   }
   .products .bwts .easy > div div {
@@ -21815,20 +21815,20 @@ button.swiper-pagination-bullet {
     width: 181.3333vw;
   }
   .products .dual .os {
-    background: url("/disthyundai/assets/images/products/dual_img08_mo.png ") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/products/dual_img08_mo.png ") no-repeat 50% 0;
     background-size: 100vw 60vw;
   }
   .products .dual .os .icon li:nth-child(1) strong:before {
-    background-image: url("/disthyundai/assets/images/products/daul_icon01.png");
+    background-image: url("/distHyundai/assets/images/products/daul_icon01.png");
   }
   .products .dual .os .icon li:nth-child(2) strong:before {
-    background-image: url("/disthyundai/assets/images/products/daul_icon02.png");
+    background-image: url("/distHyundai/assets/images/products/daul_icon02.png");
   }
   .products .dual .os .icon li:nth-child(3) strong:before {
-    background-image: url("/disthyundai/assets/images/products/daul_icon03.png");
+    background-image: url("/distHyundai/assets/images/products/daul_icon03.png");
   }
   .products .dual .os .icon li:nth-child(4) strong:before {
-    background-image: url("/disthyundai/assets/images/products/daul_icon04.png");
+    background-image: url("/distHyundai/assets/images/products/daul_icon04.png");
   }
   .products .dual .os .icon li:nth-child(3) strong {
     margin-top: -1.0667vw;
@@ -21850,20 +21850,20 @@ button.swiper-pagination-bullet {
     width: 181.3333vw;
   }
   .products .diesel .os {
-    background: url("/disthyundai/assets/images/products/dual_img08_mo.png ") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/products/dual_img08_mo.png ") no-repeat 50% 0;
     background-size: 100vw 60vw;
   }
   .products .diesel .os .icon li:nth-child(1) strong:before {
-    background-image: url("/disthyundai/assets/images/products/diesel_icon01.png");
+    background-image: url("/distHyundai/assets/images/products/diesel_icon01.png");
   }
   .products .diesel .os .icon li:nth-child(2) strong:before {
-    background-image: url("/disthyundai/assets/images/products/diesel_icon02.png");
+    background-image: url("/distHyundai/assets/images/products/diesel_icon02.png");
   }
   .products .diesel .os .icon li:nth-child(3) strong:before {
-    background-image: url("/disthyundai/assets/images/products/diesel_icon03.png");
+    background-image: url("/distHyundai/assets/images/products/diesel_icon03.png");
   }
   .products .diesel .os .icon li:nth-child(4) strong:before {
-    background-image: url("/disthyundai/assets/images/products/diesel_icon04.png");
+    background-image: url("/distHyundai/assets/images/products/diesel_icon04.png");
   }
   .products .diesel .os .icon li:nth-child(1) strong {
     margin-top: -1.0667vw;
@@ -21921,7 +21921,7 @@ button.swiper-pagination-bullet {
   }
   .products .hybrid .hybridTop p {
     padding: 62.6667vw 0 0 0;
-    background: url("/disthyundai/assets/images/products/hybrid_img01.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/hybrid_img01.png") no-repeat 0 0;
     background-size: 92vw 57.3333vw;
     font-family: "OpenSans_semiBold";
     font-size: 3.2vw;
@@ -21952,16 +21952,16 @@ button.swiper-pagination-bullet {
     margin-top: 0;
   }
   .products .hybrid .hybridTop ul li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon01.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon01.png");
   }
   .products .hybrid .hybridTop ul li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon02.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon02.png");
   }
   .products .hybrid .hybridTop ul li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon03.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon03.png");
   }
   .products .hybrid .hybridTop ul li:nth-child(4) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon04.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon04.png");
   }
   .products .hybrid .hybridCon h4 {
     margin: 16vw 0 4vw 0;
@@ -22038,23 +22038,23 @@ button.swiper-pagination-bullet {
     display: none !important;
   }
   .products .hybrid .hybridCon.electric .iconList li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon05_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon05_mo.png");
     background-size: 26vw 16.8vw;
   }
   .products .hybrid .hybridCon.electric .iconList li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon06_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon06_mo.png");
     background-size: 16.6667vw 16.8vw;
   }
   .products .hybrid .hybridCon.electric .iconList li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon07_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon07_mo.png");
     background-size: 9.7333vw 16.6667vw;
   }
   .products .hybrid .hybridCon.electric .iconList li:nth-child(4) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon08_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon08_mo.png");
     background-size: 16.8vw 10.5333vw;
   }
   .products .hybrid .hybridCon.electric .iconList li:nth-child(5) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon09_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon09_mo.png");
     background-size: 16.6667vw;
   }
   .products .hybrid .hybridCon.electric .imgArea {
@@ -22067,35 +22067,35 @@ button.swiper-pagination-bullet {
     margin-bottom: 0;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.hybridIcon li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon05_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon05_mo.png");
     background-size: 26vw 16.8vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.hybridIcon li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon06_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon06_mo.png");
     background-size: 16.6667vw 16.8vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.hybridIcon li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon07_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon07_mo.png");
     background-size: 9.7333vw 16.6667vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.shaftIcon li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon10_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon10_mo.png");
     background-size: 18.8vw 16.8vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.shaftIcon li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon11_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon11_mo.png");
     background-size: 16.6667vw 14.4vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.shaftIcon li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon12_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon12_mo.png");
     background-size: 18.8vw 16.6667vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.engineIcon li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon13_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon13_mo.png");
     background-size: 31.0667vw 16.8vw;
   }
   .products .hybrid .hybridCon.hybridSys .iconList.engineIcon li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/hybrid_icon14_mo.png");
+    background-image: url("/distHyundai/assets/images/products/hybrid_icon14_mo.png");
     background-size: 13.2vw 16.8vw;
   }
   .products .hybrid .hybridCon.hybridSys .imgArea {
@@ -22113,7 +22113,7 @@ button.swiper-pagination-bullet {
   .products .propeller .shaft p {
     height: 58.6667vw;
     padding: 15.7333vw 0 0 101.4667vw;
-    background: url("/disthyundai/assets/images/products/propeller_img01.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/propeller_img01.png") no-repeat 0 0;
     background-size: 92vw 57.3333vw;
     font-size: 2.4vw;
     font-family: "OpenSans_semiBold";
@@ -22127,7 +22127,7 @@ button.swiper-pagination-bullet {
   .products .propeller .rudder {
     padding-top: 58.6667vw;
     margin-bottom: 21.3333vw;
-    background: url("/disthyundai/assets/images/products/propeller_img02.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/propeller_img02.png") no-repeat 0 0;
     background-size: 94.1333vw 58.6667vw;
   }
   .products .fgss .titForm:not(.subBannerTit):not(.txtBox) {
@@ -22194,13 +22194,13 @@ button.swiper-pagination-bullet {
     font-family: "OpenSans_semiBold";
   }
   .products .fgss .hiGas .mainEq ul li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/fgss_img01.png");
+    background-image: url("/distHyundai/assets/images/products/fgss_img01.png");
   }
   .products .fgss .hiGas .mainEq ul li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/fgss_img02.png");
+    background-image: url("/distHyundai/assets/images/products/fgss_img02.png");
   }
   .products .fgss .hiGas .mainEq ul li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/fgss_img03.png");
+    background-image: url("/distHyundai/assets/images/products/fgss_img03.png");
   }
   .products .fgss .hiGas > h4 {
     margin: 10.6667vw 0 4vw 0;
@@ -22212,7 +22212,7 @@ button.swiper-pagination-bullet {
     position: relative;
     height: auto;
     padding-top: 62.6667vw;
-    background: url("/disthyundai/assets/images/products/fgss_img04.png") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/products/fgss_img04.png") no-repeat 50% 0;
     background-size: 92vw 57.3333vw;
   }
   .products .fgss .hiErs .ersTop p {
@@ -22272,7 +22272,7 @@ button.swiper-pagination-bullet {
     position: relative;
     height: auto;
     padding-top: 62.6667vw;
-    background: url("/disthyundai/assets/images/products/fgss_img09.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/products/fgss_img09.png") no-repeat 0 0;
     background-size: 92vw 57.3333vw;
   }
   .products .fgss .hiRegas .regasTop p {
@@ -22284,13 +22284,13 @@ button.swiper-pagination-bullet {
     font-family: "OpenSans_semiBold";
   }
   .products .fgss .hiRegas .mainEq ul li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/fgss_img10.png");
+    background-image: url("/distHyundai/assets/images/products/fgss_img10.png");
   }
   .products .fgss .hiRegas .mainEq ul li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/fgss_img11.png");
+    background-image: url("/distHyundai/assets/images/products/fgss_img11.png");
   }
   .products .fgss .hiRegas .mainEq ul li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/fgss_img12.png");
+    background-image: url("/distHyundai/assets/images/products/fgss_img12.png");
   }
   .products .scr .titForm:not(.subBannerTit):not(.txtBox) {
     margin: 10.6667vw 0 5.3333vw 0;
@@ -22371,7 +22371,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 18.6667vw;
     height: 18.6667vw;
-    background: url("/disthyundai/assets/images/common/img_finger.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/common/img_finger.png") no-repeat 0 0;
     background-size: 100%;
   }
   .products .scr .nonox {
@@ -22455,7 +22455,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 18.6667vw;
     height: 18.6667vw;
-    background: url("/disthyundai/assets/images/common/img_finger.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/common/img_finger.png") no-repeat 0 0;
     background-size: 100%;
   }
   .products .bwts .titForm:not(.subBannerTit):not(.txtBox) {
@@ -22557,7 +22557,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 18.6667vw;
     height: 18.6667vw;
-    background: url("/disthyundai/assets/images/common/img_finger.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/common/img_finger.png") no-repeat 0 0;
     background-size: 100%;
   }
   .products .bwts .works + .inner > h4 {
@@ -22596,7 +22596,7 @@ button.swiper-pagination-bullet {
     position: relative;
     height: auto;
     padding: 37.3333vw 0 0 0;
-    background: url("/disthyundai/assets/images/products/bwts_img04_mo.png") no-repeat 50% 0;
+    background: url("/distHyundai/assets/images/products/bwts_img04_mo.png") no-repeat 50% 0;
     background-size: 92vw 32vw;
   }
   .products .bwts .easy > div div {
@@ -22634,16 +22634,16 @@ button.swiper-pagination-bullet {
     margin-top: 0;
   }
   .products .bwts .small ul li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/bwts_img05.png");
+    background-image: url("/distHyundai/assets/images/products/bwts_img05.png");
   }
   .products .bwts .small ul li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/bwts_img06.png");
+    background-image: url("/distHyundai/assets/images/products/bwts_img06.png");
   }
   .products .bwts .small ul li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/bwts_img07.png");
+    background-image: url("/distHyundai/assets/images/products/bwts_img07.png");
   }
   .products .bwts .small ul li:nth-child(4) {
-    background-image: url("/disthyundai/assets/images/products/bwts_img08.png");
+    background-image: url("/distHyundai/assets/images/products/bwts_img08.png");
   }
   .products .bwts .certi {
     position: relative;
@@ -22797,7 +22797,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 18.6667vw;
     height: 18.6667vw;
-    background: url("/disthyundai/assets/images/common/img_finger.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/common/img_finger.png") no-repeat 0 0;
     background-size: 100%;
   }
   .products .cargo .works {
@@ -22840,13 +22840,13 @@ button.swiper-pagination-bullet {
     margin: 5.3333vw 0 0 0;
   }
   .products .cargo .works .list li:nth-child(1) {
-    background-image: url("/disthyundai/assets/images/products/cargo_img02.png");
+    background-image: url("/distHyundai/assets/images/products/cargo_img02.png");
   }
   .products .cargo .works .list li:nth-child(2) {
-    background-image: url("/disthyundai/assets/images/products/cargo_img03.png");
+    background-image: url("/distHyundai/assets/images/products/cargo_img03.png");
   }
   .products .cargo .works .list li:nth-child(3) {
-    background-image: url("/disthyundai/assets/images/products/cargo_img04.png");
+    background-image: url("/distHyundai/assets/images/products/cargo_img04.png");
   }
   .products .cargo .works .list li span {
     padding-left: 0;
@@ -22897,7 +22897,7 @@ button.swiper-pagination-bullet {
   .products .detail .util > ul > li ul li button {
     width: 69.3333vw;
     padding: 0 7.3333vw 0 3.4667vw;
-    background: url("/disthyundai/assets/images/common/btn_download.svg") no-repeat 100% 0 #249fe8;
+    background: url("/distHyundai/assets/images/common/btn_download.svg") no-repeat 100% 0 #249fe8;
     background-size: 8.6667vw;
     color: #fff;
     font-size: 2.6667vw;
@@ -22936,11 +22936,11 @@ button.swiper-pagination-bullet {
   }
   .products .detail .swipeWrap .list .prevEl {
     left: 0;
-    background-image: url("/disthyundai/assets/images/common/pd_left.png");
+    background-image: url("/distHyundai/assets/images/common/pd_left.png");
   }
   .products .detail .swipeWrap .list .nextEl {
     right: 0;
-    background-image: url("/disthyundai/assets/images/common/pd_right.png");
+    background-image: url("/distHyundai/assets/images/common/pd_right.png");
   }
   .products .detail .swipeWrap .indicator {
     margin-top: 2.6667vw;
@@ -23114,7 +23114,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 18.6667vw;
     height: 18.6667vw;
-    background: url("/disthyundai/assets/images/common/img_finger.png") no-repeat 0 0;
+    background: url("/distHyundai/assets/images/common/img_finger.png") no-repeat 0 0;
     background-size: 100%;
   }
   .products .recoList {
@@ -23901,7 +23901,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 18.6667vw;
     height: 18.6667vw;
-    background: url(/disthyundai/assets/images/common/img_finger.png) no-repeat center;
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat center;
     background-size: contain;
   }
   #wrap.products #container.energy .range .imgScrollBox strong {
@@ -23978,7 +23978,7 @@ button.swiper-pagination-bullet {
   width: 50px;
   height: 45px;
   padding-right: 18px;
-  background: url(/disthyundai/assets/images/common/ico-building.png) left center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico-building.png) left center no-repeat;
   background-size: 50px;
 }
 .contentsWrap .mapWrap ul li:first-child span {
@@ -23991,19 +23991,19 @@ button.swiper-pagination-bullet {
 .contentsWrap .mapWrap ul li:nth-child(2):before {
   width: 36px;
   height: 50px;
-  background: url(/disthyundai/assets/images/common/ico-pin1.png) left center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico-pin1.png) left center no-repeat;
   background-size: 36px;
 }
 .contentsWrap .mapWrap ul li:nth-child(3):before {
   width: 36px;
   height: 50px;
-  background: url(/disthyundai/assets/images/common/ico-pin2.png) left center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico-pin2.png) left center no-repeat;
   background-size: 36px;
 }
 .contentsWrap .mapWrap ul li:nth-child(4):before {
   width: 36px;
   height: 50px;
-  background: url(/disthyundai/assets/images/common/ico-pin3.png) left center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico-pin3.png) left center no-repeat;
   background-size: 36px;
 }
 .contentsWrap .mapWrap ul li:last-child {
@@ -24012,7 +24012,7 @@ button.swiper-pagination-bullet {
 .contentsWrap .mapWrap ul li:last-child:before {
   width: 36px;
   height: 50px;
-  background: url(/disthyundai/assets/images/common/ico-pin4.png) left center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico-pin4.png) left center no-repeat;
   background-size: 36px;
 }
 .contentsWrap .mapWrap ul li span {
@@ -24113,19 +24113,19 @@ button.swiper-pagination-bullet {
   margin: 0 auto 30px;
 }
 .contentsWrap .contents .techSupport li:first-child {
-  background: url(/disthyundai/assets/images/common/ico_headphone.png) top 21px center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_headphone.png) top 21px center no-repeat;
 }
 .contentsWrap .contents .techSupport li:nth-child(2) {
-  background: url(/disthyundai/assets/images/common/ico_guard.png) top 21px center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_guard.png) top 21px center no-repeat;
 }
 .contentsWrap .contents .techSupport li:nth-child(3) {
-  background: url(/disthyundai/assets/images/common/ico_tech.png) top 21px center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_tech.png) top 21px center no-repeat;
 }
 .contentsWrap .contents .techSupport li:nth-child(4) {
-  background: url(/disthyundai/assets/images/common/ico_glob.png) top 21px center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_glob.png) top 21px center no-repeat;
 }
 .contentsWrap .contents .techSupport li:last-child {
-  background: url(/disthyundai/assets/images/common/ico_call.png) top 21px center no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_call.png) top 21px center no-repeat;
   border: none;
 }
 .contentsWrap .contents .subText {
@@ -24333,7 +24333,7 @@ button.swiper-pagination-bullet {
   padding: 84px 0 0 0;
   margin: 120px auto 0;
   margin-bottom: 160px;
-  background: url(/disthyundai/assets/images/customer/mdVi_support.png) center no-repeat;
+  background: url(/distHyundai/assets/images/customer/mdVi_support.png) center no-repeat;
 }
 .midBanner dl {
   max-width: 1440px;
@@ -24401,7 +24401,7 @@ button.swiper-pagination-bullet {
     width: 3.4722vw;
     height: 3.125vw;
     padding-right: 1.25vw;
-    background: url(/disthyundai/assets/images/common/ico-building.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-building.png) left center no-repeat;
     background-size: 3.4722vw;
   }
   .contentsWrap .mapWrap ul li:first-child:before {
@@ -24417,19 +24417,19 @@ button.swiper-pagination-bullet {
   .contentsWrap .mapWrap ul li:nth-child(2):before {
     width: 2.5vw;
     height: 3.4722vw;
-    background: url(/disthyundai/assets/images/common/ico-pin1.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin1.png) left center no-repeat;
     background-size: 2.5vw;
   }
   .contentsWrap .mapWrap ul li:nth-child(3):before {
     width: 2.5vw;
     height: 3.4722vw;
-    background: url(/disthyundai/assets/images/common/ico-pin2.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin2.png) left center no-repeat;
     background-size: 2.5vw;
   }
   .contentsWrap .mapWrap ul li:nth-child(4):before {
     width: 2.5vw;
     height: 3.4722vw;
-    background: url(/disthyundai/assets/images/common/ico-pin3.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin3.png) left center no-repeat;
     background-size: 2.5vw;
   }
   .contentsWrap .mapWrap ul li:last-child {
@@ -24438,7 +24438,7 @@ button.swiper-pagination-bullet {
   .contentsWrap .mapWrap ul li:last-child:before {
     width: 2.5vw;
     height: 3.4722vw;
-    background: url(/disthyundai/assets/images/common/ico-pin4.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin4.png) left center no-repeat;
     background-size: 2.5vw;
   }
   .contentsWrap strong.mainText {
@@ -24518,23 +24518,23 @@ button.swiper-pagination-bullet {
     margin: 0 auto 2.0833vw;
   }
   .contentsWrap .contents .techSupport li:first-child {
-    background: url(/disthyundai/assets/images/common/ico_headphone.png) top 1.4583vw center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_headphone.png) top 1.4583vw center no-repeat;
     background-size: 28%;
   }
   .contentsWrap .contents .techSupport li:nth-child(2) {
-    background: url(/disthyundai/assets/images/common/ico_guard.png) top 1.4583vw center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_guard.png) top 1.4583vw center no-repeat;
     background-size: 23%;
   }
   .contentsWrap .contents .techSupport li:nth-child(3) {
-    background: url(/disthyundai/assets/images/common/ico_tech.png) top 1.4583vw center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_tech.png) top 1.4583vw center no-repeat;
     background-size: 28%;
   }
   .contentsWrap .contents .techSupport li:nth-child(4) {
-    background: url(/disthyundai/assets/images/common/ico_glob.png) top 1.4583vw center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_glob.png) top 1.4583vw center no-repeat;
     background-size: 28%;
   }
   .contentsWrap .contents .techSupport li:last-child {
-    background: url(/disthyundai/assets/images/common/ico_call.png) top 1.4583vw center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_call.png) top 1.4583vw center no-repeat;
     border: none;
     background-size: 28%;
   }
@@ -24717,7 +24717,7 @@ button.swiper-pagination-bullet {
     padding: 5.8333vw 0 0 0;
     margin: 8.3333vw auto 0;
     margin-bottom: 11.1111vw;
-    background: url(/disthyundai/assets/images/customer/mdVi_support.png) center no-repeat;
+    background: url(/distHyundai/assets/images/customer/mdVi_support.png) center no-repeat;
   }
   .midBanner dl {
     max-width: 1440px;
@@ -24873,7 +24873,7 @@ button.swiper-pagination-bullet {
     width: 140px;
     height: 140px;
     transform: translate(-50%, -50%);
-    background: url(/disthyundai/assets/images/common/img_finger.png) no-repeat;
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
   }
   #container.serviceNet .mapWrap ul {
@@ -24893,7 +24893,7 @@ button.swiper-pagination-bullet {
     width: 8vw;
     height: 7.0667vw;
     padding-right: 1.3333vw;
-    background: url(/disthyundai/assets/images/common/ico-building.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-building.png) left center no-repeat;
     background-size: 8vw;
   }
   #container.serviceNet .mapWrap ul li:first-child {
@@ -24913,7 +24913,7 @@ button.swiper-pagination-bullet {
   #container.serviceNet .mapWrap ul li:nth-child(2):before {
     width: 5.6vw;
     height: 8vw;
-    background: url(/disthyundai/assets/images/common/ico-pin1.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin1.png) left center no-repeat;
     background-size: 5.6vw;
   }
   #container.serviceNet .mapWrap ul li:nth-child(3) {
@@ -24922,7 +24922,7 @@ button.swiper-pagination-bullet {
   #container.serviceNet .mapWrap ul li:nth-child(3):before {
     width: 5.6vw;
     height: 8vw;
-    background: url(/disthyundai/assets/images/common/ico-pin2.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin2.png) left center no-repeat;
     background-size: 5.6vw;
   }
   #container.serviceNet .mapWrap ul li:nth-child(4) {
@@ -24932,7 +24932,7 @@ button.swiper-pagination-bullet {
   #container.serviceNet .mapWrap ul li:nth-child(4):before {
     width: 5.6vw;
     height: 8vw;
-    background: url(/disthyundai/assets/images/common/ico-pin3.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin3.png) left center no-repeat;
     background-size: 5.6vw;
   }
   #container.serviceNet .mapWrap ul li:last-child {
@@ -24943,7 +24943,7 @@ button.swiper-pagination-bullet {
   #container.serviceNet .mapWrap ul li:last-child:before {
     width: 3.9vw;
     height: 8vw;
-    background: url(/disthyundai/assets/images/common/ico-pin4.png) left center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico-pin4.png) left center no-repeat;
     background-size: 5.6vw;
   }
   #container.serviceNet .mapWrap .mapImg {
@@ -25131,23 +25131,23 @@ button.swiper-pagination-bullet {
     margin: 0 auto 5.3333vw;
   }
   #container.support .contentsWrap .contents .techSupport li:first-child {
-    background: url(/disthyundai/assets/images/customer/ico-customer3.png) top 0vw center no-repeat;
+    background: url(/distHyundai/assets/images/customer/ico-customer3.png) top 0vw center no-repeat;
     background-size: 18.6667vw;
   }
   #container.support .contentsWrap .contents .techSupport li:nth-child(2) {
-    background: url(/disthyundai/assets/images/customer/ico-customer4.png) top 8vw center no-repeat;
+    background: url(/distHyundai/assets/images/customer/ico-customer4.png) top 8vw center no-repeat;
     background-size: 18.6667vw;
   }
   #container.support .contentsWrap .contents .techSupport li:nth-child(3) {
-    background: url(/disthyundai/assets/images/customer/ico-customer5.png) top 8vw center no-repeat;
+    background: url(/distHyundai/assets/images/customer/ico-customer5.png) top 8vw center no-repeat;
     background-size: 18.6667vw;
   }
   #container.support .contentsWrap .contents .techSupport li:nth-child(4) {
-    background: url(/disthyundai/assets/images/customer/ico-customer1.png) top 8vw center no-repeat;
+    background: url(/distHyundai/assets/images/customer/ico-customer1.png) top 8vw center no-repeat;
     background-size: 18.6667vw;
   }
   #container.support .contentsWrap .contents .techSupport li:last-child {
-    background: url(/disthyundai/assets/images/customer/ico-customer2.png) top 8vw center no-repeat;
+    background: url(/distHyundai/assets/images/customer/ico-customer2.png) top 8vw center no-repeat;
     background-size: 18.6667vw;
     border: none;
   }
@@ -25242,7 +25242,7 @@ button.swiper-pagination-bullet {
     padding: 8vw 0 0 0;
     margin: 16vw auto 0;
     margin-bottom: 21.3333vw;
-    background: url(/disthyundai/assets/images/customer/mdVi_support_mo.png) center no-repeat;
+    background: url(/distHyundai/assets/images/customer/mdVi_support_mo.png) center no-repeat;
   }
   .midBanner dl {
     max-width: 1440px;
@@ -25294,7 +25294,7 @@ button.swiper-pagination-bullet {
   transform: translate(-50%, -50%);
   width: 60px;
   height: 42px;
-  background: url("/disthyundai/assets/images/common/youtube_btn.png") no-repeat center;
+  background: url("/distHyundai/assets/images/common/youtube_btn.png") no-repeat center;
   background-size: auto;
   background-size: contain;
 }
@@ -25466,7 +25466,7 @@ button.swiper-pagination-bullet {
   margin-right: 5px;
   width: 14px;
   height: 13px;
-  background: url(/disthyundai/assets/images/common/ico_disk.png) left no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_disk.png) left no-repeat;
   background-size: contain;
 }
 #wrap.media #container.newsDetail .contentsWrap .contents .edtConts {
@@ -25492,7 +25492,7 @@ button.swiper-pagination-bullet {
   width: 16px;
   height: 9px;
   margin-right: 10px;
-  background: url(/disthyundai/assets/images/common/ico_up.png) left no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_up.png) left no-repeat;
   background-size: contain;
 }
 #wrap.media #container.newsDetail .contentsWrap .contents .toUpDown > a:last-child > div {
@@ -25504,7 +25504,7 @@ button.swiper-pagination-bullet {
   width: 16px;
   height: 9px;
   margin-right: 10px;
-  background: url(/disthyundai/assets/images/common/ico_down.png) left no-repeat;
+  background: url(/distHyundai/assets/images/common/ico_down.png) left no-repeat;
   background-size: contain;
 }
 #wrap.media #container.newsDetail .contentsWrap .contents .toUpDown > a > div {
@@ -25579,7 +25579,7 @@ button.swiper-pagination-bullet {
     transform: translate(-50%, -50%);
     width: 4.1667vw;
     height: 2.9167vw;
-    background: url("/disthyundai/assets/images/common/youtube_btn.png") no-repeat center;
+    background: url("/distHyundai/assets/images/common/youtube_btn.png") no-repeat center;
     background-size: auto;
     background-size: contain;
   }
@@ -25700,7 +25700,7 @@ button.swiper-pagination-bullet {
     margin-right: 0.3472vw;
     width: 0.9722vw;
     height: 0.9028vw;
-    background: url(/disthyundai/assets/images/common/ico_disk.png) left no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_disk.png) left no-repeat;
   }
   #wrap.media #container.newsDetail .contentsWrap .contents .edtConts {
     margin-top: 1.3889vw;
@@ -25722,7 +25722,7 @@ button.swiper-pagination-bullet {
     width: 1.1111vw;
     height: 0.625vw;
     margin-right: 0.6944vw;
-    background: url(/disthyundai/assets/images/common/ico_up.png) left no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_up.png) left no-repeat;
     background-size: contain;
   }
   #wrap.media #container.newsDetail .contentsWrap .contents .toUpDown > a:last-child > div {
@@ -25732,7 +25732,7 @@ button.swiper-pagination-bullet {
     width: 1.1111vw;
     height: 0.625vw;
     margin-right: 0.6944vw;
-    background: url(/disthyundai/assets/images/common/ico_down.png) left no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_down.png) left no-repeat;
     background-size: contain;
   }
   #wrap.media #container.newsDetail .contentsWrap .contents .toUpDown > a > div {
@@ -26224,7 +26224,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
   height: 660px;
   padding-top: 87px;
-  background: url(/disthyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
+  background: url(/distHyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
   background-size: cover;
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
@@ -26245,7 +26245,7 @@ button.swiper-pagination-bullet {
   width: 200px;
   padding-top: 68px;
   margin-right: 60px;
-  background: url(/disthyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+  background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
   background-size: 100px;
   text-align: center;
 }
@@ -26267,7 +26267,7 @@ button.swiper-pagination-bullet {
   line-height: 1.25;
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
-  background: url(/disthyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+  background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
   background-size: 94px;
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
@@ -26401,16 +26401,16 @@ button.swiper-pagination-bullet {
   background-color: #ccc;
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(1) {
-  background-image: url(/disthyundai/assets/images/aboutus/ico_green01.png);
+  background-image: url(/distHyundai/assets/images/aboutus/ico_green01.png);
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(2) {
-  background-image: url(/disthyundai/assets/images/aboutus/ico_green02.png);
+  background-image: url(/distHyundai/assets/images/aboutus/ico_green02.png);
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(3) {
-  background-image: url(/disthyundai/assets/images/aboutus/ico_green03.png);
+  background-image: url(/distHyundai/assets/images/aboutus/ico_green03.png);
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4) {
-  background-image: url(/disthyundai/assets/images/aboutus/ico_green04.png);
+  background-image: url(/distHyundai/assets/images/aboutus/ico_green04.png);
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4)::after {
   display: none;
@@ -26880,14 +26880,14 @@ button.swiper-pagination-bullet {
   vertical-align: top;
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
-  background-image: url(/disthyundai/assets/images/aboutus/img_efficiency03.png);
+  background-image: url(/distHyundai/assets/images/aboutus/img_efficiency03.png);
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
   margin: 0 204px;
-  background-image: url(/disthyundai/assets/images/aboutus/img_efficiency04.png);
+  background-image: url(/distHyundai/assets/images/aboutus/img_efficiency04.png);
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
-  background-image: url(/disthyundai/assets/images/aboutus/img_efficiency05.png);
+  background-image: url(/distHyundai/assets/images/aboutus/img_efficiency05.png);
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
   margin-bottom: 50px;
@@ -27011,20 +27011,20 @@ button.swiper-pagination-bullet {
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
-  background: url(/disthyundai/assets/images/common/ico_arr.png) no-repeat center;
+  background: url(/distHyundai/assets/images/common/ico_arr.png) no-repeat center;
   background-size: contain;
 }
 #wrap.aboutus .expertise.efficiency .navList li:nth-child(1) a {
-  background-image: url(/disthyundai/assets/images/aboutus/bg_marine.png);
+  background-image: url(/distHyundai/assets/images/aboutus/bg_marine.png);
 }
 #wrap.aboutus .expertise.efficiency .navList li:nth-child(2) a {
-  background-image: url(/disthyundai/assets/images/aboutus/bg_energy.png);
+  background-image: url(/distHyundai/assets/images/aboutus/bg_energy.png);
 }
 #wrap.aboutus .expertise.efficiency .navList li:nth-child(3) a {
-  background-image: url(/disthyundai/assets/images/aboutus/bg_products.png);
+  background-image: url(/distHyundai/assets/images/aboutus/bg_products.png);
 }
 #wrap.aboutus .expertise.efficiency .navList li:nth-child(4) a {
-  background-image: url(/disthyundai/assets/images/aboutus/bg_customer.png);
+  background-image: url(/distHyundai/assets/images/aboutus/bg_customer.png);
 }
 
 /* 769 ~ 1440 */
@@ -27181,7 +27181,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
     height: 45.8333vw;
     padding-top: 6.0417vw;
-    background: url(/disthyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
+    background: url(/distHyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
     background-size: cover;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
@@ -27202,7 +27202,7 @@ button.swiper-pagination-bullet {
     width: 13.8889vw;
     padding-top: 4.7222vw;
     margin-right: 4.1667vw;
-    background: url(/disthyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+    background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
     background-size: 6.9444vw;
     text-align: center;
   }
@@ -27224,7 +27224,7 @@ button.swiper-pagination-bullet {
     line-height: 1.25;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
-    background: url(/disthyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+    background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
     background-size: 6.5278vw;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
@@ -27343,16 +27343,16 @@ button.swiper-pagination-bullet {
     background-color: #ccc;
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(1) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green01.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green01.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(2) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green02.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green02.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(3) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green03.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green03.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green04.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green04.png);
   }
   #wrap.aboutus .expertise.decarbonization .productBox {
     margin-bottom: 5.5556vw;
@@ -27897,7 +27897,7 @@ button.swiper-pagination-bullet {
     width: 140px;
     height: 140px;
     transform: translate(-50%, -50%);
-    background: url(/disthyundai/assets/images/common/img_finger.png) no-repeat;
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
   }
   #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div {
@@ -28039,7 +28039,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
     height: 660px;
     padding-top: 87px;
-    background: url(/disthyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
+    background: url(/distHyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
     background-size: cover;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
@@ -28060,7 +28060,7 @@ button.swiper-pagination-bullet {
     width: 200px;
     padding-top: 68px;
     margin-right: 60px;
-    background: url(/disthyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+    background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
     background-size: 100px;
     text-align: center;
   }
@@ -28082,7 +28082,7 @@ button.swiper-pagination-bullet {
     line-height: 1.25;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
-    background: url(/disthyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+    background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
     background-size: 94px;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
@@ -28216,16 +28216,16 @@ button.swiper-pagination-bullet {
     background-color: #ccc;
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(1) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green01.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green01.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(2) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green02.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green02.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(3) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green03.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green03.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4) {
-    background-image: url(/disthyundai/assets/images/aboutus/ico_green04.png);
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green04.png);
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4)::after {
     display: none;
@@ -28705,14 +28705,14 @@ button.swiper-pagination-bullet {
     vertical-align: top;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
-    background-image: url(/disthyundai/assets/images/aboutus/img_efficiency03.png);
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency03.png);
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
     margin: 0 204px;
-    background-image: url(/disthyundai/assets/images/aboutus/img_efficiency04.png);
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency04.png);
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
-    background-image: url(/disthyundai/assets/images/aboutus/img_efficiency05.png);
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency05.png);
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
     margin-bottom: 50px;
@@ -28836,20 +28836,20 @@ button.swiper-pagination-bullet {
     transform: translateY(-50%);
     width: 50px;
     height: 50px;
-    background: url(/disthyundai/assets/images/common/ico_arr.png) no-repeat center;
+    background: url(/distHyundai/assets/images/common/ico_arr.png) no-repeat center;
     background-size: contain;
   }
   #wrap.aboutus .expertise.efficiency .navList li:nth-child(1) a {
-    background-image: url(/disthyundai/assets/images/aboutus/bg_marine.png);
+    background-image: url(/distHyundai/assets/images/aboutus/bg_marine.png);
   }
   #wrap.aboutus .expertise.efficiency .navList li:nth-child(2) a {
-    background-image: url(/disthyundai/assets/images/aboutus/bg_energy.png);
+    background-image: url(/distHyundai/assets/images/aboutus/bg_energy.png);
   }
   #wrap.aboutus .expertise.efficiency .navList li:nth-child(3) a {
-    background-image: url(/disthyundai/assets/images/aboutus/bg_products.png);
+    background-image: url(/distHyundai/assets/images/aboutus/bg_products.png);
   }
   #wrap.aboutus .expertise.efficiency .navList li:nth-child(4) a {
-    background-image: url(/disthyundai/assets/images/aboutus/bg_customer.png);
+    background-image: url(/distHyundai/assets/images/aboutus/bg_customer.png);
   }
 }
 /*  ~ 640 */
@@ -28909,7 +28909,7 @@ button.swiper-pagination-bullet {
   height: 440px;
   padding: 148px 0 0 0;
   margin: 120px 0 0 0;
-  background: url("/disthyundai/assets/images/aboutus/img_vision07.png") no-repeat center;
+  background: url("/distHyundai/assets/images/aboutus/img_vision07.png") no-repeat center;
   background-size: auto;
   text-align: center;
 }
@@ -29007,35 +29007,35 @@ button.swiper-pagination-bullet {
   height: 208px;
   padding: 18px 20px;
   margin-right: 18px;
-  background: #559638 url(/disthyundai/assets/images/aboutus/ico_vision01.png) bottom 20px center no-repeat;
+  background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01.png) bottom 20px center no-repeat;
   background-size: 98px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(2) {
-  background: #b7222d url(/disthyundai/assets/images/aboutus/ico_vision02.png) bottom 20px center no-repeat;
+  background: #b7222d url(/distHyundai/assets/images/aboutus/ico_vision02.png) bottom 20px center no-repeat;
   background-size: 72px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(3) {
-  background: #f2b727 url(/disthyundai/assets/images/aboutus/ico_vision03.png) bottom 20px center no-repeat;
+  background: #f2b727 url(/distHyundai/assets/images/aboutus/ico_vision03.png) bottom 20px center no-repeat;
   background-size: 68px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(4) {
-  background: #9a2240 url(/disthyundai/assets/images/aboutus/ico_vision04.png) bottom 20px center no-repeat;
+  background: #9a2240 url(/distHyundai/assets/images/aboutus/ico_vision04.png) bottom 20px center no-repeat;
   background-size: 64px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(5) {
-  background: #ce1d61 url(/disthyundai/assets/images/aboutus/ico_vision05.png) bottom 20px center no-repeat;
+  background: #ce1d61 url(/distHyundai/assets/images/aboutus/ico_vision05.png) bottom 20px center no-repeat;
   background-size: 60px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
-  background: #BA8634 url(/disthyundai/assets/images/aboutus/ico_vision06.png) bottom 20px center no-repeat;
+  background: #BA8634 url(/distHyundai/assets/images/aboutus/ico_vision06.png) bottom 20px center no-repeat;
   background-size: 84px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(7) {
-  background: #298fca url(/disthyundai/assets/images/aboutus/ico_vision07.png) bottom 20px center no-repeat;
+  background: #298fca url(/distHyundai/assets/images/aboutus/ico_vision07.png) bottom 20px center no-repeat;
   background-size: 68px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
-  background: #236696 url(/disthyundai/assets/images/aboutus/ico_vision08.png) bottom 20px center no-repeat;
+  background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08.png) bottom 20px center no-repeat;
   background-size: 70px;
   margin-right: 0;
 }
@@ -29071,7 +29071,7 @@ button.swiper-pagination-bullet {
   width: 6px;
   height: 9px;
   margin-left: 10px;
-  background: url(/disthyundai/assets/images/aboutus/ico_rightBlue.png) center no-repeat;
+  background: url(/distHyundai/assets/images/aboutus/ico_rightBlue.png) center no-repeat;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .ex {
   font-family: "OpenSans_semiBold";
@@ -29922,7 +29922,7 @@ button.swiper-pagination-bullet {
     height: 30.5556vw;
     padding: 10.2778vw 0 0 0;
     margin: 8.3333vw 0 0 0;
-    background: url("/disthyundai/assets/images/aboutus/img_vision07.png") no-repeat center;
+    background: url("/distHyundai/assets/images/aboutus/img_vision07.png") no-repeat center;
     background-size: auto;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul:after {
@@ -30001,35 +30001,35 @@ button.swiper-pagination-bullet {
     height: 14.4444vw;
     padding: 1.25vw 1.3889vw;
     margin-right: 1.25vw;
-    background: #559638 url(/disthyundai/assets/images/aboutus/ico_vision01.png) bottom 1.3889vw center no-repeat;
+    background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01.png) bottom 1.3889vw center no-repeat;
     background-size: 6.8056vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(2) {
-    background: #b7222d url(/disthyundai/assets/images/aboutus/ico_vision02.png) bottom 1.3889vw center no-repeat;
+    background: #b7222d url(/distHyundai/assets/images/aboutus/ico_vision02.png) bottom 1.3889vw center no-repeat;
     background-size: 5vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(3) {
-    background: #f2b727 url(/disthyundai/assets/images/aboutus/ico_vision03.png) bottom 1.3889vw center no-repeat;
+    background: #f2b727 url(/distHyundai/assets/images/aboutus/ico_vision03.png) bottom 1.3889vw center no-repeat;
     background-size: 4.7222vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(4) {
-    background: #9a2240 url(/disthyundai/assets/images/aboutus/ico_vision04.png) bottom 1.3889vw center no-repeat;
+    background: #9a2240 url(/distHyundai/assets/images/aboutus/ico_vision04.png) bottom 1.3889vw center no-repeat;
     background-size: 4.4444vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(5) {
-    background: #ce1d61 url(/disthyundai/assets/images/aboutus/ico_vision05.png) bottom 1.3889vw center no-repeat;
+    background: #ce1d61 url(/distHyundai/assets/images/aboutus/ico_vision05.png) bottom 1.3889vw center no-repeat;
     background-size: 4.1667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
-    background: #298fca url(/disthyundai/assets/images/aboutus/ico_vision06.png) bottom 1.3889vw center no-repeat;
+    background: #298fca url(/distHyundai/assets/images/aboutus/ico_vision06.png) bottom 1.3889vw center no-repeat;
     background-size: 4.7222vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(7) {
-    background: #236696 url(/disthyundai/assets/images/aboutus/ico_vision07.png) bottom 1.3889vw center no-repeat;
+    background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision07.png) bottom 1.3889vw center no-repeat;
     background-size: 4.8611vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
-    background: #236696 url(/disthyundai/assets/images/aboutus/ico_vision08.png) bottom 1.3889vw center no-repeat;
+    background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08.png) bottom 1.3889vw center no-repeat;
     background-size: 4.8611vw;
     margin-right: 0;
   }
@@ -30060,7 +30060,7 @@ button.swiper-pagination-bullet {
     width: 0.4167vw;
     height: 0.625vw;
     margin-left: 0.6944vw;
-    background: url(/disthyundai/assets/images/aboutus/ico_rightBlue.png) center no-repeat;
+    background: url(/distHyundai/assets/images/aboutus/ico_rightBlue.png) center no-repeat;
     background-size: contain;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .ex {
@@ -30793,7 +30793,7 @@ button.swiper-pagination-bullet {
     height: 84.8vw;
     padding: 13.3333vw 0 0 4vw;
     margin: 16vw 0 0 0;
-    background: url("/disthyundai/assets/images/aboutus/img_vision07_mo.png") no-repeat center;
+    background: url("/distHyundai/assets/images/aboutus/img_vision07_mo.png") no-repeat center;
     background-size: auto;
     text-align: center;
   }
@@ -30940,36 +30940,36 @@ button.swiper-pagination-bullet {
     padding: 2.6667vw 2.6667vw;
     margin-right: 2vw;
     margin-bottom: 2vw;
-    background: #559638 url(/disthyundai/assets/images/aboutus/ico_vision01_mo.png) bottom 2.6667vw center no-repeat;
+    background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 17.4667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(2) {
-    background: #b7222d url(/disthyundai/assets/images/aboutus/ico_vision02_mo.png) bottom 2.6667vw center no-repeat;
+    background: #b7222d url(/distHyundai/assets/images/aboutus/ico_vision02_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 12.9333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(3) {
-    background: #f2b727 url(/disthyundai/assets/images/aboutus/ico_vision03_mo.png) bottom 2.6667vw center no-repeat;
+    background: #f2b727 url(/distHyundai/assets/images/aboutus/ico_vision03_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 12.1333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(4) {
-    background: #9a2240 url(/disthyundai/assets/images/aboutus/ico_vision04_mo.png) bottom 2.6667vw center no-repeat;
+    background: #9a2240 url(/distHyundai/assets/images/aboutus/ico_vision04_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 11.3333vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(5) {
-    background: #ce1d61 url(/disthyundai/assets/images/aboutus/ico_vision05_mo.png) bottom 2.6667vw center no-repeat;
+    background: #ce1d61 url(/distHyundai/assets/images/aboutus/ico_vision05_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 10.6667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
-    background: #BA8634 url(/disthyundai/assets/images/aboutus/ico_vision06_mo.png) bottom 2.6667vw center no-repeat;
+    background: #BA8634 url(/distHyundai/assets/images/aboutus/ico_vision06_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 15.0667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(7) {
-    background: #298fca url(/disthyundai/assets/images/aboutus/ico_vision07_mo.png) bottom 2.6667vw center no-repeat;
+    background: #298fca url(/distHyundai/assets/images/aboutus/ico_vision07_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 12.1333vw;
     margin-bottom: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
-    background: #236696 url(/disthyundai/assets/images/aboutus/ico_vision08_mo.png) bottom 2.6667vw center no-repeat;
+    background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 12.4vw;
     margin-bottom: 0;
   }
@@ -31010,7 +31010,7 @@ button.swiper-pagination-bullet {
     width: 0.9333vw;
     height: 1.8667vw;
     margin-left: 4vw;
-    background: url(/disthyundai/assets/images/common/ico_btnArrow_sky_mo.png) center no-repeat;
+    background: url(/distHyundai/assets/images/common/ico_btnArrow_sky_mo.png) center no-repeat;
     background-size: contain;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy > div a:last-child {
@@ -31045,7 +31045,7 @@ button.swiper-pagination-bullet {
     right: 7.2vw;
     width: 1.3333vw;
     height: 2.2667vw;
-    background: url(/disthyundai/assets/images/aboutus/ico_right_gray_mo.png) center no-repeat;
+    background: url(/distHyundai/assets/images/aboutus/ico_right_gray_mo.png) center no-repeat;
     background-size: contain;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .btnSection .btnHalf_wrap ul li .btnHalf dl dt {
@@ -31866,7 +31866,7 @@ button.swiper-pagination-bullet {
     width: 18.6667vw;
     height: 18.6667vw;
     transform: translate(-50%, -50%);
-    background: url(/disthyundai/assets/images/common/img_finger.png) no-repeat;
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
   }
   #wrap.aboutus .himsenLayerFir img {
