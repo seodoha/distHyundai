@@ -12796,7 +12796,7 @@ button.swiper-pagination-bullet {
     height: 6.25vw;
     line-height: 6.25vw;
     font-size: 2.3438vw;
-    letter-spacing: -0.0208vw;
+    /* letter-spacing: -0.0208vw; */
   }
   #wrap.mainWrap #container .hoverView a p {
     font-size: 1.25vw;
@@ -13270,7 +13270,7 @@ button.swiper-pagination-bullet {
     font-family: "OpenSans_bold";
     font-size: 8vw;
     transition: none;
-    letter-spacing: -0.0533vw;
+    /* letter-spacing: -0.0533vw; */
   }
   #wrap.mainWrap #container .hoverView a p {
     position: absolute;
