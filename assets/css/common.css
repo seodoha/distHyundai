@@ -12258,6 +12258,7 @@ button.swiper-pagination-bullet {
   font-size: 45px;
   transition: all 0.7s;
   letter-spacing: -0.4px;
+  white-space: nowrap;
 }
 #wrap.mainWrap #container .hoverView a p {
   position: absolute;
@@ -20789,6 +20790,7 @@ button.swiper-pagination-bullet {
 }
 .products .detail .swipeWrap .indicator li button {
   position: relative;
+  overflow: visible;
 }
 .products .detail .swipeWrap .indicator li button:after {
   content: "";
@@ -26086,6 +26088,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.decarbonization .explain {
   font-size: 20px;
   font-family: "OpenSans_semiBold";
+  line-height: 1.5;
 }
 #wrap.aboutus .expertise.decarbonization .futureBox {
   margin-bottom: 120px;
@@ -26100,19 +26103,22 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 {
   text-align: center;
 }
-#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 .cntBox02 {
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div {
+  display: inline-block;
+}
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 {
   margin: 74px 0 135px;
   font-size: 0;
   text-align: center;
 }
-#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 .cntBox02 img {
-  width: 336px;
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 img {
+  width: 408px;
   vertical-align: middle;
 }
-#wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 .cntBox02 p {
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 p {
   display: inline-block;
   width: 630px;
-  margin-left: 102px;
+  margin-left: 24px;
   font-size: 18px;
   text-align: left;
   vertical-align: middle;
@@ -26175,6 +26181,9 @@ button.swiper-pagination-bullet {
   font-family: "OpenSans_bold";
   vertical-align: middle;
 }
+#wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap table thead tr th:first-child {
+  padding: 48px 0;
+}
 #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .btnBox {
   margin-top: 60px;
 }
@@ -26194,7 +26203,7 @@ button.swiper-pagination-bullet {
   margin-bottom: 80px;
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 {
-  margin-bottom: 8px;
+  margin-bottom: 80px;
   padding-left: 24px;
   font-size: 0;
   text-align: center;
@@ -26212,89 +26221,121 @@ button.swiper-pagination-bullet {
   vertical-align: middle;
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
-  position: relative;
-  height: 440px;
+  height: 660px;
+  padding-top: 87px;
   background: url(/distHyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
   background-size: cover;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
+  width: 1142px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 {
+  display: block;
+  width: 460px;
   height: auto;
   font-size: 0;
   text-align: center;
+  float: left;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li {
   display: inline-block;
-  width: 214px;
-  padding-top: 74px;
-  margin-right: 63px;
+  width: 200px;
+  padding-top: 68px;
+  margin-right: 60px;
   background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+  background-size: 100px;
   text-align: center;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li strong {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li strong {
   display: block;
   padding-bottom: 10px;
   border-bottom: 2px solid #fff;
-  font-size: 72px;
+  font-size: 60px;
   font-family: "Manrope_extraBold";
   color: #fff;
+  line-height: 1.25;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li span {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li span {
   display: block;
-  padding-top: 30px;
-  font-size: 24px;
-  font-family: "OpenSans_semiBold";
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: "OpenSans_regular";
   color: #fff;
+  line-height: 1.25;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li:first-of-type {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
   background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+  background-size: 94px;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li:last-of-type {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
+  margin-top: 40px;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(even) {
   margin-right: 0;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
+  display: block;
+  width: 502px;
+  margin-left: 180px;
+  color: #fff;
+  float: right;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution .techSolutionTit {
+  font-family: "Manrope_extraBold";
+  font-size: 30px;
+  line-height: 1.25;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul {
+  position: relative;
+  left: 20px;
+  margin-top: 40px;
   font-size: 0;
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li {
-  display: inline-block;
-  width: 261px;
-  margin-right: 51px;
-  vertical-align: top;
-}
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li:last-of-type {
-  margin-right: 0;
-}
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dt {
-  min-height: 50px;
-  margin-bottom: 20px;
-}
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dt strong {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li {
   display: block;
+  margin-right: 0;
+  margin-top: 42px;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt {
+  position: relative;
+  min-height: auto;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -20px;
+  width: 10px;
+  height: 2px;
+  background-color: #fff;
+}
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt strong {
+  margin-right: 10px;
+  display: inline-block;
   font-size: 20px;
   font-family: "OpenSans_bold";
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dt span {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt span {
   font-size: 14px;
+  font-family: "OpenSans_regular";
 }
-#wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dd {
+#wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dd {
+  margin-top: 4px;
   font-size: 16px;
   font-family: "OpenSans_semiBold";
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox {
   margin-bottom: 120px;
 }
-#wrap.aboutus .expertise.decarbonization .speedingBox .titForm {
-  margin-bottom: 40px;
-}
 #wrap.aboutus .expertise.decarbonization .speedingBox > .titForm {
-  text-align: right;
+  padding-left: 40px;
+  margin-bottom: 40px;
+  max-width: none;
+  text-align: left;
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 {
   margin-bottom: 120px;
@@ -26339,6 +26380,7 @@ button.swiper-pagination-bullet {
   padding-top: 118px;
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: 100px;
   font-size: 14px;
   font-family: "OpenSans_semiBold";
   vertical-align: middle;
@@ -27040,12 +27082,16 @@ button.swiper-pagination-bullet {
     font-size: 0;
   }
   #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 img {
-    width: 23.3333vw;
+    width: 28.3333vw;
+    vertical-align: middle;
   }
   #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 p {
+    display: inline-block;
     width: 43.75vw;
-    margin-left: 7.0833vw;
+    margin-left: 1.6667vw;
     font-size: 1.25vw;
+    text-align: left;
+    vertical-align: middle;
   }
   #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .isReady {
     padding-left: 0.9722vw;
@@ -27092,6 +27138,9 @@ button.swiper-pagination-bullet {
     font-size: 1.1111vw;
     font-family: "OpenSans_bold";
   }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap table thead tr th:first-child {
+    padding: 3.3333vw 0;
+  }
   #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .btnBox {
     margin-top: 4.1667vw;
   }
@@ -27111,88 +27160,139 @@ button.swiper-pagination-bullet {
     margin-bottom: 5.5556vw;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 {
-    margin-bottom: 0.5556vw;
+    margin-bottom: 5.5556vw;
     padding-left: 1.6667vw;
     font-size: 0;
+    text-align: center;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 img {
     width: 40.8333vw;
+    vertical-align: middle;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 p {
+    display: inline-block;
     width: 38.3333vw;
     margin-left: 2.5vw;
     font-size: 1.25vw;
+    text-align: left;
+    vertical-align: middle;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
-    height: 30.5556vw;
+    height: 45.8333vw;
+    padding-top: 6.0417vw;
     background: url(/distHyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
+    background-size: cover;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul {
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
+    width: 79.3056vw;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 {
+    display: block;
+    width: 31.9444vw;
     height: auto;
     font-size: 0;
+    text-align: center;
+    float: left;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li {
-    width: 14.8611vw;
-    padding-top: 5.1389vw;
-    margin-right: 4.375vw;
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li {
+    display: inline-block;
+    width: 13.8889vw;
+    padding-top: 4.7222vw;
+    margin-right: 4.1667vw;
     background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+    background-size: 6.9444vw;
+    text-align: center;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li strong {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li strong {
+    display: block;
     padding-bottom: 0.6944vw;
     border-bottom: 0.1389vw solid #fff;
-    font-size: 5vw;
+    font-size: 4.1667vw;
     font-family: "Manrope_extraBold";
     color: #fff;
+    line-height: 1.25;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li span {
-    padding-top: 2.0833vw;
-    font-size: 1.6667vw;
-    font-family: "OpenSans_semiBold";
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li span {
+    display: block;
+    padding-top: 1.3889vw;
+    font-size: 2.0833vw;
+    font-family: "OpenSans_regular";
     color: #fff;
+    line-height: 1.25;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li:first-of-type {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
     background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+    background-size: 6.5278vw;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 ul li:last-of-type {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
+    margin-top: 2.7778vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(even) {
     margin-right: 0;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
+    display: block;
+    width: 34.8611vw;
+    margin-left: 12.5vw;
+    color: #fff;
+    float: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution .techSolutionTit {
+    font-family: "Manrope_extraBold";
+    font-size: 2.0833vw;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul {
+    position: relative;
+    left: 1.3889vw;
+    margin-top: 2.7778vw;
     font-size: 0;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li {
-    width: 18.125vw;
-    margin-right: 3.5417vw;
-  }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li:last-of-type {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li {
+    display: block;
     margin-right: 0;
+    margin-top: 2.9167vw;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dt {
-    min-height: 3.4722vw;
-    margin-bottom: 1.3889vw;
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt {
+    position: relative;
+    min-height: auto;
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dt strong {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -1.3889vw;
+    width: 0.6944vw;
+    height: 0.1389vw;
+    background-color: #fff;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt strong {
+    margin-right: 0.6944vw;
+    display: inline-block;
     font-size: 1.3889vw;
     font-family: "OpenSans_bold";
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dt span {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt span {
     font-size: 0.9722vw;
+    font-family: "OpenSans_regular";
   }
-  #wrap.aboutus .expertise.decarbonization .effBox .cntBox02 ul li dl dd {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dd {
+    margin-top: 0.2778vw;
     font-size: 1.1111vw;
     font-family: "OpenSans_semiBold";
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox {
     margin-bottom: 8.3333vw;
   }
-  #wrap.aboutus .expertise.decarbonization .speedingBox .titForm {
+  #wrap.aboutus .expertise.decarbonization .speedingBox > .titForm {
+    padding-left: 2.7778vw;
     margin-bottom: 2.7778vw;
+    max-width: none;
+    text-align: left;
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 {
     margin-bottom: 8.3333vw;
@@ -27225,6 +27325,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li {
     width: 20.4167vw;
     padding-top: 8.1944vw;
+    background-size: 6.9444vw;
     font-size: 0.9722vw;
     font-family: "OpenSans_semiBold";
   }
@@ -27719,6 +27820,1037 @@ button.swiper-pagination-bullet {
   }
 }
 /* 641 ~ 768 */
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise .kv .txtBox {
+    text-align: center;
+  }
+  #wrap.aboutus .expertise .kv .linkList {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li {
+    display: block;
+    position: relative;
+    vertical-align: middle;
+    border-bottom: 1px solid #fff;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li::after {
+    content: none;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li:last-child {
+    border: none;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li:last-of-type::after {
+    display: none;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li a {
+    display: block;
+    background-color: rgba(2, 38, 62, 0.6);
+    font-size: 24px;
+    font-family: "OpenSans_bold";
+    color: #ccc;
+    text-align: center;
+    line-height: 80px;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li a.on {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise .pageTit {
+    margin: 80px auto 120px;
+  }
+  #wrap.aboutus .expertise .pageTit .aboutSubTit {
+    margin-top: 20px;
+    font-size: 36px;
+    color: #9ea2a3;
+  }
+  #wrap.aboutus .expertise .pageTit > img {
+    margin: 60px 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .explain {
+    font-size: 24px;
+    font-family: "OpenSans_semiBold";
+    line-height: 1.5;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .titForm {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .titForm img {
+    margin-left: 0;
+    vertical-align: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 {
+    position: relative;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div img {
+    width: 1458px;
+    max-width: initial;
+    margin-bottom: 60px;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 {
+    margin: 80px 0 120px;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 img {
+    margin-bottom: 40px;
+    width: 100%;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 p {
+    display: inline-block;
+    width: auto;
+    margin-left: 0;
+    font-family: "OpenSans_semiBold";
+    font-size: 24px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .isReady {
+    display: inline-block;
+    position: relative;
+    padding-left: 14px;
+    vertical-align: middle;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .isReady::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .isReady.on::before {
+    background-color: #249fe8;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .tbTop {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 0;
+    text-align: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .tbTop .isReady {
+    padding-left: 24px;
+    margin-right: 30px;
+    font-size: 14px;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .tbTop .isReady:last-of-type {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap table th[scope=col] {
+    position: relative;
+    padding-bottom: 60px;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap table th[scope=col] strong {
+    display: table;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    table-layout: fixed;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap table th[scope=col] strong span {
+    display: table-cell;
+    font-size: 16px;
+    font-family: "OpenSans_bold";
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap thead tr th:first-child {
+    padding: 48px 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .btnBox {
+    margin-top: 60px;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .btnBox .btn {
+    width: 588px;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .tableWrap .btnBox * ~ * {
+    margin-left: 24px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .titForm {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 {
+    margin-bottom: 80px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 {
+    margin-bottom: 80px;
+    padding-left: 24px;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 img {
+    width: 588px;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 p {
+    display: inline-block;
+    width: 552px;
+    margin-left: 36px;
+    font-size: 18px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
+    height: 660px;
+    padding-top: 87px;
+    background: url(/distHyundai/assets/images/aboutus/img_decarbonization06.png) no-repeat center;
+    background-size: cover;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
+    width: 1142px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 {
+    display: block;
+    width: 460px;
+    height: auto;
+    font-size: 0;
+    text-align: center;
+    float: left;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li {
+    display: inline-block;
+    width: 200px;
+    padding-top: 68px;
+    margin-right: 60px;
+    background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+    background-size: 100px;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li strong {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    font-size: 60px;
+    font-family: "Manrope_extraBold";
+    color: #fff;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li span {
+    display: block;
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "OpenSans_regular";
+    color: #fff;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
+    background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+    background-size: 94px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
+    margin-top: 40px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(even) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
+    display: block;
+    width: 502px;
+    margin-left: 180px;
+    color: #fff;
+    float: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution .techSolutionTit {
+    font-family: "Manrope_extraBold";
+    font-size: 30px;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul {
+    position: relative;
+    left: 20px;
+    margin-top: 40px;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li {
+    display: block;
+    margin-right: 0;
+    margin-top: 42px;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt {
+    position: relative;
+    min-height: auto;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20px;
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt strong {
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "OpenSans_bold";
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt span {
+    font-size: 14px;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dd {
+    margin-top: 4px;
+    font-size: 16px;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox > .titForm {
+    padding-left: 40px;
+    margin-bottom: 40px;
+    max-width: none;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .titForm {
+    margin-bottom: 60px;
+    text-align: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .titForm p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox {
+    padding: 40px 0;
+    margin-bottom: 80px;
+    background-color: #f9f9f9;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure figcaption {
+    display: block;
+    margin-bottom: 58px;
+    font-size: 24px;
+    font-family: "OpenSans_bold";
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure:last-of-type figcaption {
+    text-align: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList {
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li {
+    display: inline-block;
+    position: relative;
+    width: 294px;
+    padding-top: 118px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100px;
+    font-size: 14px;
+    font-family: "OpenSans_semiBold";
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 158px;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(1) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green01.png);
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(2) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green02.png);
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(3) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green03.png);
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green04.png);
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4)::after {
+    display: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox {
+    margin-bottom: 80px;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .titForm {
+    margin-bottom: 30px;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a em {
+    height: auto;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a span {
+    font-size: 20px;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsWithTitle:last-of-type {
+    margin-bottom: 80px;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li {
+    margin: 0 24px 80px 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li > a {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 240px;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+    content: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+    margin-bottom: 20px;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+    color: #666;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+    color: #666;
+    text-transform: uppercase;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+    margin-bottom: 6px;
+    font-family: "Manrope_extraBold";
+    font-size: 30px;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    font-family: "OpenSans_regular";
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #9ea2a3;
+  }
+}
+@media screen and (max-width: 768px) and (-ms-high-contrast: active), (max-width: 768px) and (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.digitalization .pageTit .aboutSubTit {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain {
+    margin: 40px 0;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain > * {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dt {
+    padding-right: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dt strong {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dt span {
+    font-size: 20px;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dd span {
+    display: block;
+    font-size: 20px;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dd span:first-child {
+    margin-bottom: 45px;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit figure {
+    line-height: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .titForm {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox {
+    margin-top: 80px;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox > * {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption {
+    width: 688px;
+    margin-right: 60px;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption span {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption ul li {
+    position: relative;
+    padding-left: 9px;
+    font-size: 18px;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox img {
+    width: 452px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .titForm {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox > figure {
+    margin-bottom: 100px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox > figure figcaption {
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: "OpenSans_semiBold";
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .thumb {
+    width: 690px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .thumb img {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt {
+    padding-left: 102px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dt {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dd ul li {
+    position: relative;
+    padding-left: 9px;
+    font-size: 18px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dd ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li ~ li {
+    margin-top: 100px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li:nth-child(2) .txt {
+    padding: 0 102px 0 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .titForm {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figure {
+    position: relative;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figure figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figure figcaption span {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    width: 810px;
+    font-size: 18px;
+    color: #fff;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox {
+    margin-bottom: 80px;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .titForm {
+    margin-bottom: 30px;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li a em {
+    height: auto;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li a span {
+    font-size: 20px;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li {
+    margin: 0 24px 80px 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li > a {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 240px;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+    content: none;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+    margin-bottom: 20px;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+    color: #666;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+    color: #666;
+    text-transform: uppercase;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+    margin-bottom: 6px;
+    font-family: "Manrope_extraBold";
+    font-size: 30px;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    font-family: "OpenSans_regular";
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #9ea2a3;
+  }
+}
+@media screen and (max-width: 768px) and (-ms-high-contrast: active), (max-width: 768px) and (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.digitalization .newsWithTitle:last-of-type {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.efficiency .pageTit {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .aboutSubTit {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain {
+    padding: 40px 0 120px;
+    border-bottom: 1px solid #ccc;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain > * {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain dl {
+    padding-right: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain dl dt {
+    display: block;
+    font-family: "Manrope_extraBold";
+    font-size: 30px;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain dl dd {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul li {
+    position: relative;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul li ~ li {
+    margin-top: 30px;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 1px;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox {
+    margin-bottom: 120px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > .titForm {
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > .titForm .aboutSubTit {
+    color: #9ea2a3;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 {
+    margin-bottom: 120px;
+    line-height: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 figcaption {
+    margin-top: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 figcaption ul {
+    font-size: 0;
+    line-height: 1.5;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 figcaption ul li {
+    display: inline-block;
+    width: 33.33%;
+    font-size: 16px;
+    font-family: "OpenSans_semiBold";
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 {
+    margin-bottom: 80px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm {
+    margin-bottom: 50px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm .categoryTit {
+    margin-bottom: 10px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm ul li {
+    position: relative;
+    padding-left: 9px;
+    font-size: 18px;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList {
+    position: relative;
+    height: 440px;
+    background-color: #f9f9f9;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li {
+    display: inline-block;
+    padding-top: 183px;
+    width: 165px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    font-size: 24px;
+    font-family: "Manrope_extraBold";
+    text-align: center;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency03.png);
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
+    margin: 0 204px;
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency04.png);
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency05.png);
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
+    margin-bottom: 50px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm .categoryTit {
+    margin-bottom: 10px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm span {
+    font-size: 18px;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList {
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li {
+    display: inline-block;
+    width: 50%;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl {
+    margin-top: 50px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dt {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dd {
+    font-size: 18px;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dd strong {
+    font-size: 60px;
+    font-family: "Manrope_extraBold";
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList {
+    margin-top: 50px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList li {
+    position: relative;
+    padding-left: 9px;
+    font-size: 18px;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox {
+    margin-bottom: 160px;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox > .titForm {
+    margin-bottom: 90px;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox figure {
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox ul {
+    margin-top: 20px;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox ul li {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: "Manrope_extraBold";
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 1px;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.efficiency .navList {
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li a {
+    display: block;
+    position: relative;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li a span {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-right: 100px;
+    font-size: 30px;
+    font-family: "OpenSans_bold";
+    color: #fff;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li a::after {
+    content: "";
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: url(/distHyundai/assets/images/common/ico_arr.png) no-repeat center;
+    background-size: contain;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(1) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_marine.png);
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(2) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_energy.png);
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(3) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_products.png);
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(4) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_customer.png);
+  }
+}
 /*  ~ 640 */
 #wrap.aboutus #container.visionMission .contentsWrap {
   margin-bottom: 0;
@@ -27732,7 +28864,11 @@ button.swiper-pagination-bullet {
   line-height: 1.25;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap {
+  text-align: center;
   margin-top: 44px;
+}
+#wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap .iframeWrap {
+  display: inline-block;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .gallery {
   margin-top: 120px;
@@ -27779,7 +28915,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul {
   overflow: hidden;
   display: inline-block;
-  text-align: start;
+  text-align: left;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul:after {
   content: "";
@@ -27838,7 +28974,7 @@ button.swiper-pagination-bullet {
   display: inline-block;
   height: auto;
   margin-top: 90px;
-  text-align: start;
+  text-align: left;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl {
   margin-left: 40px;
@@ -27869,7 +29005,7 @@ button.swiper-pagination-bullet {
   width: 164px;
   height: 208px;
   padding: 18px 20px;
-  margin-right: 16px;
+  margin-right: 18px;
   background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01.png) bottom 20px center no-repeat;
   background-size: 98px;
 }
@@ -27900,6 +29036,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
   background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08.png) bottom 20px center no-repeat;
   background-size: 70px;
+  margin-right: 0;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div span,
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div em {
@@ -28862,7 +29999,7 @@ button.swiper-pagination-bullet {
     width: 11.3889vw;
     height: 14.4444vw;
     padding: 1.25vw 1.3889vw;
-    margin-right: 1.1111vw;
+    margin-right: 1.25vw;
     background: #559638 url(/distHyundai/assets/images/aboutus/ico_vision01.png) bottom 1.3889vw center no-repeat;
     background-size: 6.8056vw;
   }
@@ -28893,6 +30030,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(8) {
     background: #236696 url(/distHyundai/assets/images/aboutus/ico_vision08.png) bottom 1.3889vw center no-repeat;
     background-size: 4.8611vw;
+    margin-right: 0;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div span,
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li div em {
@@ -29604,7 +30742,10 @@ button.swiper-pagination-bullet {
     margin-top: 5.3333vw;
     font-size: 0;
   }
-  #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap iframe {
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap .iframeWrap {
+    display: block;
+  }
+  #wrap.aboutus #container.visionMission .contentsWrap .contents .top .inner .videoWrap .iframeWrap iframe {
     width: 100%;
     height: 49.0667vw;
   }
@@ -29658,7 +30799,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul {
     overflow: hidden;
     display: inline-block;
-    text-align: start;
+    text-align: left;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .top .midBanner ul:after {
     content: "";
@@ -29765,7 +30906,7 @@ button.swiper-pagination-bullet {
     display: inline-block;
     height: auto;
     margin-top: 13.3333vw;
-    text-align: start;
+    text-align: left;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy dl {
     margin-left: 0;
