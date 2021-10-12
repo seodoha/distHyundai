@@ -284,9 +284,7 @@ var uiCommon = function (uiCommon, $window) {
             $(".btnTop").css({
               bottom: "100px"
             });
-          } // 2021.09.30 sb 수정요청사항 반영
-          // $(".btnTop").css({ bottom: "348px" });
-
+          }
         });
       },
       clickEv: function clickEv() {
@@ -401,11 +399,19 @@ var uiCommon = function (uiCommon, $window) {
     },
     mCustomScrollBar: {
       init: function init() {
-        $(".mCsutomScroll").mCustomScrollbar(); // if(window.innerWidth > 750){
-        //     $(".mCsutomScroll").removeClass('mCustomScrollbar');
-        // }else{
-        //     $(".mCsutomScroll").mCustomScrollbar();
-        // }
+        if (!$('#wrap').hasClass('mainWrap')) {
+          $(".mCsutomScroll").mCustomScrollbar();
+        } else {
+          if (window.innerWidth < 750) {
+            $(".main .mCsutomScroll").css('overflow-y', 'auto');
+          } else {
+            $(".mCsutomScroll").mCustomScrollbar();
+          }
+
+          ;
+        }
+
+        ;
       }
     },
     countUp: {
