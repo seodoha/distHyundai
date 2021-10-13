@@ -21031,8 +21031,11 @@ button.swiper-pagination-bullet {
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-.pdTable table tbody tr td:last-child {
+.pdTable table tbody tr td:last-child, .pdTable table tbody tr th:last-child {
   border-right: 0;
+}
+.pdTable table tbody tr:first-of-type th:first-of-type[rowspan], .pdTable table tbody tr:first-of-type td:first-of-type[rowspan] {
+  border-bottom: 0;
 }
 .pdTable table tbody tr:last-child td, .pdTable table tbody tr:last-child th {
   border-bottom: 0;
@@ -27927,7 +27930,7 @@ button.swiper-pagination-bullet {
     background-color: rgba(2, 38, 62, 0.6);
     font-size: 24px;
     font-family: "OpenSans_bold";
-    color: #ccc;
+    color: #fff;
     text-align: center;
     line-height: 80px;
   }
@@ -27939,7 +27942,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise .pageTit .aboutSubTit {
     margin-top: 20px;
-    font-size: 36px;
+    font-size: 36px !important;
     color: #9ea2a3;
   }
   #wrap.aboutus .expertise .pageTit > img {
@@ -28479,35 +28482,35 @@ button.swiper-pagination-bullet {
     margin-bottom: 40px;
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain {
-    margin: 40px 0;
+    margin: 60px 0 40px 0;
     font-size: 0;
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain > * {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: 100%;
     text-align: left;
-    vertical-align: top;
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain dt {
-    padding-right: 40px;
+    padding-right: 0;
+    margin-bottom: 40px;
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain dt strong {
     display: block;
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 40px;
+    font-size: 42px;
     font-family: "Manrope_extraBold";
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain dt span {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Manrope_extraBold";
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain dd span {
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     font-family: "OpenSans_semiBold";
   }
   #wrap.aboutus .expertise.digitalization .pageTit .explain dd span:first-child {
-    margin-bottom: 45px;
+    margin-bottom: 0;
   }
   #wrap.aboutus .expertise.digitalization .pageTit figure {
     line-height: 0;
@@ -28517,6 +28520,9 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .titForm {
     margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .titForm .subTit {
+    font-size: 54px !important;
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox {
     margin-top: 80px;
@@ -29003,6 +29009,158 @@ button.swiper-pagination-bullet {
   }
 }
 /*  ~ 640 */
+#wrap.aboutus #container.history {
+  position: relative;
+  padding: 171px 0 160px 0;
+  font-size: 0;
+  overflow: hidden;
+  width: 1440px;
+  margin: 0 auto;
+}
+#wrap.aboutus #container.history .kv {
+  position: static;
+}
+#wrap.aboutus #container.history .kv .txtBox {
+  position: static;
+  transform: inherit;
+}
+#wrap.aboutus #container.history .kv .txtBox h2 {
+  margin-top: 80px;
+  margin-bottom: 160px;
+  text-align: center;
+  font-size: 72px;
+  color: #02263e;
+}
+#wrap.aboutus #container.history .tabWrap {
+  height: 80px;
+}
+#wrap.aboutus #container.history .historyCo {
+  padding: 70px 0 0 0;
+  font-size: 0;
+  overflow: hidden;
+}
+#wrap.aboutus #container.history .historyCo .box {
+  position: relative;
+  padding-left: 608px;
+}
+#wrap.aboutus #container.history .historyCo .box .historyLine {
+  position: absolute;
+  left: 608px;
+  top: 0;
+  z-index: 1;
+  width: 2px;
+  height: 0;
+  max-height: 100%;
+  background-color: #02263e;
+  transition: height 0.3s;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 {
+  position: relative;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ddd;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dt {
+  position: absolute;
+  left: -608px;
+  width: 608px;
+  font-size: 72px;
+  font-family: "Manrope_extraBold";
+  color: #ddd;
+  transition: color 0.3s;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dt::after {
+  content: "";
+  position: absolute;
+  right: -7px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transition: background-color 0.3s;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dt.on {
+  color: #249fe8;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dt.on::after {
+  background-color: #249fe8;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
+  top: -15px;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
+  top: 32%;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd {
+  position: relative;
+  padding-left: 80px;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 {
+  padding-top: 0;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 dt {
+  top: 0;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type .dep2 {
+  border-bottom: 0;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
+  margin-bottom: 80px;
+  border-bottom: none;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
+  font-size: 30px;
+  font-family: "Manrope_extraBold";
+  margin-bottom: 20px;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
+  overflow: hidden;
+  margin-top: 14px;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
+  display: block;
+  float: left;
+  width: 20px;
+  height: 27px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: "OpenSans_bold";
+  font-style: normal;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
+  display: inline-block;
+  width: 658px;
+  font-family: "OpenSans_regular";
+  font-size: 18px;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 0;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transition: background-color 0.3s;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type.on::after {
+  background-color: #02263e;
+}
 #wrap.aboutus #container.visionMission .contentsWrap {
   margin-bottom: 0;
 }
@@ -29177,7 +29335,7 @@ button.swiper-pagination-bullet {
   background-size: 60px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
-  background: #BA8634 url(/distHyundai/assets/images/aboutus/ico_vision06.png) bottom 20px center no-repeat;
+  background: #ba8634 url(/distHyundai/assets/images/aboutus/ico_vision06.png) bottom 20px center no-repeat;
   background-size: 84px;
 }
 #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(7) {
@@ -30856,6 +31014,89 @@ button.swiper-pagination-bullet {
     background-image: none !important;
   }
 }
+/* 641 ~ 768 */
+@media (max-width: 768px) {
+  #container.history .kv {
+    position: static;
+    width: 100%;
+  }
+  #container.history .kv .txtBox {
+    position: static;
+    transform: inherit;
+  }
+  #container.history .kv .txtBox h2 {
+    margin-top: 80px;
+    margin-bottom: 160px;
+    text-align: center;
+    font-size: 72px;
+    color: #02263e;
+  }
+  #container.history .tabWrap .tab li {
+    height: 80px;
+  }
+  #container.history .historyCo {
+    padding: 17.0667vw 5.3333vw 0 12vw;
+  }
+  #container.history .historyCo .box {
+    padding-left: 0;
+  }
+  #container.history .historyCo .box .historyLine {
+    left: 0;
+  }
+  #container.history .historyCo .box .dep1 > dt {
+    position: relative;
+    left: 0;
+    width: auto;
+    padding-left: 9.8667vw;
+    margin-top: 7.4667vw;
+    font-size: 8.5333vw;
+    line-height: 1.2;
+  }
+  #container.history .historyCo .box .dep1 > dt::after {
+    left: -5px;
+  }
+  #container.history .historyCo .box .dep1 > dt.on::after {
+    background-color: #ddd;
+  }
+  #container.history .historyCo .box .dep1 > dt:nth-child(1) {
+    top: -5.6vw;
+    margin-top: 0;
+  }
+  #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
+    top: 57%;
+  }
+  #container.history .historyCo .box .dep1 > dd {
+    padding-left: 9.8667vw;
+  }
+  #container.history .historyCo .box .dep1 > dd .dep2 {
+    padding: 7.4667vw 0;
+  }
+  #container.history .historyCo .box .dep1 > dd .dep2 dt {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 5.3333vw;
+    line-height: 1.2;
+  }
+  #container.history .historyCo .box .dep1 > dd .dep2 dd {
+    margin-top: 6.1333vw;
+  }
+  #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
+    margin-top: 4vw;
+  }
+  #container.history .historyCo .box .dep1 > dd .dep2 dd em {
+    width: 12vw;
+    padding-top: 2px;
+    font-size: 4.2667vw;
+  }
+  #container.history .historyCo .box .dep1 > dd .dep2 dd span {
+    width: 60.2667vw;
+    font-size: 4.2667vw;
+  }
+  #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+    left: -5px;
+  }
+}
 /*  ~ 640 */
 @media (max-width: 768px) {
   #wrap.aboutus .inner .innerTit {
@@ -31110,7 +31351,7 @@ button.swiper-pagination-bullet {
     background-size: 10.6667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(6) {
-    background: #BA8634 url(/distHyundai/assets/images/aboutus/ico_vision06_mo.png) bottom 2.6667vw center no-repeat;
+    background: #ba8634 url(/distHyundai/assets/images/aboutus/ico_vision06_mo.png) bottom 2.6667vw center no-repeat;
     background-size: 15.0667vw;
   }
   #wrap.aboutus #container.visionMission .contentsWrap .contents .bottom .visionIconsBack .visionPolicy ul li:nth-child(7) {
