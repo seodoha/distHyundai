@@ -13300,6 +13300,9 @@ button.swiper-pagination-bullet {
     transition: none;
     letter-spacing: -0.0533vw;
   }
+  #wrap.mainWrap #container .hoverView a h2.iosText {
+    letter-spacing: -0.35vw;
+  }
   #wrap.mainWrap #container .hoverView a p {
     position: absolute;
     font-family: "OpenSans_semiBold";
