@@ -29060,14 +29060,13 @@ button.swiper-pagination-bullet {
   width: 2px;
   height: 0;
   max-height: 100%;
-  background-color: #02263e;
+  background-color: #249fe8;
   transition: height 0.3s;
 }
 #wrap.aboutus #container.history .historyCo .box .dep1 {
   position: relative;
 }
-#wrap.aboutus #container.history .historyCo .box .dep1::before {
-  content: "";
+#wrap.aboutus #container.history .historyCo .box .dep1 .dep1Line {
   position: absolute;
   left: 0;
   top: 0;
@@ -29081,31 +29080,8 @@ button.swiper-pagination-bullet {
   width: 608px;
   font-size: 72px;
   font-family: "Manrope_extraBold";
-  color: #ddd;
-  transition: color 0.3s;
-}
-#wrap.aboutus #container.history .historyCo .box .dep1 > dt::after {
-  content: "";
-  position: absolute;
-  right: -7px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
-  transition: background-color 0.3s;
-}
-#wrap.aboutus #container.history .historyCo .box .dep1 > dt.on {
   color: #249fe8;
-}
-#wrap.aboutus #container.history .historyCo .box .dep1 > dt.on::after {
-  background-color: #249fe8;
+  transition: color 0.3s;
 }
 #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
   top: -15px;
@@ -29116,6 +29092,47 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
   position: relative;
   padding-left: 80px;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 24px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transition: background-color 0.7s;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 24px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(36, 159, 232, 0.4);
+  opacity: 0;
+  transition: background-color 1s;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::after {
+  background-color: #249fe8;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::before {
+  opacity: 1;
 }
 #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 {
   padding-top: 0;
@@ -29159,7 +29176,7 @@ button.swiper-pagination-bullet {
   content: "";
   position: absolute;
   left: -5px;
-  bottom: 0;
+  top: 18px;
   z-index: 1;
   width: 12px;
   height: 12px;
@@ -29168,7 +29185,7 @@ button.swiper-pagination-bullet {
   transition: background-color 0.3s;
 }
 #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type.on::after {
-  background-color: #02263e;
+  background-color: #249fe8;
 }
 #wrap.aboutus #container.visionMission .contentsWrap {
   margin-bottom: 0;
@@ -31025,34 +31042,37 @@ button.swiper-pagination-bullet {
 }
 /* 641 ~ 768 */
 @media (max-width: 768px) {
-  #container.history .kv {
+  #wrap.aboutus #container.history {
+    width: 100%;
+  }
+  #wrap.aboutus #container.history .kv {
     position: static;
     width: 100%;
   }
-  #container.history .kv .txtBox {
+  #wrap.aboutus #container.history .kv .txtBox {
     position: static;
     transform: inherit;
   }
-  #container.history .kv .txtBox h2 {
+  #wrap.aboutus #container.history .kv .txtBox h2 {
     margin-top: 80px;
     margin-bottom: 160px;
     text-align: center;
     font-size: 72px;
     color: #02263e;
   }
-  #container.history .tabWrap .tab li {
+  #wrap.aboutus #container.history .tabWrap .tab li {
     height: 80px;
   }
-  #container.history .historyCo {
+  #wrap.aboutus #container.history .historyCo {
     padding: 17.0667vw 5.3333vw 0 12vw;
   }
-  #container.history .historyCo .box {
+  #wrap.aboutus #container.history .historyCo .box {
     padding-left: 0;
   }
-  #container.history .historyCo .box .historyLine {
+  #wrap.aboutus #container.history .historyCo .box .historyLine {
     left: 0;
   }
-  #container.history .historyCo .box .dep1 > dt {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt {
     position: relative;
     left: 0;
     width: auto;
@@ -31061,48 +31081,48 @@ button.swiper-pagination-bullet {
     font-size: 8.5333vw;
     line-height: 1.2;
   }
-  #container.history .historyCo .box .dep1 > dt::after {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt::after {
     left: -5px;
   }
-  #container.history .historyCo .box .dep1 > dt.on::after {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt.on::after {
     background-color: #ddd;
   }
-  #container.history .historyCo .box .dep1 > dt:nth-child(1) {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
     top: -5.6vw;
     margin-top: 0;
   }
-  #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
     top: 57%;
   }
-  #container.history .historyCo .box .dep1 > dd {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
     padding-left: 9.8667vw;
   }
-  #container.history .historyCo .box .dep1 > dd .dep2 {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
     padding: 7.4667vw 0;
   }
-  #container.history .historyCo .box .dep1 > dd .dep2 dt {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
     position: relative;
     left: 0;
     top: 0;
     font-size: 5.3333vw;
     line-height: 1.2;
   }
-  #container.history .historyCo .box .dep1 > dd .dep2 dd {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd {
     margin-top: 6.1333vw;
   }
-  #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
     margin-top: 4vw;
   }
-  #container.history .historyCo .box .dep1 > dd .dep2 dd em {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
     width: 12vw;
     padding-top: 2px;
     font-size: 4.2667vw;
   }
-  #container.history .historyCo .box .dep1 > dd .dep2 dd span {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
     width: 60.2667vw;
     font-size: 4.2667vw;
   }
-  #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
     left: -5px;
   }
 }

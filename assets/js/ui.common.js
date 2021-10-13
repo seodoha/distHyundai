@@ -137,7 +137,8 @@ var uiCommon = function (uiCommon, $window) {
       $(".mediaVideo").length > 0 && uiCommon.component.mediaYoutube.init(); // 미디어 파트 유튜브 이동
 
       $(".nice-select").length > 0 && uiCommon.component.selectColor.init(); // 셀렉트박스 선택 시 컬러 변경
-      // $(".history").length > 0 && uiCommon.eventBind.history.init();
+
+      $(".history").length > 0 && uiCommon.component.history.init();
     },
     arrFiltering: function arrFiltering(v) {
       return v = v.filter(function (item) {
@@ -741,6 +742,48 @@ var uiCommon = function (uiCommon, $window) {
           });
         });
       }
+    },
+    history: {
+      init: function init() {
+        AOS.init({
+          duration: 1200
+        });
+        uiCommon.component.history.scrollEvt();
+        $window.on("scroll mousewheel", function () {
+          uiCommon.component.history.scrollEvt();
+        });
+      },
+      scrollEvt: function scrollEvt() {
+        var $line = $(".historyLine"),
+            $dep1 = $(".historyCo .dep1"),
+            $dep1Line = $(".historyCo .dep1Line"),
+            $dd = $(".historyCo .dep1 > dd"),
+            $ddTop = $dd.offset().top,
+            historyTop = $(".historyCo .box").offset().top - 800; // dtTop2 = $dep1.find("> dt").eq(1).offset().top - historyTop - 770,
+        // dtTop3 = $dep1.find("> dt").eq(2).offset().top - historyTop - 770;
+
+        var winTop = $(window).scrollTop(),
+            $dep1Hi = $(".dep1 > dd:last-child").height(),
+            height = winTop - historyTop;
+
+        for (var i = 0; i < $dd.length; i++) {
+          winTop >= $dd.eq(i).offset().top - 790 ? $dep1.find("> dd").eq(i).addClass("on") : $dep1.find("> dd").eq(i).removeClass("on");
+        } // height >= $dep1.height()
+        //     ? $dep1.find("> dd").last().addClass("on")
+        //     : $dep1.find("> dd").last().removeClass("on");
+        // height >= dtTop2 ? $dep1.find("> dt").eq(1).addClass("on") : $dep1.find("> dt").eq(1).removeClass("on");
+        // height >= dtTop3 ? $dep1.find("> dt").eq(2).addClass("on") : $dep1.find("> dt").eq(2).removeClass("on");
+        // console.log($dd.eq(3).offset().top);
+
+
+        $line.css({
+          height: height,
+          "max-height": $dep1Line.height()
+        });
+        $dep1Line.css({
+          bottom: $dep1Hi - 20
+        });
+      }
     }
   };
   uiCommon.mc = {
@@ -789,33 +832,6 @@ var uiCommon = function (uiCommon, $window) {
       var $obj = $(".productList a img");
       $obj.wrap("<em></em>");
     }
-    /*history: {
-        init: () => {
-            uiCommon.eventBind.history.scrollEvt();
-              $window.on("scroll mousewheel", function () {
-                uiCommon.eventBind.history.scrollEvt();
-            });
-        },
-        scrollEvt: () => {
-            const $line = $(".historyLine"),
-                $dep1 = $(".history .dep1"),
-                historyTop = $(".history .box").offset().top - 800,
-                dtTop2 = $dep1.find("> dt").eq(1).offset().top - historyTop - 770,
-                dtTop3 = $dep1.find("> dt").eq(2).offset().top - historyTop - 770;
-              let winTop = $(window).scrollTop(),
-                height = winTop - historyTop;
-              winTop >= historyTop
-                ? $dep1.find("> dt").eq(0).addClass("on")
-                : $dep1.find("> dt").eq(0).removeClass("on");
-            height >= $dep1.height()
-                ? $dep1.find("> dd").last().addClass("on")
-                : $dep1.find("> dd").last().removeClass("on");
-            height >= dtTop2 ? $dep1.find("> dt").eq(1).addClass("on") : $dep1.find("> dt").eq(1).removeClass("on");
-            height >= dtTop3 ? $dep1.find("> dt").eq(2).addClass("on") : $dep1.find("> dt").eq(2).removeClass("on");
-              $line.css({ height: height });
-        },
-    },*/
-
   };
   uiCommon.init();
   return uiCommon;
