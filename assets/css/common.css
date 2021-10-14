@@ -14276,10 +14276,146 @@ button.swiper-pagination-bullet {
   padding: 27px 0 140px;
 }
 #wrap.marineSolution .overview .scopeBox {
-  padding: 120px 0 415px;
+  padding: 120px 0 178px;
 }
 #wrap.marineSolution .overview .scopeBox .titForm {
-  margin-bottom: 3px;
+  margin-bottom: 30px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap {
+  position: relative;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap > img {
+  width: 1440px;
+  max-width: unset;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li button {
+  position: absolute;
+  background: rgba(2, 38, 62, 0.7);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  font-family: "OpenSans_semiBold";
+  font-size: 11px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(1) button {
+  top: 270px;
+  left: 291px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(2) button {
+  top: 348px;
+  left: 285px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(3) button {
+  top: 413px;
+  left: 381px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(4) button {
+  top: 348px;
+  left: 459px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(5) button {
+  top: 473px;
+  left: 243px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(6) button {
+  top: 158px;
+  left: 669px;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(7) button {
+  top: 277px;
+  left: 728px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li {
+  position: absolute;
+  display: none;
+  width: 405px;
+  height: auto;
+  padding: 42px 0 40px 28px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 3px 5px 40px rgba(0, 0, 0, 0.15);
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li.pop {
+  display: block;
+  z-index: 20;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(1) {
+  top: 390px;
+  left: 350px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(2) {
+  top: 460px;
+  left: 350px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(3) {
+  top: 520px;
+  left: 440px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(4) {
+  top: 450px;
+  left: 520px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(5) {
+  top: 580px;
+  left: 302px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(6) {
+  top: 270px;
+  left: 730px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) {
+  top: 390px;
+  left: 790px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) > a img {
+  padding-top: 20px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li > a {
+  display: block;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum {
+  display: inline-block;
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #02263e;
+  color: #fff;
+  font-family: "OpenSans_semiBold";
+  font-size: 14px;
+  text-align: center;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum + img {
+  width: 150px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt {
+  display: inline-block;
+  width: 50%;
+  margin-left: 16px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt h5 {
+  margin-bottom: 10px;
+  font-family: "OpenSans_bold";
+  font-size: 18px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt p {
+  margin-bottom: 24px;
+  font-family: "OpenSans_semiBold";
+  font-size: 14px;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li .btnBox {
+  text-align: left;
+}
+#wrap.marineSolution .overview .scopeBox .popUpBox li .btnBox .btn {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  border: none;
+  min-width: unset;
 }
 #wrap.marineSolution .overview .offeringBox {
   padding-bottom: 120px;
@@ -14540,10 +14676,105 @@ button.swiper-pagination-bullet {
     padding: 1.875vw 0 9.7222vw;
   }
   #wrap.marineSolution .overview .scopeBox {
-    padding: 8.3333vw 0 28.8194vw;
+    padding: 8.3333vw 0 12.3611vw;
   }
   #wrap.marineSolution .overview .scopeBox .titForm {
-    margin-bottom: 0.2083vw;
+    margin-bottom: 2.0833vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap > img {
+    width: 100vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li button {
+    width: 2.0833vw;
+    height: 2.0833vw;
+    border: 0.1389vw solid rgba(255, 255, 255, 0.7);
+    font-size: 0.7639vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(1) button {
+    top: 18.75vw;
+    left: 20.2083vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(2) button {
+    top: 24.1667vw;
+    left: 19.7917vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(3) button {
+    top: 28.6806vw;
+    left: 26.4583vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(4) button {
+    top: 24.1667vw;
+    left: 31.875vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(5) button {
+    top: 32.8472vw;
+    left: 16.875vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(6) button {
+    top: 10.9722vw;
+    left: 46.4583vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(7) button {
+    top: 19.2361vw;
+    left: 50.5556vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li {
+    width: 28.125vw;
+    padding: 2.9167vw 0 2.7778vw 1.9444vw;
+    box-shadow: 0.2083vw 0.3472vw 2.7778vw rgba(0, 0, 0, 0.15);
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(1) {
+    top: 27.0833vw;
+    left: 24.3056vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(2) {
+    top: 31.9444vw;
+    left: 24.3056vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(3) {
+    top: 36.1111vw;
+    left: 30.5556vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(4) {
+    top: 31.25vw;
+    left: 36.1111vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(5) {
+    top: 40.2778vw;
+    left: 20.9722vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(6) {
+    top: 18.75vw;
+    left: 50.6944vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) {
+    top: 27.0833vw;
+    left: 54.8611vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) > a img {
+    padding-top: 1.3889vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum {
+    top: -1px;
+    left: -1px;
+    width: 2.7778vw;
+    height: 2.7778vw;
+    line-height: 2.7778vw;
+    font-size: 0.9722vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum + img {
+    width: 10.4167vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt {
+    margin-left: 1.1111vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt h5 {
+    margin-bottom: 0.6944vw;
+    font-size: 1.25vw;
+  }
+  #wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt p {
+    margin-bottom: 1.6667vw;
+    font-size: 0.9722vw;
   }
   #wrap.marineSolution .overview .offeringBox {
     padding-bottom: 8.3333vw;
@@ -14735,7 +14966,151 @@ button.swiper-pagination-bullet {
     font-size: 3.2vw;
   }
   #wrap.marineSolution #container.overview .scopeBox {
-    padding: 16vw 4vw 58vw;
+    padding: 120px 30px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .titForm {
+    margin-bottom: 30px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap {
+    position: relative;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap > img {
+    width: 192vw;
+    margin-left: -16.9333vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li button {
+    position: absolute;
+    background: rgba(2, 38, 62, 0.7);
+    color: #fff;
+    z-index: 11;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    font-family: "OpenSans_semiBold";
+    font-size: 22px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(1) button {
+    top: 210px;
+    left: 134px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(2) button {
+    top: 339px;
+    left: 134px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(3) button {
+    top: 399px;
+    left: 250px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(4) button {
+    top: 339px;
+    left: 331px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(5) button {
+    top: 459px;
+    left: 109px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(6) button {
+    top: 148px;
+    left: 529px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(7) button {
+    top: 267px;
+    left: 588px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li {
+    position: absolute;
+    display: none;
+    width: 610px;
+    height: auto;
+    padding: 66px 0 64px 34px;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 3px 5px 40px rgba(0, 0, 0, 0.15);
+    transform: translateX(-50%);
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li.pop {
+    display: block;
+    z-index: 20;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li.pop > a {
+    display: block;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(1) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(2) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(3) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(4) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(5) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(6) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(7) {
+    top: 322px;
+    left: 50%;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a {
+    display: none;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a .popNum {
+    display: inline-block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #02263e;
+    color: #fff;
+    font-family: "OpenSans_semiBold";
+    font-size: 22px;
+    text-align: center;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a .popNum + img {
+    width: 240px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt {
+    display: inline-block;
+    width: 50%;
+    margin-left: 20px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt h5 {
+    margin-bottom: 20px;
+    font-family: "OpenSans_bold";
+    font-size: 30px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt p {
+    margin-bottom: 40px;
+    font-family: "OpenSans_semiBold";
+    font-size: 24px;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox {
+    text-align: left;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox .btn {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    border: none;
+    min-width: unset;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox .btn span {
+    font-size: 24px;
   }
   #wrap.marineSolution #container.overview .offeringBox {
     padding-bottom: 24.6667vw;
@@ -26625,6 +27000,7 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox img {
   width: 452px;
+  float: right;
 }
 #wrap.aboutus .expertise.digitalization .techBox {
   margin-bottom: 120px;
@@ -28375,30 +28751,30 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .productBox .titForm {
     margin-bottom: 56px;
   }
-  #wrap.aboutus .expertise.decarbonization .productBox .productList.col4 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  #wrap.aboutus .expertise.decarbonization .productBox .productList {
+    font-size: 0;
   }
-  #wrap.aboutus .expertise.decarbonization .productBox .productList.col4 li {
-    display: inline-block;
-    margin: 0 22px 0 0 !important;
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li {
+    display: inline-block !important;
     width: 334px !important;
+    margin-right: 22px !important;
+    margin-left: 0 !important;
+    vertical-align: top;
   }
-  #wrap.aboutus .expertise.decarbonization .productBox .productList.col4 li:nth-child(even) {
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li:nth-child(2n) {
     margin-right: 0 !important;
   }
-  #wrap.aboutus .expertise.decarbonization .productBox .productList.col4 li a:after {
-    display: none;
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li:nth-child(3) {
+    margin-top: 40px !important;
   }
-  #wrap.aboutus .expertise.decarbonization .productBox .productList.col4 li a em {
-    width: 334px !important;
-    height: 334px !important;
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li:nth-child(4) {
+    margin-top: 40px !important;
   }
-  #wrap.aboutus .expertise.decarbonization .productBox .productList.col4 li a span {
-    font-size: 32px !important;
-    line-height: 1.25;
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a em {
+    height: auto;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a em img {
+    margin-bottom: 0 !important;
   }
   #wrap.aboutus .expertise.decarbonization .newsWithTitle:last-of-type {
     margin-top: 80px;
@@ -28407,44 +28783,45 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .newsVideoLayout.newsExper > * .thumbnail {
     height: 316px !important;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 {
     padding: 0;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li {
+    width: 570px !important;
     margin: 0 24px 80px 0;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li:nth-child(3n) {
     margin-right: 0;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li > a {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li > a {
     width: 100%;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail {
-    height: 240px;
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 295px !important;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail:before {
     content: none;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
     margin-bottom: 20px;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
     color: #666;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
     color: #249fe8;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
     color: #666;
     text-transform: uppercase;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
     margin-bottom: 6px;
     font-family: "Manrope_extraBold";
     font-size: 30px;
     line-height: 1.25;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
     position: relative;
     overflow: hidden;
     display: block;
@@ -28461,17 +28838,17 @@ button.swiper-pagination-bullet {
   }
 }
 @media screen and (max-width: 768px) and (-ms-high-contrast: active), (max-width: 768px) and (-ms-high-contrast: none) {
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
     display: block;
     padding-right: 1em;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
     content: "...";
     position: absolute;
     right: 0;
     bottom: 0;
   }
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
     content: "";
     position: absolute;
     right: 0;
@@ -28482,7 +28859,7 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 768px) {
-  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
     margin-top: 40px;
   }
 }
@@ -28533,6 +28910,43 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .titForm .subTit {
     font-size: 54px !important;
   }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div img {
+    width: 1920px;
+    max-width: initial;
+    margin-bottom: 60px;
+  }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox {
     margin-top: 80px;
     font-size: 0;
@@ -28543,19 +28957,22 @@ button.swiper-pagination-bullet {
     vertical-align: top;
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption {
-    width: 688px;
-    margin-right: 60px;
+    width: 100%;
+    margin-right: 0;
     text-align: left;
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption span {
     display: block;
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "OpenSans_semiBold";
+    font-size: 24px;
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption ul li {
     position: relative;
-    padding-left: 9px;
-    font-size: 18px;
+    padding-left: 10px;
+    font-family: "OpenSans_semiBold";
+    font-size: 24px;
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption ul li::before {
     content: "-";
@@ -28563,46 +28980,59 @@ button.swiper-pagination-bullet {
     left: 0;
   }
   #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox img {
-    width: 452px;
+    width: 100%;
+    float: inherit;
   }
   #wrap.aboutus .expertise.digitalization .techBox {
-    margin-bottom: 120px;
+    margin-bottom: 142px;
   }
   #wrap.aboutus .expertise.digitalization .techBox .titForm {
     margin-bottom: 40px;
   }
+  #wrap.aboutus .expertise.digitalization .techBox .titForm .subTit {
+    font-size: 54px !important;
+  }
   #wrap.aboutus .expertise.digitalization .techBox > figure {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
   #wrap.aboutus .expertise.digitalization .techBox > figure figcaption {
     margin-top: 40px;
-    font-size: 18px;
-    font-family: "OpenSans_semiBold";
-    text-align: center;
+    font-size: 24px;
+    font-family: "OpenSans_regular";
+    text-align: left;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li {
-    display: table;
+    display: block;
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
+    margin-bottom: 80px;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li:last-child {
+    margin-bottom: 0;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li .thumb {
-    width: 690px;
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li .thumb img {
     width: 100%;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt {
-    padding-left: 102px;
+    display: block;
+    padding-left: 0;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dt {
-    margin-bottom: 20px;
-    font-size: 30px;
+    margin-bottom: 40px;
+    font-size: 42px;
     font-family: "Manrope_extraBold";
+    line-height: 1.25;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dd ul li {
     position: relative;
     padding-left: 9px;
-    font-size: 18px;
+    font-family: "OpenSans_regular";
+    font-size: 24px;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dd ul li::before {
     content: "-";
@@ -28610,14 +29040,14 @@ button.swiper-pagination-bullet {
     left: 0;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li ~ li {
-    margin-top: 100px;
+    margin-top: 20px;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li > * {
     display: table-cell;
     vertical-align: middle;
   }
   #wrap.aboutus .expertise.digitalization .techBox .techList > li:nth-child(2) .txt {
-    padding: 0 102px 0 0;
+    padding: 0;
   }
   #wrap.aboutus .expertise.digitalization .voyageBox {
     margin-bottom: 120px;
@@ -28625,77 +29055,134 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.digitalization .voyageBox .titForm {
     margin-bottom: 40px;
   }
-  #wrap.aboutus .expertise.digitalization .voyageBox figure {
+  #wrap.aboutus .expertise.digitalization .voyageBox .titForm .subTit {
+    font-size: 54px !important;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg {
     position: relative;
+    display: block;
+    text-align: center;
+    font-size: 0;
   }
-  #wrap.aboutus .expertise.digitalization .voyageBox figure figcaption {
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg:after {
+    content: "";
     position: absolute;
-    bottom: 0;
     left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
+    top: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
   }
-  #wrap.aboutus .expertise.digitalization .voyageBox figure figcaption span {
-    position: absolute;
-    bottom: 40px;
-    right: 0;
-    width: 810px;
-    font-size: 18px;
-    color: #fff;
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div::-webkit-scrollbar-thumb {
+    background-color: none;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div::-webkit-scrollbar-track {
+    background-color: none;
+    border: none;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div img {
+    width: 1920px;
+    max-width: initial;
+    margin-bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figcaption {
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figcaption span {
+    font-size: 24px;
+    font-family: "OpenSans_regular";
   }
   #wrap.aboutus .expertise.digitalization .productBox {
     margin-bottom: 80px;
   }
   #wrap.aboutus .expertise.digitalization .productBox .titForm {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList {
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li {
+    display: inline-block !important;
+    width: 334px !important;
+    margin-right: 22px !important;
+    margin-left: 0 !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li:nth-child(3) {
+    margin-top: 40px !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li:nth-child(4) {
+    margin-top: 40px !important;
   }
   #wrap.aboutus .expertise.digitalization .productBox .productList li a em {
     height: auto;
   }
-  #wrap.aboutus .expertise.digitalization .productBox .productList li a span {
-    font-size: 20px;
+  #wrap.aboutus .expertise.digitalization .productBox .productList li a em img {
+    margin-bottom: 0 !important;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 {
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.digi > li {
+    width: 450px !important;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.digi > li .thumbnail {
+    height: 316px !important;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi {
+    margin-top: 80px;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 {
     padding: 0;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li {
     margin: 0 24px 80px 0;
+    width: 570px !important;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li:nth-child(3n) {
     margin-right: 0;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li > a {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li > a {
     width: 100%;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail {
-    height: 240px;
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 295px !important;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .thumbnail:before {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail:before {
     content: none;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
     margin-bottom: 20px;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
     color: #666;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
     color: #249fe8;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
     color: #666;
     text-transform: uppercase;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
     margin-bottom: 6px;
     font-family: "Manrope_extraBold";
     font-size: 30px;
     line-height: 1.25;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
     position: relative;
     overflow: hidden;
     display: block;
@@ -28712,17 +29199,17 @@ button.swiper-pagination-bullet {
   }
 }
 @media screen and (max-width: 768px) and (-ms-high-contrast: active), (max-width: 768px) and (-ms-high-contrast: none) {
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
     display: block;
     padding-right: 1em;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
     content: "...";
     position: absolute;
     right: 0;
     bottom: 0;
   }
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
     content: "";
     position: absolute;
     right: 0;
@@ -28733,13 +29220,13 @@ button.swiper-pagination-bullet {
   }
 }
 @media (max-width: 768px) {
-  #wrap.aboutus .expertise.digitalization .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
     margin-top: 40px;
   }
 }
 @media (max-width: 768px) {
   #wrap.aboutus .expertise.digitalization .newsWithTitle:last-of-type {
-    margin-bottom: 80px;
+    margin-bottom: 160px;
   }
 }
 @media (max-width: 768px) {
@@ -28747,48 +29234,50 @@ button.swiper-pagination-bullet {
     margin-bottom: 120px;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .aboutSubTit {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain {
-    padding: 40px 0 120px;
+    padding: 60px 0 120px;
     border-bottom: 1px solid #ccc;
     font-size: 0;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain > * {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: 100%;
     text-align: left;
-    vertical-align: top;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain dl {
-    padding-right: 40px;
+    padding-right: 0px;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain dl dt {
     display: block;
     font-family: "Manrope_extraBold";
-    font-size: 30px;
+    font-size: 42px;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain dl dd {
     display: block;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 40px;
+    font-size: 24px;
     font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul {
+    margin-top: 40px;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain ul li {
     position: relative;
-    padding-top: 10px;
-    font-size: 20px;
+    padding-top: 20px;
+    font-size: 24px;
     font-family: "OpenSans_semiBold";
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain ul li ~ li {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   #wrap.aboutus .expertise.efficiency .pageTit .explain ul li::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0;
-    width: 30px;
+    width: 40px;
     height: 1px;
     background-color: #ccc;
   }
@@ -28798,41 +29287,88 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.efficiency .solutionBox > .titForm {
     margin-bottom: 40px;
   }
+  #wrap.aboutus .expertise.efficiency .solutionBox > .titForm .subTit {
+    font-size: 54px !important;
+  }
   #wrap.aboutus .expertise.efficiency .solutionBox > .titForm .aboutSubTit {
+    margin-top: 20px;
+    font-size: 36px !important;
     color: #9ea2a3;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 {
-    margin-bottom: 120px;
-    line-height: 0;
-  }
-  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 figcaption {
-    margin-top: 40px;
-  }
-  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 figcaption ul {
+    position: relative;
+    display: block;
+    text-align: center;
     font-size: 0;
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div::-webkit-scrollbar-thumb {
+    background-color: none;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div::-webkit-scrollbar-track {
+    background-color: none;
+    border: none;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div img {
+    width: 1200px;
+    max-width: initial;
+    margin-bottom: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption {
+    font-size: 0;
+    margin-top: 0;
+    margin-bottom: 120px;
+    margin-left: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption ul {
     line-height: 1.5;
   }
-  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 figcaption ul li {
-    display: inline-block;
-    width: 33.33%;
-    font-size: 16px;
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption ul li {
+    display: block;
+    width: 100%;
+    font-size: 20px;
     font-family: "OpenSans_semiBold";
-    vertical-align: top;
+    margin-top: 40px;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption ul li:first-child {
+    margin-top: 0;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 {
     margin-bottom: 80px;
+    letter-spacing: -0.5px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm {
     margin-bottom: 50px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm .categoryTit {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm ul li {
     position: relative;
     padding-left: 9px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: "OpenSans_regular";
+    line-height: 1.5;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm ul li::before {
     content: "-";
@@ -28841,8 +29377,9 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList {
     position: relative;
-    height: 440px;
+    height: 1048px;
     background-color: #f9f9f9;
+    padding: 100px 0;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul {
     position: absolute;
@@ -28859,67 +29396,78 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li {
     display: inline-block;
+    margin-top: 80px;
     padding-top: 183px;
-    width: 165px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: contain;
-    font-size: 24px;
+    font-size: 36px;
     font-family: "Manrope_extraBold";
     text-align: center;
     vertical-align: top;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
     background-image: url(/distHyundai/assets/images/aboutus/img_efficiency03.png);
+    margin-top: 0;
+    background-size: 150px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
-    margin: 0 204px;
+    margin: 80px 0 0 0;
     background-image: url(/distHyundai/assets/images/aboutus/img_efficiency04.png);
+    background-size: 164px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
     background-image: url(/distHyundai/assets/images/aboutus/img_efficiency05.png);
+    background-size: 72px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm .categoryTit {
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-size: 42px !important;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm span {
-    font-size: 18px;
+    font-size: 24px;
     font-family: "OpenSans_regular";
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList {
     font-size: 0;
+    text-align: center;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li {
     display: inline-block;
-    width: 50%;
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li:last-child {
+    margin-top: 60px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl {
-    margin-top: 50px;
+    margin-top: 15px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dt {
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 36px;
     font-family: "Manrope_extraBold";
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dd {
-    font-size: 18px;
+    font-size: 24px;
     font-family: "OpenSans_semiBold";
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dd strong {
-    font-size: 60px;
+    font-size: 70px;
     font-family: "Manrope_extraBold";
     color: #249fe8;
+    line-height: 1.25;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList li {
     position: relative;
     padding-left: 9px;
-    font-size: 18px;
+    font-size: 24px;
     font-family: "OpenSans_regular";
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList li::before {
@@ -28931,23 +29479,28 @@ button.swiper-pagination-bullet {
     margin-bottom: 160px;
   }
   #wrap.aboutus .expertise.efficiency .systemBox > .titForm {
-    margin-bottom: 90px;
+    margin-bottom: 60px;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox > .titForm .subTit {
+    font-size: 54px !important;
   }
   #wrap.aboutus .expertise.efficiency .systemBox figure {
     text-align: center;
   }
   #wrap.aboutus .expertise.efficiency .systemBox ul {
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 0;
   }
   #wrap.aboutus .expertise.efficiency .systemBox ul li {
     display: inline-block;
     position: relative;
     width: 50%;
-    margin-top: 60px;
+    margin-top: 100px;
     padding-top: 20px;
-    font-size: 24px;
+    font-size: 36px;
     font-family: "Manrope_extraBold";
+    vertical-align: top;
+    line-height: 1.25;
     color: #249fe8;
   }
   #wrap.aboutus .expertise.efficiency .systemBox ul li::before {
@@ -28964,13 +29517,13 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.efficiency .navList li {
     display: inline-block;
-    width: 25%;
+    width: 100%;
     vertical-align: middle;
   }
   #wrap.aboutus .expertise.efficiency .navList li a {
     display: block;
     position: relative;
-    height: 200px;
+    height: 250px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28985,7 +29538,7 @@ button.swiper-pagination-bullet {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
     padding-right: 100px;
-    font-size: 30px;
+    font-size: 36px;
     font-family: "OpenSans_bold";
     color: #fff;
   }
@@ -29018,6 +29571,1295 @@ button.swiper-pagination-bullet {
   }
 }
 /*  ~ 640 */
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise .kv .txtBox {
+    text-align: center;
+  }
+  #wrap.aboutus .expertise .kv .linkList {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li {
+    display: block;
+    position: relative;
+    vertical-align: middle;
+    border-bottom: 0.1333vw solid #fff;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li::after {
+    content: none;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li:last-child {
+    border: none;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li:last-of-type::after {
+    display: none;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li a {
+    display: block;
+    background-color: rgba(2, 38, 62, 0.6);
+    font-size: 3.2vw;
+    font-family: "OpenSans_bold";
+    color: #fff;
+    text-align: center;
+    line-height: 10.6667vw;
+  }
+  #wrap.aboutus .expertise .kv .linkList > li a.on {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise .pageTit {
+    margin: 10.6667vw auto 16vw;
+  }
+  #wrap.aboutus .expertise .pageTit .aboutSubTit {
+    margin-top: 2.6667vw;
+    font-size: 4.8vw !important;
+    color: #9ea2a3;
+  }
+  #wrap.aboutus .expertise .pageTit > img {
+    margin: 8vw 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .explain {
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+    line-height: 1.5;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .titForm img {
+    margin-left: 0;
+    vertical-align: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 {
+    position: relative;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox01 > div img {
+    width: 194.4vw;
+    max-width: initial;
+    margin-bottom: 8vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 {
+    margin: 10.6667vw 0 16vw;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 img {
+    margin-bottom: 5.3333vw;
+    width: 100%;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox02 p {
+    display: inline-block;
+    width: auto;
+    margin-left: 0;
+    font-family: "OpenSans_semiBold";
+    font-size: 3.2vw;
+    text-align: left;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter {
+    position: relative;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap .isReady {
+    display: inline-block;
+    position: relative;
+    padding-left: 1.8667vw;
+    vertical-align: middle;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap .isReady::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1.8667vw;
+    height: 1.8667vw;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap .isReady.on::before {
+    background-color: #249fe8;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap .tbTop {
+    position: relative;
+    margin-bottom: 2.6667vw;
+    font-size: 0;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap .tbTop .isReady {
+    padding-left: 3.2vw;
+    margin-right: 4vw;
+    font-size: 1.8667vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap .tbTop .isReady:last-of-type {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap table th[scope=col] {
+    position: relative;
+    padding-bottom: 8vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap table th[scope=col] strong {
+    display: table;
+    position: absolute;
+    bottom: 1.3333vw;
+    left: 0;
+    width: 100%;
+    height: 6.6667vw;
+    table-layout: fixed;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap table th[scope=col] strong span {
+    display: table-cell;
+    font-size: 2.1333vw;
+    font-family: "OpenSans_bold";
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .forAfter .tableWrap thead tr th:first-child {
+    padding: 6.4vw 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .btnBox {
+    margin-top: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .btnBox .btn {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .btnBox .btn:nth-child(n+2) {
+    margin-top: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .futureBox .cntBox03 .btnBox * ~ * {
+    margin-left: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox {
+    margin-bottom: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .titForm {
+    margin-bottom: 1.8667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 {
+    margin-bottom: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 {
+    margin-bottom: 10.6667vw;
+    padding-left: 4vw;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 img {
+    width: 100%;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box01 p {
+    display: inline-block;
+    width: auto;
+    margin-top: 5.3333vw;
+    margin-left: 0;
+    font-family: "OpenSans_semiBold";
+    font-size: 3.2vw;
+    text-align: left;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 {
+    height: 168vw;
+    padding-top: 8vw;
+    background: url(/distHyundai/assets/images/aboutus/img_decarbonization06_mo.png) no-repeat center;
+    background-size: cover;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .box02Inner {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 {
+    display: inline-block;
+    width: 61.3333vw;
+    margin-bottom: 8vw;
+    height: auto;
+    font-size: 0;
+    text-align: center;
+    float: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li {
+    display: inline-block;
+    width: 26.6667vw;
+    padding-top: 9.0667vw;
+    margin-right: 8vw;
+    background: url(/distHyundai/assets/images/aboutus/ico_ch4.png) no-repeat top center;
+    background-size: 13.3333vw;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li strong {
+    display: block;
+    padding-bottom: 1.3333vw;
+    border-bottom: 0.2667vw solid #fff;
+    font-size: 8vw;
+    font-family: "Manrope_extraBold";
+    color: #fff;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li span {
+    display: block;
+    padding-top: 2.6667vw;
+    font-size: 4vw;
+    font-family: "OpenSans_regular";
+    color: #fff;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:first-of-type {
+    background: url(/distHyundai/assets/images/aboutus/ico_co2.png) no-repeat top center;
+    background-size: 12.5333vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(n+3) {
+    margin-top: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .innerBox02 > li:nth-child(even) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
+    display: inline-block;
+    width: 80.2667vw;
+    margin-left: 0;
+    color: #fff;
+    float: none;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution .techSolutionTit {
+    font-family: "Manrope_extraBold";
+    font-size: 4.8vw;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul {
+    position: relative;
+    left: 2.6667vw;
+    margin-top: 4vw;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li {
+    display: block;
+    margin-right: 0;
+    margin-top: 4vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt {
+    position: relative;
+    min-height: auto;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -2.6667vw;
+    width: 1.3333vw;
+    height: 0.2667vw;
+    background-color: #fff;
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt strong {
+    margin-right: 1.3333vw;
+    display: inline-block;
+    font-size: 3.4667vw;
+    font-family: "OpenSans_bold";
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dt span {
+    font-size: 2.6667vw;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution ul li dl dd {
+    margin-top: 1.3333vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox > .titForm {
+    padding-left: 5.3333vw;
+    margin-bottom: 5.3333vw;
+    max-width: none;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .titForm {
+    margin-bottom: 8vw;
+    text-align: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .titForm p {
+    margin-top: 2.6667vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox {
+    padding: 8vw 0;
+    margin-bottom: 10.6667vw;
+    background-color: #f9f9f9;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure {
+    display: block;
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure img {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure figcaption {
+    display: block;
+    margin-bottom: 7.7333vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_bold";
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure:last-of-type {
+    margin-top: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox figure:last-of-type figcaption {
+    text-align: right;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList {
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li {
+    display: inline-block;
+    position: relative;
+    width: 39.2vw;
+    padding-top: 20.2667vw;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 17.6vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li::after {
+    content: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(1) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green01_mo.png);
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(2) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green02_mo.png);
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(3) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green03_mo.png);
+    margin-top: 8vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4) {
+    background-image: url(/distHyundai/assets/images/aboutus/ico_green04_mo.png);
+    margin-top: 8vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .greenList li:nth-of-type(4)::after {
+    display: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral {
+    position: relative;
+    margin-left: 4vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral .energyBox {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral .energyBox::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral .energyBox::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral .energyBox::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
+  }
+  #wrap.aboutus .expertise.decarbonization .cntBox02.neutral .energyBox img {
+    margin-bottom: 8vw;
+    width: 183.3333vw;
+    max-width: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox {
+    margin-bottom: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .titForm {
+    margin-bottom: 7.4667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList {
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li {
+    display: inline-block !important;
+    width: 44.5333vw !important;
+    margin-right: 2.9333vw !important;
+    margin-left: 0 !important;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li:nth-child(3) {
+    margin-top: 5.3333vw !important;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li:nth-child(4) {
+    margin-top: 5.3333vw !important;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a em {
+    height: auto;
+  }
+  #wrap.aboutus .expertise.decarbonization .productBox .productList li a em img {
+    margin-bottom: 0 !important;
+    height: 45.3333vw !important;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsWithTitle:last-of-type {
+    margin-top: 10.6667vw;
+    margin-bottom: 21.3333vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .newsVideoLayout.newsExper > * .thumbnail {
+    height: 42.1333vw !important;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li {
+    width: 76vw !important;
+    margin: 0 3.2vw 10.6667vw 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li > a {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 39.3333vw !important;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail:before {
+    content: none;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+    margin-bottom: 2.6667vw;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+    color: #666;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+    color: #666;
+    text-transform: uppercase;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+    margin-bottom: 0.8vw;
+    font-family: "Manrope_extraBold";
+    font-size: 4vw;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    font-family: "OpenSans_regular";
+    font-size: 1.8667vw;
+    letter-spacing: -0.0267vw;
+    color: #9ea2a3;
+  }
+}
+@media screen and (max-width: 768px) and (-ms-high-contrast: active), (max-width: 768px) and (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.decarbonization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+    margin-top: 5.3333vw;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.digitalization .pageTit .aboutSubTit {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain {
+    margin: 8vw 0 5.3333vw 0;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain > * {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dt {
+    padding-right: 0;
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dt strong {
+    display: block;
+    margin-bottom: 5.3333vw;
+    font-size: 5.6vw;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dt span {
+    font-size: 3.2vw;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dd span {
+    display: block;
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit .explain dd span:first-child {
+    margin-bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .pageTit figure {
+    line-height: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .titForm .subTit {
+    font-size: 7.2vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div::-webkit-scrollbar-thumb {
+    background-color: #02263e;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div::-webkit-scrollbar-track {
+    background-color: #ccc;
+    border: 0.2667vw solid #fff;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .engineImg > div img {
+    width: 256vw;
+    max-width: initial;
+    margin-bottom: 8vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox {
+    margin-top: 10.6667vw;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox > * {
+    display: inline-block;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption {
+    width: 100%;
+    margin-right: 0;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption span {
+    display: block;
+    margin-top: 5.3333vw;
+    margin-bottom: 5.3333vw;
+    font-family: "OpenSans_semiBold";
+    font-size: 3.2vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption ul li {
+    position: relative;
+    padding-left: 1.3333vw;
+    font-family: "OpenSans_semiBold";
+    font-size: 3.2vw;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox figcaption ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .lifeCycleBox .txtBox img {
+    width: 100%;
+    float: inherit;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox {
+    margin-bottom: 18.9333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .titForm .subTit {
+    font-size: 7.2vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox > figure {
+    margin-bottom: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox > figure figcaption {
+    margin-top: 5.3333vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_regular";
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li {
+    display: block;
+    width: 100%;
+    table-layout: auto;
+    margin-bottom: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li:last-child {
+    margin-bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .thumb {
+    display: block;
+    width: 100%;
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .thumb img {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt {
+    display: block;
+    padding-left: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dt {
+    margin-bottom: 5.3333vw;
+    font-size: 5.6vw;
+    font-family: "Manrope_extraBold";
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dd ul li {
+    position: relative;
+    padding-left: 1.2vw;
+    font-family: "OpenSans_regular";
+    font-size: 3.2vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li .txt dl dd ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li ~ li {
+    margin-top: 2.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.digitalization .techBox .techList > li:nth-child(2) .txt {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .titForm .subTit {
+    font-size: 7.2vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div::-webkit-scrollbar-thumb {
+    background-color: none;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div::-webkit-scrollbar-track {
+    background-color: none;
+    border: none;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox .voyageImg > div img {
+    width: 256vw;
+    max-width: initial;
+    margin-bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figcaption {
+    margin-top: 5.3333vw;
+    margin-left: 4vw;
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .voyageBox figcaption span {
+    font-size: 3.2vw;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.digitalization .productBox {
+    margin-bottom: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList {
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li {
+    display: inline-block !important;
+    width: 44.5333vw !important;
+    margin-right: 2.9333vw !important;
+    margin-left: 0 !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li:nth-child(3) {
+    margin-top: 5.3333vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li:nth-child(4) {
+    margin-top: 5.3333vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li a em {
+    height: auto;
+  }
+  #wrap.aboutus .expertise.digitalization .productBox .productList li a em img {
+    margin-bottom: 0 !important;
+    height: 45.3333vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.digi > li {
+    width: 60vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .newsVideoLayout.digi > li .thumbnail {
+    height: 42.1333vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi {
+    margin-top: 10.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 {
+    padding: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li {
+    margin: 0 3.2vw 10.6667vw 0;
+    width: 76vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li:nth-child(3n) {
+    margin-right: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li > a {
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail {
+    height: 39.3333vw !important;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .thumbnail:before {
+    content: none;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox {
+    margin-bottom: 2.6667vw;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .text-common {
+    color: #666;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .scheduled {
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .utilBox .finished {
+    color: #666;
+    text-transform: uppercase;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .dateBig {
+    margin-bottom: 0.8vw;
+    font-family: "Manrope_extraBold";
+    font-size: 4vw;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    font-family: "OpenSans_regular";
+    font-size: 1.8667vw;
+    letter-spacing: -0.0267vw;
+    color: #9ea2a3;
+  }
+}
+@media screen and (max-width: 768px) and (-ms-high-contrast: active), (max-width: 768px) and (-ms-high-contrast: none) {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date {
+    display: block;
+    padding-right: 1em;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .date::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2rem;
+    background: #fff;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.digitalization .digiWebi .newsVideoLayout.webinars.col3 li .txtCnts .isArrow {
+    margin-top: 5.3333vw;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.digitalization .newsWithTitle:last-of-type {
+    margin-bottom: 21.3333vw;
+  }
+}
+@media (max-width: 768px) {
+  #wrap.aboutus .expertise.efficiency .pageTit {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .aboutSubTit {
+    margin-bottom: 8vw;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain {
+    padding: 8vw 0 16vw;
+    border-bottom: 0.1333vw solid #ccc;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain > * {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain dl {
+    padding-right: 0vw;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain dl dt {
+    display: block;
+    font-family: "Manrope_extraBold";
+    font-size: 5.6vw;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain dl dd {
+    display: block;
+    margin-top: 5.3333vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul {
+    margin-top: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul li {
+    position: relative;
+    padding-top: 2.6667vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul li ~ li {
+    margin-top: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .pageTit .explain ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5.3333vw;
+    height: 0.1333vw;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox {
+    margin-bottom: 16vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > .titForm .subTit {
+    font-size: 7.2vw !important;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > .titForm .aboutSubTit {
+    margin-top: 2.6667vw;
+    font-size: 4.8vw !important;
+    color: #9ea2a3;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18.6667vw;
+    height: 18.6667vw;
+    transform: translate(-50%, -50%);
+    background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
+    background-size: 100%;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div {
+    display: inline-block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div::-webkit-scrollbar {
+    height: 1vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div::-webkit-scrollbar-thumb {
+    background-color: none;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div::-webkit-scrollbar-track {
+    background-color: none;
+    border: none;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox01 > div img {
+    width: 160vw;
+    max-width: initial;
+    margin-bottom: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption {
+    font-size: 0;
+    margin-top: 0;
+    margin-bottom: 16vw;
+    margin-left: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption ul {
+    line-height: 1.5;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption ul li {
+    display: block;
+    width: 100%;
+    font-size: 2.6667vw;
+    font-family: "OpenSans_semiBold";
+    margin-top: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox > figcaption ul li:first-child {
+    margin-top: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 {
+    margin-bottom: 10.6667vw;
+    letter-spacing: -0.0667vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm {
+    margin-bottom: 6.6667vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm .categoryTit {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm ul li {
+    position: relative;
+    padding-left: 1.2vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_regular";
+    line-height: 1.5;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .titForm ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList {
+    position: relative;
+    height: 139.7333vw;
+    background-color: #f9f9f9;
+    padding: 13.3333vw 0;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li {
+    display: inline-block;
+    margin-top: 10.6667vw;
+    padding-top: 24.4vw;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    font-size: 4.8vw;
+    font-family: "Manrope_extraBold";
+    text-align: center;
+    vertical-align: top;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency03.png);
+    margin-top: 0;
+    background-size: 20vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
+    margin: 10.6667vw 0 0 0;
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency04.png);
+    background-size: 21.8667vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
+    background-image: url(/distHyundai/assets/images/aboutus/img_efficiency05.png);
+    background-size: 9.6vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
+    margin-bottom: 5.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm .categoryTit {
+    margin-bottom: 5.3333vw;
+    font-size: 5.6vw !important;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm span {
+    font-size: 3.2vw;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList {
+    font-size: 0;
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li {
+    display: inline-block;
+    width: 100%;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li:last-child {
+    margin-top: 8vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl {
+    margin-top: 2vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dt {
+    margin-bottom: 1.3333vw;
+    font-size: 4.8vw;
+    font-family: "Manrope_extraBold";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dd {
+    font-size: 3.2vw;
+    font-family: "OpenSans_semiBold";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .engineList li dl dd strong {
+    font-size: 9.3333vw;
+    font-family: "Manrope_extraBold";
+    color: #249fe8;
+    line-height: 1.25;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList {
+    margin-top: 8vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList li {
+    position: relative;
+    padding-left: 1.2vw;
+    font-size: 3.2vw;
+    font-family: "OpenSans_regular";
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .txtList li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox {
+    margin-bottom: 21.3333vw;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox > .titForm {
+    margin-bottom: 8vw;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox > .titForm .subTit {
+    font-size: 7.2vw !important;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox figure {
+    text-align: center;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox ul {
+    margin-top: 0vw;
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox ul li {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin-top: 13.3333vw;
+    padding-top: 2.6667vw;
+    font-size: 4.8vw;
+    font-family: "Manrope_extraBold";
+    vertical-align: top;
+    line-height: 1.25;
+    color: #249fe8;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4vw;
+    height: 0.1333vw;
+    background-color: #ccc;
+  }
+  #wrap.aboutus .expertise.efficiency .navList {
+    font-size: 0;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li a {
+    display: block;
+    position: relative;
+    height: 33.3333vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li a span {
+    position: absolute;
+    left: 5.3333vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-right: 13.3333vw;
+    font-size: 4.8vw;
+    font-family: "OpenSans_bold";
+    color: #fff;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li a::after {
+    content: "";
+    position: absolute;
+    right: 5.3333vw;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 6.6667vw;
+    height: 6.6667vw;
+    background: url(/distHyundai/assets/images/common/ico_arr.png) no-repeat center;
+    background-size: contain;
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(1) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_marine.png);
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(2) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_energy.png);
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(3) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_products.png);
+  }
+  #wrap.aboutus .expertise.efficiency .navList li:nth-child(4) a {
+    background-image: url(/distHyundai/assets/images/aboutus/bg_customer.png);
+  }
+}
 #wrap.aboutus #container.history {
   position: relative;
   padding: 171px 0 160px 0;
@@ -29055,7 +30897,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.history .historyCo .box .historyLine {
   position: absolute;
   left: 608px;
-  top: 0;
+  top: 20px;
   z-index: 1;
   width: 2px;
   height: 0;
@@ -29069,7 +30911,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.history .historyCo .box .dep1 .dep1Line {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 20px;
   bottom: 0;
   width: 2px;
   background-color: #ddd;
@@ -29131,8 +30973,11 @@ button.swiper-pagination-bullet {
 #wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::after {
   background-color: #249fe8;
 }
-#wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::before {
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd.active::before {
   opacity: 1;
+}
+#wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-child::before {
+  top: 18px;
 }
 #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 {
   padding-top: 0;
@@ -30204,6 +32049,178 @@ button.swiper-pagination-bullet {
 }
 /* 769 ~ 1440 */
 @media (min-width: 769px) and (max-width: 1440px) {
+  #wrap.aboutus #container.history {
+    position: relative;
+    padding: 11.875vw 0 11.1111vw 0;
+    font-size: 0;
+    overflow: hidden;
+    width: 100vw;
+    margin: 0 auto;
+  }
+  #wrap.aboutus #container.history .kv {
+    position: static;
+  }
+  #wrap.aboutus #container.history .kv .txtBox {
+    position: static;
+    transform: inherit;
+  }
+  #wrap.aboutus #container.history .kv .txtBox h2 {
+    margin-top: 5.5556vw;
+    margin-bottom: 11.1111vw;
+    text-align: center;
+    font-size: 5vw;
+    color: #02263e;
+  }
+  #wrap.aboutus #container.history .tabWrap {
+    height: 5.5556vw;
+  }
+  #wrap.aboutus #container.history .historyCo {
+    padding: 4.8611vw 0 0 0;
+    font-size: 0;
+    overflow: hidden;
+  }
+  #wrap.aboutus #container.history .historyCo .box {
+    position: relative;
+    padding-left: 42.2222vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .historyLine {
+    position: absolute;
+    left: 42.2222vw;
+    top: 1.3889vw;
+    z-index: 1;
+    width: 0.1389vw;
+    height: 0;
+    max-height: 100%;
+    background-color: #249fe8;
+    transition: height 0.3s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 {
+    position: relative;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 .dep1Line {
+    position: absolute;
+    left: 0;
+    top: 1.3889vw;
+    bottom: 0;
+    width: 0.1389vw;
+    background-color: #ddd;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt {
+    position: absolute;
+    left: -42.2222vw;
+    width: 42.2222vw;
+    font-size: 5vw;
+    font-family: "Manrope_extraBold";
+    color: #249fe8;
+    transition: color 0.3s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
+    top: -1.0417vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
+    top: 32%;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
+    position: relative;
+    padding-left: 5.5556vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd::after {
+    content: "";
+    position: absolute;
+    left: -0.3472vw;
+    top: 1.6667vw;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 0.8333vw;
+    height: 0.8333vw;
+    border-radius: 50%;
+    background-color: #ddd;
+    transition: background-color 0.7s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd::before {
+    content: "";
+    position: absolute;
+    left: -0.7639vw;
+    top: 1.6667vw;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 1.6667vw;
+    height: 1.6667vw;
+    border-radius: 50%;
+    background-color: rgba(36, 159, 232, 0.4);
+    opacity: 0;
+    transition: background-color 1s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::after {
+    background-color: #249fe8;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd.active::before {
+    opacity: 1;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-child::before {
+    top: 1.25vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 {
+    padding-top: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 dt {
+    top: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type .dep2 {
+    border-bottom: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
+    margin-bottom: 5.5556vw;
+    border-bottom: none;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
+    font-size: 2.0833vw;
+    font-family: "Manrope_extraBold";
+    margin-bottom: 1.3889vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
+    overflow: hidden;
+    margin-top: 0.9722vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
+    display: block;
+    float: left;
+    width: 1.3889vw;
+    height: 1.875vw;
+    margin-right: 1.3889vw;
+    font-size: 1.25vw;
+    font-family: "OpenSans_bold";
+    font-style: normal;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
+    display: inline-block;
+    width: 45.6944vw;
+    font-family: "OpenSans_regular";
+    font-size: 1.25vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+    content: "";
+    position: absolute;
+    left: -0.3472vw;
+    top: 1.25vw;
+    z-index: 1;
+    width: 0.8333vw;
+    height: 0.8333vw;
+    border-radius: 50%;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type.on::after {
+    background-color: #249fe8;
+  }
   #wrap.aboutus #container.visionMission .contentsWrap {
     margin-bottom: 0;
   }
@@ -31040,92 +33057,6 @@ button.swiper-pagination-bullet {
     background-image: none !important;
   }
 }
-/* 641 ~ 768 */
-@media (max-width: 768px) {
-  #wrap.aboutus #container.history {
-    width: 100%;
-  }
-  #wrap.aboutus #container.history .kv {
-    position: static;
-    width: 100%;
-  }
-  #wrap.aboutus #container.history .kv .txtBox {
-    position: static;
-    transform: inherit;
-  }
-  #wrap.aboutus #container.history .kv .txtBox h2 {
-    margin-top: 80px;
-    margin-bottom: 160px;
-    text-align: center;
-    font-size: 72px;
-    color: #02263e;
-  }
-  #wrap.aboutus #container.history .tabWrap .tab li {
-    height: 80px;
-  }
-  #wrap.aboutus #container.history .historyCo {
-    padding: 17.0667vw 5.3333vw 0 12vw;
-  }
-  #wrap.aboutus #container.history .historyCo .box {
-    padding-left: 0;
-  }
-  #wrap.aboutus #container.history .historyCo .box .historyLine {
-    left: 0;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dt {
-    position: relative;
-    left: 0;
-    width: auto;
-    padding-left: 9.8667vw;
-    margin-top: 7.4667vw;
-    font-size: 8.5333vw;
-    line-height: 1.2;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dt::after {
-    left: -5px;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dt.on::after {
-    background-color: #ddd;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
-    top: -5.6vw;
-    margin-top: 0;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
-    top: 57%;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
-    padding-left: 9.8667vw;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
-    padding: 7.4667vw 0;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
-    position: relative;
-    left: 0;
-    top: 0;
-    font-size: 5.3333vw;
-    line-height: 1.2;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd {
-    margin-top: 6.1333vw;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
-    margin-top: 4vw;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
-    width: 12vw;
-    padding-top: 2px;
-    font-size: 4.2667vw;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
-    width: 60.2667vw;
-    font-size: 4.2667vw;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
-    left: -5px;
-  }
-}
 /*  ~ 640 */
 @media (max-width: 768px) {
   #wrap.aboutus .inner .innerTit {
@@ -31147,6 +33078,171 @@ button.swiper-pagination-bullet {
     margin-left: 0;
     font-family: "OpenSans_regular";
     font-size: 3.2vw;
+  }
+  #wrap.aboutus #container.history {
+    width: 100%;
+  }
+  #wrap.aboutus #container.history .kv {
+    position: static;
+    width: 100%;
+  }
+  #wrap.aboutus #container.history .kv .txtBox {
+    position: static;
+    transform: inherit;
+  }
+  #wrap.aboutus #container.history .kv .txtBox h2 {
+    margin-top: 10.6667vw;
+    margin-bottom: 21.3333vw;
+    text-align: center;
+    font-size: 9.6vw;
+    color: #02263e;
+  }
+  #wrap.aboutus #container.history .tabWrap {
+    height: auto;
+  }
+  #wrap.aboutus #container.history .tabWrap .tab li {
+    height: 10.6667vw;
+  }
+  #wrap.aboutus #container.history .historyCo {
+    padding: 0;
+    padding-left: 1.6vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box {
+    padding-left: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .historyLine {
+    top: 23.0667vw;
+    left: 0;
+    transition: 0.5s;
+    width: 0.2667vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 .dep1Line {
+    top: 23.0667vw;
+    width: 0.2667vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt {
+    position: relative;
+    left: 0;
+    width: auto;
+    padding-left: 9.8667vw;
+    margin-top: 10.6667vw;
+    margin-bottom: 10.6667vw;
+    font-size: 8vw;
+    line-height: 1.2;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt::after {
+    left: -0.6667vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt.on::after {
+    background-color: #ddd;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
+    top: -5.6vw;
+    margin-top: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
+    top: 57%;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
+    position: relative;
+    padding-left: 10.6667vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd::after {
+    content: "";
+    position: absolute;
+    left: -0.6667vw;
+    top: 3.2vw;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    background-color: #ddd;
+    transition: background-color 0.7s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd::before {
+    content: "";
+    position: absolute;
+    left: -1.4667vw;
+    top: 3.2vw;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    background-color: rgba(36, 159, 232, 0.4);
+    opacity: 0;
+    transition: background-color 1s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::after {
+    background-color: #249fe8;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd.active::before {
+    opacity: 1;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-child::before {
+    top: 2.4vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 {
+    padding-top: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 dt {
+    top: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type .dep2 {
+    border-bottom: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
+    margin-bottom: 10.6667vw;
+    border-bottom: none;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
+    font-size: 4vw;
+    font-family: "Manrope_extraBold";
+    margin-bottom: 2.6667vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
+    overflow: hidden;
+    margin-top: 1.8667vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
+    display: block;
+    float: left;
+    width: 2.6667vw;
+    height: 3.6vw;
+    margin-right: 2.6667vw;
+    font-size: 2.4vw;
+    font-family: "OpenSans_bold";
+    font-style: normal;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
+    display: inline-block;
+    width: 87.7333vw;
+    font-family: "OpenSans_regular";
+    font-size: 2.4vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+    content: "";
+    position: absolute;
+    left: -0.6667vw;
+    top: 2.4vw;
+    z-index: 1;
+    width: 1.6vw;
+    height: 1.6vw;
+    border-radius: 50%;
+    background-color: #ddd;
+    transition: background-color 0.3s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type.on::after {
+    background-color: #249fe8;
   }
   #wrap.aboutus #container.visionMission .contentsWrap {
     margin-bottom: 0;
