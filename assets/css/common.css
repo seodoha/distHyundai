@@ -14417,6 +14417,9 @@ button.swiper-pagination-bullet {
   border: none;
   min-width: unset;
 }
+#wrap.marineSolution .overview .scopeBox .popUpBox li .btnBox .btn span {
+  color: #02263e;
+}
 #wrap.marineSolution .overview .offeringBox {
   padding-bottom: 120px;
 }
@@ -14966,10 +14969,10 @@ button.swiper-pagination-bullet {
     font-size: 3.2vw;
   }
   #wrap.marineSolution #container.overview .scopeBox {
-    padding: 120px 30px;
+    padding: 16vw 4vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .titForm {
-    margin-bottom: 30px;
+    margin-bottom: 4vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap {
     position: relative;
@@ -14983,50 +14986,50 @@ button.swiper-pagination-bullet {
     background: rgba(2, 38, 62, 0.7);
     color: #fff;
     z-index: 11;
-    width: 50px;
-    height: 50px;
+    width: 6.6667vw;
+    height: 6.6667vw;
     border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.7);
+    border: 0.2667vw solid rgba(255, 255, 255, 0.7);
     font-family: "OpenSans_semiBold";
-    font-size: 22px;
+    font-size: 2.9333vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(1) button {
-    top: 210px;
-    left: 134px;
+    top: 28vw;
+    left: 17.8667vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(2) button {
-    top: 339px;
-    left: 134px;
+    top: 45.2vw;
+    left: 17.8667vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(3) button {
-    top: 399px;
-    left: 250px;
+    top: 53.2vw;
+    left: 33.3333vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(4) button {
-    top: 339px;
-    left: 331px;
+    top: 45.2vw;
+    left: 44.1333vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(5) button {
-    top: 459px;
-    left: 109px;
+    top: 61.2vw;
+    left: 14.5333vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(6) button {
-    top: 148px;
-    left: 529px;
+    top: 19.7333vw;
+    left: 70.5333vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(7) button {
-    top: 267px;
-    left: 588px;
+    top: 35.6vw;
+    left: 78.4vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li {
     position: absolute;
     display: none;
-    width: 610px;
+    width: 81.3333vw;
     height: auto;
-    padding: 66px 0 64px 34px;
+    padding: 8.8vw 0 8.5333vw 4.5333vw;
     background: #fff;
     border: 1px solid #ccc;
-    box-shadow: 3px 5px 40px rgba(0, 0, 0, 0.15);
+    box-shadow: 0.4vw 0.6667vw 5.3333vw rgba(0, 0, 0, 0.15);
     transform: translateX(-50%);
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li.pop {
@@ -15037,31 +15040,31 @@ button.swiper-pagination-bullet {
     display: block;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(1) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(2) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(3) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(4) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(5) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(6) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(7) {
-    top: 322px;
+    top: 42.9333vw;
     left: 50%;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a {
@@ -15072,32 +15075,32 @@ button.swiper-pagination-bullet {
     position: absolute;
     top: -1px;
     left: -1px;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
+    width: 9.3333vw;
+    height: 9.3333vw;
+    line-height: 9.3333vw;
     background: #02263e;
     color: #fff;
     font-family: "OpenSans_semiBold";
-    font-size: 22px;
+    font-size: 2.9333vw;
     text-align: center;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a .popNum + img {
-    width: 240px;
+    width: 32vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt {
     display: inline-block;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 2.6667vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt h5 {
-    margin-bottom: 20px;
+    margin-bottom: 2.6667vw;
     font-family: "OpenSans_bold";
-    font-size: 30px;
+    font-size: 4vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt p {
-    margin-bottom: 40px;
+    margin-bottom: 5.3333vw;
     font-family: "OpenSans_semiBold";
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox {
     text-align: left;
@@ -15110,7 +15113,7 @@ button.swiper-pagination-bullet {
     min-width: unset;
   }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox .btn span {
-    font-size: 24px;
+    font-size: 3.2vw;
   }
   #wrap.marineSolution #container.overview .offeringBox {
     padding-bottom: 24.6667vw;
