@@ -15067,6 +15067,9 @@ button.swiper-pagination-bullet {
     top: 42.9333vw;
     left: 50%;
   }
+  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(7) > a img {
+    padding-top: 0;
+  }
   #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a {
     display: none;
   }

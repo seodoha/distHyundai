@@ -813,6 +813,7 @@ var uiCommon = function (uiCommon, $window) {
           },
           click: function click(e) {
             var thisBtn = $(this).parent().attr('data-popup');
+            e.preventDefault();
             console.log(thisBtn);
 
             if ($('.popUpBox li').hasClass(thisBtn)) {
