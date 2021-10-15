@@ -1578,7 +1578,8 @@ address {
   font-family: "OpenSans_semiBold";
   text-align: center;
 }
-.layer.alertLayer .popFoot a, .layer.alertLayer .popFoot button {
+.layer.alertLayer .popFoot a,
+.layer.alertLayer .popFoot button {
   padding: 0 20px;
   width: 100%;
   line-height: 50px;
@@ -1769,7 +1770,8 @@ address {
     padding: 3.4722vw 1.3889vw;
     font-size: 1.25vw;
   }
-  .layer.alertLayer .popFoot a, .layer.alertLayer .popFoot button {
+  .layer.alertLayer .popFoot a,
+.layer.alertLayer .popFoot button {
     padding: 0 1.3889vw;
     line-height: 3.4722vw;
     font-size: 0.8333vw;
@@ -1883,7 +1885,8 @@ address {
     padding: 8.6667vw 4vw;
     font-size: 3.2vw;
   }
-  .layer.alertLayer .popFoot a, .layer.alertLayer .popFoot button {
+  .layer.alertLayer .popFoot a,
+.layer.alertLayer .popFoot button {
     padding: 0 4vw;
     line-height: 12.4vw;
     font-size: 3.2vw;
@@ -1910,6 +1913,8 @@ address {
     height: 1.3889vw;
   }
   .layer.featureLayer .popCont:after {
+    content: "";
+    position: absolute;
     left: 50%;
     top: 50%;
     width: 18.6667vw;
@@ -1935,6 +1940,8 @@ address {
     font-size: 2.9333vw;
   }
   .layer.physicLayer .popCont:after {
+    content: "";
+    position: absolute;
     left: 50%;
     top: 50%;
     width: 18.6667vw;
@@ -1943,17 +1950,17 @@ address {
     background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
   }
-  .layer.physicLayer .popCont table span {
+  .layer.physicLayer .popCont .tableWrap table span {
     font-size: 3.2vw;
   }
-  .layer.physicLayer .popCont table th[scope=row],
-.layer.physicLayer .popCont table td {
+  .layer.physicLayer .popCont .tableWrap table th[scope=row],
+.layer.physicLayer .popCont .tableWrap table td {
     font-size: 3.2vw;
   }
-  .layer.physicLayer .popCont table tr > *:first-child {
+  .layer.physicLayer .popCont .tableWrap table tr > *:first-child {
     padding: 1.3333vw 2.1333vw;
   }
-  .layer.physicLayer .popCont table .col285 {
+  .layer.physicLayer .popCont .tableWrap table .col285 {
     width: 46.2667vw;
   }
 }
@@ -2484,8 +2491,11 @@ textarea {
   .tabWrap .tab.ty02 li {
     display: inline-block;
     width: 50%;
+    height: 10.4vw;
+    line-height: 10.4vw;
   }
   .tabWrap .tab.ty02 li a {
+    height: 100%;
     font-size: 3.2vw;
     border: 1px solid #ccc;
     padding: 0 1.7333vw;
@@ -2493,7 +2503,18 @@ textarea {
   }
   .tabWrap .tab.ty02 li a.on {
     border-width: 0.5333vw;
-    line-height: 9.6vw;
+    line-height: 9.8733vw;
+  }
+
+  .reference .tabWrap .tab.ty02 li:nth-of-type(3) a, .reference .tabWrap .tab.ty02 li:nth-of-type(4) a {
+    border-top-width: 0;
+  }
+  .reference .tabWrap .tab.ty02 li:nth-of-type(2) a, .reference .tabWrap .tab.ty02 li:nth-of-type(4) a {
+    border-left-width: 0;
+  }
+  .reference .tabWrap .tab.ty02 li a.on {
+    border-width: 0.5333vw;
+    line-height: 9.8733vw;
   }
 }
 /* layouts - 웹페이지 전체 레이아웃에 대한 스타일 */
@@ -14288,47 +14309,56 @@ button.swiper-pagination-bullet {
   width: 1440px;
   max-width: unset;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li {
   position: absolute;
-  background: rgba(2, 38, 62, 0.7);
-  color: #fff;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li > button {
   width: 30px;
   height: 30px;
+  background: rgba(2, 38, 62, 0.7);
+  color: #fff;
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.7);
   font-family: "OpenSans_semiBold";
   font-size: 11px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(1) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(1) {
   top: 270px;
   left: 291px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(2) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(2) {
   top: 348px;
   left: 285px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(3) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(3) {
   top: 413px;
   left: 381px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(4) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(4) {
   top: 348px;
   left: 459px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(5) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(5) {
   top: 473px;
   left: 243px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(6) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(6) {
   top: 158px;
   left: 669px;
 }
-#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(7) button {
+#wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(7) {
   top: 277px;
   left: 728px;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li {
-  position: absolute;
+#wrap.marineSolution .overview .scopeBox .imgWrap li:hover a {
+  display: block;
+}
+#wrap.marineSolution .overview .scopeBox .imgWrap li a {
+  position: relative;
+  top: 50%;
+  left: 60px;
+  z-index: 20;
+  transform: translateY(-50%);
   display: none;
   width: 405px;
   height: auto;
@@ -14337,48 +14367,10 @@ button.swiper-pagination-bullet {
   border: 1px solid #ccc;
   box-shadow: 3px 5px 40px rgba(0, 0, 0, 0.15);
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li.pop {
-  display: block;
-  z-index: 20;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(1) {
-  top: 390px;
-  left: 350px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(2) {
-  top: 460px;
-  left: 350px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(3) {
-  top: 520px;
-  left: 440px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(4) {
-  top: 450px;
-  left: 520px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(5) {
-  top: 580px;
-  left: 302px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(6) {
-  top: 270px;
-  left: 730px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) {
-  top: 390px;
-  left: 790px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) > a img {
-  padding-top: 20px;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li > a {
-  display: block;
-}
-#wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .popNum {
   display: inline-block;
   position: absolute;
-  top: -1px;
+  top: -2px;
   left: -1px;
   width: 40px;
   height: 40px;
@@ -14389,35 +14381,35 @@ button.swiper-pagination-bullet {
   font-size: 14px;
   text-align: center;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum + img {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .popNum + img {
   width: 150px;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .popUpTxt {
   display: inline-block;
   width: 50%;
   margin-left: 16px;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt h5 {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .popUpTxt h5 {
   margin-bottom: 10px;
   font-family: "OpenSans_bold";
   font-size: 18px;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt p {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .popUpTxt p {
   margin-bottom: 24px;
   font-family: "OpenSans_semiBold";
   font-size: 14px;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li .btnBox {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .btnBox {
   text-align: left;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li .btnBox .btn {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .btnBox .btn {
   text-align: left;
   padding: 0;
   margin: 0;
   border: none;
   min-width: unset;
 }
-#wrap.marineSolution .overview .scopeBox .popUpBox li .btnBox .btn span {
+#wrap.marineSolution .overview .scopeBox .imgWrap li a .btnBox .btn span {
   color: #02263e;
 }
 #wrap.marineSolution .overview .offeringBox {
@@ -14687,95 +14679,63 @@ button.swiper-pagination-bullet {
   #wrap.marineSolution .overview .scopeBox .imgWrap > img {
     width: 100vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li > button {
     width: 2.0833vw;
     height: 2.0833vw;
     border: 0.1389vw solid rgba(255, 255, 255, 0.7);
     font-size: 0.7639vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(1) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(1) {
     top: 18.75vw;
     left: 20.2083vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(2) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(2) {
     top: 24.1667vw;
     left: 19.7917vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(3) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(3) {
     top: 28.6806vw;
     left: 26.4583vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(4) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(4) {
     top: 24.1667vw;
     left: 31.875vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(5) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(5) {
     top: 32.8472vw;
     left: 16.875vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(6) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(6) {
     top: 10.9722vw;
     left: 46.4583vw;
   }
-  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(7) button {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li:nth-of-type(7) {
     top: 19.2361vw;
     left: 50.5556vw;
   }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li a {
+    left: 4.1667vw;
     width: 28.125vw;
     padding: 2.9167vw 0 2.7778vw 1.9444vw;
     box-shadow: 0.2083vw 0.3472vw 2.7778vw rgba(0, 0, 0, 0.15);
   }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(1) {
-    top: 27.0833vw;
-    left: 24.3056vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(2) {
-    top: 31.9444vw;
-    left: 24.3056vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(3) {
-    top: 36.1111vw;
-    left: 30.5556vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(4) {
-    top: 31.25vw;
-    left: 36.1111vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(5) {
-    top: 40.2778vw;
-    left: 20.9722vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(6) {
-    top: 18.75vw;
-    left: 50.6944vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) {
-    top: 27.0833vw;
-    left: 54.8611vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li:nth-of-type(7) > a img {
-    padding-top: 1.3889vw;
-  }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum {
-    top: -1px;
-    left: -1px;
+  #wrap.marineSolution .overview .scopeBox .imgWrap li a .popNum {
     width: 2.7778vw;
     height: 2.7778vw;
     line-height: 2.7778vw;
     font-size: 0.9722vw;
   }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li > a .popNum + img {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li a .popNum + img {
     width: 10.4167vw;
   }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li a .popUpTxt {
     margin-left: 1.1111vw;
   }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt h5 {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li a .popUpTxt h5 {
     margin-bottom: 0.6944vw;
     font-size: 1.25vw;
   }
-  #wrap.marineSolution .overview .scopeBox .popUpBox li .popUpTxt p {
+  #wrap.marineSolution .overview .scopeBox .imgWrap li a .popUpTxt p {
     margin-bottom: 1.6667vw;
     font-size: 0.9722vw;
   }
@@ -14981,11 +14941,12 @@ button.swiper-pagination-bullet {
     width: 192vw;
     margin-left: -16.9333vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li {
     position: absolute;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li > button {
     background: rgba(2, 38, 62, 0.7);
     color: #fff;
-    z-index: 11;
     width: 6.6667vw;
     height: 6.6667vw;
     border-radius: 50%;
@@ -14993,87 +14954,73 @@ button.swiper-pagination-bullet {
     font-family: "OpenSans_semiBold";
     font-size: 2.9333vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(1) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(1) {
     top: 28vw;
     left: 17.8667vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(2) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(1) a {
+    top: 4vw;
+    left: -12vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(2) {
     top: 45.2vw;
     left: 17.8667vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(3) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(2) a {
+    top: -13.2667vw;
+    left: -12vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(3) {
     top: 53.2vw;
     left: 33.3333vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(4) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(3) a {
+    top: -21.1vw;
+    left: -27.4vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(4) {
     top: 45.2vw;
     left: 44.1333vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(5) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(4) a {
+    top: -13.1667vw;
+    left: -38.1vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(5) {
     top: 61.2vw;
     left: 14.5333vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(6) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(5) a {
+    top: -29.1vw;
+    left: -8.6667vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(6) {
     top: 19.7333vw;
     left: 70.5333vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(7) button {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(6) a {
+    top: 12.3333vw;
+    left: -64.6333vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(7) {
     top: 35.6vw;
     left: 78.4vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li {
-    position: absolute;
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li:nth-of-type(7) a {
+    top: -0.6vw;
+    left: -72.5667vw;
+  }
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a {
     display: none;
+    position: relative;
     width: 81.3333vw;
     height: auto;
     padding: 8.8vw 0 8.5333vw 4.5333vw;
     background: #fff;
     border: 1px solid #ccc;
     box-shadow: 0.4vw 0.6667vw 5.3333vw rgba(0, 0, 0, 0.15);
-    transform: translateX(-50%);
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li.pop {
-    display: block;
-    z-index: 20;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li.pop > a {
-    display: block;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(1) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(2) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(3) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(4) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(5) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(6) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(7) {
-    top: 42.9333vw;
-    left: 50%;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li:nth-of-type(7) > a img {
-    padding-top: 0;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a {
-    display: none;
-  }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a .popNum {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .popNum {
     display: inline-block;
     position: absolute;
     top: -1px;
@@ -15087,35 +15034,35 @@ button.swiper-pagination-bullet {
     font-size: 2.9333vw;
     text-align: center;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li > a .popNum + img {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .popNum + img {
     width: 32vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .popUpTxt {
     display: inline-block;
     width: 50%;
     margin-left: 2.6667vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt h5 {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .popUpTxt h5 {
     margin-bottom: 2.6667vw;
     font-family: "OpenSans_bold";
     font-size: 4vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .popUpTxt p {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .popUpTxt p {
     margin-bottom: 5.3333vw;
     font-family: "OpenSans_semiBold";
     font-size: 3.2vw;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .btnBox {
     text-align: left;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox .btn {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .btnBox .btn {
     text-align: left;
     padding: 0;
     margin: 0;
     border: none;
     min-width: unset;
   }
-  #wrap.marineSolution #container.overview .scopeBox .popUpBox li .btnBox .btn span {
+  #wrap.marineSolution #container.overview .scopeBox .imgWrap li a .btnBox .btn span {
     font-size: 3.2vw;
   }
   #wrap.marineSolution #container.overview .offeringBox {
@@ -26696,10 +26643,11 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
   display: block;
-  width: 502px;
-  margin-left: 180px;
+  width: 522px;
+  margin-left: 160px;
   color: #fff;
   float: right;
+  letter-spacing: -0.5px;
 }
 #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution .techSolutionTit {
   font-family: "Manrope_extraBold";
@@ -26767,6 +26715,7 @@ button.swiper-pagination-bullet {
   margin-top: 20px;
   font-size: 18px;
   font-family: "OpenSans_regular";
+  line-height: 1.5;
 }
 #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox {
   padding: 40px 0;
@@ -26941,6 +26890,7 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.digitalization .pageTit .explain {
   margin: 40px 0;
   font-size: 0;
+  line-height: 1.5;
 }
 #wrap.aboutus .expertise.digitalization .pageTit .explain > * {
   display: inline-block;
@@ -27207,6 +27157,7 @@ button.swiper-pagination-bullet {
   padding: 40px 0 120px;
   border-bottom: 1px solid #ccc;
   font-size: 0;
+  line-height: 1.5;
 }
 #wrap.aboutus .expertise.efficiency .pageTit .explain > * {
   display: inline-block;
@@ -27679,10 +27630,11 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
     display: block;
-    width: 34.8611vw;
-    margin-left: 12.5vw;
+    width: 37.25vw;
+    margin-left: 10.1111vw;
     color: #fff;
     float: right;
+    letter-spacing: -0.0347vw;
   }
   #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution .techSolutionTit {
     font-family: "Manrope_extraBold";
@@ -29579,6 +29531,11 @@ button.swiper-pagination-bullet {
     background-image: url(/distHyundai/assets/images/aboutus/bg_customer.png);
   }
 }
+@media screen and (min-width: 769px) and (max-width: 845px) {
+  #wrap.aboutus .expertise.decarbonization .effBox .cntBox01 .box02 .techSolution {
+    padding-right: 10px;
+  }
+}
 /*  ~ 640 */
 @media (max-width: 768px) {
   #wrap.aboutus .expertise .kv .txtBox {
@@ -29945,6 +29902,7 @@ button.swiper-pagination-bullet {
     margin-top: 2.6667vw;
     font-size: 3.2vw;
     font-family: "OpenSans_semiBold";
+    line-height: 1.5;
   }
   #wrap.aboutus .expertise.decarbonization .speedingBox .cntBox01 .engineBox {
     padding: 8vw 0;
@@ -33066,6 +33024,106 @@ button.swiper-pagination-bullet {
     background-image: none !important;
   }
 }
+/* 641 ~ 768 */
+@media (max-width: 768px) {
+  #wrap.aboutus #container.history {
+    width: 100%;
+  }
+  #wrap.aboutus #container.history .kv {
+    position: static;
+    width: 100%;
+  }
+  #wrap.aboutus #container.history .kv .txtBox {
+    position: static;
+    transform: inherit;
+  }
+  #wrap.aboutus #container.history .kv .txtBox h2 {
+    margin-top: 80px;
+    margin-bottom: 160px;
+    text-align: center;
+    font-size: 72px;
+    color: #02263e;
+  }
+  #wrap.aboutus #container.history .tabWrap {
+    height: auto;
+  }
+  #wrap.aboutus #container.history .tabWrap .tab li {
+    height: 80px;
+  }
+  #wrap.aboutus #container.history .historyCo {
+    padding: 0;
+    padding-left: 12px;
+  }
+  #wrap.aboutus #container.history .historyCo .box {
+    padding-left: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .historyLine {
+    top: 173px;
+    left: 0;
+    transition: 0.5s;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 .dep1Line {
+    top: 173px;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt {
+    position: relative;
+    left: 0;
+    width: auto;
+    padding-left: 9.8667vw;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 60px;
+    line-height: 1.2;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt::after {
+    left: -5px;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt.on::after {
+    background-color: #ddd;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1) {
+    top: -5.6vw;
+    margin-top: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dt:nth-child(1)::after {
+    top: 57%;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
+    padding-left: 46px;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
+    padding: 0;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
+    margin-top: 40px;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding-top: 0;
+    font-size: 24px;
+    float: inherit;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
+    display: block;
+    width: auto;
+    font-size: 24px;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+    left: -5px;
+  }
+}
 /*  ~ 640 */
 @media (max-width: 768px) {
   #wrap.aboutus .inner .innerTit {
@@ -33090,6 +33148,7 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus #container.history {
     width: 100%;
+    padding: 22.8vw 0 21.3333vw;
   }
   #wrap.aboutus #container.history .kv {
     position: static;
@@ -33133,7 +33192,7 @@ button.swiper-pagination-bullet {
     position: relative;
     left: 0;
     width: auto;
-    padding-left: 9.8667vw;
+    padding-left: 0;
     margin-top: 10.6667vw;
     margin-bottom: 10.6667vw;
     font-size: 8vw;
@@ -33153,8 +33212,7 @@ button.swiper-pagination-bullet {
     top: 57%;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd {
-    position: relative;
-    padding-left: 10.6667vw;
+    padding-left: 6.1333vw;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd::after {
     content: "";
@@ -33191,67 +33249,43 @@ button.swiper-pagination-bullet {
     opacity: 0;
     transition: background-color 1s;
   }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd.on::after {
-    background-color: #249fe8;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd.active::before {
-    opacity: 1;
-  }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-child::before {
     top: 2.4vw;
   }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 {
-    padding-top: 0;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:first-of-type .dep2 dt {
-    top: 0;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type .dep2 {
-    border-bottom: 0;
-  }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 {
-    margin-bottom: 10.6667vw;
-    border-bottom: none;
+    padding: 0;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dt {
-    font-size: 4vw;
-    font-family: "Manrope_extraBold";
-    margin-bottom: 2.6667vw;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-size: 4.8vw;
+    line-height: 1.2;
+    margin-bottom: 5.3333vw;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd ~ dd {
-    overflow: hidden;
-    margin-top: 1.8667vw;
+    margin-top: 5.3333vw;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd em {
     display: block;
-    float: left;
-    width: 2.6667vw;
-    height: 3.6vw;
-    margin-right: 2.6667vw;
-    font-size: 2.4vw;
-    font-family: "OpenSans_bold";
-    font-style: normal;
+    width: auto;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 2.6667vw;
+    padding-top: 0;
+    font-size: 3.2vw;
+    float: inherit;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd .dep2 dd span {
-    display: inline-block;
-    width: 87.7333vw;
-    font-family: "OpenSans_regular";
-    font-size: 2.4vw;
+    display: block;
+    width: auto;
+    font-size: 3.2vw;
   }
   #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
-    content: "";
-    position: absolute;
     left: -0.6667vw;
     top: 2.4vw;
-    z-index: 1;
     width: 1.6vw;
     height: 1.6vw;
-    border-radius: 50%;
-    background-color: #ddd;
-    transition: background-color 0.3s;
-  }
-  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type.on::after {
-    background-color: #249fe8;
   }
   #wrap.aboutus #container.visionMission .contentsWrap {
     margin-bottom: 0;
@@ -34465,6 +34499,14 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .layer .popCont .factoryList img:last-child {
     margin-right: 0;
+  }
+}
+@media screen and (min-width: 280px) and (max-width: 450px) {
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::before {
+    top: 4.4vw;
+  }
+  #wrap.aboutus #container.history .historyCo .box .dep1 > dd:last-of-type::after {
+    top: 4.4vw;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 313px) {

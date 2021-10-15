@@ -745,6 +745,7 @@ var uiCommon = function (uiCommon, $window) {
       }
     },
     history: {
+      //history 페이지 스크립트 수정 10.15
       num: 0,
       init: function init() {
         AOS.init({
@@ -765,11 +766,16 @@ var uiCommon = function (uiCommon, $window) {
         var winTop = $(window).scrollTop(),
             $dep1Hi = $(".dep1 > dd:last-child").height(),
             height = winTop - historyTop,
-            width = $(window).width();
-        console.log($(".dep1 > dd").eq(0).offset().top - 700 + " > " + winTop); // if ($(".dep1 > dd").eq(uiCommon.component.history.num).offset().top - 500 > winTop) {
-        //     $(".dep1 > dd").eq(uiCommon.component.history.num).addClass("on acitve");
-        //     uiCommon.component.history.num + 1;
+            width = $(window).width(); //수정된 코드 
+        // console.log($dd.eq(0).offset().top - 700 + " > " + winTop);
+        // console.log(uiCommon.component.history.num);
+        // console.log($dd.eq(uiCommon.component.history.num).offset().top - 500);
+        // console.log( uiCommon.component.history.num)
+        // if ($dd.eq(uiCommon.component.history.num).offset().top - 500 > winTop) {
+        //     $dd.eq(uiCommon.component.history.num).addClass("on acitve");
+        //     uiCommon.component.history.num += 1;
         // }
+        //원래 코드
 
         for (var i = 0; i < $dd.length; i++) {
           winTop >= $dd.eq(i).offset().top - 600 ? $dep1.find("> dd").eq(i).addClass("on") : $dep1.find("> dd").eq(i).removeClass("on");
@@ -781,10 +787,21 @@ var uiCommon = function (uiCommon, $window) {
           } else {
             $dep1.find("> dd").eq(i).removeClass("active");
           }
-        } // if (width < "750px") {
-        //     $line.css({ height: height - 400 });
-        // }
+        }
 
+        if (width <= 750) {
+          for (var i = 0; i < $dd.length; i++) {
+            winTop >= $dd.eq(i).offset().top - 780 ? $dep1.find("> dd").eq(i).addClass("on") : $dep1.find("> dd").eq(i).removeClass("on");
+          }
+
+          for (var i = 0; i < $dd.length; i++) {
+            if (winTop >= $dd.eq(i).offset().top - 780) {
+              $dep1.find("> dd").eq(i).addClass("active").siblings().removeClass("active");
+            } else {
+              $dep1.find("> dd").eq(i).removeClass("active");
+            }
+          }
+        }
 
         $line.css({
           height: height - 150,
@@ -798,37 +815,25 @@ var uiCommon = function (uiCommon, $window) {
     marinePop: {
       // 2021.10.14 수정
       init: function init() {
+        if ($(window).width() <= 750) {
+          uiCommon.component.marinePop.mobilePop();
+        }
+
+        ;
+      },
+      mobilePop: function mobilePop() {
         $('.scopeBox .imgWrap button.popBtn').on({
-          mouseover: function mouseover() {
-            var thisBtn = $(this).parent().attr('data-popup');
-
-            if ($('.popUpBox li').hasClass(thisBtn)) {
-              $('.popUpBox li.' + thisBtn).addClass('pop').siblings().removeClass('pop');
-            }
-
-            ;
-            $('.popUpBox li.' + thisBtn).mouseleave(function () {
-              $('.popUpBox li').removeClass('pop');
-            });
-          },
-          click: function click(e) {
-            var thisBtn = $(this).parent().attr('data-popup');
-            e.preventDefault();
-            console.log(thisBtn);
-
-            if ($('.popUpBox li').hasClass(thisBtn)) {
-              $('.popUpBox li.' + thisBtn).addClass('pop').siblings().removeClass('pop');
-            }
-
-            ;
+          click: function click() {
+            var thisBtn = $(this);
+            thisBtn.siblings('a').css('display', 'block');
           }
         });
-        $("body").on("click", function (e) {
-          if (!$(e.target).hasClass("popBtn")) {
-            $(".popUpBox li").removeClass("pop");
-          }
+        $(document).mouseup(function (e) {
+          var marinePopup = $(".scopeBox .imgWrap li a");
 
-          ;
+          if (marinePopup.has(e.target).length === 0) {
+            marinePopup.attr('style', '');
+          }
         });
       }
     }
