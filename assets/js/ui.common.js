@@ -140,6 +140,8 @@ var uiCommon = function (uiCommon, $window) {
 
       $(".history").length > 0 && uiCommon.component.history.init();
       $(".scopeBox").length > 0 && uiCommon.component.marinePop.init(); // marine - overview popup 제어
+
+      uiCommon.component.iosCheck.init(); // ios 체크
     },
     arrFiltering: function arrFiltering(v) {
       return v = v.filter(function (item) {
@@ -835,6 +837,18 @@ var uiCommon = function (uiCommon, $window) {
             marinePopup.attr('style', '');
           }
         });
+      }
+    },
+    // 2021.10.15 추가
+    iosCheck: {
+      init: function init() {
+        var varUA = navigator.userAgent.toLowerCase();
+
+        if (varUA.indexOf("iphone") > -1 || varUA.indexOf("ipad") > -1 || varUA.indexOf("ipod") > -1) {
+          $('body').addClass('ios');
+        }
+
+        ;
       }
     }
   };

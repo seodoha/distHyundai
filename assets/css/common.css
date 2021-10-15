@@ -4030,6 +4030,10 @@ footer .inner {
 }
 /*  ~ 640 */
 @media (max-width: 768px) {
+  body.ios h2, body.ios h3, body.ios h4 {
+    letter-spacing: -0.4vw;
+  }
+
   .inner,
 .inner02 {
     width: 100%;
