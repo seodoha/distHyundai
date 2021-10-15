@@ -21415,7 +21415,10 @@ button.swiper-pagination-bullet {
 .pdTable table tbody tr td:last-child, .pdTable table tbody tr th:last-child {
   border-right: 0;
 }
-.pdTable table tbody tr:first-of-type th:first-of-type[rowspan], .pdTable table tbody tr:first-of-type td:first-of-type[rowspan] {
+.pdTable table tbody tr:nth-of-type(1) td:first-of-type[rowspan] {
+  border-bottom: 0;
+}
+.pdTable table tbody tr:nth-of-type(3) td:first-of-type[rowspan] {
   border-bottom: 0;
 }
 .pdTable table tbody tr:last-child td, .pdTable table tbody tr:last-child th {
