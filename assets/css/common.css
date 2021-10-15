@@ -1912,6 +1912,10 @@ address {
     width: 1.3889vw;
     height: 1.3889vw;
   }
+  .layer.featureLayer .popCont {
+    height: 112.1333vw;
+    overflow-y: inherit;
+  }
   .layer.featureLayer .popCont:after {
     content: "";
     position: absolute;
@@ -1923,21 +1927,40 @@ address {
     background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
   }
-  .layer.featureLayer .popCont table span {
+  .layer.featureLayer .popCont .tableWrap {
+    height: 108.1333vw;
+    padding-bottom: 8vw;
+    overflow-x: auto;
+  }
+  .layer.featureLayer .popCont .tableWrap::-webkit-scrollbar {
+    height: 1vw;
+    width: 1vw;
+  }
+  .layer.featureLayer .popCont .tableWrap::-webkit-scrollbar-thumb {
+    background-color: #ececec;
+  }
+  .layer.featureLayer .popCont .tableWrap::-webkit-scrollbar-track {
+    background-color: #fff;
+    border: 0.2667vw solid #fff;
+  }
+  .layer.featureLayer .popCont .tableWrap table span {
     font-size: 2.4vw;
   }
-  .layer.featureLayer .popCont table ul {
+  .layer.featureLayer .popCont .tableWrap table ul {
     padding: 0 2.6667vw;
   }
-  .layer.featureLayer .popCont table ul li {
+  .layer.featureLayer .popCont .tableWrap table ul li {
     padding-left: 1.3333vw;
     font-size: 2.9333vw;
   }
-  .layer.featureLayer .popCont table ul li span {
+  .layer.featureLayer .popCont .tableWrap table ul li span {
     font-size: 0.6667vw;
   }
-  .layer.featureLayer .popCont table td {
+  .layer.featureLayer .popCont .tableWrap table td {
     font-size: 2.9333vw;
+  }
+  .layer.physicLayer .popCont {
+    overflow-y: inherit;
   }
   .layer.physicLayer .popCont:after {
     content: "";
@@ -1949,6 +1972,22 @@ address {
     transform: translate(-50%, -50%);
     background: url(/distHyundai/assets/images/common/img_finger.png) no-repeat;
     background-size: 100%;
+  }
+  .layer.physicLayer .popCont .tableWrap {
+    height: 89.1333vw;
+    padding-bottom: 8vw;
+    overflow-x: auto;
+  }
+  .layer.physicLayer .popCont .tableWrap::-webkit-scrollbar {
+    height: 1vw;
+    width: 1vw;
+  }
+  .layer.physicLayer .popCont .tableWrap::-webkit-scrollbar-thumb {
+    background-color: #ececec;
+  }
+  .layer.physicLayer .popCont .tableWrap::-webkit-scrollbar-track {
+    background-color: #fff;
+    border: 0.2667vw solid #fff;
   }
   .layer.physicLayer .popCont .tableWrap table span {
     font-size: 3.2vw;
@@ -5027,6 +5066,7 @@ footer .inner {
   border-style: solid;
   border-color: #ccc;
   text-align: left;
+  color: #02263e;
 }
 .lnb > .inner .moView .current::after {
   content: "";
@@ -5197,21 +5237,6 @@ footer .inner {
   .lnb > .inner .moView ul a.on {
     font-family: "OpenSans_bold";
     color: #249fe8;
-  }
-  .lnb > .inner .moView ul li.uniq {
-    border-top: 1px solid #ccc;
-  }
-  .lnb > .inner .moView ul li.uniq a {
-    padding-left: 70px;
-    font-family: "OpenSans_bold";
-  }
-  .lnb > .inner .moView ul li.uniq.engine a {
-    background: url(/distHyundai/assets/images/common/ico_engine.png) no-repeat left center;
-    background-size: 50px;
-  }
-  .lnb > .inner .moView ul li.uniq.energy a {
-    background: url(/distHyundai/assets/images/common/ico_factory.png) no-repeat left center;
-    background-size: 50px;
   }
   .lnb > .inner .moView.on .current::after {
     transform: translateY(-50%) rotate(180deg);
