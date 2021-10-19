@@ -558,11 +558,13 @@ var uiCommon = function (uiCommon, $window) {
       bodyScroll: function bodyScroll() {
         if ($('.langBox .btnLang').hasClass('on')) {
           $("body").css({
-            overflow: "hidden"
+            overflow: "hidden",
+            height: '100%'
           });
         } else {
           $("body").css({
-            overflow: "auto"
+            overflow: "auto",
+            height: 'auto'
           });
         }
       }
