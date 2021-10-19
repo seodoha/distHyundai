@@ -603,7 +603,7 @@ var uiCommon = function (uiCommon, $window) {
           $(this).parent().toggleClass("on");
         });
         $window.on("wheel scroll", function (e) {
-          if ($('header').hasClass('upScrolling')) {
+          if ($('header').hasClass('scrolling') == false) {
             $('.lnb .inner .moView').removeClass('on');
           }
         });
@@ -790,16 +790,28 @@ var uiCommon = function (uiCommon, $window) {
             historyTop = $(".historyCo .box").offset().top - 800;
         var winTop = $(window).scrollTop(),
             $dep1Hi = $(".dep1 > dd:last-child").height(),
+            $ddLeng = $dd.length,
             height = winTop - historyTop,
             width = $(window).width(); //수정된 코드
-        // console.log($dd.eq(0).offset().top - 700 + " > " + winTop);
-        // console.log(uiCommon.component.history.num);
-        // console.log($dd.eq(uiCommon.component.history.num).offset().top - 500);
-        // console.log( uiCommon.component.history.num)
-        // if ($dd.eq(uiCommon.component.history.num).offset().top - 500 > winTop) {
-        //     $dd.eq(uiCommon.component.history.num).addClass("on acitve");
-        //     uiCommon.component.history.num += 1;
+        // if ($dd.eq(uiCommon.component.history.num).offset().top - 800 < winTop) {
+        //     $dd.eq(uiCommon.component.history.num).addClass("on active").siblings().removeClass("active");
+        //     if (uiCommon.component.history.num < $dd.length - 1) {
+        //         uiCommon.component.history.num += 1;
+        //     }
         // }
+        //  else if ($dd.eq(uiCommon.component.history.num).offset().top - 800 > winTop) {
+        //     $dd.eq(uiCommon.component.history.num).removeClass("on active").prev().addClass("active");
+        //     if (uiCommon.component.history.num >= 0) {
+        //         console.log("ddLeng " + $ddLeng);
+        //         uiCommon.component.history.num -= 1;
+        //     }
+        // }
+        // $line.css({ height: height - 150, "max-height": $dep1Line.height() });
+        // $dep1Line.css({ bottom: $dep1Hi - 15 });
+        // if (width <= 400) {
+        //     $line.css({ height: height });
+        // }
+        // console.log($line.height());
         //원래 코드
 
         for (var i = 0; i < $dd.length; i++) {
@@ -844,7 +856,7 @@ var uiCommon = function (uiCommon, $window) {
         });
         $dep1Line.css({
           bottom: $dep1Hi - 15
-        }); // console.log($line.height());
+        });
       }
     },
     marinePop: {
