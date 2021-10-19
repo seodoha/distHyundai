@@ -5138,6 +5138,15 @@ footer .inner {
   -o-transform: translateY(0);
   transform: translateY(0);
 }
+.upScrolling .lnb {
+  z-index: -1;
+  visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
 
 /* 769 ~ 1440 */
 @media (min-width: 769px) and (max-width: 1440px) {
@@ -5242,6 +5251,11 @@ footer .inner {
     transform: translateY(-50%) rotate(180deg);
   }
   .lnb > .inner .moView.on ul {
+    -webkit-overscroll-behavior: contain;
+    -moz-overscroll-behavior: contain;
+    -ms-overscroll-behavior: contain;
+    -o-overscroll-behavior: contain;
+    overscroll-behavior: contain;
     opacity: 1;
     z-index: 11;
     visibility: visible;
@@ -29997,6 +30011,7 @@ button.swiper-pagination-bullet {
   #wrap.aboutus .expertise.decarbonization .cntBox02.neutral {
     position: relative;
     margin-left: 4vw;
+    margin-right: 4vw;
   }
   #wrap.aboutus .expertise.decarbonization .cntBox02.neutral:after {
     content: "";

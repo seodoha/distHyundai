@@ -6,6 +6,7 @@
     codeview.push({ 'url': '/distHyundai/assets/js/lib/jquery.ui.touch-punch.min.js', 'cashbuster': false });
     codeview.push({ 'url': '/distHyundai/assets/js/lib/countUp.umd.js', 'cashbuster': false });
     codeview.push({ 'url': '/distHyundai/assets/js/lib/jquery.mCustomScrollbar.concat.min.js', 'cashbuster': false });
+    // codeview.push({ 'url': '/distHyundai/assets/js/lib/jquery.mCustomScrollbar.js', 'cashbuster': false });
     codeview.push({ 'url': '/distHyundai/assets/js/lib/swiper.min.js', 'cashbuster': false });
     codeview.push({ 'url': '/distHyundai/assets/js/lib/jquery.drawsvg.min.js', 'cashbuster': false });
     codeview.push({ 'url': '/distHyundai/assets/js/lib/aos.js', 'cashbuster': false });

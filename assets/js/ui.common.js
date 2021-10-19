@@ -51,8 +51,7 @@ var uiCommon = function (uiCommon, $window) {
           overflow: "hidden"
         });
         $moEl.addClass("open");
-        uiCommon.component.dim.show("moMenu");
-        uiCommon.component.lnb.destroy();
+        uiCommon.component.dim.show("moMenu"); // uiCommon.component.lnb.destroy();
       });
       $moClose.on("click", function () {
         $("body").css({
@@ -63,7 +62,7 @@ var uiCommon = function (uiCommon, $window) {
         uiCommon.component.topMove.init();
 
         if ($(".mainWrap").length == 0) {
-          uiCommon.component.lnb.init();
+          // uiCommon.component.lnb.init();
           $("header").removeClass("fixed");
           $(".lnb").show();
         } else {
@@ -140,6 +139,8 @@ var uiCommon = function (uiCommon, $window) {
 
       $(".history").length > 0 && uiCommon.component.history.init();
       $(".scopeBox").length > 0 && uiCommon.component.marinePop.init(); // marine - overview popup 제어
+
+      $(".scrollXY").length > 0 && uiCommon.component.scrollXY.init(); // 해상도 750 미만일 때 스크롤 x축 y축 모두 생성
 
       uiCommon.component.iosCheck.init(); // ios 체크
     },
@@ -408,6 +409,15 @@ var uiCommon = function (uiCommon, $window) {
         }
       }
     },
+    scrollXY: {
+      init: function init() {
+        if (window.innerWidth < 750) {
+          $(".popCont").mCustomScrollbar({
+            axis: "yx"
+          });
+        }
+      }
+    },
     countUp: {
       init: function init() {
         uiCommon.component.countUp.energyOverview();
@@ -455,17 +465,16 @@ var uiCommon = function (uiCommon, $window) {
           winWidth <= 768 ? $(".hdSearch > .btnSearch").addClass("moSearch") : $(".hdSearch > .btnSearch").removeClass("moSearch");
         });
         $(".hdSearch > .btnSearch").on("click", function () {
-          var winWidth = $(this).width();
-          uiCommon.component.lnb.destroy();
-          $(".lnb").hide();
+          var winWidth = $(this).width(); // uiCommon.component.lnb.destroy();
+          // $(".lnb").hide();
 
           if ($(this).closest(".hdSearch").hasClass("open")) {
             uiCommon.component.dim.hide("search");
             $(".searchArea").stop().slideUp(400);
-            $(this).closest(".hdSearch").removeClass("open");
-            uiCommon.component.lnb.init();
-            $("header").removeClass("fixed");
-            $(".lnb").show();
+            $(this).closest(".hdSearch").removeClass("open"); // uiCommon.component.lnb.init();
+
+            $("header").removeClass("fixed"); // $(".lnb").show();
+
             return;
           }
 
@@ -531,13 +540,31 @@ var uiCommon = function (uiCommon, $window) {
       init: function init() {
         $(".langBox").on("click", function () {
           $(this).children().toggleClass("on");
+          uiCommon.component.headLang.mobile();
         });
         $("body").on("click", function (e) {
           if (!$(e.target).hasClass("btnLang")) {
             $(".langBox ul").removeClass("on");
             $(".btnLang").removeClass("on");
+            uiCommon.component.headLang.mobile();
           }
         });
+      },
+      mobile: function mobile() {
+        if ($(window).width() <= 750) {
+          uiCommon.component.headLang.bodyScroll();
+        }
+      },
+      bodyScroll: function bodyScroll() {
+        if ($('.langBox .btnLang').hasClass('on')) {
+          $("body").css({
+            overflow: "hidden"
+          });
+        } else {
+          $("body").css({
+            overflow: "auto"
+          });
+        }
       }
     },
     lnb: {
@@ -581,14 +608,21 @@ var uiCommon = function (uiCommon, $window) {
       },
       mobile: function mobile() {
         var $button = $(".lnb .moView button");
-        $button.on("click", function () {
+        $button.on("click", function (e) {
+          e.preventDefault();
           $(this).parent().toggleClass("on");
+          console.log('클릭했다');
         });
-      },
-      destroy: function destroy() {
-        $window.off();
-        $("header").addClass("fixed");
-      }
+        $window.on("wheel scroll", function (e) {
+          if ($('header').hasClass('upScrolling')) {
+            $('.lnb .inner .moView').removeClass('on');
+          }
+        });
+      } // destroy: () => {
+      //     $window.off();
+      //     $("header").addClass("fixed");
+      // },
+
     },
     popUp: {
       init: function init() {
@@ -768,7 +802,7 @@ var uiCommon = function (uiCommon, $window) {
         var winTop = $(window).scrollTop(),
             $dep1Hi = $(".dep1 > dd:last-child").height(),
             height = winTop - historyTop,
-            width = $(window).width(); //수정된 코드 
+            width = $(window).width(); //수정된 코드
         // console.log($dd.eq(0).offset().top - 700 + " > " + winTop);
         // console.log(uiCommon.component.history.num);
         // console.log($dd.eq(uiCommon.component.history.num).offset().top - 500);
@@ -805,6 +839,16 @@ var uiCommon = function (uiCommon, $window) {
           }
         }
 
+        if (width <= 400) {
+          for (var i = 0; i < $dd.length; i++) {
+            if (winTop >= $dd.eq(i).offset().top - 650) {
+              $dep1.find("> dd").eq(i).addClass("active").siblings().removeClass("active");
+            } else {
+              $dep1.find("> dd").eq(i).removeClass("active");
+            }
+          }
+        }
+
         $line.css({
           height: height - 150,
           "max-height": $dep1Line.height()
@@ -820,21 +864,19 @@ var uiCommon = function (uiCommon, $window) {
         if ($(window).width() <= 750) {
           uiCommon.component.marinePop.mobilePop();
         }
-
-        ;
       },
       mobilePop: function mobilePop() {
-        $('.scopeBox .imgWrap button.popBtn').on({
+        $(".scopeBox .imgWrap button.popBtn").on({
           click: function click() {
             var thisBtn = $(this);
-            thisBtn.siblings('a').css('display', 'block');
+            thisBtn.siblings("a").css("display", "block");
           }
         });
         $(document).mouseup(function (e) {
           var marinePopup = $(".scopeBox .imgWrap li a");
 
           if (marinePopup.has(e.target).length === 0) {
-            marinePopup.attr('style', '');
+            marinePopup.attr("style", "");
           }
         });
       }
@@ -845,10 +887,8 @@ var uiCommon = function (uiCommon, $window) {
         var varUA = navigator.userAgent.toLowerCase();
 
         if (varUA.indexOf("iphone") > -1 || varUA.indexOf("ipad") > -1 || varUA.indexOf("ipod") > -1) {
-          $('body').addClass('ios');
+          $("body").addClass("ios");
         }
-
-        ;
       }
     }
   };
