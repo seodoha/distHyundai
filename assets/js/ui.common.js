@@ -540,33 +540,22 @@ var uiCommon = function (uiCommon, $window) {
       init: function init() {
         $(".langBox").on("click", function () {
           $(this).children().toggleClass("on");
-          uiCommon.component.headLang.mobile();
+          uiCommon.component.headLang.bodyScroll();
         });
         $("body").on("click", function (e) {
           if (!$(e.target).hasClass("btnLang")) {
             $(".langBox ul").removeClass("on");
             $(".btnLang").removeClass("on");
-            uiCommon.component.headLang.mobile();
+            uiCommon.component.headLang.bodyScroll();
           }
         });
       },
-      mobile: function mobile() {
-        if ($(window).width() <= 750) {
-          uiCommon.component.headLang.bodyScroll();
-        }
-      },
       bodyScroll: function bodyScroll() {
-        if ($('.langBox .btnLang').hasClass('on')) {
-          $("body").css({
-            overflow: "hidden",
-            height: '100%'
-          });
-        } else {
-          $("body").css({
-            overflow: "auto",
-            height: 'auto'
-          });
-        }
+        $window.on("wheel scroll", function (e) {
+          if ($('header').hasClass('scrolling')) {
+            $('.langBox').children('.btnLang').removeClass('on').siblings('.langBox ul').removeClass('on');
+          }
+        });
       }
     },
     lnb: {
@@ -610,10 +599,8 @@ var uiCommon = function (uiCommon, $window) {
       },
       mobile: function mobile() {
         var $button = $(".lnb .moView button");
-        $button.on("click", function (e) {
-          e.preventDefault();
+        $button.on("click", function () {
           $(this).parent().toggleClass("on");
-          console.log('클릭했다');
         });
         $window.on("wheel scroll", function (e) {
           if ($('header').hasClass('upScrolling')) {

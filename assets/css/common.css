@@ -5138,15 +5138,6 @@ footer .inner {
   -o-transform: translateY(0);
   transform: translateY(0);
 }
-.upScrolling .lnb {
-  z-index: -1;
-  visibility: hidden;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
 
 /* 769 ~ 1440 */
 @media (min-width: 769px) and (max-width: 1440px) {
