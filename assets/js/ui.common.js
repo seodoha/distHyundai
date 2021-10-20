@@ -140,7 +140,7 @@ var uiCommon = function (uiCommon, $window) {
       $(".history").length > 0 && uiCommon.component.history.init();
       $(".scopeBox").length > 0 && uiCommon.component.marinePop.init(); // marine - overview popup 제어
 
-      $(".scrollXY").length > 0 && uiCommon.component.scrollXY.init(); // 해상도 750 미만일 때 스크롤 x축 y축 모두 생성
+      $(".scrollXY").length > 0 && uiCommon.component.scrollXY.init(); // 해상도 769 미만일 때 스크롤 x축 y축 모두 생성
 
       uiCommon.component.iosCheck.init(); // ios 체크
     },
@@ -342,7 +342,7 @@ var uiCommon = function (uiCommon, $window) {
                 left: v
               });
               uiCommon.component.rangeSlider.sliderTextCtr(ui, 15);
-            } else if (window.innerWidth < 750) {
+            } else if (window.innerWidth < 769) {
               $(".sliderValue").css({
                 left: v
               });
@@ -362,7 +362,7 @@ var uiCommon = function (uiCommon, $window) {
                 left: v
               });
               uiCommon.component.rangeSlider.sliderTextCtr(ui, 15);
-            } else if (window.innerWidth < 750) {
+            } else if (window.innerWidth < 769) {
               $(".sliderValue").css({
                 left: v
               });
@@ -398,20 +398,30 @@ var uiCommon = function (uiCommon, $window) {
     },
     mCustomScrollBar: {
       init: function init() {
-        if (!$("#wrap").hasClass("mainWrap")) {
+        if ($("#wrap").is('.mainWrap, .energySolution, .products') == false) {
           $(".mCsutomScroll").mCustomScrollbar();
         } else {
-          if (window.innerWidth < 750) {
+          if (window.innerWidth < 769 && $('#container').hasClass('overview') == false) {
             $(".main .mCsutomScroll").css("overflow-y", "auto");
+            $(".reference .tabWrap .mCsutomScroll").css("overflow-y", "auto");
           } else {
             $(".mCsutomScroll").mCustomScrollbar();
           }
-        }
+        } // if ($("#wrap").hasClass("mainWrap") == false) {
+        //     $(".mCsutomScroll").mCustomScrollbar();
+        // } else {
+        //     if (window.innerWidth < 769) {
+        //         $(".main .mCsutomScroll").css("overflow-y", "auto");
+        //     } else {
+        //         $(".mCsutomScroll").mCustomScrollbar();
+        //     }
+        // }
+
       }
     },
     scrollXY: {
       init: function init() {
-        if (window.innerWidth < 750) {
+        if (window.innerWidth < 769) {
           $(".popCont").mCustomScrollbar({
             axis: "yx"
           });
@@ -826,7 +836,7 @@ var uiCommon = function (uiCommon, $window) {
           }
         }
 
-        if (width <= 750) {
+        if (width <= 769) {
           for (var i = 0; i < $dd.length; i++) {
             winTop >= $dd.eq(i).offset().top - 780 ? $dep1.find("> dd").eq(i).addClass("on") : $dep1.find("> dd").eq(i).removeClass("on");
           }
@@ -862,7 +872,7 @@ var uiCommon = function (uiCommon, $window) {
     marinePop: {
       // 2021.10.14 수정
       init: function init() {
-        if ($(window).width() <= 750) {
+        if ($(window).width() <= 769) {
           uiCommon.component.marinePop.mobilePop();
         }
       },
