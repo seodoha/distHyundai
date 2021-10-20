@@ -20123,9 +20123,6 @@ button.swiper-pagination-bullet {
     margin-bottom: 43.6vw;
   }
   .layer.large.powerPlantSelector .popCont .stepsWrap .selectorContent .step .btnNext {
-    position: absolute;
-    left: 0;
-    bottom: 0;
     width: 100%;
     margin: 0;
   }
@@ -20158,6 +20155,7 @@ button.swiper-pagination-bullet {
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth {
     width: 100%;
     margin: 0 auto;
+    padding: 5.3333vw 0;
   }
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth .requiredInput {
     margin-bottom: 2.6667vw;
@@ -27417,6 +27415,10 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.efficiency .systemBox figure {
   text-align: center;
 }
+#wrap.aboutus .expertise.efficiency .systemBox figure img {
+  width: 976px;
+  margin: 0 auto;
+}
 #wrap.aboutus .expertise.efficiency .systemBox ul {
   margin-top: 20px;
   font-size: 0;
@@ -28292,6 +28294,10 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.efficiency .systemBox > .titForm {
     margin-bottom: 6.25vw;
+  }
+  #wrap.aboutus .expertise.efficiency .systemBox figure img {
+    width: 67.7778vw;
+    margin: 0 auto;
   }
   #wrap.aboutus .expertise.efficiency .systemBox ul {
     margin-top: 1.3889vw;

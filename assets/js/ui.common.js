@@ -398,25 +398,27 @@ var uiCommon = function (uiCommon, $window) {
     },
     mCustomScrollBar: {
       init: function init() {
-        if ($("#wrap").is('.mainWrap, .energySolution, .products') == false) {
-          $(".mCsutomScroll").mCustomScrollbar();
-        } else {
-          if (window.innerWidth < 769 && $('#container').hasClass('overview') == false) {
-            $(".main .mCsutomScroll").css("overflow-y", "auto");
-            $(".reference .tabWrap .mCsutomScroll").css("overflow-y", "auto");
-          } else {
-            $(".mCsutomScroll").mCustomScrollbar();
-          }
-        } // if ($("#wrap").hasClass("mainWrap") == false) {
+        // if ($("#wrap").is('.mainWrap, .energySolution, .products') == false ) {
         //     $(".mCsutomScroll").mCustomScrollbar();
         // } else {
-        //     if (window.innerWidth < 769) {
+        //     if (window.innerWidth < 769 && $('#container').hasClass('overview') == false) {
         //         $(".main .mCsutomScroll").css("overflow-y", "auto");
+        //         $(".reference .tabWrap .mCsutomScroll").css("overflow-y", "auto");
         //     } else {
         //         $(".mCsutomScroll").mCustomScrollbar();
         //     }
         // }
-
+        if ($("#wrap").is('.mainWrap, .energySolution, .products') == false) {
+          $(".mCsutomScroll").mCustomScrollbar();
+        } else {
+          if (window.innerWidth < 769) {
+            $(".main .mCsutomScroll").css("overflow-y", "auto");
+            $(".reference .tabWrap .mCsutomScroll").css("overflow-y", "auto");
+            $(".powerPlantSelector .mCsutomScroll").css("overflow-y", "auto");
+          } else {
+            $(".mCsutomScroll").mCustomScrollbar();
+          }
+        }
       }
     },
     scrollXY: {
