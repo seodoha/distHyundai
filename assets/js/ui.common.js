@@ -178,6 +178,9 @@ var uiCommon = function (uiCommon, $window) {
         $("body").css({
           overflow: "hidden"
         });
+        $("#wrap").css({
+          'pointer-events': "none"
+        });
       },
       close: function close(t) {
         // 레이어 팝업이 한개 띄워져 있을 경우에만 body scroll 가능하도록 설정
@@ -190,6 +193,9 @@ var uiCommon = function (uiCommon, $window) {
         uiCommon.component.layer.obj && uiCommon.component.layer.obj.focus();
         $("body").css({
           overflow: "auto"
+        });
+        $("#wrap").css({
+          'pointer-events': "auto"
         });
       }
     },
