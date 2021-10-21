@@ -178,8 +178,8 @@ var uiCommon = function (uiCommon, $window) {
         $("body").css({
           overflow: "hidden"
         });
-        $("#wrap").css({
-          'pointer-events': "none"
+        $("body").css({
+          'touch-action': "none"
         });
       },
       close: function close(t) {
@@ -194,8 +194,8 @@ var uiCommon = function (uiCommon, $window) {
         $("body").css({
           overflow: "auto"
         });
-        $("#wrap").css({
-          'pointer-events': "auto"
+        $("body").css({
+          'touch-action': "auto"
         });
       }
     },
