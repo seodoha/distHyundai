@@ -176,10 +176,9 @@ var uiCommon = function (uiCommon, $window) {
         d == "dim" && uiCommon.component.dim.show(t);
         $(".dim").css("z-index", "101");
         $("body").css({
-          overflow: "hidden"
-        });
-        $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function (e) {
-          e.preventDefault();
+          overflow: "hidden",
+          position: "fixed",
+          height: '100vh'
         });
       },
       close: function close(t) {
@@ -192,9 +191,10 @@ var uiCommon = function (uiCommon, $window) {
         }).stop().fadeOut("fast");
         uiCommon.component.layer.obj && uiCommon.component.layer.obj.focus();
         $("body").css({
-          overflow: "auto"
+          overflow: "auto",
+          position: "relative",
+          height: "auto"
         });
-        $('body').removeClass('scrollDisable').off('scroll touchmove mousewheel');
       }
     },
     dim: {
