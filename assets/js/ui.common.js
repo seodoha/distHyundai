@@ -178,8 +178,8 @@ var uiCommon = function (uiCommon, $window) {
         $("body").css({
           overflow: "hidden"
         });
-        $("body").css({
-          'touch-action': "none"
+        $('body').addClass('scrollDisable').on('scroll touchmove mousewheel', function (e) {
+          e.preventDefault();
         });
       },
       close: function close(t) {
@@ -194,9 +194,7 @@ var uiCommon = function (uiCommon, $window) {
         $("body").css({
           overflow: "auto"
         });
-        $("body").css({
-          'touch-action': "auto"
-        });
+        $('body').removeClass('scrollDisable').off('scroll touchmove mousewheel');
       }
     },
     dim: {
