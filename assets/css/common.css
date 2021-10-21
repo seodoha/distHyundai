@@ -19984,6 +19984,11 @@ button.swiper-pagination-bullet {
     letter-spacing: -0.0267vw;
   }
   .layer.large.powerPlantSelector .popCont {
+    -webkit-overscroll-behavior: contain;
+    -moz-overscroll-behavior: contain;
+    -ms-overscroll-behavior: contain;
+    -o-overscroll-behavior: contain;
+    overscroll-behavior: contain;
     padding: 0 0 4vw;
     height: 78vh;
   }
