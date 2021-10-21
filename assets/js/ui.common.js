@@ -412,13 +412,14 @@ var uiCommon = function (uiCommon, $window) {
         //         $(".mCsutomScroll").mCustomScrollbar();
         //     }
         // }
-        if ($("#wrap").is('.mainWrap, .energySolution, .products') == false) {
+        if ($("#wrap").is('.mainWrap, .energySolution, .products, .aboutus') == false) {
           $(".mCsutomScroll").mCustomScrollbar();
         } else {
           if (window.innerWidth < 769) {
             $(".main .mCsutomScroll").css("overflow-y", "auto");
             $(".reference .tabWrap .mCsutomScroll").css("overflow-y", "auto");
             $(".powerPlantSelector .mCsutomScroll").css("overflow-y", "auto");
+            $(".factoryLayer .mCsutomScroll").css("overflow-y", "auto");
           } else {
             $(".mCsutomScroll").mCustomScrollbar();
           }
