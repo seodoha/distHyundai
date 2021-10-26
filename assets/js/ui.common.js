@@ -569,8 +569,8 @@ var uiCommon = function (uiCommon, $window) {
       },
       bodyScroll: function bodyScroll() {
         $window.on("wheel scroll", function (e) {
-          if ($('header').hasClass('scrolling')) {
-            $('.langBox').children('.btnLang').removeClass('on').siblings('.langBox ul').removeClass('on');
+          if ($("header").hasClass("scrolling")) {
+            $(".langBox").children(".btnLang").removeClass("on").siblings(".langBox ul").removeClass("on");
           }
         });
       }
@@ -620,8 +620,8 @@ var uiCommon = function (uiCommon, $window) {
           $(this).parent().toggleClass("on");
         });
         $window.on("wheel scroll", function (e) {
-          if ($('header').hasClass('scrolling') == false) {
-            $('.lnb .inner .moView').removeClass('on');
+          if ($("header").hasClass("scrolling") == false) {
+            $(".lnb .inner .moView").removeClass("on");
           }
         });
       } // destroy: () => {
@@ -809,7 +809,7 @@ var uiCommon = function (uiCommon, $window) {
             $dep1Hi = $(".dep1 > dd:last-child").height(),
             $ddLeng = $dd.length,
             height = winTop - historyTop,
-            width = $(window).width(); //수정된 코드
+            width = $(window).width(); //코드 수정 ver_01 - false
         // if ($dd.eq(uiCommon.component.history.num).offset().top - 800 < winTop) {
         //     $dd.eq(uiCommon.component.history.num).addClass("on active").siblings().removeClass("active");
         //     if (uiCommon.component.history.num < $dd.length - 1) {
@@ -829,6 +829,16 @@ var uiCommon = function (uiCommon, $window) {
         //     $line.css({ height: height });
         // }
         // console.log($line.height());
+        //코드 수정 ver_02
+        // $line의 길이가
+        // dd 높이 * n 이 될 때 마다 dd에 on클래스가 붙게..?
+        // console.log("파란선 높이 " + $line.height());
+        // console.log("dd 높이 " + $dd.eq(0).height());
+        // if ($line.height() >= $dd.eq(0).height()) {
+        //     $dep1.find("> dd").eq(0).addClass("on");
+        // } else {
+        //     $dep1.find("> dd").eq(0).removeClass("on");
+        // }
         //원래 코드
 
         for (var i = 0; i < $dd.length; i++) {

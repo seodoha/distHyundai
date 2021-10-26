@@ -12225,7 +12225,7 @@ button.swiper-pagination-bullet {
   text-align: center;
 }
 #wrap.mainWrap #container .mainBannerSlide ul li .bannerTxt .titForm {
-  width: 1200px;
+  width: 1260px;
   margin-bottom: 34px;
   text-align: center;
 }
@@ -12979,7 +12979,7 @@ button.swiper-pagination-bullet {
     font-size: 1.9444vw;
   }
   #wrap.mainWrap #container .mainBannerSlide ul li .bannerTxt .titForm {
-    width: 83.3333vw;
+    width: 87.5vw;
     margin-bottom: 2.3611vw;
   }
   #wrap.mainWrap #container .mainBannerSlide ul li .bannerTxt .titForm .mainTit {
@@ -13216,7 +13216,7 @@ button.swiper-pagination-bullet {
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
     position: absolute;
-    top: -60%;
+    top: -50%;
     left: 40%;
     width: 256vw;
     height: auto;
@@ -13242,13 +13242,14 @@ button.swiper-pagination-bullet {
   }
   #wrap.mainWrap #container .mainBannerSlide ul li .bannerTxt .titForm {
     width: 92vw;
-    margin-bottom: 8vw;
+    margin-bottom: 2.6667vw;
     text-align: center;
   }
   #wrap.mainWrap #container .mainBannerSlide ul li .bannerTxt .titForm .mainTit {
     color: #fff;
     letter-spacing: -0.0267vw;
     font-size: 9.3333vw;
+    line-height: 10.9333vw;
   }
   #wrap.mainWrap #container .mainBannerSlide ul li .bannerTxt .btnBox .btn {
     padding: 0 2.6667vw;
@@ -16775,7 +16776,7 @@ button.swiper-pagination-bullet {
 .layer.large.powerPlantSelector .popCont .stepsWrap .selectorContent .step #slider .unit {
   position: absolute;
   top: 36px;
-  font-family: OpenSans_regular;
+  font-family: "OpenSans_regular";
   font-size: 16px;
   color: #666;
 }
@@ -16866,7 +16867,7 @@ button.swiper-pagination-bullet {
 .layer.large.powerPlantSelector .popCont .formWrap .formWidth .valueShow p {
   margin-bottom: 10px;
   font-size: 18px;
-  font-family: OpenSans_bold;
+  font-family: "OpenSans_bold";
 }
 .layer.large.powerPlantSelector .popCont .formWrap .formWidth .valueShow p.selectValue {
   font-family: "OpenSans_regular";
@@ -16909,7 +16910,7 @@ button.swiper-pagination-bullet {
 .layer.large.powerPlantSelector .popCont .formWrap .formWidth .inputBox .itemTitle {
   margin-bottom: 10px;
   font-size: 18px;
-  font-family: OpenSans_bold;
+  font-family: "OpenSans_bold";
 }
 .layer.large.powerPlantSelector .popCont .formWrap .formWidth .inputBox label {
   display: block;
@@ -17999,7 +18000,7 @@ button.swiper-pagination-bullet {
     float: left;
     height: 4.3056vw;
     line-height: 4.3056vw;
-    margin: 0 1.5278vw;
+    margin: 0 1.5vw;
     font-family: "OpenSans_bold";
     font-size: 1.25vw;
     letter-spacing: -0.0139vw;
@@ -20064,7 +20065,7 @@ button.swiper-pagination-bullet {
   .layer.large.powerPlantSelector .popCont .stepsWrap .selectorContent .step #slider .unit {
     position: absolute;
     top: 4.8vw;
-    font-family: OpenSans_regular;
+    font-family: "OpenSans_regular";
     font-size: 3.2vw;
     color: #666;
   }
@@ -20179,7 +20180,7 @@ button.swiper-pagination-bullet {
   }
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth .valueShow p {
     margin-bottom: 1.3333vw;
-    font-family: OpenSans_bold;
+    font-family: "OpenSans_bold";
     font-size: 3.2vw;
   }
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth .valueShow p.selectValue {
@@ -20217,7 +20218,7 @@ button.swiper-pagination-bullet {
   }
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth .inputBox .itemTitle {
     margin-bottom: 1.3333vw;
-    font-family: OpenSans_bold;
+    font-family: "OpenSans_bold";
     font-size: 3.2vw;
   }
   .layer.large.powerPlantSelector .popCont .formWrap .formWidth .inputBox label {
@@ -27344,10 +27345,9 @@ button.swiper-pagination-bullet {
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li {
   display: inline-block;
   padding-top: 183px;
-  width: 165px;
+  width: 185px;
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
   font-size: 24px;
   font-family: "Manrope_extraBold";
   text-align: center;
@@ -27355,13 +27355,16 @@ button.swiper-pagination-bullet {
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
   background-image: url(/distHyundai/assets/images/aboutus/img_efficiency03.png);
+  background-size: 185px;
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
   margin: 0 204px;
   background-image: url(/distHyundai/assets/images/aboutus/img_efficiency04.png);
+  background-size: 166px;
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
   background-image: url(/distHyundai/assets/images/aboutus/img_efficiency05.png);
+  background-size: 86px;
 }
 #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
   margin-bottom: 50px;
@@ -28259,11 +28262,18 @@ button.swiper-pagination-bullet {
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li {
     padding-top: 12.7083vw;
-    width: 11.4583vw;
+    width: 12.8472vw;
     font-size: 1.6667vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(1) {
+    background-size: 12.8472vw;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(2) {
     margin: 0 14.1667vw;
+    background-size: 11.5278vw;
+  }
+  #wrap.aboutus .expertise.efficiency .solutionBox .cntBox02 .partList ul li:nth-child(3) {
+    background-size: 5.9722vw;
   }
   #wrap.aboutus .expertise.efficiency .solutionBox .cntBox03 .titForm {
     margin-bottom: 3.4722vw;
